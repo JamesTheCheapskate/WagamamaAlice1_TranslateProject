@@ -17,5 +17,7 @@ masterブランチには、開発者（KoromoSoft）以外触らないことと�
 
 ## 参加方法
 以下まで、翻訳を希望する言語とGithub用のメールアドレスを添えて連絡してください。  
-koromosoft@gmail.com
+koromosoft@gmail.com  
 
+## 参加条件
+開発者とのやり取りに語弊がないように、日本語でやり取りできる方を条件とします。
