@@ -1,36 +1,36 @@
-;町イベント
+;Town event
 ;No.1014B
-;site：まちはずれ
-;time : いつでも
-;author：chicchi
-;title : ミグの魔法修行3
-;member : ミグ
+;site: mistake
+;time: anytime
+;author: chicchi
+;title: Magical Magic Training 3
+;member: Mig
 
-;戦闘に敗北した場合
+;In case of defeat in battle
 [loadcg id=0 ref="alice"]
 [loadcg id=1 ref="mig"]
 
 [filter name="fade" time=500]
 [drawbg ref="Event/716"]
 [bgm ref="026_battle4"]
-;戦闘に勝利した場合
+;When winning battle
 [filter name="clear" time=500]
 [show_message]
 
-#アリス
+#Alice
 ……………。[p]
 [cn]
 
 [filter name="fade" time=500]
 [se ref="127_fx_shout"]
-#巨大トカゲ
-ギャオオオオオオ！！[p]
+#Huge lizard
+Growl! Hiss！！ [p]
 [drawbg ref="1011m"]
 [drawcg id=1 posx=40 posy=-20]
 [filter name="clear" time=500]
 [cn]
-巨大トカゲの攻撃で、ミグは失神していた。[p]
-なおも勢いの衰えない巨大トカゲは、そのままミグに襲い掛かる。[p]
+Mig has fainted due to the huge lizard attack. [p]
+If the gigantic lizard is not defeated it will still strike Mig. [p]
 
 [stopbgm]
 [se ref="127_fx_shout"]
@@ -39,8 +39,8 @@
 [wait time=500]
 
 [show_message]
-#アリス
-破壊光線ーーーーー！！[p]
+#Alice
+Destruction rayーーーーー！！[p]
 
 [se ref="100_fx_aliceA"]
 [filter name="color" color="ffffff" time=1000]
@@ -48,108 +48,108 @@
 [filter name="clear" time=500]
 
 [cn]
-一瞬だった。[p]
-ミグを今にも食べようとした巨大トカゲを、[n]
-アリスの破壊光線が貫いた。[p]
+This is a monumental occasion. [p]
+The huge lizard that tried to eat Mig [n]
+Has been penetrated by Alice's destruction ray. [p]
 
 [se ref="127_fx_shout"]
-#巨大トカゲ
-ギャアアアアアァァーーー！！！[p]
+#Huge lizard
+Gyaaaaaa~a~a! ! ! [p]
 
 [cn]
-断末魔の雄たけびを上げ、[n]
-巨大トカゲはその場で絶命した。[p]
+Toast the fallen devil. [n]
+A huge lizard was killed on this spot. [p]
 
 [scale id=0 sx=-1 time=300]
 [move id=0 x=20 time=500]
-#アリス
-おい、ミグ。[p]
+#Alice
+Hey, Mig. [p]
 [cn]
-アリスは後ろで失神しているミグに駆け寄る。[p]
+Alice rushes to Mig, who is frozen in place. [p]
 [changecg id=0 state=0]
-#アリス
-気絶しているだけか。[p]
-……お前なら、できると思ったんだ。[p]
-私にできなかった試練を……お前ならな。[p]
+#Alice
+Are you just stunned? [p]
+... .... If you are, I thought you could do it. [p]
+A trial that you could do ...... if only you... [p]
 [cn]
 [filter name="fade" time=500]
-……………。[p]
+................ [p]
 [clearbg]
 [clearcg id=0]
 [clearcg id=1]
-３時間後。[p]
-;背景　黒背景（fadeで実装する
-#ミグ
-う、うん……。[p]
-#アリス
-お、目が覚めたか。[p]
-#ミグ
-師匠……。[p]
+3 hours Pass. [p]
+;Background black background (implemented with fade)
+#Mig
+No……. [p]
+#Alice
+Oh, are you awake? [p]
+#Mig
+Master ... .... [p]
 
 [hide_message]
 [filter name="color" color="ffffff" time=1000]
 [drawbg ref="Event/715"]
 [bgm ref="201_env1"]
 [filter name="clear" time=1000]
-;背景　明転　海辺の背景（新規でかきます1057m
-;背景を表示したあと、しばらくウェイトを入れること。
-;ウェイトを入れてから立ち絵表示
+; Background Ocean side background 
+; After displaying the background, wait for a while.
+; Hold the display while calculating weight
 
 [show_message]
-#ミグ
-………。[p]
-海……。[p]
-#アリス
-クフフッ！[n]
-ああ、そうだ。[p]
-この海の向こうには、[n]
-この世界にはない国や人種や文化があって、[p]
-この世界の魔女はそんな国からやってきたんだ。[p]
-昔、私の師匠もここで同じことを言ってた。[p]
-……………。[p]
-ミグ、お前を正式にうちの流派に迎える。[p]
-#ミグ
-え、あの……それはどういう。[p]
-#アリス
-実はこの修業は、同時に儀式でもあるんだ。[p]
-うちの流派に入るためのな。[p]
-#ミグ
-流派に……。[p]
-#アリス
-ああ。[n]
-うちの流派はウィルケットっていうらしい。[p]
-これからはミグ、お前もウィルケット派の一員だ。[p]
-わかったな？[p]
-#ミグ
-は、はい！[p]
-#アリス
-クフフッ！[p]
-まっ、最後の試練は倒せなかったが、[n]
-それでもお前は勇気を出して、[n]
-丘の目前までたどり着いた。[p]
-あの巨大トカゲにも逃げずに立ち向かった。[p]
-だから合格だ。[p]
-#ミグ
-師匠……。[p]
-#アリス
-クフフッ！[p]
-だが、次は後れをとるなよ？[n]
-実践で負けたら、そのまま死んじまうんだから。[p]
-気をひきしめろよな。[p]
-#ミグ
-は、はい！！[p]
-#アリス
-さあ、帰ろうぜ。[n]
-チシャが飯を作って待ってる。[p]
-#ミグ
-あ、師匠まって！[p]
+#Mig
+.......... [p]
+Ocean……. [p]
+#Alice
+Aha! [n]
+Oh, that's right. [p]
+Beyond this ocean, [n]
+There are countries, races and cultures not of this world, [p]
+The witch of this world came from such a country. [p]
+In the past, my master also said the same thing was true here. [p]
+................ [p]
+Mig, I officially welcome you to our school. [p]
+#Mig
+Well ... that ... what does that mean? [p]
+#Alice
+This exhibition was also a ceremony at the same time. [p]
+So you now go to our school. [p]
+Mig
+To the school ... .... [p]
+#Alice
+Indeed! [n]
+It seems that your school is Wilkett. [p]
+From now on, Mig, you are a member of Wilkett School. [p]
+Do you understand? [p]
+#Mig
+Yes, yes! [p]
+#Alice
+Excellent! [p]
+Well, you could not defeat the last trial, but [n]
+Still you showed courage, [n]
+You got to the front of the hill. [p]
+You faced that huge lizard without running away. [p]
+That's why you passed. [p]
+#Mig
+Master ... .... [p]
+#Alice
+Yes, well... [p]
+Do not hesitate on the next challenge. [n]
+If you lose in practice, you will die there. [p]
+Please take care. [p]
+#Mig
+Yes, yes!! [p]
+#Alice
+Now, let's go home. [n]
+Chishire is cooking rice and waiting for us. [p]
+Mig
+Oh, wait master! [p]
 [cn]
-夕日が反射する海を背に、アリスたちは立ち去った。[p]
-後に残った石積みには[n]
-ヴェロニカ、アリス、メイジー、[n]
-そしてミグ。[p]
-代々の魔女たちのリボンが、[n]
-二人を見送るように、風になびいていた。[p]
+Alice turned away as the sea reflected the setting sun. [p]
+For the remaining infantry: [n]
+Veronica, Alice, Magee, [n]
+And Mig, [p]
+The ancestral tapestry of generations of witches, [n]
+She was afraid of the oncoming wind that would cast them all away. [p]
 [hide_message]
 [wait time=2000]
 
@@ -160,8 +160,8 @@
 [stopbgm]
 [filter name="clear" time=500]
 
-;CGフラグ
+;CGflag
 [sys_memset type="system" index=117 value=1]
 
-;ミグを雇う
+;Hire Mig
 [unit_employ unit=33]
