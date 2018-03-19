@@ -1,3 +1,3 @@
 # ProjectWitch
-「わがままアリスと百日戦争」ソースコード
+"Selfish Alice and a Hundred Year War" Source Code
 
