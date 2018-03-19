@@ -1,10 +1,10 @@
-;町イベント
+;Town event
 ;No.1014A
-;site：まちはずれ
-;time : いつでも
+;site：mistake
+;time : anytime
 ;author：chicchi
-;title : ミグの魔法修行3
-;member : ミグ
+;title : Mig Magical Training 3
+;member : Mig
 
 [loadcg id=0 ref="alice"]
 [loadcg id=1 ref="mig"]
@@ -12,23 +12,23 @@
 [filter name="fade" time=500]
 [drawbg ref="Event/716"]
 [bgm ref="021_event6"]
-;戦闘に勝利した場合
+;When winning battle
 [filter name="clear" time=500]
 [show_message]
-#アリス
-……まじか。[p]
-破壊……光線……。[p]
+#Alice
+……Seriously.[p]
+Destruction……ray……。[p]
 [cn]
 [filter name="fade" time=500]
 [drawcg id=1 pos=2]
 [drawbg ref="1011m"]
 [filter name="clear" time=500]
 [cn]
-巨大トカゲの体が倒れる。[p]
-破壊光線は、巨大トカゲの体を見事に貫通していた。[p]
-#ミグ
-はぁ、はぁ……で、できた。[p]
-やった……師匠……。[p]
+The body of the huge lizard collapses.[p]
+The rays of light perfectly penetrated through the body of the gigantic lizard. [p]
+#Mig
+Huh、Huh……I made it.[p]
+I did it……master……。[p]
 [cn]
 [hide_message]
 
@@ -39,22 +39,22 @@
 [move id=1 x=5 y=-10 time=500]
 
 [show_message]
-チカラを使い果たし、ミグはその場に倒れ込んだ。[p]
+Running out of energy, Mig fell down on the spot.[p]
 [drawcg id=0 pos=5 state=2]
 [move id=0 x=-10 time=500]
 
-#アリス
-ミグ……！[p]
+#Alice
+Mig……！[p]
 [cn]
-倒れ込んだミグにアリスが駆け寄る。[p]
-#アリス
-……魔力は、なんとか残ってるな。[n]
-全く、はらはらさせるぜ。[p]
-はあ……まさか、[n]
-見よう見まねで破壊光線を出しちまうなんてな。[p]
+Alice rushes over to the collapsed Mig.[p]
+#Alice
+……somehow, there is some magical power left.[n]
+I'll use it, whether it's frustrating or not.[p]
+Ha……no way.[n]
+It's impossible to misappropriate the light rays.[p]
 [changecg id=0 state=1]
-……クフフッ！！[p]
-こいつめ……全く、面白いやつだ。[p]
+……Ha ha ha！！[p]
+What a funny guy.[p]
 [cn]
 [filter name="fade" time=500]
 [stopbgm]
@@ -62,84 +62,84 @@
 [clearcg id=0]
 [clearcg id=1]
 [clearbg]
-３時間後。[p]
-#ミグ
-う、うん……。[p]
-#アリス
-お、目が覚めたか。[p]
-#ミグ
-師匠……。[p]
+3 hours pass.[p]
+#Mig
+No……. [p]
+#Alice
+Oh, are you awake? [p]
+#Mig
+Master……。[p]
 [hide_message]
 [filter name="color" color="ffffff" time=1000]
 [drawbg ref="Event/715"]
 [bgm ref="201_env1"]
 [filter name="clear" time=1000]
-;背景　明転　海辺の背景（新規でかきます1057m
-;背景を表示したあと、しばらくウェイトを入れること。
-;ウェイトを入れてから立ち絵表示
+;Background Ocean side background 
+;After displaying the background, wait for a while.
+;Hold the display while calculating weight
 [wait time=3000]
 [show_message]
-#ミグ
-………。[p]
-海……。[p]
-#アリス
-クフフッ！[n]
-ああ、そうだ。[p]
-この海の向こうには、[n]
-この世界にはない国や人種や文化があって、[p]
-この世界の魔女はそんな国からやってきたんだ。[p]
-昔、私の師匠もここで同じことを言ってた。[p]
-私はいつか、この世界を飛び出して、[n]
-外の世界を見てみたい。[p]
-ミグ……お前ももっともっと強くなって、[n]
-私についてこい。[p]
-#ミグ
-師匠……。[p]
-うん……ミグ、ついていきます。[p]
-師匠についていきたいです！！[p]
-#アリス
-クフフッ！！[n]
-よく言った。[p]
-ほら、それじゃあそこの石積みにリボンを結びな。[p]
-それで儀式は終わりだ。[p]
-#ミグ
-儀式……？[n]
-修行じゃないんですか。[p]
-#アリス
-確かに修行でもある。[p]
-だけど、これはうちの流派に入るための儀式でもあるんだ。[p]
-#ミグ
-流派に……。[p]
-#アリス
-ああ。[n]
-うちの流派はウィルケットっていうらしい。[p]
-これからはミグ、お前もウィルケット派の一員だ。[p]
-わかったな？[p]
-#ミグ
-は、はい！[p]
-#アリス
-クフフッ！[p]
-あっ、そうだ。[n]
-お前、破壊光線使っただろ。[p]
-あれは免許皆伝のとっておき魔法なんだ。[n]
-見習いのお前が扱えるもんじゃねえ。[p]
-そのときまで使うんじゃねえぞ。[p]
-#ミグ
-あ、ごめんなさい……。[n]
-あのときは必至で。[p]
-#アリス
-ふん、わかればいいさ。[p]
-さあ、帰ろうぜ。[n]
-チシャが飯を作って待ってる。[p]
-#ミグ
-あ、師匠まって！[p]
+#Mig
+.......... [p]
+Ocean……. [p]
+#Alice
+Aha! [n]
+Oh, that's right. [p]
+Beyond this ocean, [n]
+There are countries, races and cultures not of this world, [p]
+The witch of this world came from such a country. [p]
+In the past, my master also said the same thing was true here. [p]
+I will someday get out of here. [n]
+I'd like to see the outside world. [p]
+Mig ... you are getting even stronger, [n]
+About me. [p]
+#Mig
+Master ... .... [p]
+Yeah ... ... I will follow. [p]
+I want to follow my master! ! [p]
+#Alice
+Ha ha! [n]
+Well said. [p]
+Here, then tie the ribbon to the stonework there. [p]
+So the ceremony is over. [p]
+#Mig
+Ceremony ......? [n]
+It's not training? [p]
+#Alice
+It is definitely also good practice. [p]
+But this is also a ceremony to get into our school. [p]
+#Mig
+To the school ... .... [p]
+#Alice
+Indeed! [n]
+It seems that your school is Wilkett. [p]
+From now on, Mig, you are a member of Wilkett School. [p]
+Do you understand? [p]
+#Mig
+Yes, yes! [p]
+#Alice
+Excellent! [p]
+Oh, that's right. [n]
+You used destructive light, didn't you? [p]
+That is the magic of Liberal Democracy. [n]
+You can not handle that as an apprentice. [p]
+Do not use it until the time comes. [p]
+#Mig
+Oh, sorry .... [n]
+That time is inevitable. [p]
+#Alice
+Hmm, I understand. [p]
+Now, let's go home. [n]
+Chishire is cooking rice and waiting for us. [p]
+#Mig
+Oh, wait master! [p]
 [cn]
-夕日が反射する海を背に、アリスたちは立ち去った。[p]
-後に残った石積みには[n]
-ヴェロニカ、アリス、メイジー、[n]
-そしてミグ。[p]
-代々の魔女たちのリボンが、[n]
-二人を見送るように、風になびいていた。[p]
+Alice turned away as the sea reflected the setting sun, [p]
+Towards the remaining masonry.[n]
+Veronica, Alice, Magee, [n]
+And Mig. [p]
+The ribbon of generations of witches, [n]
+She was afraid of the wind that would take them all away. [p]
 [hide_message]
 [wait time=2000]
 
@@ -150,8 +150,8 @@
 [stopbgm]
 [filter name="clear" time=500]
 
-;CGフラグ
+;CGflag
 [sys_memset type="system" index=117 value=1]
 
-;ミグを雇う
+;Hire Mig
 [unit_employ unit=33]
