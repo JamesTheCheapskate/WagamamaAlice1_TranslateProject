@@ -25,6 +25,8 @@ namespace ProjectWitch.Sys
         public void Load()
         {
             var game = Game.GetInstance();
+            game.Setup();
+
             if (!game.GameData.Load(mFileIndex)) return;
             
             StartCoroutine(game.CallField());

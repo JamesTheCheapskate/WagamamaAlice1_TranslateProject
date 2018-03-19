@@ -254,6 +254,7 @@
 [wait time=300]
 [scale id=2 sx=-1 time=400]
 
+[stopbgm]
 #エリ
 [voice ref="080946z"]
 ……ライザ、ニア。 死んでる。[n]

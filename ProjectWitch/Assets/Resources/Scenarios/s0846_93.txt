@@ -10,7 +10,7 @@
 [loadcg id=2 ref="kuro"]
 [loadcg id=3 ref="seedle"]
 
-[bgm ref="019_event4"]
+[bgm ref="024_event9"]
 [drawbg ref="1039m"]
 
 [drawcg id=0 pos=3]
@@ -285,7 +285,7 @@
 [clearcg id=2]
 [clearcg id=3]
 [drawbg ref="1030e"]
-[bgm ref="019_event4"]
+[bgm ref="024_event9"]
 [filter name="clear" time=500]
 [cn]
 #ライザ軍兵士A
