@@ -3,7 +3,7 @@
 [filter name="clear" time=500]
 
 [show_message]
-酒場イベントのテスト。[p]
+Testing the bar event.[p]
 [hide_message]
 
 [filter name="fade" time=500]
