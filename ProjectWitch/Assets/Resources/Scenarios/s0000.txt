@@ -86,8 +86,8 @@ Ugh, cancel them all。[p]
 Again? What！？[n]
 Please don't mess with me。[p]
 [voice ref="000016"]
-You have work you must do since you are a Lady.
-You'll go, since sake will be served by friendly people. [p]
+Speaking of work you must do since becoming a Lady,
+Everything's set on the condition that sake will be served by friendly people. [p]
 [changecg id=0 state=1]
 #Alice
 [voice ref="000017"]
