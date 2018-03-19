@@ -1,10 +1,10 @@
 ;script 000
-;タイミング　しょっぱな
+;Timed actions
 
 [stopbgm]
 
 [filter name="fade" time=0]
-;リソースロード
+;Load resources
 [loadcg id=0 ref="alice"]
 [loadcg id=1 ref="chishire"]
 [loadcg id=2 ref="meisie"]
@@ -12,55 +12,55 @@
 [loadcg id=4 ref="raisa"]
 [loadcg id=5 ref="nia"]
 
-#チシャ
+#Chishire
 [voice ref="000000"]
-……リ……ま、……リスさ……！[p]
+……Um……uh、……squirrel……！[p]
 [voice ref="000001"]
-アリス様！[p]
-;明転
-;BGM再生
-;イベントＣＧ 001 寝起きのアリス
+Ms. Alice！[p]
+;Dawn
+;BGM playback
+;Event ＣＧ 001 Alice is asleep
 [drawbg ref="Event/700"]
 [bgm ref="003_alice2"]
 [filter name="clear" time=500]
-#アリス
+#Alice
 [voice ref="000002"]
-うーん……。[p]
-#チシャ
+Uh……。[p]
+#Chishire
 [voice ref="000003"]
-アリス様！　朝ですよ！[n]
-早く起きてください！[p]
-#アリス
+Ms. Alice！ It's morning！[n]
+Please wake up soon！[p]
+#Alice
 [voice ref="000005"]
-うーん……[n]
-起きた起きた。 はいはい……おはよー。[p]
-#チシャ
+Ugh……[n]
+Yeah, yeah. I'm up. Well, I'm getting up。……good morning。[p]
+#Chishire
 [voice ref="000006"]
-アリス様、入りますよー！[p]
-#アリス
+Alice, I'm coming in！[p]
+#Alice
 [voice ref="000007"]
-入ったらぶっ殺すぞ！！[p]
-#チシャ
+If you do, I'll kill you！[p]
+#Chishire
 [voice ref="000008"]
-わっ！　な、何でですかぁ！[p]
-#アリス
+Wow！　What's your problem?[p]
+#Alice
 [voice ref="000009"]
-うるせえ！　とにかく外で待ってろ！！[p]
+Shut up! Anyway, wait outside！[p]
 [cn]
-寝起きとは思えない大声でチシャをしかりつけ、[n]
-アリスはもそもそとベッドからはい出した。[p]
-#アリス
+Taken aback by Chishire unexpectedly loudly waking her up, [n]
+Alice pulled herself out of bed。[p]
+#Alice
 [voice ref="000010"]
-うー……ん！！[p]
+Hmm！！[p]
 [cn]
-大きく伸びをするとぽいぽいとパジャマを放り、[n]
-タンスから着慣れたドレスを取り出した。[p]
-#アリス
+Alice took off the warm pajamas she got after a growth spurt,[n]
+and took out the dress that she wore to the dance。[p]
+#Alice
 [voice ref="000011"]
-よしっ……と。[p]
+Fine……let's do this。[p]
 [cn]
-最後に帽子をかぶるとアリスは鏡の前でにやりと笑い
-鼻歌交じりに部屋を出ていった。[p]
+Now dressed, Alice put on a hat and laughed at herself in the mirror
+As she walked out of the room。[p]
 [filter name="fade" time="500"]
 [drawbg ref="1002m"]
 
@@ -69,33 +69,33 @@
 [drawcg id=1 pos="left" dir="right"]
 [drawcg id=0 pos="right"]
 
-#チシャ
+#Chisire
 [voice ref="000012"]
-えっと、本日の業務ですが、[n]
-午前中に町の方と今後の政策についての会議。[p]
+Well, in today's business, [n]
+There’s a town meeting on future policy this morning. [p]
 [voice ref="000013"]
-正午に街で昼食をとりそのあと館に戻って、[n]
-本年度の予算会議となっております。[p]
-#アリス
+Eat lunch in the city at noon and then return to the hall. [n]
+There’s a budget meeting for this fiscal year. [p]
+#Alice
 [voice ref="000014"]
-おう、じゃあ全部キャンセルで。[p]
+Ugh, cancel them all。[p]
 [move id=1 y=5 time=50]
 [move id=1 y=-5 time=50]
-#チシャ
+#Cheshire
 [voice ref="000015"]
-またですかぁ！？[n]
-いい加減にして下さいよ。[p]
+Again? What！？[n]
+Please don't mess with me。[p]
 [voice ref="000016"]
-領主になってからというものやる仕事といえば会食、
-それももてなされる方で酒が出るという条件付きのものばかり。[p]
+You have work you must do since you are a Lady.
+You'll go, since sake will be served by friendly people. [p]
 [changecg id=0 state=1]
-#アリス
+#Alice
 [voice ref="000017"]
-いや、酒はうまいから行ってもいいけど会議とかすっげー眠いじゃん。[n]
-楽しくない仕事なんてやってられねえっての。[p]
-#チシャ
+No. I'd go because I like sake, but I get pretty sleepy in mettings. [n]
+I don’t want to do anything that’s not a fun job. [p]
+#Chisire
 [voice ref="000018"]
-そんなわがまま言ってないで下さいよ、断るの大変なんですから……。[p]
+Please don't speak so selfishly. This meeting is hard to get out of……。[p]
 
 [changecg id=0 state=0]
 [se ref="046_door"]
@@ -106,110 +106,110 @@
 [moveto id=1 x=50 time=100]
 [scale id=1 sx=-1 time=100]
 [drawcg id=2 pos="left" mode="slidein" dir="right"]
-#メイジー
+#Meisie
 [voice ref="000019"]
-姉さん！！　ちょっとこれどういうこと！！[p]
-#アリス
+Big sis！！　What is the meaning of this！！[p]
+#Alice
 [voice ref="000020"]
-メイジーか、何の用だ。[p]
+Meisie, what are you talking about?[p]
 [cn]
-メイジー。[p]
-アリスとは姉妹弟子の関係で、今は内政全般を担当している。[p]
+Meisie.[p]
+She is Alice's sister, and is in charge of internal affairs。[p]
 [move id=2 y=5 time=50]
 [move id=2 y=-5 time=50]
-#メイジー
+#Meisie
 [voice ref="000021"]
-とぼけないでよ！　なによこの予算草案！！[n]
-今日の会議で言おうと思ってたけどもう我慢ならないわ！！[p]
+Don’t mess with me! What is with this draft budget!! [n]
+I thought about how to spin it at today's meeting, but I can’t stand it anymore!! [p]
 [voice ref="000022"]
-なんで「その他」が六割もあるのよ！！[n]
-その他って何よ！ 内容書いてよ！！[p]
+What's this "other" 60%!! [n]
+What else is in it! Write down everything! [p]
 [changecg id=0 state=0]
-#アリス
+#Alice
 [voice ref="000023"]
-お菓子とか酒とか、あとヘンな薬かったり……、[n]
-ああそうそう、お前に仕掛けるトラップ道具買ったりとかだな。[p]
+Sweets and drinks, prescription drugs ......, [n]
+Oh yes, and I bought a drain trap while I was at it. [p]
 [changecg id=0 state=1]
 [voice ref="000024"]
-クフフフフ！[n]
-そういうの「私費」とか書いたらお前怒るじゃん？[p]
-#メイジー
+Ugh！[n]
+If I wrote it off as a "private expense”, why are you getting angry? [p]
+#Meisie
 [move id=2 x=0 y=5 time=50]
 [move id=2 x=0 y=-5 time=50]
 [voice ref="000025"]
-「私費」だろうと「その他」だろうと六割も占めてたら誰だって怒るわよ！！！[p]
+Whenever "private" or "other" sections account for 60%, everyone gets angry！！！[p]
 [voice ref="000026"]
-ていうか、どんだけいたずらにお金使うのよ！[n]
-姉さんのバカ！　バカーーーー！！[p]
+I mean, you can't just spend money as you want! [n]
+You're a fool, sis! Idiot! ! [p]
 [changecg id=0 state=6]
 [move id=0 y=-2 time=20]
 [move id=0 y=2 time=20]
-#アリス
+#Alice
 [voice ref="000027"]
-なっ！　誰が馬鹿だこの野郎！！[n]
-勉強も魔法も運動も私よりずーーーっと、ずーーーーっとできないくせに！！[p]
-#メイジー
+Ha！And what about this, you wench！！[n]
+You spend more on magic and exercise than meーーーa bitーーーーI don't complain about that！！[p]
+#Meisie
 [voice ref="000028"]
-ちょこーーーーっと姉さんより控えめなだけです！！[p]
-#アリス
+A bit?ーーーーthat's an understatement, sis！！[p]
+#Alice
 [move id=0 x=-5 y=0 time=100]
 [voice ref="000029"]
-なんだとーーーー！！！[p]
-#メイジー
+Whatーーーー！！！[p]
+#Meisie
 [move id=2 x=5 y=0 time=100]
 [voice ref="000030"]
-なによーーーーー！！！[p]
+You heard meーーーーー！！！[p]
 [scale id=1 sx=-1 time=200]
 [wait time=200]
 [scale id=1 sx=-1 time=200]
 [wait time=200]
-#チシャ
+#Chishire
 [voice ref="000031"]
-お、お二人ともおさえて、おさえて……。[p]
-#アリス・メイジー
+OK、knock it off, both of you. Settle down……。[p]
+#Alice・Meisieー
 [voice ref="000032"]
-チシャはだまってろ（なさい）！！！[p]
-#チシャ
+Don't butt in, Chishire！！！[p]
+#Chishire
 [move id=1 y=5 time=100]
 [move id=1 y=-5 time=100]
 [move id=1 y=-5 time=400]
 [voice ref="000033"]
-す、すいません……。[p]
-#メイジー
+Well, excuse me……。[p]
+#Meisie
 [voice ref="000034"]
-もう知らないわ！[n]
+I don't know what to do anymore！[n]
 [scale id=2 sx=-1 time=100]
-……姉さん、あなたやっぱり領主向いてないわよ。[p]
+……Big sis, you're not suited to be a Lady after all.[p]
 [move id=2 x=-100 y=0 time=400]
 [clearcg id=2]
 [move id=0 x=-20 time=200]
-#アリス
+#Alice
 [voice ref="000035"]
-あっ、待て！　逃げるのかよ！！[p]
+Now what?！　Are you just going to walk away?! [p]
 
 [cn]
-メイジーは吐き捨てると、アリスの制止も聞かず、執務室を出て行ってしまった。[p]
-#アリス
+Maisy walked out of the office without answering Alice's question.[p]
+#Alice
 [voice ref="000036"]
-ちっ……あの野郎、好き放題いいやがって。[p]
+A bit……that imbicile. All I can do is to do things as well as I can.[p]
 [move id=1 y=5 time=300]
 [moveto id=1 x=20 time=200]
 [scale id=1 sx=-1 time=300]
 
-#チシャ
+#Chishire
 [voice ref="000037"]
-アリス様も悪いんですから、ほら、たまには仕事しましょう？[p]
-#アリス
+Alice, you're bad. But, hey, can we still work occasionally？[p]
+#Alice
 [voice ref="000038"]
-ちっ……今日は特別だからな。[n]
-町に行くんだったか？[p]
+A bit……today's a special day.[n]
+Were you heading into town?[p]
 [scale id=0 sx=-1 time=200]
 [voice ref="000039"]
-ほら、さっさと行くぞ。[n]
-クロにも来るように言っておけ。[p]
-#チシャ
+If so, then we must go quickly.[n]
+We have to get to Kuro.[p]
+#Chishire
 [voice ref="000040"]
-はい！[p]
+Yes！[p]
 [move id=0 x=70 y=0 time=500]
 [clearcg id=0]
 [move id=1 x=90 y=0 time=600]
@@ -221,68 +221,68 @@
 [drawcg id=0 pos="right" state=0]
 [cn]
 ……………。[p]
-嗅ぎなれない、甘ったるいにおいがした。[p]
-#アリス
+I smelled sweetness, but I cannot sniff.[p]
+#Alice
 [voice ref="000041"]
-……うん。[p]
+……Yup.[p]
 [cn]
-体が重く、頭はぼうっとしている。[p]
+My body feels heavy. My vision is blurred.[p]
 
 [filter name="clear" time="500"]
 
-#アリス
+#Alice
 [voice ref="000042"]
-なんだ……ここは。[p]
+What is this……here。[p]
 [cn]
-重いまぶたを開けると、豪奢なレースのカーテンが目に入った。[p]
-#アリス
+I opened a heavy eyelid and saw a curtain of luxury lace.[p]
+#Alice
 [voice ref="000043"]
-ベッド……？[n]
+A bed……？[n]
 [changecg id=0 state=2]
-う……ん。なんか妙に肩が凝ってるな。[p]
+Yup, something with a stiff frame.[p]
 [cn]
-アリスが寝ていたのは豪奢な天蓋付きベッドだった。[p]
+Alice was sleeping on a luxurious canopy bed。[p]
 [changecg id=0 state=0]
-#アリス
+#Alice
 [voice ref="000044"]
-うちの屋敷……じゃないし。
-うーん、町へ行ってから露店を散策して、そのあと会議で……。[n]
-あれ、覚えてないぞ……。[p]
+It's my house……not。
+Well, after I went to town, I strolled around the stores, then at the meeting……。[n]
+Ugh, I don't remember……。[p]
 [drawcg id=3 pos="left" dir="right"]
 
 #？？？
 [voice ref="000045"]
-あっ、目が覚めましたね。[p]
-#アリス
+Oh, you woke up。[p]
+#Alice
 [voice ref="000046"]
-ん？[n]
+Hmm？[n]
 [changecg id=0 state=2]
-……誰だオマエ。[p]
+……Who are you?[p]
 [cn]
-ベッドの横から声がした。[p]
-どうやらその女性はずっとそこでアリスを見ていたようだった。[p]
-#ヴェロニカ
+I heard a voice from the side of the bed。[p]
+Apparently the woman seemed to be watching Alice for a very long time。[p]
+#Veronica
 [voice ref="000047"]
-まだ少し記憶が混乱していますね。[p]
+You still have some lost memories。[p]
 [voice ref="000048"]
-私はヴェロニカ。[n]
-大魔女ヴェロニカです。[p]
-#アリス
+I am Veronica。[n]
+The great witch Veronica。[p]
+#Alice
 [voice ref="000049"]
-大魔女ォ……？[n]
-……なんか偉そうな称号だな。[p]
+Great witch……？[n]
+……only the title seems to be great。[p]
 [voice ref="000050"]
-それより、一体ここはどこなんだ？[n]
-うちの屋敷じゃないし……、町でもないみたいだし。[p]
-#ヴェロニカ
+Well then, where the hell am I?[n]
+It's not my house... It's not even a town.[p]
+#Veronica
 [voice ref="000051"]
-ここは私の宮殿です。[n]
-あなたが私についてここまで来たんですよ？[p]
-#アリス
+This is my palace。[n]
+You came here for me？[p]
+#Alice
 [voice ref="000052"]
-あん……？[n]
+Bean paste……？[n]
 [changecg id=0 state=0]
-ああ……、なんかだんだん思い出してきたぞ。[p]
+Oh…… I'm remembering things, more and more。[p]
 [filter name="fade" time="500"]
 [stopbgm]
 
@@ -297,76 +297,76 @@
 
 
 [cn]
-数時間前。[p]
-#アリス
+A few hours ago。[p]
+#Alice
 [voice ref="000053"]
-あー、会議なんてやってられないぜ。[n]
-へへっ、トイレなんて嘘だってーの！ このまま町で遊んで帰るかぁ！[p]
+Oh, I don't want to go to a meeting.[n]
+Hello, it's a restroom！ Whenever I go to town I use it！[p]
 [drawcg id=3 pos="left" dir="right" layer="front"]
 
-#ヴェロニカ
+#Veronica
 [voice ref="000054"]
-アリス！[n]
-ああもう、あなたは領主になってもそうなんですね。[p]
+Alice！[n]
+Even after you became a Lady, you are...[p]
 [scale id=0 sx=-1 time=100]
 [changecg id=0 state=2]
-#アリス
+#Alice
 [voice ref="000055"]
-あん？　……誰だオマエ、偉そうに。[n]
-私が誰か知ってて言ってるのか？ それとも人違いか？[p]
-#ヴェロニカ
+Anonymous？　……Hello, who are you? Good morning.[n]
+Do you know what I'm saying? Or am I saying it wrong?[p]
+#Veronica
 [voice ref="000056"]
-ああ、ごめんなさい。[n]
-私はヴェロニカ、あなたの姉弟子にあたる魔女です。[p]
+Oh, sorry.[n]
+I am Veronica, a witch and your sister's disciple.[p]
 [voice ref="000056a"]
-小さいころに会ったっきりですから……[n]
-覚えていませんよね。[p]
-#アリス
+It is clear that I met you when you were little……[n]
+But I don't remember。[p]
+#Alice
 [voice ref="000057"]
-ヴェロニカ？　姉弟子ィ？[n]
+Veronica？　My sister's disciple？[n]
 [changecg id=0 state=0]
-おいおい、ババァの弟子は私が最初だぞ！[n]
-嘘つくんじゃねえよ。[p]
-#ヴェロニカ
+Oh, come on, then I am the First Baba's disciple！[n]
+Don't tell me lies.[p]
+#Veronica
 [voice ref="000058"]
-それは……、そうですか。[n]
-お師匠様は私のことを話していらっしゃらないんですね。[p]
-#アリス
+Is that……、is that so.[n]
+My teacher doesn't talk about me?[p]
+#Alice
 [voice ref="000059"]
-……なんも聞いてねえ。[n]
-つうか、そもそもうちの領地にヴェロニカなんて魔女はいないはずだぞ……。[p]
-#ヴェロニカ
+……Don't ask questions。[n]
+There is no witch named Veronica in our order in the first place……。[p]
+#Veronica
 [voice ref="000060"]
-私は北の大地の領主です。[n]
-こことは隔たれた場所にありますから、知らないのも無理はありません。[p]
+I am in charge of the northern land。[n]
+Because that place is seperated from here, there's no reason you'd know.[p]
 [changecg id=0 state=1]
-#アリス
+#Alice
 [voice ref="000061"]
-へえ！　北の大地か！[n]
-おい、北の大地ってのはどんなところなんだ？[n]
-つか、お前北の大地からどうやって来たんだよ。[n]
-高い山があって通れないのに。[p]
-#ヴェロニカ
+Oh! The northern land! [n]
+Hey, what's in the northern land? [n]
+Wow, how did you come from the northern land? [n]
+There is a high mountain that can not be passed. [p]
+#Veronica
 [voice ref="000062"]
-北の大地に興味があるのですか？[n]
-私はワープ魔法で来ましたけど、でもあれは一人用だし……。[p]
+Are you interested in the northern land？[n]
+I came here using warp magic, but it can only be used for one person……。[p]
 [move id=0 x=-10 time=300]
-#アリス
+#Alice
 [voice ref="000063"]
-なあ、そのワープ魔法で私も連れて行けよ！[n]
-魔法ならすぐ帰ってこれるんだろ？[p]
-#ヴェロニカ
+Hey, take me with that warp magic！[n]
+With magic, you can return soon, can't you？[p]
+#Veronica
 [voice ref="000064"]
-それはそうですけれど……。[n]
-他人にかけたことないですから何があるかわかりませんよ？[p]
-#アリス
+That's right……。[n]
+I never used it on someone else, so I don't know if I can.[p]
+#Alice
 [voice ref="000065"]
-いいって、いいって！ 死ぬわけじゃないんだろ？[n]
-今、ちょうど退屈してたんだ。[n]
-早く連れてってくれよ！[p]
-#ヴェロニカ
+It's okay! It's not life and death. [n]
+I'm just bored at the moment. [n]
+But, please take me as soon as possible.
+#Veronica
 [voice ref="000066"]
-……しょうがないですね。 それじゃあ……。[p]
+……I guess I can. Well, then……。[p]
 [move id=3 x=40 time=500]
 [filter name="fade" time="500"]
 [se ref="117_fx_velonicaB"]
@@ -380,40 +380,40 @@
 [bgm ref="014_velonica"]
 [filter name="clear" time="500"]
 
-#アリス
+#Alice
 [voice ref="000067"]
-ああ！　そうだそうだ。[n]
-それでそのワープ魔法に酔って倒れたのか。[n]
-じゃあ、ここは北の大地ってわけだな！[p]
-#ヴェロニカ
+Ah！It seems it worked。[n]
+So, did you get drunk and collapse with that warp magic? [n]
+So, this is the northern land![p]
+#Veronica
 [voice ref="000068"]
-そうですけど……アリス、あなた少し不用心なんじゃないですか？[n]
-魔女とはいえ女の子なんですから、
-初対面の魔女にはもう少し警戒してもいいと思いますよ？[p]
+That's right. But, Alice, aren't you at all concerned? [n]
+Because, even though I'm a girl, I'm also a witch, 
+Aren't you at all worried about your first meeting with a witch？[p]
 [changecg id=0 state=0]
 [scale id=0 sx=-1 time=400]
-#アリス
+#Alice
 [voice ref="000069"]
-なーんか、私の周りにいる奴はすぐ私に説教するんだよなぁ……。[p]
+Somehow once anyone gets near me they begin a soliloquy right away……。[p]
 [changecg id=0 state=1]
 [scale id=0 sx=-1 time=200]
 [move id=0 y=5 time=50]
 [move id=0 y=-5 time=50]
 [voice ref="000070"]
-そんなのどうでもいいから早く外を案内してくれよ！[n]
-北の大地ってのはどんなところなんだ？[p]
-#ヴェロニカ
+Don't worry about me. Please show me around as soon as possible！[n]
+What is in the northern land？[p]
+#Veronica
 [voice ref="000071"]
-……わかりました。[n]
-では、ついてきてください。[p]
+……understood。[n]
+Well, please. Follow me.[p]
 [scale id=3 sx=-1 time=300]
 [moveto id=3 x=10 time=300]
 [moveto id=0 x=30 time=400]
 
 [cn]
-ヴェロニカはそういうと、部屋の戸を開けて外に出た[p]
-そのとたんの出来事だった。[p]
-;効果音
+Veronica opened the door of the room and went outside.[p]
+They were in the middle of that incident。[p]
+;Sound effect
 [stopbgm]
 [filter name="flush" color="ffffff" time=200]
 [se ref="049_b_barrier"]
@@ -421,221 +421,221 @@
 [move id=3 y=-5 time=50]
 [changecg id=0 state=2]
 [move id=0 x=5 time=50]
-#ヴェロニカ
+#Veronica
 [voice ref="000072"]
-なっ！？　これは……！！[p]
+Oh！？　What is this……！！[p]
 [cn]
-ヴェロニカの足元に突如魔法陣が現れ、光の障壁が彼女を取り囲んだ。[p]
+Suddenly a magic beam appeared at Veronica's feet, and a barrier of light surrounded her.[p]
 [drawcg id=4 posx=30]
 #？？？
 [voice ref="000073"]
-キヒヒッ……[n]
-なんだ、夕方まで帰らないんじゃなかったのか？[n]
-なあ、ニア？[p]
+Hee hee……[n]
+What？Were you planning on not leaving until the evening?[n]
+I wish to keep you near.[p]
 [drawcg id=5 posx=25 layer="front"]
 #？？？
 [voice ref="000074"]
-早めに仕掛けておいてよかったねえ、ライザ？[p]
+I'm glad you got started early. Hey, Raisa？[p]
 [move id=3 y=-2 time=20]
 [move id=0 y=-2 time=20]
 [move id=3 y=2 time=20]
 [move id=0 y=2 time=20]
 [scale id=3 sx=-1 time=100]
 [scale id=0 sx=-1 time=100]
-#ヴェロニカ
+#Veronica
 [voice ref="000075"]
-ライザ！　ニア！[n]
-あなたたち！！[p]
+Raisa！　Here?！[n]
+Why, you！！[p]
 
 [bgm ref="015_raizania"]
-#ライザ
+#Raisa
 [voice ref="000076"]
-キヒヒッ！　ざまあないなぁヴェロニカ！[p]
+Hee hee！　I don't have anything Veronica！[p]
 [move id=5 x=0 y=5 time=100]
 [move id=5 x=0 y=-5 time=100]
-#ニア
+#Nia
 [voice ref="000077"]
-ざまあないぜヴェロニカー！[p]
-#ライザ
+Why be a stranger Veronica?[p]
+#Raisa
 [voice ref="000078"]
-大魔女だからって偉そうにしやがって……[n]
-毎日毎日下らん基礎魔法ばっかり教えやがる。[n]
-木の芽を成木にする魔法……、なんて誰が使うかァ！！？[p]
-#ニア
+Because you are a great witch, it makes me look great ... .... [n]
+I will teach you basic magic all the time, daily. [n]
+Magic that makes buds become adult trees ......, Who will use it! ! You? [p]
+#Nia
 [voice ref="000079"]
-あっ、私はねぇ……、ミルクをアイスクリームにする魔法教わったよ！[n]
-あれ結構使えるんだよねぇ……。[p]
+Oh, I do not ... ..., I learned magic to make milk become ice cream! [n]
+That is quite useful! [p]
 [move id=5 x=4 y=5 time=100]
 [move id=5 x=4 y=-5 time=100]
-#ライザ
+#Raisa
 [voice ref="000080"]
-バカ！　使える魔法の話をしてどうするんだ！[p]
+Fool! What do you do after talking about magic that you can use?! [p]
 [scale id=5 sx=-1 time=100]
-#ニア
+#Nia
 [voice ref="000081"]
-あっ、そっか……えと、えと。[n]
-あっ！
+Oh, I see ... oh, uh, uh. [n]
+Ah!
 [move id=5 y=5 time=50]
 [move id=5 y=-5 time=50]
-　減らず口が減る魔法！[n]
-ライザにかけたけど変わらなかった！[p]
-#ライザ
+Magic that decreases abilities! [n]
+I put it on Raisa but nothing changed! [p]
+#Raisa
 [voice ref="000082"]
-てめえ俺様にけんか売ってんのか！？[p]
-#ニア
+You can't even manage a dollop on me！ Huh？[p]
+#Nia
 [voice ref="000083"]
-あはー、ごめんごめん。[p]
-#アリス
+Oh, sorry, sorry. [p]
+#Alice
 [voice ref="000084"]
-おい……、ヴェロニカ[n]
-こいつら一体……。[p]
+Hey……、Veronica.[n]
+They're united……。[p]
 [scale id=5 sx=-1 time=100]
-#ヴェロニカ
+#Veronica
 [voice ref="000085"]
-わ、私の部下たちです。[n]
-ライザ、ニア！　ここから出しなさい！[n]
-冗談にしては度が過ぎますよ！[p]
-#ライザ
+Wow, men. [n]
+Raisa, go! Get out of here! [n]
+The joke is too much! [p]
+#Raisa
 [voice ref="000086"]
-冗談じゃねえ。　俺様たちは本気だ。[p]
-#ニア
+It's not a joke。　We're serious.[p]
+#Nia
 [move id=5 x=0 y=5 time=100]
 [move id=5 x=0 y=-5 time=100]
 [voice ref="000087"]
-本気なのだ！[p]
-#ヴェロニカ
+We are serious！[p]
+#Veronica
 [voice ref="000088"]
-私を一体どうするつもりですか！[p]
-#ライザ
+What will you do with me! [p]
+#Raisa
 [voice ref="000089"]
-捕まえて処刑！[n]
-んで、俺様たちが名実ともに大魔女を名乗るのだ！[p]
-#ヴェロニカ
+Catch you and execute you! [n]
+So, we can claim the great witch together along with the name! [p]
+#Veronica
 [voice ref="000090"]
-大魔女は自ら名乗るものではありません！[n]
-その功績が魔女協会に認められて、初めて名乗ることを許されるのですよ！[p]
-#ライザ
+The great witch is not what you can call yourself! [n]
+For the first time, I'll admit that its an achievement that is recognized by the Witch Association! [p]
+#Raisa
 [voice ref="000091"]
-なに……？[n]
-オイ、ニア、どうする。[p]
+What……？[n]
+Oy vey, what to do.[p]
 [scale id=5 sx=-1 time=400]
-#ニア
+#Nia
 [voice ref="000092"]
-そんなの処刑してから考えようよー。[p]
-#ライザ
+Lets think about execution.[p]
+#Raisa
 [voice ref="000093"]
-うん、それもそうだな。[p]
-#ヴェロニカ
+Yes, you're right.[p]
+#Veronica
 [voice ref="000094"]
-……仕方ありませんね。[n]
-ならば力ずくで結界から抜けるまで！！[n]
-ふっ……！！[p]
+...... Then it can not be helped. [n]
+Now, brute, get out of the barrier! ! [n]
+Break out! ! [p]
 [scale id=5 sx=-1 time=100]
 [filter name="flush" color="ffffff" time=400]
 [filter name="flush" color="ffffff" time=400]
 [se ref="bomb4" volume=50]
 [cn]
-ヴェロニカが念じると目に見えるほどの強い魔力の波動があたりに衝撃波となって押し寄せた。[p]
-#アリス
+Veronica used her mind, and a wave of strong magical powers that was visible to the eye created a shock wave in the vicinity. [p]
+#Alice
 [voice ref="000095"]
-あいつ……[n]
-この魔力、相当……。[p]
+She's……[n]
+These magic powers, equal to……。[p]
 [filter name="flush" color="ffffff" time=400]
 [move id=4 x=5 y=0 time=200]
 [move id=5 x=5 y=0 time=200]
 
-#ライザ
+#Raisa
 [voice ref="000096"]
-ぐうっ！！[n]
-畜生、ヴェロニカめ、さすがだぜ……。[n]
-おいニア、踏ん張れ！[p]
-#ニア
+Too much！！[n]
+Damn it, Veronica, it's truly…… [n]
+Hey, Nia, step on it！[p]
+#Nia
 [voice ref="000097"]
-うん！　ええーーーい！！[p]
+Yup！　Yeahーーーthere！！[p]
 [move id=4 x=-5 y=0 time=50]
 [move id=5 x=-5 y=0 time=50]
-#ヴェロニカ
+#Veronica
 [voice ref="000098"]
 …………！！[n]
 [move id=3 x=0 y=-5 time=100]
-くっ……！[p]
+Ugh……！[p]
 [cn]
-ヴェロニカが膝をついた。[n]
-同時に、魔力の波動もぐんと弱まる。[p]
-#ライザ
+Veronica locked her knees. [n]
+At the same time, the waves of the magical power are weakened. [p]
+#Raisa
 [voice ref="000099"]
-ちっ……[n]
-やっと効いてきたか。[p]
-#ヴェロニカ
+Shiny……[n]
+At last, now she's finished。[p]
+#Veronica
 [voice ref="000100"]
-ただの動きを封じる結界じゃありませんね……。[p]
-#ライザ
+The barrier doesn't just stop movement……。[p]
+#Raisa
 [voice ref="000101"]
-キヒヒッ……！[n]
-レベルを下げる結界だぜ。[p]
-#ニア
+Hee hee……！[n]
+It's a barrier to lower magic level。[p]
+#Nia
 [voice ref="000102"]
-もう500は下げてると思うんだけど、ヴェロニカすごいね。[n]
-まだこんなに余力があるなんて……。[p]
+I think that I'm already lowered by 500. Veronica is amazing. [n]
+I still have so much power ... .... [p]
 [move id=3 y=-5 time=50]
-#ヴェロニカ
+#Veronica
 [voice ref="000103"]
-もう少し……！ くっ……！[p]
+A little more……！ Cut……！[p]
 [cn]
-結界にひびが入る。[p]
-#ライザ
+There's a crack in the barrier。[p]
+#Risa
 [voice ref="000104"]
-畜生！[n]
-ここまでやるなんて……。[p]
-#ニア
+Damn it！[n]
+How do you do this……。[p]
+#Nia
 [voice ref="000105"]
-でもそろそろ……。[p]
-#ヴェロニカ
+Soon……。[p]
+#Veronica
 [voice ref="000106"]
-も、もうダメ……。[p]
+Well, no more……。[p]
 [move id=3 x=0 y=-5 time=500]
 [cn]
-ヴェロニカの抵抗がやんだ。[p]
-同時に結界も消え、それはヴェロニカのレベルが限界まで下がったことを意味した。[p]
-#ヴェロニカ
+Veronica's resistance ceased. [p]
+At the same time the barrier also disappeared, which meant that Veronica's level had fallen to its limit.[p]
+#Veronica
 [voice ref="000107"]
-はあ……、はあ……[n]
-あなたたち、いつの間にこんな強力な結界呪文を……[p]
-#ライザ
+Ha……, Ha…… [n]
+You guys, it was such a powerful boundary spell…… [p]
+#Raisa
 [voice ref="000108"]
-キヒヒッ……！[n]
+Hee hee……！[n]
 [rotate id=4 angle=5 time=100]
 [rotate id=4 angle=-5 time=100]
-それはよぉ、じゃーん！ 賢者の石なのだー！[p]
-#ニア
+That's right, yeah! It's a stone of the wise man! [p]
+#Nia
 [move id=5 x=0 y=5 time=100]
 [move id=5 x=0 y=-5 time=100]
 [voice ref="000109"]
-ヴェロニカの部屋から持ち出したのだー！！[p]
-#ヴェロニカ
+I took it out of Veronica's room！[p]
+#Veronica
 [move id=3 x=0 y=10 time=100]
 [voice ref="000110"]
-なっ！？ いけません！　[n]
-それは単なる魔力増幅器ではないのですよ！！[p]
-#ライザ
+Wait! What? You can't do that! [N]
+It's not just a magical amplifier! [p]
+#Raisa
 [voice ref="000111"]
-キヒヒッ！　知ってるよ……。[n]
-こいつがホムンクルスの材料だってことくらいな……[p]
-#ヴェロニカ
+Hee hee! I Know……. [n]
+It looks like a homunculus...... [p]
+Veronica
 [voice ref="000112"]
 ！？[n]
-それを知っていながら……！[p]
-#ライザ
+Well, I know that……！[p]
+#Raisa
 [voice ref="000113"]
-おいニア、連れていけ。[p]
-#ニア
+Hey Nia, take it with you。[p]
+#Nia
 [voice ref="000114"]
-あいさー！[p]
+Alrighty！[p]
 [moveto id=5 x=30 time=300]
 
-#ヴェロニカ
+#Veronica
 [voice ref="000115"]
-あっ！　ちょっと離しなさい！！[p]
+Ah！　Just a minute away！[p]
 
 [move id=5 x=-100 y=0 time=300]
 [clearcg id=5]
@@ -643,39 +643,39 @@
 [clearcg id=3]
 [scale id=0 sx=-1 time=100]
 [cn]
-ヴェロニカはニアによってどこかへ連れていかれてしまった。[p]
+Veronica has been taken somewhere by Nia。[p]
 [moveto id=4 x=75 time=300]
-#ライザ
+#Raisa
 [voice ref="000116"]
-さてと、おいそこの。[p]
+Well, there dude。[p]
 [scale id=0 sx=-1 time=300]
 [moveto id=0 x=25 time=300]
-#アリス
+#Alice
 [voice ref="000117"]
-あん？　私のことか？[p]
-#ライザ
+Anonymous? Do you mean me? [p]
+#Raisa
 [voice ref="000118"]
-お前以外に誰がいるんだよ。[n]
-泣き虫アリスちゃん……？[p]
+Who else other than you? [n]
+Crybaby Alice-chan......? [p]
 [move id=0 y=-2 time=20]
 [move id=0 y=2 time=20]
-#アリス
-[voice ref="000119"]
-……！ 泣き虫アリスだと……？[n]
-この私をなめてんじゃねえっ！！！[p]
-#ライザ
-[voice ref="000120"]
-いいぜ、かかって来いよ。[n]
-キヒヒッ！　格の違いってのを見せてやるぜ、三流魔女！！[p]
+#Alice
+[voice ref = "000119"]
+......! Crybaby Alice ... ....? [n]
+I will not stand for this! ! ! [p]
+#Raisa
+[voice ref = "000120"]
+Well, get over it. [n]
+Hee hee! I will show you the difference in this case, the third wave witch! [p]
 [hide_message]
-;戦闘開始
+;Combat start
 
 [battle_auto]
 [battle_unit_in p0=294 p1=-1 p2=-1 e0=295 e1=-1 e2=-1]
 [battle_nonpre]
 [battle_area id=104]
 
-;CGフラグ
+;CG flag
 [sys_memset type="system" index=100 value=1]
 
 [sys_memset index=0 value="1"]
