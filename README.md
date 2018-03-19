@@ -1,23 +1,23 @@
-# わがままアリスと百日戦争　翻訳プロジェクト
+# Selfish Alice and a Hundred Day War translation project
 
-本プロジェクトの目的は、フリーゲーム「わがままアリスと百日戦争」を日本語以外の言語に翻訳することです。
+The purpose of this project is to translate the free game "Selfish Alice and a Hundred Day War" into languages other than Japanese.
 
-## 環境
-OSはWindowsもしくはMacOSXでお願いします。  
-**Unityのバージョンは5.6.1fを使うようにしてください。**
+## Environment
+Please use Windows or MacOSX.  
+**Please use version 5.6.1f of Unity.**
 
-## ブランチの取り扱い
-masterブランチには、開発者（KoromoSoft）以外触らないこととします。  
-翻訳者の方は、自分の担当言語のブランチを（ない場合は作成を要求してください）自分の環境にクローンして作業を行ってください。
+## Handling branches
+The master branch will not be touched except by the developer（KoromoSoft).  
+If you are a translator, please clone your branch (if you do not have a fork, create one) in your own environment and do the work there.
 
-## 翻訳すべき箇所
-1. プロジェクトフォルダ内に散らばっているTextureフォルダの中身
-2. Asset/Resources/Scenarioフォルダの中身（ノベルシナリオです）
-3. 各シーンのゲームオブジェクトに直接入力されているデータ（図書館のデータや、おまけシーンのセリフなど）
+## Where to translate
+1. Contents of the Texture folders located throughout the project folder.
+2. Contents of the Asset/Resources/Scenario folder. (Novel scenario)
+3. Data that is directly used by the game objects in each scene (data in a library, speech in a bonus scene, etc.)
 
-## 参加方法
-以下まで、翻訳を希望する言語とGithub用のメールアドレスを添えて連絡してください。  
-koromosoft@gmail.com  
+## How to participate
+Please contact us with the language into which you wish to translate the game and your e-mail address on Github. 
+koromosoft@gmail.com 
 
-## 参加条件
-開発者とのやり取りに語弊がないように、日本語でやり取りできる方を条件とします。
+## Conditional terms for participation
+Participation is conditional on those who can communicate in Japanese so that there is no confusion in regards to any words or phrases when interacting with the developer.
