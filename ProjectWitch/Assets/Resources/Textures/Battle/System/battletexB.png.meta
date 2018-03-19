@@ -88,7 +88,7 @@ TextureImporter:
     overridden: 0
   - buildTarget: Standalone
     maxTextureSize: 1024
-    textureFormat: -1
+    textureFormat: 5
     textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
@@ -102,6 +102,14 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 512
+    textureFormat: 47
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
   spriteSheet:
     serializedVersion: 2
     sprites:

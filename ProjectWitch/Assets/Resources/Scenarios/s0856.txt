@@ -200,7 +200,7 @@
 ;エリ様逃げましょう！！[p]
 
 #名無しの大魔女
-[voice ref="080926"]
+[voice ref="080925"]
 遅いわ！！[p]
 [scale id=2 sx=-1 time=100]
 [filter name="color" color="FFFFFF" time=1000]
@@ -208,7 +208,7 @@
 [cn]
 次の瞬間、大魔女の頭上の光球がはじけ、エリたちに襲い掛かった。[p]
 #エリ
-[voice ref="080927"]
+[voice ref="080926"]
 え……。[p]
 [cn]
 声をあげる暇もなかった。[p]

@@ -63,7 +63,7 @@ namespace ProjectWitch
 
             if (!mIsEnd)
             {
-                StartCoroutine(game.CallClearRecord());
+                StartCoroutine(game.CallDisplayEndingName());
                 mIsEnd = true;
             }
         }

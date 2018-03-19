@@ -41,10 +41,14 @@ namespace ProjectWitch
         // Use this for initialization
         void Start()
         {
+            //gameクラス初期化
             var game = Game.GetInstance();
 
             //クリア後のためにシステムセーブをしておく
             game.SystemData.Save();
+
+            //ゲームデータを初期化
+            game.Setup();
 
             //フラグによって選択肢ウィンドウの表示を切り替える
             var isClear = game.SystemData.Memory[mClearFlagID] != 0;

@@ -12,12 +12,12 @@ TextureImporter:
     21300010: fx_tex_005_5
     21300012: fx_tex_005_6
     21300014: fx_tex_005_7
-  serializedVersion: 2
+  serializedVersion: 4
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
+    sRGBTexture: 1
     linearTexture: 0
-    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
     mipMapFadeDistanceStart: 1
@@ -29,10 +29,8 @@ TextureImporter:
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
   cubemapConvolution: 0
-  cubemapConvolutionSteps: 7
-  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
   maxTextureSize: 2048
@@ -43,9 +41,7 @@ TextureImporter:
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
-  rGBM: 0
   compressionQuality: 50
-  allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
@@ -53,12 +49,52 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+  alphaUsage: 1
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
-  buildTargetSettings: []
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: 5
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 256
+    textureFormat: 10
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: fx_tex_005_0
+    - serializedVersion: 2
+      name: fx_tex_005_0
       rect:
         serializedVersion: 2
         x: 0
@@ -68,16 +104,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -2.5, y: 63.833313}
-        - {x: -2.5, y: 58.833313}
-        - {x: 28.5, y: 16.833313}
-        - {x: 30.5, y: 16.833313}
-        - {x: 32.5, y: 17.833313}
-        - {x: 38.5, y: 23.833313}
-        - {x: 38.5, y: 42.833313}
-        - {x: 12.5, y: 63.833313}
-    - name: fx_tex_005_1
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fx_tex_005_1
       rect:
         serializedVersion: 2
         x: 166
@@ -87,17 +117,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -46.5, y: 35.833313}
-        - {x: -46.5, y: -77.16669}
-        - {x: 42.5, y: -77.16669}
-        - {x: 53.5, y: -58.166687}
-        - {x: 53.5, y: 17.833313}
-        - {x: 44.5, y: 44.833313}
-        - {x: 5.5, y: 63.833313}
-        - {x: -7.5, y: 63.833313}
-        - {x: -8.5, y: 62.833313}
-    - name: fx_tex_005_2
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fx_tex_005_2
       rect:
         serializedVersion: 2
         x: 332
@@ -107,16 +130,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 26.5, y: 65.83331}
-        - {x: -18.5, y: 65.83331}
-        - {x: -38.5, y: -64.16669}
-        - {x: -38.5, y: -75.16669}
-        - {x: 15.5, y: -75.16669}
-        - {x: 46.5, y: -65.16669}
-        - {x: 61.5, y: -44.166687}
-        - {x: 61.5, y: 24.833313}
-    - name: fx_tex_005_3
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fx_tex_005_3
       rect:
         serializedVersion: 2
         x: 0
@@ -126,26 +143,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 9.5, y: 54.83333}
-        - {x: -40.5, y: -68.16667}
-        - {x: -41.5, y: -70.16667}
-        - {x: -41.5, y: -75.16667}
-        - {x: -40.5, y: -77.16667}
-        - {x: 26.5, y: -77.16667}
-        - {x: 58.5, y: -49.16667}
-        - {x: 58.5, y: 15.833328}
-        - {x: 29.5, y: 54.83333}
-      - - {x: -1.5, y: 63.83333}
-        - {x: -2.5, y: 62.83333}
-        - {x: -2.5, y: 57.83333}
-        - {x: 8.5, y: 48.83333}
-        - {x: 11.5, y: 48.83333}
-        - {x: 13.5, y: 50.83333}
-        - {x: 14.5, y: 54.83333}
-        - {x: 14.5, y: 56.83333}
-        - {x: 5.5, y: 63.83333}
-    - name: fx_tex_005_4
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fx_tex_005_4
       rect:
         serializedVersion: 2
         x: 166
@@ -155,25 +156,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 11.5, y: 51.83333}
-        - {x: -40.5, y: -70.16667}
-        - {x: -40.5, y: -76.16667}
-        - {x: -28.5, y: -78.16667}
-        - {x: -11.5, y: -78.16667}
-        - {x: 2.5, y: -76.16667}
-        - {x: 59.5, y: -69.16667}
-        - {x: 59.5, y: 43.83333}
-        - {x: 31.5, y: 51.83333}
-      - - {x: -0.5, y: 62.83333}
-        - {x: -1.5, y: 60.83333}
-        - {x: -1.5, y: 56.83333}
-        - {x: 5.5, y: 50.83333}
-        - {x: 13.5, y: 50.83333}
-        - {x: 15.5, y: 51.83333}
-        - {x: 15.5, y: 55.83333}
-        - {x: 8.5, y: 62.83333}
-    - name: fx_tex_005_5
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fx_tex_005_5
       rect:
         serializedVersion: 2
         x: 332
@@ -183,32 +169,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 59.5, y: -15.166672}
-        - {x: 31.5, y: -22.166672}
-        - {x: -37.5, y: -71.16667}
-        - {x: -38.5, y: -72.16667}
-        - {x: -38.5, y: -79.16667}
-        - {x: -33.5, y: -80.16667}
-        - {x: 15.5, y: -80.16667}
-        - {x: 49.5, y: -73.16667}
-        - {x: 61.5, y: -37.16667}
-        - {x: 61.5, y: -15.166672}
-      - - {x: 25.5, y: 49.83333}
-        - {x: 16.5, y: 49.83333}
-        - {x: 16.5, y: 40.83333}
-        - {x: 35.5, y: -7.1666718}
-        - {x: 59.5, y: -7.1666718}
-        - {x: 59.5, y: 4.8333282}
-        - {x: 51.5, y: 28.833328}
-      - - {x: 7.5, y: 60.83333}
-        - {x: 0.5, y: 60.83333}
-        - {x: 0.5, y: 57.83333}
-        - {x: 8.5, y: 48.83333}
-        - {x: 14.5, y: 48.83333}
-        - {x: 17.5, y: 51.83333}
-        - {x: 17.5, y: 56.83333}
-    - name: fx_tex_005_6
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fx_tex_005_6
       rect:
         serializedVersion: 2
         x: 0
@@ -218,30 +182,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 24.5, y: -17.166672}
-        - {x: -43.5, y: -53.16667}
-        - {x: -43.5, y: -79.16667}
-        - {x: 12.5, y: -79.16667}
-        - {x: 30.5, y: -73.16667}
-        - {x: 55.5, y: -39.16667}
-        - {x: 55.5, y: -17.166672}
-      - - {x: 32.5, y: 38.83333}
-        - {x: 18.5, y: 50.83333}
-        - {x: 11.5, y: 50.83333}
-        - {x: 11.5, y: 42.83333}
-        - {x: 30.5, y: -6.1666718}
-        - {x: 52.5, y: -6.1666718}
-        - {x: 53.5, y: -5.1666718}
-        - {x: 53.5, y: 7.8333282}
-        - {x: 43.5, y: 26.833328}
-      - - {x: -3.5, y: 61.83333}
-        - {x: -4.5, y: 58.83333}
-        - {x: 0.5, y: 50.83333}
-        - {x: 8.5, y: 50.83333}
-        - {x: 8.5, y: 56.83333}
-        - {x: 1.5, y: 61.83333}
-    - name: fx_tex_005_7
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fx_tex_005_7
       rect:
         serializedVersion: 2
         x: 166
@@ -251,29 +195,8 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 19.5, y: -20.166672}
-        - {x: -35.5, y: -51.16667}
-        - {x: -35.5, y: -79.16667}
-        - {x: -32.5, y: -81.16667}
-        - {x: 18.5, y: -81.16667}
-        - {x: 62.5, y: -67.16667}
-        - {x: 62.5, y: -20.166672}
-      - - {x: 19.5, y: 48.83333}
-        - {x: 19.5, y: 39.83333}
-        - {x: 39.5, y: -8.166672}
-        - {x: 61.5, y: -8.166672}
-        - {x: 61.5, y: 7.8333282}
-        - {x: 60.5, y: 13.833328}
-        - {x: 33.5, y: 46.83333}
-        - {x: 26.5, y: 48.83333}
-      - - {x: 3.5, y: 56.83333}
-        - {x: 7.5, y: 49.83333}
-        - {x: 14.5, y: 49.83333}
-        - {x: 14.5, y: 54.83333}
-        - {x: 12.5, y: 58.83333}
-        - {x: 7.5, y: 59.83333}
-        - {x: 4.5, y: 59.83333}
+      outline: []
+      tessellationDetail: -1
     outline: []
   spritePackingTag: 
   userData: 

@@ -32,7 +32,7 @@ namespace ProjectWitch
         private IEnumerator CoEnding()
         {
             var game = Game.GetInstance();
-
+            
             //実行するエンディングIDの取得
             var id = game.EndingID;
 

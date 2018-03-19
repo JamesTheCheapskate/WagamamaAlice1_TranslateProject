@@ -213,6 +213,10 @@
 [wait time=500]
 [filter name="clear" time="500"]
 
+;ライザの素早さをあげておく
+[unit_data_change id=30 member="Agi0" value=20]
+[unit_data_change id=30 member="Agi100" value=20]
+
 ;アリスVSライザ
 [unit_heal unit=0]
 [unit_heal unit=30]
