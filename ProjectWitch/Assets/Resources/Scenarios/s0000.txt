@@ -198,10 +198,10 @@ A bit……that imbicile. All I can do is to do things as well as I can.[p]
 
 #Chishire
 [voice ref="000037"]
-Alice, you're bad. But, hey, can we still work occasionally？[p]
+Alice, you're bad. But, hey, can we maybe get back to work？[p]
 #Alice
 [voice ref="000038"]
-A bit……today's a special day.[n]
+A little……today's a special day.[n]
 Were you heading into town?[p]
 [scale id=0 sx=-1 time=200]
 [voice ref="000039"]
