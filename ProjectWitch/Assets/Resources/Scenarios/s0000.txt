@@ -1,10 +1,10 @@
 ;script 000
-;Timed actions
+;タイミング　しょっぱな
 
 [stopbgm]
 
 [filter name="fade" time=0]
-;Load resources
+;リソースロード
 [loadcg id=0 ref="alice"]
 [loadcg id=1 ref="chishire"]
 [loadcg id=2 ref="meisie"]
@@ -17,9 +17,9 @@
 ……Um……uh、……squirrel……！[p]
 [voice ref="000001"]
 Ms. Alice！[p]
-;Dawn
-;BGM playback
-;Event ＣＧ 001 Alice is asleep
+;明転
+;BGM再生
+;イベントＣＧ 001 寝起きのアリス
 [drawbg ref="Event/700"]
 [bgm ref="003_alice2"]
 [filter name="clear" time=500]
@@ -81,7 +81,7 @@ There’s a budget meeting for this fiscal year. [p]
 Ugh, cancel them all。[p]
 [move id=1 y=5 time=50]
 [move id=1 y=-5 time=50]
-#Cheshire
+#Chishire
 [voice ref="000015"]
 Again? What！？[n]
 Please don't mess with me。[p]
@@ -413,7 +413,7 @@ Well, please. Follow me.[p]
 [cn]
 Veronica opened the door of the room and went outside.[p]
 They were in the middle of that incident。[p]
-;Sound effect
+;効果音
 [stopbgm]
 [filter name="flush" color="ffffff" time=200]
 [se ref="049_b_barrier"]
@@ -660,22 +660,22 @@ Crybaby Alice-chan......? [p]
 [move id=0 y=-2 time=20]
 [move id=0 y=2 time=20]
 #Alice
-[voice ref = "000119"]
+[voice ref="000119"]
 ......! Crybaby Alice ... ....? [n]
 I will not stand for this! ! ! [p]
 #Raisa
-[voice ref = "000120"]
+[voice ref="000120"]
 Well, get over it. [n]
 Hee hee! I will show you the difference in this case, the third wave witch! [p]
 [hide_message]
-;Combat start
+;戦闘開始
 
 [battle_auto]
 [battle_unit_in p0=294 p1=-1 p2=-1 e0=295 e1=-1 e2=-1]
 [battle_nonpre]
 [battle_area id=104]
 
-;CG flag
+;CGフラグ
 [sys_memset type="system" index=100 value=1]
 
 [sys_memset index=0 value="1"]
