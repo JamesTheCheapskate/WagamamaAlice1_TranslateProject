@@ -36,4 +36,8 @@
 [wait time=500]
 [filter name="clear" time="500"]
 
+;戦闘
+[battle_unit_in e0=48]
+[battle_bgm ref="006_battle3"]
+
 [sys_memset index=858 value="1"]

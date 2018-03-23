@@ -30,6 +30,7 @@ namespace ProjectWitch
         private const string cSceneName_Ending = "Ending";
         private const string cSceneName_ClearBonus = "ClearBonus";
         private const string cSceneName_ClearRecord = "ClearRecord";
+        private const string cSceneName_DisplayEndingName = "DisplayEndingName";
 
         //読み取り専用プロパティ
         public string SceneName_Title { get { return cSceneName_Title; } private set { } }
@@ -47,6 +48,7 @@ namespace ProjectWitch
         public string SceneName_Ending { get { return cSceneName_Ending; } private set { } }
         public string SceneName_ClearBonus { get { return cSceneName_ClearBonus; } private set { } }
         public string SceneName_ClearRecord { get { return cSceneName_ClearRecord; } private set { } }
+        public string SceneName_DisplayEndingName { get { return cSceneName_DisplayEndingName; } private set { } }
 
         //毎ターンのHP回復率
         [SerializeField]
@@ -260,6 +262,12 @@ namespace ProjectWitch
             yield return null;
             yield return SceneManager.LoadSceneAsync(SceneName_ClearRecord);
             HideNowLoading();
+        }
+
+        public IEnumerator CallDisplayEndingName()
+        {
+            yield return null;
+            yield return SceneManager.LoadSceneAsync(SceneName_DisplayEndingName);
         }
 
         //フィールドの開始

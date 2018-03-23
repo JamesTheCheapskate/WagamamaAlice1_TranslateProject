@@ -82,7 +82,7 @@
 [drawcg id=3 pos=4]
 [drawcg id=5 pos=5]
 [drawcg id=4 pos=3]
-[bgm ref="019_event4"]
+[bgm ref="027_alice3"]
 [drawbg ref="1011m"]
 [wait time=500]
 [filter name="clear" time=500]

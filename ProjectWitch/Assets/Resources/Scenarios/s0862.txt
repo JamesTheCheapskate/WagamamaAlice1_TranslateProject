@@ -6,8 +6,8 @@
 [filter name="fade" time=500]
 
 ;占領地点数が最大のとき、トゥループラスエンド
-[sys_memget index=4010 local=0]
-[if index0=0 opr="eqr" value1=104]
+[sys_memget index=4017 local=0]
+[if index0=0 opr="eqr" value1=105]
 [call_ending index=2]
 [else]
 [call_ending index=1]

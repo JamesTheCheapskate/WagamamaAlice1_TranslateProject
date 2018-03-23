@@ -16,6 +16,9 @@ EditorBuildSettings:
     guid: fa1203c873b4e7b4ca47c345ed135036
   - enabled: 1
     path: Assets/Resources/Scenes/ClearBonus/ClearRecord.unity
+    guid: e59ec8704d780b14a86dccc361e64698
+  - enabled: 1
+    path: Assets/Resources/Scenes/ClearBonus/DisplayEndingName.unity
     guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Resources/Scenes/Field/Field.unity
