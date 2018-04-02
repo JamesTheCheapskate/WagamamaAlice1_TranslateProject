@@ -412,7 +412,7 @@ Well, please. Follow me.[p]
 
 [cn]
 Veronica opened the door and went outside.[p]
-They were in the middle of an incident。[p]
+They found themselves caught in a trap。[p]
 ;効果音
 [stopbgm]
 [filter name="flush" color="ffffff" time=200]
@@ -430,8 +430,8 @@ Suddenly a magic beam appeared at Veronica's feet, and a barrier of light surrou
 #？？？
 [voice ref="000073"]
 Hee hee……[n]
-What？Were you planning on not coming back until evening?[n]
-I wish to keep you near.[p]
+What？Were you planning on not coming back until the evening?[n]
+Oh, but I wish to keep you near.[p]
 [drawcg id=5 posx=25 layer="front"]
 #？？？
 [voice ref="000074"]
@@ -458,12 +458,12 @@ Hee hee！　I haven't done anything Veronica！[p]
 Why be a stranger Veronica?[p]
 #Raisa
 [voice ref="000078"]
-Since you're a great witch, it makes me look great ... .... [n]
-I will teach you basic magic all the time, daily. [n]
-Magic that makes buds become adult trees ......, Who will use it! ! You? [p]
+Since you're a great witch, catching you makes me look great ... .... [n]
+I teach basic magic all the time, every day. [n]
+Magic that makes buds become adult trees ...... Who learned how to do it! ! You? [p]
 #Nia
 [voice ref="000079"]
-Oh, I do not ... ..., I learned magic to make milk become ice cream! [n]
+Oh, I have not ... ..., I learned magic to make milk become ice cream! [n]
 That is quite useful! [p]
 [move id=5 x=4 y=5 time=100]
 [move id=5 x=4 y=-5 time=100]
@@ -488,7 +488,7 @@ Oh, sorry, sorry. [p]
 #Alice
 [voice ref="000084"]
 Hey……、Veronica.[n]
-They're united……。[p]
+They're crazy……。[p]
 [scale id=5 sx=-1 time=100]
 #Veronica
 [voice ref="000085"]
@@ -509,7 +509,7 @@ What will you do with me! [p]
 #Raisa
 [voice ref="000089"]
 Catch you and execute you! [n]
-So, we can claim the great witch and then claim your name! [p]
+So, we can claim the great witch and then claim your title! [p]
 #Veronica
 [voice ref="000090"]
 You can't just call yourself a great witch! [n]
@@ -528,7 +528,7 @@ Yes, you're right.[p]
 #Veronica
 [voice ref="000094"]
 ...... So, then it can not be helped. [n]
-Now, brute, get out of the barrier! ! [n]
+Now, brute, to get out of the barrier! ! [n]
 Break out! ! [p]
 [scale id=5 sx=-1 time=100]
 [filter name="flush" color="ffffff" time=400]
@@ -565,7 +565,7 @@ At the same time, the waves of the magical power are weakened. [p]
 #Raisa
 [voice ref="000099"]
 Shiny……[n]
-At last, now she's finished。[p]
+At last, she's finished。[p]
 #Veronica
 [voice ref="000100"]
 The barrier doesn't just stop movement……。[p]
@@ -600,7 +600,7 @@ At the same time the barrier also disappeared, which meant that Veronica's level
 #Veronica
 [voice ref="000107"]
 Ha……, Ha…… [n]
-You guys, it was such a powerful boundary spell…… [p]
+You guys, that was such a powerful boundary spell…… [p]
 #Raisa
 [voice ref="000108"]
 Hee hee……！[n]
@@ -647,7 +647,7 @@ Veronica has been taken somewhere by Nia。[p]
 [moveto id=4 x=75 time=300]
 #Raisa
 [voice ref="000116"]
-Well, there dude。[p]
+Hey there dude。[p]
 [scale id=0 sx=-1 time=300]
 [moveto id=0 x=25 time=300]
 #Alice
@@ -656,7 +656,7 @@ Whoever you are? Do you mean me? [p]
 #Raisa
 [voice ref="000118"]
 Who else would I mean? [n]
-Crybaby Alice-chan......? [p]
+Crybaby Alice......? [p]
 [move id=0 y=-2 time=20]
 [move id=0 y=2 time=20]
 #Alice
@@ -666,7 +666,7 @@ I will not stand for this! ! ! [p]
 #Raisa
 [voice ref="000120"]
 Well, get over it. [n]
-Hee hee! I will show you the difference in what can be done by a third wave witch! [p]
+Hee hee! I will show you what a third wave witch can do! [p]
 [hide_message]
 ;戦闘開始
 
