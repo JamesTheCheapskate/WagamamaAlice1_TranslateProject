@@ -3,7 +3,7 @@
 [filter name="clear" time=500]
 
 [show_message]
-Testing out of town events.[p]
+街はずれイベントのテスト。[p]
 [hide_message]
 
 [filter name="fade" time=500]

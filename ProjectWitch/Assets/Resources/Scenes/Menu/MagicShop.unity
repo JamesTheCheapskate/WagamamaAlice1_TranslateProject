@@ -320,7 +320,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u5546\u54C1\u3092\u58F2\u308B"
+  m_Text: Sell
 --- !u!222 &110336216
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -394,7 +394,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u5E97\u4E3B\u3068\u8A71\u3059"
+  m_Text: Talk
 --- !u!222 &140813298
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -692,7 +692,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u767A\u52D5\u56DE\u6570"
+  m_Text: Uses
 --- !u!222 &277500932
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -772,7 +772,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u6575\u5175\u657030%\u4EE5\u4E0B"
+  m_Text: Enemy troops <30%
 --- !u!1 &333960654
 GameObject:
   m_ObjectHideFlags: 0
@@ -840,7 +840,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u58F2\u5374\u3059\u308B"
+  m_Text: Buy
 --- !u!222 &333960657
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -914,7 +914,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u8AAC\u660E"
+  m_Text: Info
 --- !u!222 &353713650
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -994,7 +994,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u30B9\u30DA\u30FC\u30C9V"
+  m_Text: Spade V
 --- !u!1 &421849570
 GameObject:
   m_ObjectHideFlags: 0
@@ -1062,7 +1062,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u30B9\u30AD\u30EB\u540D"
+  m_Text: Skill
 --- !u!222 &421849573
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1353,7 +1353,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u5546\u54C1\u540D"
+  m_Text: Name
 --- !u!222 &522821610
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2312,7 +2312,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u2665\u30EA\u30B8\u30A7\u30CD\u30EC\u30A4\u30C8 LV2\r"
+  m_Text: "\u2665Regenerate LV2"
 --- !u!222 &812487696
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2386,7 +2386,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u3084\u3081\u308B"
+  m_Text: Cancel
 --- !u!222 &833820984
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2719,7 +2719,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u5E97\u3092\u51FA\u308B"
+  m_Text: Leave
 --- !u!222 &864330357
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2867,7 +2867,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u8AAC\u660E"
+  m_Text: Info
 --- !u!222 &877667772
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3083,7 +3083,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u767A\u52D5\u30BF\u30A4\u30DF\u30F3\u30B0"
+  m_Text: Conditions
 --- !u!222 &955372329
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3828,7 +3828,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.3
-  m_Text: "\u30D7\u30ED\u30C6\u30A4\u30F3\uFF08\u30A4\u30C1\u30B4\u5473\uFF09\u3068\u30B2\u30AD\u30AB\u30E9\u3068\u3046\u304C\u3089\u3057\u5165\u308A\u306E\u6FC0\u30DE\u30BA\u30C1\u30E3\u30FC\u30CF\u30F3\u3002\u3042\u307E\u308A\u306E\u307E\u305A\u3055\u306B\u6575\u5168\u4F53\u306E\u653B\u6483\u529B\u3092\u4E0B\u3052\u308B\u3002\r"
+  m_Text: Fried rice, strawberry protein, and pepper. Yucky and also reduces the attack
+    power of the enemy.
 --- !u!222 &1078493199
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3991,7 +3992,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u767A\u52D5\u56DE\u6570"
+  m_Text: Uses
 --- !u!222 &1097742316
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4818,7 +4819,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.3
-  m_Text: "\u30D7\u30ED\u30C6\u30A4\u30F3\uFF08\u30A4\u30C1\u30B4\u5473\uFF09\u3068\u30B2\u30AD\u30AB\u30E9\u3068\u3046\u304C\u3089\u3057\u5165\u308A\u306E\u6FC0\u30DE\u30BA\u30C1\u30E3\u30FC\u30CF\u30F3\u3002\u3042\u307E\u308A\u306E\u307E\u305A\u3055\u306B\u6575\u5168\u4F53\u306E\u653B\u6483\u529B\u3092\u4E0B\u3052\u308B\u3002\r"
+  m_Text: Super mazu fried rice with protein (strawberry flavored) and gekikara pepper.
+    It is so bad that it reduces the attack power of the enemy.
 --- !u!222 &1257502942
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5357,7 +5359,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u2665\u30EA\u30B8\u30A7\u30CD\u30EC\u30A4\u30C8 LV2\r"
+  m_Text: "\u2665Regenerate LV2"
 --- !u!1 &1397083807
 GameObject:
   m_ObjectHideFlags: 0
@@ -5920,7 +5922,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u5546\u54C1\u540D"
+  m_Text: Name
 --- !u!222 &1496792219
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6068,7 +6070,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u8CFC\u5165\u3059\u308B"
+  m_Text: Buy
 --- !u!222 &1530537967
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6419,7 +6421,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u6575\u5175\u657030%\u4EE5\u4E0B"
+  m_Text: Enemy troops <30%
 --- !u!222 &1597608785
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6493,7 +6495,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u6240\u6301\u30DE\u30CA"
+  m_Text: Mana
 --- !u!222 &1627611255
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6567,7 +6569,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u6240\u6301\u30DE\u30CA"
+  m_Text: Mana
 --- !u!222 &1642945819
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6839,6 +6841,11 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 114894607751008216, guid: 19b213afbcef57a43a0dfdf5dae83dbb,
+        type: 2}
+      propertyPath: m_Text
+      value: Spade III
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 19b213afbcef57a43a0dfdf5dae83dbb, type: 2}
   m_IsPrefabParent: 0
@@ -6909,7 +6916,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u5546\u54C1\u3092\u8CB7\u3046"
+  m_Text: Buy
 --- !u!222 &1694482952
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7310,7 +7317,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u30B9\u30AD\u30EB\u540D"
+  m_Text: Skill
 --- !u!222 &1753493017
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7413,6 +7420,11 @@ Prefab:
         type: 2}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114581614341438804, guid: e07938438ddc784448adab0496471031,
+        type: 2}
+      propertyPath: m_Text
+      value: Spade III
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e07938438ddc784448adab0496471031, type: 2}
@@ -8202,7 +8214,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u304B\u3046"
+  m_Text: Accept
 --- !u!222 &1945779855
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8540,7 +8552,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u30B9\u30DA\u30FC\u30C9V"
+  m_Text: Spade V
 --- !u!222 &2054277769
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8963,7 +8975,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u767A\u52D5\u30BF\u30A4\u30DF\u30F3\u30B0"
+  m_Text: Conditions
 --- !u!222 &2102201424
 CanvasRenderer:
   m_ObjectHideFlags: 0

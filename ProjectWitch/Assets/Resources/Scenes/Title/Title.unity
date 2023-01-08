@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4465785, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -1816,7 +1816,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u3064\u3065\u304D\u304B\u3089"
+  m_Text: Continue
 --- !u!222 &382829833
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3627,7 +3627,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u304A\u308F\u308B"
+  m_Text: Quit
 --- !u!222 &635012037
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5852,7 +5852,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u306F\u3058\u3081\u304B\u3089"
+  m_Text: New Game
 --- !u!222 &975589466
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5931,7 +5931,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u304A\u308F\u308B"
+  m_Text: Quit
 --- !u!222 &1036647213
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6213,7 +6213,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u3064\u3065\u304D\u304B\u3089"
+  m_Text: Continue
 --- !u!222 &1062100019
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6770,7 +6770,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u306F\u3058\u3081\u304B\u3089"
+  m_Text: New Game
 --- !u!222 &1111310206
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7328,7 +7328,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u304A\u307E\u3051"
+  m_Text: Gallery
 --- !u!222 &1150936753
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8213,7 +8213,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u611F\u60F3\u3092\u66F8\u304F"
+  m_Text: Feedback
 --- !u!222 &1310626504
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8863,7 +8863,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: (c) 2018 koromo soft
+  m_Text: (c) 2018 Koromo Soft
 --- !u!222 &1375502461
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9996,7 +9996,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u8A2D\u5B9A"
+  m_Text: Config
 --- !u!222 &1526459851
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10615,7 +10615,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u30D0\u30B0\u5831\u544A"
+  m_Text: Bug Report
 --- !u!222 &1652563531
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10689,7 +10689,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u8A2D\u5B9A"
+  m_Text: Config
 --- !u!222 &1701713100
 CanvasRenderer:
   m_ObjectHideFlags: 0

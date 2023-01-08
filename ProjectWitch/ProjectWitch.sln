@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2017
+# Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectWitch.Plugins", "ProjectWitch.Plugins.csproj", "{817A2152-167D-1514-4D05-C0F275234371}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectWitch", "ProjectWitch.csproj", "{60FC2ACC-03F4-B960-2A01-92947F08A8DE}"

@@ -607,7 +607,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u5546\u54C1\u3092\u58F2\u308B"
+  m_Text: Sell
 --- !u!222 &110336216
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -829,7 +829,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u5E97\u4E3B\u3068\u8A71\u3059"
+  m_Text: Talk
 --- !u!222 &140813298
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3441,7 +3441,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u5E97\u3092\u51FA\u308B"
+  m_Text: Leave
 --- !u!222 &864330357
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8118,7 +8118,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u6240\u6301\u30DE\u30CA"
+  m_Text: Mana
 --- !u!222 &1627611255
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8313,7 +8313,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u6240\u6301\u30DE\u30CA"
+  m_Text: Mana
 --- !u!222 &1642945819
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8877,7 +8877,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u5546\u54C1\u3092\u8CB7\u3046"
+  m_Text: Buy
 --- !u!222 &1694482952
 CanvasRenderer:
   m_ObjectHideFlags: 0

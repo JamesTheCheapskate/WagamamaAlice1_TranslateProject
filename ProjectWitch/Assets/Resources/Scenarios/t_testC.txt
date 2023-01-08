@@ -3,7 +3,7 @@
 [filter name="clear" time=500]
 
 [show_message]
-Test of alley events。[p]
+路地裏イベントのテスト。[p]
 [hide_message]
 
 [filter name="fade" time=500]

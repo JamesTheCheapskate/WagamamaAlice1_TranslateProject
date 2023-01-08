@@ -3,7 +3,7 @@
 [filter name="clear" time=500]
 
 [show_message]
-Test of plaza event.[p]
+広場イベントのテスト。[p]
 [hide_message]
 
 [filter name="fade" time=500]
