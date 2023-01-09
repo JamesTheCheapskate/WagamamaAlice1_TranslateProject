@@ -14,82 +14,82 @@
 [drawcg id=0 pos="right"]
 [drawcg id=1 pos="left" dir="right"]
 
-#アリス
+#Alice
 [voice ref="000121"]
-……んっ。[p]
-#ヴェロニカ﻿
+...~sigh~[p]
+#Veronica
 [voice ref="000122"]
-あっ、目が覚めましたか？[p]
+Oh! Did you wake up?[p]
 [changecg id=0 state=2]
-#アリス
+#Alice
 [voice ref="000123"]
-お前……ヴェロニカ。[n]
-おい、ここは……。[p]
-#ヴェロニカ
+You're...Veronica.[n]
+Hey, where are we...?[p]
+#Veronica
 [voice ref="000124"]
-地下牢です。[n]
-……さっきライザに運ばれてきたんですよ。[p]
+It's an underground cell.[n]
+...You were brought here a little while ago by Ryza.[p]
 [move id=0 y=5 time=50]
 [move id=0 y=-5 time=50]
-#アリス
+#Alice
 [changecg id=0 state=6]
 [voice ref="000125"]
-あっ、そうだ！[n]
-畜生あの野郎……、私を……、泣き虫アリスとか言いやがって。[p]
-#ヴェロニカ
+Oh! That's right![n]
+That animal...she called me...crybaby Alice among other things.[p]
+#Veronica
 [voice ref="000126"]
-アリス、ごめんなさい……。[n]
-巻き込んだ形になってしまって。[p]
+Alice, I'm sorry...[n]
+that you ended up getting involved.[p]
 [changecg id=0 state=0]
-#アリス
+#Alice
 [voice ref="000127a"]
-ちぇっ、まったくだぜ。[p]
+Tch, totally. [p]
 [voice ref="000127b"]
-せっかく北の大地が見れると思ったのに。[n]
-さっきのあいつら、一体何なんだよ。[p]
+Especially when I thought I could see the land of the north.[n]
+Those guys a little while ago, who in the world were they?[p]
 [voice ref="000127c"]
-お前、裏切られたのか？[p]
-#ヴェロニカ
+You...were you betrayed?[p]
+#Veronica
 [voice ref="000128"]
-今の平和の世の中、攻撃魔法を教えることは必要ないと思っていました。[p]
+I thought that teaching attack magic was unnecessary in this peaceful world.[p]
 [voice ref="000128a"]
-私は日々の生活で使える、基本的な呪文を彼女たちに教えてきました。[p]
+I've been teaching them basic incantations that can be used in daily life...[p]
 [voice ref="000129"]
-……でも、彼女たちにはそれが不満だったようですね。[p]
-#アリス
+But, it seems like they were dissatisfied with that.[p]
+#Alice
 [voice ref="000130"]
-お前も相当変わった奴だな。[p]
+You're a pretty weird person, too. [p]
 [voice ref="000131"]
-超平和主義のババアでさえ、[n]
-私がせがんだらとっておきの攻撃呪文を教えてくれたってのに。[p]
-#ヴェロニカ
+Even our ultra pacifist old woman of a teacher 
+taught me her secret attack incantation when I begged her. [p]
+#Veronica
 [voice ref="000132"]
-お師匠様が……？[n]
-そうですか、お師匠様が。[p]
+Our esteemed teacher...?[n]
+Is that so, our teacher did that...?[p]
 [changecg id=0 state=0]
-#アリス
+#Alice
 [voice ref="000133"]
-……？[n]
-どうしたんだよ。[p]
-#ヴェロニカ
+...?[n]
+Why are you so surprised?[p]
+#Veronica
 [voice ref="000134"]
-いえ、何でもありません。[n]
-さあ、まずはここから抜け出すことを考えないと。[p]
-#アリス
+No, it's nothing.[n]
+Well, we need to think about escaping from here before anything else.[p]
+#Alice
 [voice ref="000135"]
-抜け道か何かあるのか？[p]
-#ヴェロニカ
+Is there a secret passageway or something?[p]
+#Veronica
 [voice ref="000136"]
-牢の中にそんなものはありません。[p]
+There is no such thing inside this prison cell...[p]
 [voice ref="000137"]
-……ですが、廊下に出られれば宮殿の外の森へ通じる抜け穴があります。[n]
-牢から出られればの話ですが。[p]
-#アリス
+However, in the corridor, there is an escape hole we can use that leads to the forest outside the palace.[n]
+That is, if we can escape from here. [p]
+#Alice
 [voice ref="000138"]
-牢から出られればね……。[n]
+If we can escape from the prison cell...[n]
 [changecg id=0 state=1]
-……、おい、ヴェロニカ。[n]
-ちょっと思いついたことがあるんだが……。[p]
+...Hey, Veronica.[n]
+I just thought of something...[p]
 [filter name="fade" time="500"]
 [clearcg id=1]
 [changecg id=0 state=6]
@@ -102,112 +102,111 @@
 [move id=0 y=-2 time=40]
 [move id=0 y=2 time=40]
 [move id=0 y=-2 time=40]
-#アリス
+#Alice
 [voice ref="000139"]
-いてえっ！！　いてえよぉーーーー！！！！[n]
-うおーーー！！　いてててて！！！！[p]
+Ouch!! Ouch!! [n]
+Uooooo!! Ow ow ouch![p]
 [drawcg id=2 pos="1" dir="right" layer="front"]
-#ニア
+#Nia
 [voice ref="000140"]
-ちょっとちょっと、騒がしいよぉー？[n]
-なになに？[p]
+Whoa, whoa, why are you being so loud all of a sudden?[n]
+What's wrong?[p]
 [voice ref="000141"]
-腹が痛いならそこの穴にすればいいでしょー？[p]
+If your stomach hurts, shouldn't you go to that hole over there?[p]
 [move id=0 y=5 time=50]
 [move id=0 y=-5 time=50]
 [move id=0 y=5 time=50]
 [move id=0 y=-5 time=50]
-#アリス
+#Alice
 [voice ref="000142"]
-もう出たよ！[n]
-全部出たけど痛いんだよぉーー！！[p]
+I already blew chunks everywhere in that hole![n]
+I threw up everything there is, but my stomach still hurts so bad![p]
 [voice ref="000143"]
-これ絶対ヘンな病気だ！　そうに決まってる！！[p]
+I've got some horribly strange disease! That's totally got to be it!![p]
 [scale id=1 sx=-1 time=200]
-#ヴェロニカ
+#Veronica
 [voice ref="000144"]
-そうだわ。[n]
-さっきのワープ魔法の副作用かもしれない……。[p]
+That must be it.[n]
+It might be a side effect of using warp magic earlier...[p]
 [voice ref="000145"]
-ニア、お願いだからアリスをお医者様のところへ連れて行ってあげて！[n]
-私たちの争いに、アリスは関係ないでしょう？[p]
-#ニア
+Nia, please show some mercy and take Alice to a doctor![n]
+She has nothing to do with our conflict, right?[p]
+#Nia
 [voice ref="000146"]
-うーん、それもそっか。そうだよねえ、うんうん。[n]
-ニアもね？　町で買ったしめさばにあたったときは、[n]
-三日間くらい何も食べられなかったんだよ。[n]
-つらいよねぇ、うんうん。[p]
-#アリス
+Hmmm, I see. That's right isn't it. Yep, yep.[n]
+I know how you feel. When I ate some cured mackeral I bought in town,[n]
+I couldn't eat anything for three days.[n]
+It was so painful, yep, yep.[p]
+#Alice
 [move id=0 x=0 y=2 time=50]
 [move id=0 x=0 y=-2 time=50]
 [move id=0 x=0 y=2 time=50]
 [move id=0 x=0 y=-2 time=50]
 [voice ref="000146a"]
-（ちっ、さっさと牢の扉を開けろってんだこの野郎……。）[p]
+(Tch. C'mon and open the door already, you jerk...)[p]
 [scale id=1 sx=-1 time=200]
-#ヴェロニカ
+#Veronica
 [move id=1 x=0 y=2 time=50]
 [move id=1 x=0 y=-2 time=50]
 [move id=1 x=0 y=2 time=50]
 [move id=1 x=0 y=-2 time=50]
 [voice ref="000147"]
-（しっ！　気づかれますよ！）[p]
-#ニア
+(Shh! She'll figure you out!)[p]
+#Nia
 [voice ref="000148"]
-んー？　何か言った？[p]
+Hmm? Did you say something?[p]
 [scale id=1 sx=-1 time=100]
-#ヴェロニカ
+#Veronica
 [voice ref="000149"]
-いっ、いえ。なにも……。[p]
-#アリス
+Ah, no. Nothing...[p]
+#Alice
 [voice ref="000150"]
-うおおおーーー、いってえええよぉおおおーー！！[p]
+Uoooooo, it hurts sooo baaaad!![p]
 [move id=2 x=20 time=400]
-#ニア
+#Nia
 [voice ref="000151"]
-なーんか、怪しいなぁ？[n]
-もしかして、このニアちゃんをだまそうってんじゃないよね？[p]
+Hmm, something seems fishy.[n]
+You're not trying to trick me, are you?[p]
 [voice ref="000152"]
-別にこの場でぶっ殺してもいいんだよ？[n]
-後でライザに怒られるだけだもーん。[p]
-#ヴェロニカ
+(Would it be fine for me to just kill you right here? Ryza would totally get angry at me later though.)[p]
+#Veronica
 [voice ref="000153"]
-そんなわけないでしょう！[n]
-ほ、ほら……アリスもこんなに痛がってますから。[p]
-#アリス
+There's no way that's true![n]
+L-Look...Alice is hurting so much, after all.[p]
+#Alice
 [voice ref="000154"]
-うっ、そろそろ……やばいかも。[n]
-ううーーーー！！[p]
+Ugh, I'm about to...It might not make it...[n]
+Uu!!![p]
 [scale id=3 sx=-1 time=400]
-#ニア
+#Nia
 [voice ref="000155"]
-うーん、そっか。[n]
+Hmm. Okay.[n]
 [scale id=3 sx=-1 time=400]
-うん、そろそろやばいならしょうがないね。[n]
+Well, if it's that serious, I have no choice.[n]
 [rotate id=2 angle=5 time=50]
 [rotate id=2 angle=-5 time=50]
-ほら、出てきていいよ。[p]
+Look, it's OK to come out.[p]
 [cn]
-疑った割に、ニアはあっさりと牢の扉を開けた。[p]
+Despite her doubts, Nia nonchalantly opened the cell door.[p]
 [changecg id=0 state=0]
-#アリス
+#Alice
 [moveto id=0 x=50 time=400]
 [voice ref="000156"]
-うー、悪いな。[p]
-#ニア
+Aw, this isn't good.[p]
+#Nia
 [voice ref="000157"]
-いいよいいよ、ほら、早くいこー？[p]
-#アリス
+It's okay, hey, let's go quickly.[p]
+#Alice
 [voice ref="000158"]
-いやあ、ほんと悪いな。[n]
+No, actually, this isn't good... for you[n]
 [changecg id=0 state=1]
-……だまして。[p]
-#ニア
+...fooled you.[p]
+#Nia
 [voice ref="000159"]
-えっ？[p]
-#アリス
+Whaaat?[p]
+#Alice
 [voice ref="000160"]
-破壊光線ーーーーーー！！！！[p]
+Destruction beaaaaaaaammm!!!![p]
 
 [hide_message]
 [se ref="100_fx_aliceA"]
@@ -216,32 +215,32 @@
 [move id=2 x=-100 y=10 time=200]
 [clearcg id=2]
 
-#ニア
+#Nia
 [voice ref="000161"]
-きゃ、きゃあああああーーーーー！！！！[p]
+Kyaaaahhhhh!!!!![p]
 
 [filter name="clear" time=500]
 
 [cn]
-アリスの破壊光線がニアに命中した。[p]
-ニアは反対の牢の壁まで吹き飛んで、気絶してしまった。[p]
+Alice's destruction beam hit Nia,[p]
+and she was blown away, slamming into the wall and rendered unconscious.[p]
 [move id=0 x=-20 time=500]
 [scale id=0 sx=-1 time=300]
-#アリス
+#Alice
 [voice ref="000162"]
-へへっ、単純な手に引っかかりやがって。[n]
-ちょろいやつだ。[p]
-#ヴェロニカ
+Hehe, falling for such a simple trick.[n]
+You're so gullible.[p]
+#Veronica
 [voice ref="000163"]
-結構危なかったと思いますけど……。[p]
+I think that was fairly dangerous, but...[p]
 [changecg id=0 state=2]
-#アリス
+#Alice
 [voice ref="000164"]
-うるせえ[n]
-ほら、さっさと抜け道とやらに案内しろよ。[p]
-#ヴェロニカ
+That's enough about that.[n]
+Hey, quickly get us to the escape path.[p]
+#Veronica
 [voice ref="000165"]
-ええ、わかってますよ。[p]
+Yes, I understand.[p]
 [move id=1 x=-100 time=300]
 [clearcg id=1]
 [scale id=0 sx=-1 time=100]
@@ -250,10 +249,10 @@
 [filter name="fade" time="500"]
 
 [voice ref="000166"]
-（しかし、ただわがままなだけかと思っていましたが[n]
-案外大胆な行動力を持っているのですね。[p]
+(I had wondered if she was merely selfish,[n]
+but she's also unexpectedly bold, isn't she?)[p]
 [voice ref="000167"]
-アリス、この子意外と……。）[p]
+(She's full of surprises...)[p]
 [stopbgm]
 [cn]
 ……………。[p]
@@ -263,63 +262,65 @@
 [drawcg id=1 pos="left" dir="right"]
 [filter name="clear" time="500"]
 
-宮殿から脱出したアリスたちはヴェロニカ直属の軍と合流し、[n]
-夜のうちに安全な西方の城へと到着した。[p]
-#ヴェロニカ
+After escaping from the palace, they joined forces 
+with the military directly under Veronica's command, 
+and arrived safely at the western castle during the night.[p]
+#Veronica
 [voice ref="000167a"]
-アリス、あなたにはいろいろと迷惑をかけましたね。[p]
+Alice, I've caused you a lot of trouble, haven't I?[p]
 [voice ref="000168"]
-……北の大地を案内してあげる約束は反故になってしまいましたし、[n]
-大魔女を名乗っておきながら情けないものです。[p]
+My promise to guide you through the northern 
+lands has been thwarted, and it's pitiful that 
+I'm calling myself a great witch.[p]
 [changecg id=0 state=1]
-#アリス
+#Alice
 [voice ref="000169"]
-ふん！　勝手に反故にするんじゃねえ。[n]
-あんな馬鹿どもさっさとぶっ殺して、私を丁重に迎え入れろ。[p]
+Hmph! Don't blame yourself for this mess. 
+Quickly kill those fools and graciously welcome 
+me back as the most honored of guests.[p]
 [voice ref="000170"]
-最上級の客人としてだ。[n]
-うまい酒と食い物と、あとなんか面白い余興なんかあるといいな。[p]
-#ヴェロニカ
+It'd be nice if there were some good drinks,[n]
+food, and some interesting entertainment.[p]
+#Veronica
 [voice ref="000171"]
-ふふ……ええ、わかりました。[n]
-何かとっておきのものを考えておきますね。[p]
-…………。[p]
+Haha...Yes, I undertand.[n]
+I'll make sure to think of something special.[p]
+...[p]
 [voice ref="000172"]
-アリス……、どうかお元気で。[p]
+Alice...Please take care.[p]
 [changecg id=0 state=0]
-#アリス
+#Alice
 [voice ref="000173"]
-おう……。[p]
+Sure will.[p]
 [cn]
-ヴェロニカのワープ魔法がアリスの体を包み込む。[n]
+Veronica's warp magic envelops Alice's body.[n]
 [se ref="117_fx_velonicaB"]
 [filter name="flush" color="FFFFFF" time=200]
 [clearcg id=0]
-次の瞬間、アリスは忽然と姿を消していた。[p]
-#ヴェロニカ
+In an instant, Alice suddenly disappeared.[p]
+#Veronica
 [voice ref="000174"]
-うっ……
+Ugh...
 [move id=1 x=0 y=-5 time=50]
 [move id=1 x=0 y=5 time=50]
-げほっ、
 [move id=1 x=0 y=-5 time=50]
 [move id=1 x=0 y=5 time=50]
-げほっ！！
 [se ref="157"]
 [move id=1 x=0 y=-5 time=200]
 [move id=1 x=0 y=5 time=200]
-はあ……
 [move id=1 x=0 y=-5 time=200]
 [move id=1 x=0 y=5 time=200]
-はあ。[n]
-レベル1の魔力ではやはり少なすぎるわね……。[p]
-[voice ref="000175"]
-……当分ワープ魔法は使えないわ。[n]
-アリス……。[p]
 [cn]
-ヴェロニカは東の大地を見渡した。[p]
-遠くの平野で砂埃が上がっているのが見えた。[p]
-実に二十万を超える大軍勢がヴェロニカの居城に迫ろうとしていた……。[p]
+Veronica struggles to breath, gasping for air as if she'd just run a marathon.[p]
+#Veronica
+My magical power at level 1 is a bit too weak now, isn't it?[p]
+[voice ref="000175"]
+...I won't be able to use warp magic for some time.[n]
+Alice...[p]
+[cn]
+Veronica looked out over the eastern land.[p]
+In the distance, she could see dust rising from the plains.[p]
+An army of more than 200,000 was approaching her castle...[p]
 [filter name="fade" time="500"]
 [clearcg id=1]
 [stopbgm]
@@ -333,88 +334,94 @@
 [drawbg ref="1002m"]
 [filter name="clear" time="500"]
 
-#アリス
+#Alice
 [voice ref="000176"]
-ってわけで、大変だったんだよ。[p]
-#チシャ
-[voice ref="000177"]
-しかし、いろいろと信じられないお話ばかりです……[n]
-まさか北の大地でそんなことになっているとは。[p]
-#クロ
-[voice ref="000178"]
-ヴェロニカ様がお元気そうで安心いたしました。[p]
-[changecg id=0 state=2]
-#アリス
-[voice ref="000179"]
-あっ、クロ！　お前知っていたのか！！[p]
+So, uh...that was pretty rough.[p]
 [cn]
-クロ[p]
-アリスの部下の一人でアリスの師匠の代から使える重臣である。[p]
-#クロ
-[voice ref="000180"]
-ええ、アリス様が町へ行かれているときに何度か屋敷の方にも来られていましたので。[p]
-[changecg id=0 state=0]
-#アリス
-[voice ref="000181"]
-ちぇー、早く言ってくれよな！[p]
-#チシャ
-[voice ref="000182"]
-ところでアリス様。[n]
-アリス様がいない間にいろいろありまして……。[p]
-#アリス
-[voice ref="000183"]
-いろいろ？　それはどういうことだ？[p]
-#クロ
-[voice ref="000184"]
-アリス様。つい先ほど、メイジー様が軍を率いてアッサム砦を制圧した模様。[p]
+Alice meets with Cheshire and her other retainers and shares the story of her recent exploits.[p]
+#Cheshire
+[voice ref="000177"]
+The events you describe are so fantastical...[n]
+I'm having a hard time believing something[n]
+like that happened in the north lands.[p]
+#Kuro
+[voice ref="000178"]
+I'm relieved to hear that her highness Queen Veronica is safe.[p]
 [changecg id=0 state=2]
-#アリス
+#Alice
+[voice ref="000179"]
+Oy, Kuro! You knew about her already?! [p]
+[cn]
+Kuro: One of Alice's retainers, he has been a trusted advisor 
+to Alice's mentor, the previous ruler, for many years. [p]
+#Kuro
+[voice ref="000180"]
+Yes, she's visited the mansion several times [n]
+while you've been out in town.[p]
+[changecg id=0 state=0]
+#Alice
+[voice ref="000181"]
+Tch, you should tell me things like this sooner![p]
+#Cheshire
+[voice ref="000182"]
+By the way Queen Alice,[n]
+some things have happened while you weren't here.[p]
+#Alice
+[voice ref="000183"]
+Things? What sort of things?[p]
+#Kuro
+[voice ref="000184"]
+Queen Alice, just a little while ago Minister Maisie 
+apparently led an army and captured Assam Fortress.[p]
+[changecg id=0 state=2]
+#Alice
 [voice ref="000185"]
-制圧？　馬鹿言うな、あそこは私の領土だぞ。[p]
-#チシャ
+Captured? Don't be ridiculous, that's MY territory.[p]
+#Cheshire
 [voice ref="000186"]
-……メイジー様からこんな書置きが。[p]
-#アリス
+...There's a note for you from Minister Maisie.[p]
+#Alice
 [voice ref="000187"]
-読め。[p]
-#チシャ
+Read it.[p]
+#Cheshire
 [move id=3 x=0 y=5 time=50]
 [move id=3 x=0 y=-5 time=50]
 [voice ref="000188"]
-はっ、ハイ。[p]
+Y-Yes.[p]
 [se ref="162"]
 [voice ref="000189"]
-「姉さんは何を考えているの？[p]
+"What were you thinking, elder sister?[p]
 [voice ref="000189a"]
-領主の仕事はしない、予算を私費で圧迫する、町の会議では寝る、
-おまけに会議の途中でいなくなるなんて[n]
-もう我慢できないわ。[p]
+You don't do the work of a lord, inflate the 
+budget with private expenses, sleep at town meetings, 
+and you even disappeared in the middle of a meeting...[p]
+I can't put up with it anymore.[p]
 [voice ref="000190"]
-姉さんに代わって、お師匠様の土地は私が[n]
-治めます！」[p]
+I will manage our honorable teacher's lands.[n]
+I'll take care of them since you will not!"[p]
 [voice ref="000191"]
-……だそうです。[p]
+...that's what it says.[p]
 [move id=0 y=5 time=50]
 [move id=0 y=-5 time=50]
 [changecg id=0 state=6]
-#アリス
+#Alice
 [voice ref="000192"]
-あんの野郎ーーー！！！！ 私の苦労も知らないで！[n]
-クロ！　残った兵をかき集めろ！！[p]
+That Jeeerk!!!! She doesn't even know what I've been through![n]
+Kuro! Gather the remaining troops!![p]
 [voice ref="000193"]
-今からメイジーに寝返るやつは容赦なくぶち殺せ！！[p]
+From now on, mercilessly kill those to defect to Maisie![p]
 [voice ref="000194"]
-全軍で裏切者メイジーをたたきのめしてやるぞ！！[p]
-#クロ
+I'll use my entire army to beat that traitor to a pulp!![p]
+#Kuro
 [voice ref="000195"]
-はっ、かしこまりました。[p]
+Yes, your majesty. Understood.[p]
 [scale id=4 sx=-1 time=100]
 [move id=4 x=-50 y=0 time=200]
 [changecg id=0 state=1]
-#アリス
+#Alice
 [voice ref="000196"]
-メイジーめ、[n]
-クフフフフッ、格の違いというものを思い知らせてやる！！！！[p]
+Stupid Maisie,[n]
+Mwahahahaha, I'll remind you of your place!!!![p]
 ;オープニング
 
 [filter name="fade" time=500]
