@@ -18,9 +18,9 @@
 
 [show_message]
 [scale id=1 sx=-1 time=100]
-#クロ
+#Kuro
 [voice ref="010053a"]
-引けっ、引けーーー！！！ [p]
+Withdraw, withdraw!!![p]
 [move id=1 x=-70 time=400]
 
 [filter name="fade" time=500]
@@ -31,64 +31,64 @@
 
 [drawcg id=2 pos=4]
 [filter name="clear" time=500]
-#伝令
+#Messenger
 [voice ref="010054"]
-ワーウルフ様、アリス軍が撤退を始めました！[p]
-#ワーウルフ
+Lord Werewolf, Alice's army has started to retreat![p]
+#Werewolf
 [voice ref="010055"]
-なんだ、妙に諦めが早いな。[n]
-何かの罠か？[p]
-#伝令
+What, they're giving up too easily.[n]
+Is it some kind of trap?[p]
+#Messenger
 [voice ref="010056"]
-いえ、考えすぎかと思いますが。[p]
-#ワーウルフ
+No, Perhaps you're overthinking the situation?[p]
+#Werewolf
 [voice ref="010057"]
-しかし、それではわざわざ2000の兵を差し向けた意味が……[n]
-まさか伏兵！？[p]
-#伝令
+But then, what was the point of sending 2,000 troops...[n]
+Could it be an ambush?![p]
+#Messenger
 [voice ref="010058"]
-ただのいぬっコロかと思えば、案外カンがいいんだな[p]
-#ワーウルフ
+Well, if it's just a bunch of dogs, their numbers might not really matter.[p]
+#Werewolf
 [voice ref="010059"]
-なっ、貴様、何者だ！！[p]
+Who are you?![p]
 [moveto id=1 x=20 y=50 time=200]
 ;[clearcg id=3]
 [drawcg id=0 pos="2" dir="right" state=1]
 
-#アリス
+#Alice
 [voice ref="010060"]
-クフフッ[n]
-まあ、気づくのが遅かったな。[p]
-#ワーウルフ
+Kufufu[n]
+Ah, it took you a while to notice.[p]
+#Werewolf
 [voice ref="010061"]
-アリスッ！！！[p]
-#アリス
+Alice!!![p]
+#Alice
 [voice ref="010062"]
-お前の負けだ、いぬっコロ！[n]
-破壊光線ーーーーーーッ！！！[p]
+You lose, mutt![n]
+Destruction beaaaaaaaammm!!!![p]
 
 [hide_message]
 [se ref="100_fx_aliceA"]
 [filter name="color" color="FFFFFF" time=800]
 [show_message]
 
-#ワーウルフ
+#Werewolf
 [voice ref="010063"]
-ぎゃあああああーーーーーッ！！[p]
+Gyaaaaah!![p]
 [cn]
 [clearcg id=2]
 
 [filter name="clear" time=800]
 
 [scale id=0 sx=-1 time=100]
-#アリス
+#Alice
 [voice ref="010064"]
-開門だッ！！　魔導砲は制圧した。[n]
-全軍突撃！！　裏切り者を逃がすなッ！！[p]
+Open the gates! We've gained control of the magic cannon.
+All troops, attack! Don't let the traitor escape![p]
 [scale id=0 sx=-1 time=100]
-#アリス軍兵士
+#Alice's Troops
 [voice ref="010052a"]
- オオオオオオォォォォォーーーーッ！！！[p]
+Ooooooooaoooooooaaaaaaaaahhhhhh!!! [p]
 
 [filter name="fade" time=500]
 [cn]
@@ -103,75 +103,72 @@
 [drawcg id=1 pos="1" dir="right"]
 [filter name="clear" time=500]
 [show_message]
-#クロ
+#Kuro
 [voice ref="010065"]
-アリス様、敵の大将です。[p]
-#アリス
+Queen Alice, this is the enemy's general.[p]
+#Alice
 [voice ref="010066"]
-ふん、手間を取らせやがって。[n]
-オイ、メイジーはどこにいる。[p]
-#ワーウルフ
+Hmph, what a waste of effort.[n]
+Hey, where is Maisie?[p]
+#Werewolf
 [voice ref="010067"]
-貴様なんぞ、メイジー様にかかれば。[p]
-#アリス
+As if I would tell scum like you.[p]
+#Alice
 [move id=0 x=-5 y=0 time=50]
 [changecg id=0 state=2]
 [voice ref="010068"]
-私の質問に答えろ！！[n]
-それとも今すぐ死にたいか。[p]
-#ワーウルフ
+Answer my question !![n]
+Or do you want to die right now?[p]
+#Werewolf
 [voice ref="010068a"]
-死は覚悟している。 貴様なんぞに話すことはない。[p]
-#アリス
+I am ready to die. I have nothing to say to the likes of you.[p]
+#Alice
 [changecg id=0 state=0]
 [voice ref="010069"]
-チッ、ずいぶん嫌われたもんだ。[n]
-しかし、そうか……メイジーが反乱と聞いた時は耳を疑ったが、
-お前がメイジーをそそのかしたな？[p]
-#ワーウルフ
+Tch, you really hate me.[n]
+Now I see...It was you who swayed Maisie to start the rebellion, wasn't it? [p]
+#Werewolf
 [move id=2 x=5 y=0 time=50]
 [voice ref="010070"]
-なんだと！[p]
-#アリス
+What?![p]
+#Alice
 [voice ref="010071"]
-確かにあいつは怒っていたが、[n]
-まさかその程度の理由で反乱を起こすとは考えられん[p]
-#ワーウルフ
+Sure, Maisie was angry, but there's no way they'd cause a rebellion over such a small reason.[p]
+#Werewolf
 [voice ref="010072"]
-くっ……！[n]
-貴様のような存在がメイジー様の近くにいるから……！！[p]
+Grr...![n]
+Why did the previous lord allow someone like you to be near Lady Maisie?[p]
 [voice ref="010073"]
-メイジー様は誰よりも部下を愛し、大切になさる優しいお方。[n]
-それなのに、先代様はなぜ！！[p]
-#アリス
+Lady Maisie is a kind and caring person who loves her subordinates more than anyone else. Yet, why did the previous lord allow it? [p]
+#Alice
 [changecg id=0 state=2]
 [voice ref="010074"]
-そんなこと、あの世でババアに聞きな。[p]
+Ask that old hag about it in the afterlife. [p]
 
 [moveto id=0 x=50 time=500]
 [se ref="150"]
 [filter name="flush" color="FF0000" time=300]
 
-#ワーウルフ
+#Werewolf
 [voice ref="010075"]
-ぐっ……、メイジー様……。[p]
+Ugh...Lady Maisie...[p]
 
 ;倒れる
 [move id=2 x=0 y=-10 time=400]
 [clearcg id=2]
 [scale id=0 sx=-1 time=300]
-#アリス
+#Alice
 [voice ref="010076"]
-クロ、コイツの首をはねて、北の方に向けてさらせ。[n]
-よく見える場所にな。[n]
-ここにいないとしたら、ニルギリ砦にいるはずだ。[p]
-#クロ
+Kuro, cut off this guy's head and send it north. 
+Make sure it's in a visible place. 
+If she's not here, she should be in the Nilgiri fortress.[p]
+#Kuro
 [voice ref="010077"]
-はっ……。[p]
+Yes...[p]
 [move id=0 x=30 time=800]
-#アリス
+#Alice
 [voice ref="010078"]
-フン、領主はこの私だ。 絶対に譲らんぞ。 [p]
+Hmph, I am the ruler here. I will never yield.[p]
 [move id=0 x=40 time=1000]
 [moveto id=1 x=50 time=800]
 [move id=1 y=-5 time=300]

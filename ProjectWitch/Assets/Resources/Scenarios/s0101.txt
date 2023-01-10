@@ -20,17 +20,17 @@
 [filter name="clear" time=500]
 
 [show_message]
-#アリス
+#Alice
 [voice ref="010006"]
-ヘッ！　ざまあみやがれ。[p]
-#クロ
+Hmph! What a mess.[p]
+#Kuro
 [voice ref="010007"]
-メイジー様の勢力は後退した模様。[n]
-ひとまず勝利でございます、アリス様。[p]
-#アリス
+It appears that Minister Meijii's forces have retreated. 
+For now, we have won, your majesty.[p]
+#Alice
 [voice ref="010008"]
-メイジーを捕らえることはできなかったがまあいい。[n]
-すぐに捕まえてやるぞ、 クフフフフフフ……。 [p]
+Even though we couldn't capture Meijii, it's fine. [n]
+We'll capture her soon, hehehehehe...[p]
 ;アリス領　アッサム砦
 
 [filter name="fade" time=500]
@@ -42,36 +42,36 @@
 
 [drawcg id=2 pos="right"]
 [drawcg id=3 pos="left" dir="right"]
-#ワーウルフ
+#Werewolf
 [voice ref="010009"]
-メイジー様！　ご無事ですか。[p]
-#メイジー
+Minister Maisie! Are you alright?[p]
+#Maisie
 [voice ref="010010"]
-ワーウルフ……[n]
-うん、何とか。[p]
-#ワーウルフ
+Werewolf...[n]
+Yes, somehow.[p]
+#Werewolf
 [voice ref="010011"]
-兵数は五分五分。[n]
-なのにこの差は一体……。[p]
-#メイジー
+Our troop strengths were evenly matched
+...but why did it turn out this way...[p]
+#Maisie
 [voice ref="010012"]
-姉さんこういうのは得意だから。[p]
+Elder sister is good at stuff like this.[p]
 [voice ref="010012a"]
-本当はもっと兵が集まると思っていたんだけど、[n]
-見通しが甘かったわ。[p]
-#ワーウルフ
+I was actually expecting to have a larger force than her, 
+but I was too optimistic.[p]
+#Werewolf
 [voice ref="010013"]
-メイジー様、今はとりあえずお引き退きを。[p]
-#メイジー
+Minister Maisie, you should retreat for now.[p]
+#Maisie
 [voice ref="010014"]
-ええ、わかったわ。[n]
-ここは任せたわよ、ワーウルフ。[p]
-#ワーウルフ
+Yes, I understand.[n]
+I'll leave this to you, werewolf.[p]
+#Werewolf
 [voice ref="010015"]
-はっ、お任せください。[p]
+Yes, please leave it to me.[p]
 [voice ref="010015a"]
-ここは先代様がロレーヌの魔女たちの進行を防ぐために作られた強固な砦。[n]
-そう簡単には落とせますまい。[p]
+This fortress was built by our parents to prevent the advance of the witches of Lorelei. 
+We won't let it fall easily.[p]
 [scale id=2 sx=-1 time=300]
 [move id=2 x=60 time=500]
 

@@ -20,23 +20,23 @@
 [drawcg id=0 pos="right" state="2"]
 [drawcg id=1 pos="left" dir="right"]
 [show_message]
-#チシャ
+#Cheshire
 [voice ref="010031"]
-お疲れ様でございました。[n]
-今日は良い茶葉が入りましたよ、どうぞ。[p]
-#アリス
+Good work.[n]
+Today we have some exceptional tea leaves, please try some tea.[p]
+#Alice
 [voice ref="010032"]
-あーーーー！！[n]
-今は紅茶なんてゆっくり飲んでいる気分じゃなーーい！！[p]
+Ahhh!![n]
+I'm not in the mood to leisurely drink tea right now!![p]
 [rotate id=0 angle=10 time=50]
 [rotate id=0 angle=-10 time=50]
 ;水音
 [move id=1 x=-5 y=5 time=50]
 [move id=1 y=-5 time=50]
-#チシャ
+#Cheshire
 [voice ref="010033"]
-わっ！[n]
-アリス様、紅茶がこぼれて書類が、ああああ……。[p]
+Oh no![n]
+Queen Alice, the tea is spilling all over the documents...oh my.[p]
 [move id=1 x=10 time=200]
 [move id=1 x=0 y=-10 time=200]
 [move id=1 x=5 y=0 time=200]
@@ -49,32 +49,31 @@
 [wait time=200]
 [scale id=1 sx=-1 time=100]
 [move id=1 x=-5 y=0 time=200]
-#アリス
+#Alice
 [voice ref="010034"]
-畜生、あの魔導砲さえ何とかできれば……。[p]
-#チシャ
+That beast, if we could just somehow deal with the magical cannon...[p]
+#Cheshire
 [scale id=1 sx=-1 time=300]
 [move id=1 x=0 y=10 time=200]
 [voice ref="010035"]
-魔導砲でございますか。[p]
-#アリス
+Magical cannon?[p]
+#Alice
 [voice ref="010036"]
-ババアも厄介なものを残してくれたもんだ。[n]
-作ろうにも、短期間で作れる代物じゃないし……。[p]
-#チシャ
+The old hag left behind some troublesome things. 
+Even if we tried to make our own, it's not something that can be made in a reasonable amount of time...[p]
+#Cheshire
 [voice ref="010037"]
-抜け道でもあったらいいのですが、[n]
-あ……いえ、[n]
-そんなものあったら砦の意味がないですが。[p]
-#アリス
+If only there were some way.around the problem...
+ah, no, if there were, then the fort would have been pointless to begin with.[p]
+#Alice
 [changecg id=0 state=1]
 [voice ref="010038"]
-いや……抜け道か。[n]
-クフフフフフフ、 いけるかもしれんぞ？[p]
-#チシャ
+No...way around it?[n]
+Kufufufufufu, maybe there is a way after all.[p]
+#Cheshire
 [voice ref="010039"]
-え？[n]
-アリス様……それは一体。[p]
+Huh?[n]
+Queen Alice...what do you mean?[p]
 [hide_message]
 
 [filter name="fade" time=500]

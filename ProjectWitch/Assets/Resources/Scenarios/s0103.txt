@@ -17,9 +17,9 @@
 [show_message]
 [drawcg id=0 pos=3 dir="right" state=6]
 [drawcg id=1 pos=2 dir="right"]
-#アリス
+#Alice
 [voice ref="010016"]
-くっ……、撤退だ！！　畜生、メイジーめ、覚えてろよー！！[p]
+Ku...Retreat!! You beast, I'll remember this, you stupid Maisie!![p]
 [scale id=0 sx=-1 time=100]
 [move id=0 x=-100 time=500]
 [scale id=1 sx=-1 time=100]

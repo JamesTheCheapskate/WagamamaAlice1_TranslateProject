@@ -21,14 +21,14 @@
 [show_message]
 ;拠点に設置された魔導砲にコテンパンにやられる。
 [scale id=1 sx=-1 time=100]
-#クロ
+#Kuro
 [voice ref="010029"]
-アリス様！[n]
-このままでは軍は壊滅です！[p]
-#アリス
+Queen Alice![n]
+If we continue like this, the army will be destroyed![p]
+#Alice
 [voice ref="010030"]
-畜生！[n]
-撤退だーーーー！！！ [p]
+You beast![n]
+Retreat!!! [p]
 [scale id=0 sx=-1 time=100]
 [move id=0 x=-50 time=250]
 [move id=1 x=-100 time=500]

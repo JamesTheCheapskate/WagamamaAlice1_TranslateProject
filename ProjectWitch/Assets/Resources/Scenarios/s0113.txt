@@ -20,50 +20,48 @@
 [filter name="clear" time=500]
 
 [show_message]
-#アリス
+#Alice
 [voice ref="010100"]
-クフフフフッ、アッハッハッハッハッハ！！[n]
-ようメイジー。どうだ気分は？[p]
-#メイジー
+Kufufufufu, Hahaha! [n]
+What's the matter, Maisie? How are you feeling?[p]
+#Maisie
 [voice ref="010102"]
-うっぶ、おえっ、んっ！！　んっ！　ぶっ……んんんんっ！！！！[p]
-#アリス
+Aah! Aah! Nngh! Nngh! Nngh! Aah![p]
+#Alice
 [voice ref="010103"]
-ああ、話せんか。[n]
-オイ、抜いてやれ。[p]
-#クロ
+Oh, can't talk, huh?[n]
+Kuro, take it out. [p]
+#Kuro
 [voice ref="010104"]
-はっ。[p]
+Yes.[p]
 
-#メイジー
+#Maisie
 [voice ref="010105"]
-ぶっ……げほっ、げほっ！！！　おえっ……、はぁ、はぁ。[p]
-#アリス
+Nngh! Aah! Aah! Nngh! Aah! Nngh! Aah! Nngh! Aah![p]
+#Alice
 [voice ref="010106"]
-クフフッ[n]
-まさかこの前町で買い付けた奴が早速役に立つとはな[p]
-#チシャ
+Kufufu[n]
+I can't believe this thing I bought in town came in handy so quickly. [p]
+#Cheshire
 [voice ref="010107"]
-触手モンスターとはいったいどういうつもりで買ったのですか。[p]
+What on earth were you thinking when you bought a tentacle monster? [p]
 [voice ref="010107a"]
-ほら、メイジー様も苦しそうですし……その辺で。[p]
-#アリス
+Look, Minister Maisie still looks like she's in pain...Just look at her injuries.[p]
+#Alice
 [voice ref="010108"]
-バカ野郎！　これはお仕置きなんだぞ。[n]
-苦しくなきゃ意味ないじゃないか！[n]
-クロ、もう一回突っ込め！！[p]
-#クロ
+You idiot! This is punishment. It's not supposed to be enjoyable! Kuro, stick it in again![p]
+#Kuro
 [voice ref="010109"]
-はっ。[p]
+Yes, Ma'am.[p]
 
-#メイジー
+#Maisie
 [voice ref="010110"]
-やっ、いやあっ！！　やっ……んんっ！！　[n]
-おぇ、ぶっ、じゅぶぶっ！！！[p]
-#チシャ
+Aah! No! Aah! Nngh! Aah![n] 
+Nngh! Aah! Nngh! Aah![p]
+#Cheshire
 [voice ref="010111"]
-あっ、ああ……。[n]
-おいたわしやメイジー様。なむなむ。[p]
+Ah, ahh...[n]
+Oh dear, Maisie...This is terrible.[p]
 
 ;CGフラグ
 [sys_memset type="system" index=101 value=1]
@@ -87,43 +85,42 @@
 [drawcg id=3 pos="3"]
 [show_message]
 [cn]
-戦いの終わった砦にはおびただしい数の死体が散らばっている。[p]
-その死体なかに、赤い頭巾の少女の姿はあった。[p]
-うつろな表情の亡骸をアリスは見下ろしている。[p]
-#アリス
+The fortress at the end of the battle is scattered with an enormous number of corpses. Among those corpses is the figure of a girl with a red headband.[p]
+Alice looks down at the lifeless body with a blank expression. [p]
+#Alice
 [voice ref="010087"]
 …………。[p]
-#部下
+#Subordinate
 [voice ref="010088"]
-申し上げます。[n]
-残党処理、完了しました。[p]
-#アリス
+Pardon the instruction.[n]
+We have finished dealing with the remaining rebels. [p]
+#Alice
 [voice ref="010089"]
 …………。[p]
-#クロ
+#Kuro
 [voice ref="010090"]
-よい、下がれ。[p]
-#部下
+Good, dismissed. [p]
+#Subordinate
 [voice ref="010091"]
-はっ。[p]
+Yes, sir.[p]
 [scale id=1 sx=-1 time=300]
-#クロ
+#Kuro
 [voice ref="010092"]
-アリス様……。[p]
+Queen Alice...[p]
 [scale id=0 sx=-1 time=300]
-#アリス
+#Alice
 [voice ref="010093"]
-ばかな奴だ。[n]
-私に逆らうから……、一回も勝ったことないくせに。[p]
-#クロ
+Foolish sister.[n]
+To rebel against me...It looks like I win again.[p]
+#Kuro
 [voice ref="010094"]
-……戦後処理がありますので、私はこれで。[p]
-#アリス
+We still have post-war tasks to attend to, so I'll be leaving now.[p]
+#Alice
 [voice ref="010095"]
-クロ……、メイジーをババアの隣に埋めてやれ。[p]
-#クロ
+Kuro...Bury Maisie next to Babaa.[p]
+#Kuro
 [voice ref="010096"]
-…………はっ、かしこまりました。[p]
+...Yes, your majesty.[p]
 [scale id=1 sx=-1 time=200]
 [move id=1 x=-70 y=0 time=600]
 [clearcg id=1]
@@ -131,18 +128,15 @@
 [scale id=0 sx=-1 time=300]
 [moveto id=0 x=60 time=600]
 [move id=0 y=-10 time=600]
-#アリス
+#Alice
 [voice ref="010097"]
-メイジー……。[n]
-私は戦争をするぞ。[n]
-この世界を全部私のものにしてやる。[p]
+Maisie...[n]
+I will fight wars. I will make this whole world mine.[p]
 [voice ref="010098"]
-ヴェロニカもあのライザとかいういけ好かない魔女も北の大地も、[n]
-全部全部私のものにしてやる。[p]
+I'll make Veronica, that witch Ryza, and even all of the northern lands mine.[p]
 [move id=0 y=10 time=600]
 [voice ref="010099"]
-だから、せいぜい土の下から見ていろ。 [n]
-この私が世界最強の魔女。 大魔女になるところをな。 [p]
+So, just watch me from the afterlife. I'll become the strongest witch in the world, the Great Witch.[p]
 
 [hide_message]
 [filter name="fade" time=500]

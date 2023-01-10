@@ -15,31 +15,31 @@
 [filter name="clear" time=200]
 
 [show_message]
-#クロ
+#Kuro
 [voice ref="010000"]
-アリス様、敵は鶴翼に布陣。こちらを待ち受けています。 [p]
-#アリス
+Queen Alice, the enemy is lined up in a crane's wings formation. They are waiting for us. [p]
+#Alice
 [voice ref="010001"]
-兵力は。 [p]
-#クロ
+What is their military strength?[p]
+#Kuro
 [voice ref="010002"]
-魔法兵800、奴隷500。[n]
-加えて、メイジー様自ら強化魔法兵1000を率いています。 [p]
-#アリス
+800 magical soldiers, 500 conscripts.[n]
+In addition, Minister Meijii is personally leading 1000 enhanced magical soldiers.[p]
+#Alice
 [voice ref="010003"]
-指示を回せ、まずは右翼から切り崩す。 [n]
-メイジーをとらえたやつには望みの報酬をやる。 [p]
+Issue these orders. First, break through the right wing. 
+Give the ones who capture Meijii any reward they desire. [p]
 [voice ref="010003a"]
-絶対に殺すな、捕らえろと。 [p]
-#クロ
+Absolutely do not kill her, capture her alive. [p]
+#Kuro
 [voice ref="010004"]
-はっ、承知しました。 [p]
-#アリス
+Yes, understood. [p]
+#Alice
 [voice ref="010005"]
-フンっ！　メイジーのやつやってくれたな。 [n]
-この私を敵に回したこと、後悔させてやる。 [p]
+Hmph! Those fools who've joined Meijii. 
+I will make them regret ever turning against me.[p]
 [voice ref="010005a"]
-クフフフフ……アッハッハッハッハ！！ [p]
+Kufufufufu... Ahhahhahha!![p]
 
 [hide_message]
 [filter name="fade" time=500]

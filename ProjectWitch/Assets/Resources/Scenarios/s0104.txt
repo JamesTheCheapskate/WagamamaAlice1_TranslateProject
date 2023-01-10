@@ -17,10 +17,10 @@
 
 [show_message]
 [drawcg id=2 pos="3"]
-#ワーウルフ
+#Werewolf
 [voice ref="010017"]
-来たか。[n]
-メイジー様、お力を……。[p]
+So they've come.[n]
+Minister Maisie, please lend me your strength...[p]
 
 [cn]
 [filter name="fade" time=500]
@@ -29,56 +29,56 @@
 [drawbg ref="Event/702"]
 [filter name="clear" time=500]
 
-#アリス
+#Alice
 [voice ref="010018"]
-オイ、あそこに立っている奴は誰だ。[p]
-#クロ
+Hey, who's that standing over there?[p]
+#Kuro
 [voice ref="010019"]
-あれは……[n]
-メイジー様の部下の、たしかワーウルフとかいう者だったかと。[p]
-#アリス
+That is...[n]
+Minister Maisie's subordinate, I think their name is Werewolf.[p]
+#Alice
 [voice ref="010020"]
-フン、狼男か。[n]
-メイジーのやつ、珍しいものを飼ってるじゃないか。[p]
-#クロ
+Hmph, a wolf man?[n]
+That Maisie is keeping some strange pets.[p]
+#Kuro
 [voice ref="010021"]
-いかがなされますか。[p]
-#アリス
+What shall we do?[p]
+#Alice
 [voice ref="010022"]
-当然ひねりつぶす、全軍とつげ……[n]
-いや、待て。 何か言ってるみたいだな。[p]
+Obviously, advance all of our troops and crush them...
+No, wait. It looks like they've coming over to say something.[p]
 
 [filter name="fade" time=500]
 [drawbg ref="1048m"]
 [filter name="clear" time=500]
 
 [drawcg id=2 pos="center"]
-#ワーウルフ
+#Werewolf
 [voice ref="010023"]
-敵軍に告ぐ！！[n]
-我らは貴様を打倒するために集まった同士である！[p]
+I bring a message to you who are a hostile army. 
+We have gathered as comrades to defeat you!![p]
 [voice ref="010024"]
-政治に関心を向けず遊びほうけ、[n]
-民をないがしろにするような畜生を我らは領主とは認めない！！[p]
+We do not recognize a brute who is supposed to lead, but uninterested
+in the affairs of state, instead plays around leading the people to ruin.[p]
 [voice ref="010025"]
-我らの領主にふさわしいのはメイジー様を置いてほかになし！！[p]
+Minister Maisie is the only one fit to lead us![p]
 
 [filter name="fade" time=500]
 [clearcg id=2]
 [drawbg ref="Event/702"]
 [filter name="clear" time=500]
 
-#アリス
+#Alice
 [voice ref="010026"]
-ちっ、ああいう輩が一番面倒なんだ……。[n]
-クロ、全軍を前へ押し出せ。[p]
-#クロ
+Tch, these kind of people are the most troublesome...[n]
+Kuro, advance all of the troops.[p]
+#Kuro
 [voice ref="010027"]
-はっ。[p]
-#アリス
+Yes.[p]
+#Alice
 [voice ref="010028"]
-貴様らのやっていることが如何に下らん革命ゴッコなのか、その身にしっかりと教えてやろう。[n]
-クフフフフフフ……。[p]
+I'll teach you firsthand just how worthless your revolution is.[n]
+Kufufufufufu...[p]
 [hide_message]
 
 [filter name="fade" time=500]

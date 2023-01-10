@@ -21,32 +21,32 @@
 
 [drawcg id=2 pos="center"]
 [show_message]
-#メイジー
+#Maisie
 [voice ref="010079"]
-ワーウルフ……。[p]
-#部下
+Werewolf...[p]
+#Subordinate
 [voice ref="010080"]
-メイジー様。[n]
-アリス率いる軍勢が攻めてまいりました。 [p]
+Minister Maisie.[n]
+Alice's army is attacking us.[p]
 [scale id=2 sx=-1 time=300]
 [move id=2 x=20 time=600]
 [move id=2 y=-5 time=200]
-#メイジー
+#Maisie
 [voice ref="010081"]
-アリス……姉さん。 わたし……、私は……。[p]
-#部下
+Alice...elder sister. I...I am...[p]
+#Subordinate
 [voice ref="010082"]
-……いかがなさいますか。[p]
-#メイジー
+...what should we do?[p]
+#Maisie
 [move id=2 y=5 time=300]
 …………。[p]
 [scale id=2 sx=-1 time=600]
 [voice ref="010083"]
-……門を開いて。 全員で打って出るわ。[p]
-#部下
+...open the gate. We will fight together.[p]
+#Subordinate
 [voice ref="010084"]
-はっ。[n]
-開門！！　総員突撃用意！！[p]
+Yes[n]
+Open the gates!! Prepare for a full-scale attack!![p]
 [cn]
 
 [filter name="fade" time=500]
@@ -58,15 +58,15 @@
 
 [drawcg id=0 pos="right" dir="right"]
 [drawcg id=1 pos="left" dir="right" state=2]
-#クロ
+#Kuro
 [voice ref="010085"]
-アリス様。[n]
-敵勢、一斉突撃を開始した模様。[p]
-#アリス
+Queen Alice.[n]
+It seems that the enemy has started a simultaneous attack.[p]
+#Alice
 [voice ref="010086"]
-メイジー……。[n]
-フン、まあそうするほかないだろう。[n]
-迎え撃つぞ、全員構えろッ！！[p]
+Maisie...[n]
+Hmmph, well there's nothing else they could do. 
+I'll meet them head-on. Get ready everyone!![p]
 ;戦闘　VS メイジー
 
 [hide_message]

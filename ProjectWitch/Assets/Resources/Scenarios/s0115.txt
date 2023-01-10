@@ -24,111 +24,106 @@
 [drawcg id=2 pos="left" dir="right"]
 [filter name="clear" time=500]
 [show_message]
-#アリス
+#Alice
 [voice ref="010125"]
-気分はどうだ、メイジー。[p]
-#メイジー
+How are you feeling, Maisie?[p]
+#Maisie
 [voice ref="010126"]
-……姉さん、私姉さんを裏切ったのよ。[n]
-なのに、なんでこんな普通にしていられるの……？[p]
-#アリス
+...I betrayed my sister, my own sister. [n]
+But why am I still in one piece? [p]
+#Alice
 [changecg id=0 state=2]
 [voice ref="010127"]
-あん？　しまった、お仕置きが足りなかったか……。[p]
+Hmm? Oh no, did I not punish you enough... ? [p]
 [move id=2 x=-5 time=50]
-#メイジー
+#Maisie
 [voice ref="010128"]
-ま、まって……ごめんなさい！[n]
-そういう意味じゃなくて……。[p]
-#アリス
+W-wait... I'm sorry![n]
+That's not what I meant...[p]
+#Alice
 [changecg id=0 state=2]
 [voice ref="010129"]
-また裏切るなら殺す。[n]
-だが、今は人材が必要なんだ。[n]
-だから生かしておいてやる。[p]
-#メイジー
+If you betray me again, I'll kill you. But right now, I need you.[n]
+That's why I'll keep you alive.[p]
+#Maisie
 [voice ref="010130"]
-確かに……、私のせいで領内が荒れたことなら、[n]
-私が一人で何とかするわ。[p]
-#アリス
+I see... if it's my fault that the territory is in chaos, then I'll try to fix it by myself.[p]
+#Alice
 [voice ref="010131"]
-そういうことじゃない。[n]
-いいか、私はこれからこの世界をすべて私のものにする。[p]
+That's not what I meant.[n]
+Listen, I'm going to make this entire world mine.[p]
 [voice ref="010132"]
-ヴェロニカも、あのライザとかいういけ好かない魔女も、
-全部全部私のものにするんだ。[p]
+Veronica, that annoying witch named Ryza, all of them will be mine.[p]
 [move id=2 y=5 time=50]
 [move id=2 y=-5 time=50]
-#メイジー
+#Maisie
 [voice ref="010133"]
-姉さん！　またそんな子供みたいなことを……。[p]
-#アリス
+Sister! Stop talking like a child...[p]
+#Alice
 [voice ref="010134"]
-こまごまとした内政なんて私の性に合わねえんだよ。[n]
-私は魔女だ。 だったらやることは一つ。[p]
+I have no interest in petty domestic affairs. 
+I am a witch. So there's only one thing for me to do.[p]
 [voice ref="010134a"]
-ほかの魔女を貶(おとし)め、蹂躙(じゅうりん)し、征服することだ。[p]
+Belittle, trample, and conquer other witches.[p]
 [changecg id=0 state=1]
 [scale id=0 sx=-1 time=300]
 [voice ref="010135"]
-クフフフフフッ！[n]
-それに、そっちの方が楽しそうだしな。[p]
+Kufufufufufu![n]
+Besides, it looks more fun that way.[p]
 [move id=2 y=5 time=50]
 [move id=2 y=-5 time=50]
-#メイジー
+#Maisie
 [voice ref="010136"]
-そんなことのために多くの兵士を死なせることになるのよ！[p]
+But, doing all of that will cause many soldiers to die![p]
 [scale id=0 sx=-1 time=300]
 [changecg id=0 state=2]
-#アリス
+#Alice
 [voice ref="010137"]
-どっちにしろ北の大地で戦争が始まった。 [n]
-こっちにもその影響があるかもしれない。[p]
+Either way, a war has started in the north.[n]
+It's possible that it will affect us here too. [p]
 [voice ref="010137a"]
-ヴェロニカのワープ魔法以外にも向こうにわたる方法はきっとある。[p]
+There must be a way to get to the other side besides Veronica's warp magic.[p]
 [voice ref="010138"]
-向こうが万一攻めてきて、[n]
-その時に今の小勢力のままだったらなすすべもなく全員奴らの奴隷だぜ。[p]
-#メイジー
+If they were to attack us, and we're still weak like we are now, we'll subjugated without a doubt.[p]
+#Maisie
 [voice ref="010139"]
-北の大地で戦争！？[n]
+A war in the north?![n]
 姉さん、一体どういうこと……。 [p]
 [voice ref="010139a"]
-それにさっきからヴェロニカとかライザとか、[n]
-一体誰の話を……。[p]
+Sister, what in the world are you talking about...
+and who are Veronica and Ryza...[p]
 [filter name="fade" time=500]
 [cn]
-アリスはメイジーにヴェロニカとの一件を話した。[p]
+Alice told Maisie about what happened with Veronica.[p]
 [filter name="clear" time=500]
-#アリス
+#Alice
 [voice ref="010140"]
-というわけだ。[p]
-#メイジー
+That's the story.[p]
+#Maisie
 [voice ref="010141"]
-わかったか……っていわれても。[n]
-途方もない話だわ……。[p]
+I understand...is what I'd like to say, but your story is completely bonkers [p]
 [move id=2 y=-5 time=400]
 [voice ref="010142"]
-北の大地のことはそこまでよく知らないけど、[n]
-でも、あれは何百年も前に交通の手段を失ったって。 [p]
+I don't know much about the Northlands, but I heard that the way to get there was lost hundreds of years ago.[p]
 [voice ref="010142a"]
 そこに行ってきただなんて……。[p]
-#アリス
+Going there is...
+#Alice
 [voice ref="010143"]
 ともかく、夢じゃねえ。 [n]
 どうだ、やる気になったか……？[p]
-#メイジー
+#Maisie
 [voice ref="010144"]
 ……このままだともっとたくさんの人が死ぬことになるのよね。[p]
-#アリス
+#Alice
 [voice ref="010145"]
 ああ、そうだ。[p]
 [move id=2 y=5 time=200]
-#メイジー
+#Maisie
 [voice ref="010146"]
 わかったわ。[n]
 ……姉さんに協力する。[p]
-#アリス
+#Alice
 [changecg id=0 state=1]
 [voice ref="010147"]
 クフフフッ！ いい返事だ。[n]
@@ -141,7 +136,7 @@
 [drawcg id=3 pos="1" dir="right"]
 [filter name="clear" time=500]
 [show_message]
-#クロ
+#Kuro
 [voice ref="010148"]
 （アリス様。うまいことメイジー様を説得[n]
 なされましたな。[p]
@@ -171,16 +166,16 @@
 [drawcg id=0 pos="right" state=1]
 [drawcg id=1 pos="left" dir="right"]
 [show_message]
-#アリス
+#Alice
 [voice ref="010112"]
 さてと、まずはどこに攻め込んでやろうかなっと……。[p]
-#チシャ
+#Cheshire
 [voice ref="010113"]
 攻めるとは……、いったいどういう意味でしょうか。[p]
-#アリス
+#Alice
 [voice ref="010114"]
 当然、どの魔女の領地に攻め込んでやろうかという意味だ。[p]
-#チシャ
+#Cheshire
 [voice ref="010115"]
 なっ、何をおっしゃいますか！！[n]
 内乱が終わったばかりだというのに無茶を言わないでください。[p]
@@ -191,36 +186,36 @@
 [move id=0 y=-5 time=50]
 [se ref="151"]
 [move id=0 y=5 time=50]
-#アリス
+#Alice
 [voice ref="010117"]
 何を言っている。 今が攻めどきなんだ。[n]
 こういうのは勢いが肝心なんだぞ！[p]
-#チシャ
+#Cheshire
 [voice ref="010118"]
 それはそうかもしれませんがしかし……。[p]
-#アリス
+#Alice
 [voice ref="010119"]
 しかしではない。 もう決めたことだ。[p]
 [voice ref="010119a"]
 私はヴェロニカもヴェロニカを裏切ったライザも倒して
 世界を私だけのものにするんだ！[p]
-#チシャ
+#Cheshire
 [voice ref="010120"]
 そんなぁ……。[p]
-#アリス
+#Alice
 [voice ref="010121"]
 書類仕事にも飽きていたところだからな。[n]
 ……それにメイジーにも約束したし。[p]
-#チシャ
+#Cheshire
 [voice ref="010122"]
 ……何かおっしゃいましたか？[p]
-#アリス
+#Alice
 [voice ref="010123"]
 フン、何でもない。[n]
 [changecg id=0 state=2]
 ともかく戦争の準備だ! これから忙しくなるぞ、[n]
 クフフフフフ……。[p]
-#チシャ
+#Cheshire
 [voice ref="010124"]
 ああ……胃が痛い……。 [p]
 
@@ -243,18 +238,18 @@
 [loadfg id=1 ref="kuro"]
 
 [drawfg id=0]
-#アリス
+#Alice
 さて、どこに攻め込んだものかな。[p]
 [drawfg id=1]
-#クロ
+#Kuro
 アリス様、まずは
 [field_area_hilight id=22]
 西に攻め込まれるのがよろしいかと。[p]
 [drawfg id=0]
-#アリス
+#Alice
 ほう？　それはなぜだ。[p]
 [drawfg id=1]
-#クロ
+#Kuro
 [field_area_hilight id=43]
 東の、黄金の魔女シャルロッテは、[n]
 元大魔女を輩出したロレーヌ一派の頭首。[p]
@@ -272,18 +267,18 @@
 この二つの領地は昔から仲が良く、[p]
 おそらくどちらかに攻め込めば、もう片方も宣戦布告してくることが予想されます。[p]
 [drawfg id=0]
-#アリス
+#Alice
 それじゃあ、無理にでも東に攻め込んだ方がいいんじゃないか？[p]
 [drawfg id=1]
-#クロ
+#Kuro
 いえ、それを差し引いても、[n]
 この二つの領地は先の二つの領地に比べてさした戦力もなく、[p]
 わが軍なら十分に押し切ることができるかと。[p]
 [drawfg id=0]
-#アリス
+#Alice
 じゃあ、北西じゃなくて西を優先する理由はあるのか？[p]
 [drawfg id=1]
-#クロ
+#Kuro
 北西の、氷の魔女トリアイナは、[n]
 軍こそ強力ではありませんが、[p]
 魔女本人はなかなかにカリスマのある人物。[p]
@@ -291,16 +286,16 @@
 争い事を得意とせず、弱気な性格だといいます。[p]
 相手にするには、幾分か楽だと予想されます。[p]
 [drawfg id=0]
-#アリス
+#Alice
 なるほどな……、じゃあまずは「西の森の魔女」[n]
 ついでに北西の土地も攻略。[p]
 そのあとは、そのまま奥地に攻めるか、[n]
 引きかえして東へ攻め入るか……ってとこか。[p]
 [drawfg id=1]
-#クロ
+#Kuro
 はっ！　そのようにされるのが、よろしいかと。[p]
 [drawfg id=0 state=1]
-#アリス
+#Alice
 わかった。[n]
 ……クフフッ！　さあ、やるぞ！[p]
 [clearfg]
