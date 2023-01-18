@@ -6,58 +6,58 @@
 
 [show_message]
 [drawfg id=0]
-#アリス
-で、まずは何をしたらいいんだ？[p]
+#Alice
+So, what should I do first?[p]
 [drawfg id=1]
-#チシャ
-あ、アリス様！[n]
-領主なんですからそれくらい知っておいてくださいよ…。[p]
+#Cheshire
+Q-Queen Alice！[n]
+You're a ruler, so should already know these things...please say yes...[p]
 [drawfg id=0 state="2"]
-#アリス
-うるせえ！！[n]
-いいからさっさと教えろ！[p]
+#Alice
+Shut up!!![n]
+Now hurry up and explain it to me![p]
 [drawfg id=1]
-#チシャ
-わあっ！[n]
-わかりましたよ……。[p]
-#チシャ
-今アリス様がみているのがこの世界の地図です。[p]
+#Cheshire
+Waaa！[n]
+Okay...[p]
+#Cheshire
+This is the world map your highness is looking at now.[p]
 [drawfg id=0 state="0"]
-#アリス
-この小さな旗はなんだ？[p]
+#Alice
+What is this little flag?[p]
 [drawfg id=1]
-#チシャ
-各地域を収めている領主を示す旗です。[p]
+#Cheshire
+It is a flag that indicates the ruler of each region.[p]
 [hide_cursor]
 [field_area_hilight id=1]
 [wait time=200]
 [show_accentcursor x=52 y=48]
-アリス様の領地はこの赤い旗が立っている地域になります。[p]
+The region with the red flag is your majesty's territory.[p]
 [drawfg id=0]
-#アリス
-メイジーはどこにいるんだ？[p]
+#Alice
+Where is Maisie?[p]
 [hide_accentcursor]
 [field_area_hilight id=4]
 [wait time=200]
 [show_accentcursor x=52 y=48]
 [drawfg id=1]
-#チシャ
-メイジー様は、この白い旗です。[p]
+#Cheshire
+Minister Maisie's flag is this white one.[p]
 [hide_accentcursor]
 [show_cursor]
 [drawfg id=0 state="1"]
-#アリス
-なるほど。じゃあこの旗の立っているところに攻め込むんだな！[p]
+#Alice
+I see. So, I should attack this territory with the white flag![p]
 [drawfg id=1]
-#チシャ
-ただし、攻め込めるのは、アリス様の領地の隣の地域のみなので気を付けてください。[p]
+#Cheshire
+However, please note that your majesty is only able to attack territories neighboring her own.[p]
 [drawfg id=0]
-#アリス
-わかったわかった。[p]
-じゃあとりあえず攻め込むか。[p]
+#Alice
+I got it, I got it.[p]
+So then, why don't we just go ahead and invade?[p]
 [drawfg id=1]
-#チシャ
-では、まずメイジー様の旗を選択してください。[p]
+#Cheshire
+In that case, please select Minister Maisie's flag first.[p]
 
 [hide_cursor]
 [show_accentcursor x=52 y=48]
@@ -69,14 +69,14 @@
 
 [show_message pos="top"]
 [drawfg id=0 state="0"]
-#アリス
-おっ、なんか出たぞ。[p]
+#Alice
+Oh, something popped up.[p]
 [drawfg id=1]
-#チシャ
-この地域の情報を見ることができます。[p]
+#Cheshire
+That's how you can see information about this region.[p]
 [show_accentcursor x=55 y=18]
-下の「侵攻する」を選択すると[n]
-攻め込むことができるので選択してください。[p]
+You can attack by selecting "Invade", 
+so please do so.[p]
 [wait time=500]
 [se ref="040_click"]
 [hide_accentcursor]

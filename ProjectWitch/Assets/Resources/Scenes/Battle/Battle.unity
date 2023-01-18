@@ -764,6 +764,31 @@ Prefab:
       propertyPath: m_Name
       value: Position2
       objectReference: {fileID: 0}
+    - target: {fileID: 114000012944853914, guid: 8aa64f4f03de6214391c63b95bd69809,
+        type: 2}
+      propertyPath: m_Text
+      value: Destruction Beam
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000012640623340, guid: 8aa64f4f03de6214391c63b95bd69809,
+        type: 2}
+      propertyPath: m_Text
+      value: Destruction Beam
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000012035640192, guid: 8aa64f4f03de6214391c63b95bd69809,
+        type: 2}
+      propertyPath: m_Text
+      value: Destruction Beam
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010667611688, guid: 8aa64f4f03de6214391c63b95bd69809,
+        type: 2}
+      propertyPath: m_Text
+      value: Alice
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010119835958, guid: 8aa64f4f03de6214391c63b95bd69809,
+        type: 2}
+      propertyPath: m_Text
+      value: Dead
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8aa64f4f03de6214391c63b95bd69809, type: 2}
   m_IsPrefabParent: 0
@@ -1962,6 +1987,8 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
+  IsDestroyedOne: 0000
+  IsDestroyedOneLeader: 0000
 --- !u!1 &411018894
 GameObject:
   m_ObjectHideFlags: 0
@@ -2409,6 +2436,31 @@ Prefab:
     - target: {fileID: 1000013440344484, guid: 8aa64f4f03de6214391c63b95bd69809, type: 2}
       propertyPath: m_Name
       value: Position0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010667611688, guid: 8aa64f4f03de6214391c63b95bd69809,
+        type: 2}
+      propertyPath: m_Text
+      value: Alice
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010119835958, guid: 8aa64f4f03de6214391c63b95bd69809,
+        type: 2}
+      propertyPath: m_Text
+      value: Dead
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000012944853914, guid: 8aa64f4f03de6214391c63b95bd69809,
+        type: 2}
+      propertyPath: m_Text
+      value: Destruction Beam
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000012640623340, guid: 8aa64f4f03de6214391c63b95bd69809,
+        type: 2}
+      propertyPath: m_Text
+      value: Destruction Beam
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000012035640192, guid: 8aa64f4f03de6214391c63b95bd69809,
+        type: 2}
+      propertyPath: m_Text
+      value: Destruction Beam
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8aa64f4f03de6214391c63b95bd69809, type: 2}
@@ -4124,7 +4176,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u7834\u58CA\u5149\u7DDA"
+  m_Text: Destruction Beam
 --- !u!222 &791465535
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4719,7 +4771,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u30E1\u30A4\u30B8\u30FC\u306F\u6226\u5834\u306B\u6563\u3063\u305F"
+  m_Text: Maisie fled the battlefield.
 --- !u!222 &926263663
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4794,7 +4846,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u4E71\u308C\u7A81\u304D\uFF1A\u6575\u5358\u4F53\u306B\u5263\u621F\u306E\u5D50\u3092\u304A\u898B\u821E\u3044\u3059\u308B\u3002"
+  m_Text: 'Wild Thrust: Unleash a storm of sword and spear strikes to a single enemy.'
 --- !u!222 &953247722
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4901,6 +4953,31 @@ Prefab:
     - target: {fileID: 1000013440344484, guid: 8aa64f4f03de6214391c63b95bd69809, type: 2}
       propertyPath: m_Name
       value: Position2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010667611688, guid: 8aa64f4f03de6214391c63b95bd69809,
+        type: 2}
+      propertyPath: m_Text
+      value: Alice
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010119835958, guid: 8aa64f4f03de6214391c63b95bd69809,
+        type: 2}
+      propertyPath: m_Text
+      value: Dead
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000012944853914, guid: 8aa64f4f03de6214391c63b95bd69809,
+        type: 2}
+      propertyPath: m_Text
+      value: Destruction Beam
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000012640623340, guid: 8aa64f4f03de6214391c63b95bd69809,
+        type: 2}
+      propertyPath: m_Text
+      value: Destruction Beam
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000012035640192, guid: 8aa64f4f03de6214391c63b95bd69809,
+        type: 2}
+      propertyPath: m_Text
+      value: Destruction Beam
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8aa64f4f03de6214391c63b95bd69809, type: 2}
@@ -5064,7 +5141,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u3046\u304E\u3083\u30FC\u30FC\u30FC\u30FC\u30FC\u30FC\uFF01\uFF01"
+  m_Text: Ugh!!
 --- !u!222 &1022773651
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5458,6 +5535,11 @@ Prefab:
         type: 2}
       propertyPath: m_FontData.m_MaxSize
       value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013379985882, guid: b954d9085cc932140a469f46aea71b14,
+        type: 2}
+      propertyPath: m_Text
+      value: Destruction Beam
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b954d9085cc932140a469f46aea71b14, type: 2}
@@ -6295,7 +6377,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u6575\u4E00\u4F53\u306B\u30C0\u30E1\u30FC\u30B8"
+  m_Text: Cause damage to a single enemy.
 --- !u!222 &1260022255
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6887,7 +6969,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "1\u500D\u901F\u3000\u3000\u30002\u500D\u901F\u3000\u3000\u30004\u500D\u901F"
+  m_Text: 1x            2x            4x
 --- !u!222 &1399346221
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7078,6 +7160,31 @@ Prefab:
     - target: {fileID: 1000013440344484, guid: 8aa64f4f03de6214391c63b95bd69809, type: 2}
       propertyPath: m_Name
       value: Position1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000012944853914, guid: 8aa64f4f03de6214391c63b95bd69809,
+        type: 2}
+      propertyPath: m_Text
+      value: Destruction Beam
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000012640623340, guid: 8aa64f4f03de6214391c63b95bd69809,
+        type: 2}
+      propertyPath: m_Text
+      value: Destruction Beam
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000012035640192, guid: 8aa64f4f03de6214391c63b95bd69809,
+        type: 2}
+      propertyPath: m_Text
+      value: Destruction Beam
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010667611688, guid: 8aa64f4f03de6214391c63b95bd69809,
+        type: 2}
+      propertyPath: m_Text
+      value: Alice
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010119835958, guid: 8aa64f4f03de6214391c63b95bd69809,
+        type: 2}
+      propertyPath: m_Text
+      value: Dead
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8aa64f4f03de6214391c63b95bd69809, type: 2}
@@ -9246,6 +9353,31 @@ Prefab:
       propertyPath: m_Name
       value: Position0
       objectReference: {fileID: 0}
+    - target: {fileID: 114000010667611688, guid: 8aa64f4f03de6214391c63b95bd69809,
+        type: 2}
+      propertyPath: m_Text
+      value: Alice
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010119835958, guid: 8aa64f4f03de6214391c63b95bd69809,
+        type: 2}
+      propertyPath: m_Text
+      value: Dead
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000012944853914, guid: 8aa64f4f03de6214391c63b95bd69809,
+        type: 2}
+      propertyPath: m_Text
+      value: Destruction Beam
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000012640623340, guid: 8aa64f4f03de6214391c63b95bd69809,
+        type: 2}
+      propertyPath: m_Text
+      value: Destruction Beam
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000012035640192, guid: 8aa64f4f03de6214391c63b95bd69809,
+        type: 2}
+      propertyPath: m_Text
+      value: Destruction Beam
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8aa64f4f03de6214391c63b95bd69809, type: 2}
   m_IsPrefabParent: 0
@@ -9515,6 +9647,31 @@ Prefab:
     - target: {fileID: 1000013440344484, guid: 8aa64f4f03de6214391c63b95bd69809, type: 2}
       propertyPath: m_Name
       value: Position1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000012944853914, guid: 8aa64f4f03de6214391c63b95bd69809,
+        type: 2}
+      propertyPath: m_Text
+      value: Destruction Beam
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000012640623340, guid: 8aa64f4f03de6214391c63b95bd69809,
+        type: 2}
+      propertyPath: m_Text
+      value: Destruction Beam
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000012035640192, guid: 8aa64f4f03de6214391c63b95bd69809,
+        type: 2}
+      propertyPath: m_Text
+      value: Destruction Beam
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010667611688, guid: 8aa64f4f03de6214391c63b95bd69809,
+        type: 2}
+      propertyPath: m_Text
+      value: Alice
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010119835958, guid: 8aa64f4f03de6214391c63b95bd69809,
+        type: 2}
+      propertyPath: m_Text
+      value: Dead
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8aa64f4f03de6214391c63b95bd69809, type: 2}

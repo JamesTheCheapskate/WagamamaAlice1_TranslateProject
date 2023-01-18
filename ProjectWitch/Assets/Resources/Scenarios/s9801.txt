@@ -5,44 +5,44 @@
 [loadfg id=1 ref="chishire"]
 
 [drawfg id=1]
-#チシャ
-アリス様。では、戦闘に出撃させるユニットを選んでください。[p]
+#Cheshire
+Queen Alice, please choose a unit you want to deploy for battle.[p]
 [drawfg id=0 state="0"]
-#アリス
-選べって言われてもなあ……。[p]
-全軍で突撃じゃダメなのか？[p]
+#Alice
+You tell me to choose, but...[p]
+Can't we just attack with all our troops?[p]
 [drawfg id=1]
-#チシャ
-だ、ダメですよ！　領地を防衛する兵を残しておかないと…。[p]
-戦場の広さもありますから、一度の戦闘に出せるのは３つのユニットまでです。[p]
+#Cheshire
+Y-You can't do that!　We need to leave some troops to defend our territory...[p]
+Also, due to the size of the battlefield, you can only deploy up to three units at a time.[p]
 [drawfg id=0 state="0"]
-#アリス
-ちぇっ……選べってか。[p]
+#Alice
+Geez...So I have to choose.[p]
 ;出撃ユニットハイライト
-この、前衛、中衛、後衛ってのは何か意味があるのか？[p]
+What does this whole vanguard, middle guard, and rear guard stuff mean?[p]
 [drawfg id=1]
-#チシャ
-前衛はダメージを受けやすくて、後衛は受けにくいです。[p]
-また、攻撃方法が物理的なユニットの場合は、前衛にいるほど攻撃の威力が上がります。[p]
-物理ユニットは基本的に兵数も防御力も魔法ユニットよりも上なので……。[p]
+#Cheshire
+Vanguards take more damage, while rear guards take less.[p]
+Conversely, units that use physical attacks will do more damage in the Vanguard and less in the rear guard.[p]
+Physical units tend to have higher troop counts and defense than magic units.[p]
 [drawfg id=0 state="1"]
-#アリス
-物理ユニットを前衛に、魔法ユニットを後衛に優先して配置すればいいんだな？[p]
+#Alice
+So, I should prioritize placing physical units in the vanguard and magic units in the rear guard, right?[p]
 [drawfg id=1]
-#チシャ
-はい！　その通りです。[p]
+#Cheshire
+Yes! That's correct.[p]
 [drawfg id=0 state="0"]
-#アリス
-で、どうやって配置するんだ？[p]
+#Alice
+So, how do I place them?[p]
 
 [create_gameobject id=0 ref="Tutorial/prebattle_unitlist_hilight"]
 
 [hide_message]
 [show_message pos="top"]
 [drawfg id=1]
-#チシャ
-はい、ユニットの配置は、このユニットリストから、任意のユニットを選択することで配置できます。[p]
-選択した順に前衛、中衛、後衛と、詰めて配置されますので注意してください。[p]
+#Cheshire
+Yes, units can be placed by selecting any unit from this unit list.[p]
+They will be placed in the order you selected as vanguard, middle guard, and rear guard, so be careful.[p]
 
 [wait time=500]
 [se ref="040_click"]
@@ -58,7 +58,7 @@
 [delete_gameobject id=0]
 [wait time=500]
 
-もし、間違って配置してしまった場合は、右クリックをするか…。[p]
+If you have placed a unit incorrectly, right click or...[p]
 
 [se ref="041_cancel"]
 [prebattle_removeunit index=2]
@@ -74,8 +74,8 @@
 [hide_cursor]
 [show_accentcursor x=75 y=80]
 [drawfg id=1]
-#チシャ
-この出撃ユニットリストから、外したいユニットを選択してください[p]
+#Cheshire
+Select the unit you want to remove from the deployment unit list.[p]
 [se ref = "041_cancel"]
 [prebattle_removeunit index=1]
 [wait time=500]
@@ -93,26 +93,27 @@
 [wait time=200]
 
 [drawfg id=0 state="0"]
-#アリス
-隣にあるカードってのは？[p]
+#Alice
+What are those cards next to it?[p]
 [drawfg id=1]
-#チシャ
-はい。戦闘を支援してくれる一種のお助け機能です。[p]
-例えば「スペードＩ」カードの場合は、敵にファイアーボールを放ち、ダメージを与えることができます。[p]
+#Cheshire
+Right. Those offer various type of battle support.[p]
+For example, if you have a "Spade I" card, you can release a Fireball to deal damage to the enemy.[p]
 [drawfg id=0 state="1"]
-#アリス
-へえ！　そんな便利なもの、ガンガン使うしかねえな！[p]
+#Alice
+Wow! I'll use something so useful nonstop![p]
 [drawfg id=1]
-#チシャ
-もちろんどんどん使っていただきたいのですが、残念ながらカードには使用回数制限があるので、[p]
-一度戦闘に出したカードは戦闘終了時点ですべてなくなってしまうんです。[p]
+#Cheshire
+Of course we want you to do so, but unfortunately there is a limit to the number of times a card can be used.
+[p]
+Cards used in battle will be gone at the end of the battle.[p]
 [drawfg id=0 state="2"]
-#アリス
-なっ！　なんかめんどくせえな……[p]
+#Alice
+Whaa!  What a pain in the...[p]
 [drawfg id=1]
-#チシャ
-ええ、ですから使いどころを考えてくださいね。[p]
-カードもユニットと同じように設定できます。[p]
+#Cheshire
+Yeah, so you have to think about how to best use them.[p]
+Cards can be selected just like units.[p]
 
 [se ref="040_click"]
 [prebattle_setcard index=0]
@@ -124,11 +125,11 @@
 [show_message pos="bottom"]
 
 [drawfg id=0 state="1"]
-#アリス
-よし、やっと戦闘だな。[p]
+#Alice
+Alrighty, we're ready to go into battle right?[p]
 [drawfg id=1]
-#チシャ
-はい！　では、出撃しましょう。[p]
+#Cheshire
+Yes! Then, let's start a battle.[p]
 [hide_message]
 
 [hide_cursor]
