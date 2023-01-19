@@ -4,21 +4,21 @@
 [loadfg id=1 ref="kuro"]
 
 [drawfg id=0 state=1]
-#アリス
-よーっし！！　戦争だァ。[p]
-クフフフフッ！！　楽しくなってきたぞ！[p]
+#Alice
+Alright！！　It's war time.[p]
+Kufufufufu!！！　It's getting fun![p]
 [drawfg id=1]
-#クロ
-アリス様、お楽しみのところ申し訳ありませんが、命令をお願いします。[p]
+#Kuro
+Queen Alice、I'm sorry to interrupt your fun, but I'm waiting for your orders.[p]
 [drawfg id=0 state=0]
-#アリス
-命令ッつったって、それぞれ勝手にやればいいんじゃないのか。[p]
+#Alice
+Orders? Can't everyone just do what they want?[p]
 [drawfg id=1]
-#クロ
-各ユニットの指揮は各将に任せますが、各ユニットの行動はアリス様に決めてもらわねばなりません。[p]
+#Kuro
+Each unit is under the command of its general, but they won't take any action without your majesty's order.[p]
 [drawfg id=0]
-#アリス
-な……なんだ、案外めんどくさいな。[p]
+#Alice
+Oh...I didn't expect it to be so tedious.[p]
 [hide_message]
 [wait time=500]
 
@@ -27,39 +27,40 @@
 [wait time=1000]
 
 [drawfg id=1]
-#クロ
-このバーが各ユニットの行動順を表します。[p]
-一番左側になったユニットから順に行動するようになっています。[p]
+#Kuro
+This bar represents the order in which each unit acts.[p]
+The unit on the far left will act first[p]
 [drawfg id=0]
-#アリス
-おお……なるほどな。[p]
+#Alice
+Oh...I see.[p]
 [drawfg id=1]
-#クロ
-味方のユニットは【赤】、敵のユニットは【青】であらわされています。[p]
-味方のターンになったら、アリス様がご指示をお願いします。[p]
+#Kuro
+Allies are marked in red, and enemies in blue.[p]
+When it is your majesty's allied unit's turn, please give your instructions.
+[p]
 
 [delete_gameobject id=0]
 
 [drawfg id=0]
-#アリス
-指示ったって、具体的に何をすればいいんだよ。[p]
+#Alice
+What exactly do you want me to do?[p]
 [drawfg id=1]
-#クロ
-各ユニットは各ターンに２回の行動を行います。[p]
+#Kuro
+Each unit performs two actions each turn.[p]
 [drawfg id=0]
-#アリス
-２回？　２回も突撃できるのか？[p]
+#Alice
+Two actions? Can they attack twice?[p]
 [drawfg id=1]
-#クロ
-いえ、最初は兵士が攻撃もしくは防御行動をとります。[p]
-次に隊長が、兵士の行動に応じた固有の能力を発動します。[p]
+#Kuro
+No, the soldiers will either attack or defend for the first action.[p]
+For the second action, the captain will activite their unique ability with an effect that varies depending on the first action.[p]
 [drawfg id=0 state=2]
-#アリス
-ん……？　固有の能力って……さっきからややこしいぞ。[p]
-もっとわかりやすく説明しろよ。[p]
+#Alice
+Hm... unique ability... this is getting even more complicated.[p]
+Explain it more clearly.[p]
 [drawfg id=1]
-#クロ
-そうですね……やっていただいた方が早いかと。[p]
+#Kuro
+I should have known...that it will be faster for you to just try it out.[p]
 [hide_message]
 [wait time=500]
 
@@ -67,8 +68,9 @@
 
 [show_message pos="top"]
 [drawfg id=1]
-#クロ
-敵のステータスにカーソルを合わせるとボタンが現れますので、選択してください。[p]
+#Kuro
+When you put your cursor on the enemy's status, a button will appear. Please select it.
+[p]
 [hide_message]
 
 [hide_cursor]
@@ -90,51 +92,50 @@
 [battle_pause enable=1]
 [show_message pos="bottom"]
 [drawfg id=0 state=0]
-#アリス
-おお、確かに２回行動したな。[p]
+#Alice
+Oh, you sure did act twice.[p]
 [drawfg id=1]
-#クロ
-今は攻撃を行いましたが、防御を選択することもできます。[p]
+#Kuro
+You attacked last time, but you can also choose to defend.[p]
 [drawfg id=0 state=1]
-#アリス
-防御？　そんなのいらねえだろ。[p]
-突撃あるのみだ！[p]
+#Alice
+Defend? I don't need that.[p]
+Only attack！[p]
 [drawfg id=1]
-#クロ
-アリス様、攻撃と防御で発動する隊長の能力は異なります。[p]
-防御の際に発動する能力は、[n]
-・味方のステータスをあげる[n]
-・敵のステータスを下げる、[p]
-・兵数やＨＰを回復する[n]
-・敵の行動順を遅らせるなど、[p]
-補助の役割を担うものが多いので、積極的に使われた方がよろしいですぞ。[p]
+#Kuro
+Queen Alice, the captain's abilities that are activated for attack and defense are different.[p]
+The abilities that are activated when defending are[n]
+・Empowering allies[n]
+・Debuffing enemies[p]
+・Restoring troop counts and ＨＰ[n]
+・Delaying enemy actions[p]
+You shuold take full advantage of these.[p]
 [drawfg id=0 state=0]
-#アリス
-うーん、そうか……。[n]
-結構迷うな。[p]
+#Alice
+Hmm, I see...[n]
+I'm quite confused.[p]
 [drawfg id=1]
-#クロ
-攻撃が優良な隊長、[n]
-防御が優良な隊長と、[p]
-隊長の個性をうまく活用することで、戦闘を有利に進めることができます。[p]
+#Kuro
+Some captains excel at attack while others excel at defense.[p]
+By effectively utilizing each captain's unique abilities, you can gain the upper hand in battle.[p]
 [drawfg id=0]
-#アリス
-防御を選ぶにはどうすればいいんだ？[p]
+#Alice
+How do I choose to defend?[p]
 [drawfg id=1]
-#クロ
-多くの隊長の「防御」は味方を選択することで発動できます。[p]
-ただし、敵を選択することで発動する「防御」もあります。[p]
+#Kuro
+Many captains' "defense" can be activated by selecting allies.[p]
+However, there are also "defense" abilities that can be activated by selecting enemies.[p]
 [drawfg id=0 state=2]
-#アリス
-そっ、それだと「攻撃」と見分けがつかないじゃないか！[p]
+#Alice
+Then, how can I tell the difference between "attack" and "defense"?[p]
 [drawfg id=1]
-#クロ
-「赤ボタン」が「攻撃」[n]
-「青ボタン」が「防御」[n]
-と覚えていただければ結構です。[p]
+#Kuro
+The red button is "Attack".[n]
+The blue button is "Defense".[n]
+You should be fine if you remember that.[p]
 [drawfg id=0 state=0]
-#アリス
-うーん……まあ、とりあえずやりながら覚えるか。[p]
+#Alice
+Hmm...Well, I'll learn as I go.[p]
 
 [hide_message]
 ;戦闘続行

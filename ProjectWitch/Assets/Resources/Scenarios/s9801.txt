@@ -13,7 +13,7 @@ You tell me to choose, but...[p]
 Can't we just attack with all our troops?[p]
 [drawfg id=1]
 #Cheshire
-Y-You can't do that!　We need to leave some troops to defend our territory...[p]
+Y-You can't do that! We need to leave some troops to defend our territory...[p]
 Also, due to the size of the battlefield, you can only deploy up to three units at a time.[p]
 [drawfg id=0 state="0"]
 #Alice
@@ -42,7 +42,7 @@ So, how do I place them?[p]
 [drawfg id=1]
 #Cheshire
 Yes, units can be placed by selecting any unit from this unit list.[p]
-They will be placed in the order you selected as vanguard, middle guard, and rear guard, so be careful.[p]
+They will be placed in the order you select as vanguard, middle guard, and rear guard, so be careful.[p]
 
 [wait time=500]
 [se ref="040_click"]
