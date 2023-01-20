@@ -21,7 +21,7 @@ Queen Alice, you can replenish your troops that have been lost.[p]
 
 [create_gameobject id=0 ref="Tutorial/field_menubar_menu_hilight"]
 
-Replenishment can be done from the menu "Legion Formation".[p]
+Replenishment can be done from the "Army" menu option.[p]
 [drawfg id=0 state=0]
 #Alice
 Heh, it looks like there are other menus.[p]
