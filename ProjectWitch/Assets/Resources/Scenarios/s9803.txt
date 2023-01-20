@@ -10,62 +10,62 @@
 
 [show_message pos="top"]
 [drawfg id=0 state=2]
-#アリス
-おい、兵士数0にしたのに死なないぞ。[p]
+#Alice
+Hey, They've got 0 soldiers and aren't dead.[p]
 [drawfg id=1]
-#クロ
-兵士数は部下の兵士の数です。[n]
-隊長は含まれません。[p]
-ユニットを全滅させるためには、隊長も倒す必要があります[p]
+#Kuro
+That's the number of soliders under their command.[n]
+It doesn't include the captain.[p]
+To destroy a unit, you must also defeat the captain![p]
 [drawfg id=0 state=1]
-#アリス
-そうか、このＨＰってのは隊長の体力だな！[p]
+#Alice
+I see. Then ＨＰ is the captain's strength![p]
 [drawfg id=1]
-#クロ
-その通りです。[n]
-兵士数が０になるまで、基本的に隊長を攻撃することができません。[p]
-ですので、兵士数を０にしてから隊長のＨＰを０にする、という流れになります。[p]
+#Kuro
+That's right. 
+Basically, you cannot attack the captain while they have soldiers remaining.[p]
 [hide_message]
 [show_message pos="bottom"]
 [create_gameobject id=1 ref="Tutorial/battle_dead_escape"]
 [drawfg id=1]
-#クロ
-ユニットを全滅させると、その隊長は敗走、もしくは死亡ということになります。[p]
-死亡した場合、その隊は二度と復活しないので気を付けてください。[p]
-それと、アリス様が倒れてしまうと戦争が続けられなくなってしまいますので、[p]
-くれぐれもお気を付けを……。[p]
+#Kuro
+If a unit is wiped out, the captain is defeated or killed.[p]
+Please note that if a unit dies, it will not be revived.[p]
+Also, if your majesty collapses, the battle will end.[p]
+Please be careful...[p]
 [delete_gameobject id=1]
 [drawfg id=0 state=1]
-#アリス
-ふん！　私がそう簡単にやられるもんか！[p]
-クフフッ！　まあ、一応気を付けておくぞ。[p]
+#Alice
+Hmph!  I won't be beaten so easily![p]
+Hmph!  Well, I'll be careful just in case.[p]
 [create_gameobject id=1 ref="Tutorial/battle_capture"]
 [drawfg id=1]
-#クロ
-敵の兵士数を０にすると、攻撃のほかに捕獲を行うこともできます。[p]
+#Kuro
+When the number of enemy soldiers is reduced to zero, you have the option to capture the captain.
+[p]
 [drawfg id=0]
-#アリス
-おおっ！　捕まえることもできるのか。[p]
+#Alice
+Oh!　You can also capture them?[p]
 [drawfg id=1]
-#クロ
-捕獲を行うと、敵を殺さずにとらえることができます。[p]
-とらえた隊長はアリス様の好きにしていただいて構いませんが……。[p]
+#Kuro
+Capture allows you to capture the enemy without killing them.[p]
+The captured captain will do as your majesty pleases...[p]
 [drawfg id=0]
-#アリス
-当然、私の奴隷として使ってやるぞ！[p]
+#Alice
+Of course, I'll use them as my servant![p]
 [drawfg id=1]
-#クロ
-元の主人への忠誠心が残っているものもおりますので、そう簡単には……。[p]
+#Kuro
+Some of them still have loyalty to their former masters, so they will not be so easily...[p]
 [drawfg id=0]
-#アリス
-魔女でもなければ隷属魔法で奴隷にしちまえばいいさ！[p]
+#Alice
+If they're not witches, I'll use subjugation magic to control them![p]
 [drawfg id=1]
-#クロ
-おお……、さすがアリス様でございます。[p]
-では、捕えた際はそのように……。[p]
+#Kuro
+Ah...you truly are the Queen Alice I know.[p]
+Then when you capture them, do...[p]
 [drawfg id=0]
-#アリス
-クフフッ！　ようし、ガンガン捕まえるぞォ！！[p]
+#Alice
+Kuhuhuhuhu!　All right, let's go get 'em![p]
 [delete_gameobject id=1]
 [delete_gameobject id=0]
 [hide_message]

@@ -5,36 +5,32 @@
 [loadfg id=1 ref="kuro"]
 
 [drawfg id=0]
-#アリス
-おっ、戦闘終了だな。[n]
-ふう……指示するのも楽じゃないぞ。[p]
+#Alice
+Whoa, the battle is over.[n]
+Phew...Giving instructions isn't easy either.[p]
 [drawfg id=1]
-#クロ
-戦闘に勝利する条件は、こちらから攻め込む「侵攻戦」と、
-敵から攻め込まれた場合の「防衛戦」で異なります。[p]
+#Kuro
+The conditions for victory in battle are different for an 'Offensive Battle', and a 'Defensive Battle'.[p]
 [create_gameobject id=0 ref="Tutorial/battle_domination_win_conditional"]
-侵攻戦の場合、[n]
-・敵を全滅させる[n]
-ことで勝利になります。[p]
+For an Offensive Battle, you must[n]
+・Annihilate the enemy[p]
 [delete_gameobject id=0]
 [create_gameobject id=0 ref="Tutorial/battle_defence_win_conditional"]
-防衛戦の場合、[n]
-・残りターン数が０になる[n]
-・もしくは敵を全滅させる[n]
-ことで勝利になります。[p]
+For a Defensive Battle, you may[n]
+・Reach 0 turns remaining[n]
+  or[n]
+・Destroy all enemies[p]
 [delete_gameobject id=0]
 [drawfg id=0]
-#アリス
-防衛戦のが勝ちやすいってことか。[p]
+#Alice
+So, it's easier to win in a defensive battle?[p]
 [drawfg id=1]
-#クロ
-はい。ですので、[n]
-侵攻戦は犠牲を顧みず攻撃を重視、[p]
-防衛戦は兵力を温存し防御重視、[p]
-という戦い方が基本になります。[p]
+#Kuro
+Yes. In defensive battles, we should focus on defense
+and preserving our troops.
 [drawfg id=0 state=1]
-#アリス
-クフフッ！　わかったわかった。覚えておくっての。[p]
+#Alice
+Kufufufu!　I get it already. I'll bear it in mind.[p]
 
 [hide_message]
 [battle_pause enable=0]

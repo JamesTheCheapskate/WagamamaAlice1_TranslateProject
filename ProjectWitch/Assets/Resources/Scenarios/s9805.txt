@@ -7,78 +7,70 @@
 
 [show_message]
 [drawfg id=0 state=2]
-#アリス
-はぁ、疲れたぞ……。[p]
+#Alice
+Haah, I'm tired...[p]
 [drawfg id=1]
-#チシャ
-お疲れ様でございますアリス様。[p]
+#Cheshire
+Thank you for your hard work, Queen Alice.[p]
 [drawfg id=0]
-#アリス
-兵にもちょっと被害が出たな。[p]
+#Alice
+We've lost some of our troop strength too. [p]
 [drawfg id=1]
-#チシャ
-アリス様、減ってしまった兵は補充をすることができます。[p]
+#Cheshire
+Queen Alice, you can replenish your troops that have been lost.[p]
 
 [create_gameobject id=0 ref="Tutorial/field_menubar_menu_hilight"]
 
-補充はメニューの「軍団編成」から行うことができます。[p]
+Replenishment can be done from the menu "Legion Formation".[p]
 [drawfg id=0 state=0]
-#アリス
-へえ、他にもメニューがあるみたいだけど。[p]
+#Alice
+Heh, it looks like there are other menus.[p]
 [drawfg id=1]
-#チシャ
-はい！[p]
+#Cheshire
+Yes![p]
 
 [create_gameobject id=1 ref="Tutorial/field_menubar_army_cursor"]
 
-「軍団編成」は、[n]
-主に兵の補充や最大兵数の増加[n]
-ユニットそのものを強化するレベルアップなどを行うことができます。[p]
+The "Army" option is where you can replenish troops, increase the maximum number of troops, and level up units.[p]
 
 [delete_gameobject id=1]
 [create_gameobject id=1 ref="Tutorial/field_menubar_item_cursor"]
 
-「アイテム」は、[n]
-現在所持している[n]
-「装備」「カード」を確認することができます。[p]
+The "Items" option allows you to examine the "Equipment" and "Cards" that you currently have.[p]
 
 [delete_gameobject id=1]
 [create_gameobject id=1 ref="Tutorial/field_menubar_tips_cursor"]
 
-「図書館」は、[n]
-ゲームの操作に関するヘルプや、[n]
-この世界に関する様々な書籍を読むことができます。[p]
+The "Help" option provides help on game operation and various books about the world.[p]
 
 [delete_gameobject id=1]
 [create_gameobject id=1 ref="Tutorial/field_menubar_system_cursor"]
 
-最後に「システム」ですが、[n]
-「セーブ」「ロード」「設定」[n]
-の３つを行うことができます。[p]
+Finally, in the "System" section, you will find "Save", "Load", "Setup", and "Play".[p]
 
 [delete_gameobject id=0]
 [delete_gameobject id=1]
 
 [drawfg id=0 state=2]
-#アリス
-うーん、いっぱいあって覚えきれないな……。[p]
+#Alice
+Hmmm, there are so many I can't remember them all...[p]
 [drawfg id=1]
-#チシャ
-アリス様、細かい操作は[n]
-「図書館」の書籍に書いてあります。[p]
-操作に行き詰ったときは、ここをのぞいてみてください。[p]
+#Cheshire
+Queen Alice, the detailed operations are 
+written in the books in the "library."[p]
+If you get stuck, please take a look there.[p]
 [drawfg id=0 state=0]
-#アリス
-そうだな、とりあえずやってみて、わかんなかったらのぞいてみるわ。[p]
+#Alice
+In that case, I'll give it a try, then if I don't understand I'll take a peek.
+[p]
 [drawfg id=1]
-#チシャ
-はい！[p]
+#Cheshire
+Yes![p]
 [clearfg]
 [cn]
-【これにてチュートリアルは終了です。】[p]
-【何か操作でわからない部分があれば[n]
-メニューの図書室をのぞいてみてください。】[p]
-【それでは、わがままアリスと百日戦争の世界をお楽しみください。】[p]
+【This concludes the tutorial.】[p]
+【If you have any questions about any of the game concepts, please take a look at the library in the menu.】[p]
+【Please enjoy the world of Brutal Alice and the Hundred Days War.】[p]
 
 [hide_message]
 
