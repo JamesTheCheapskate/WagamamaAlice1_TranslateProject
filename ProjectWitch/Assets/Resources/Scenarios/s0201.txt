@@ -14,65 +14,64 @@
 
 [show_message]
 [cn]
-ウラール山脈。[p]
-吹雪の中で、二人の男が立ち尽くしていた。[p]
+Ulal mountains[p]
+In the blizzard, two men stood still. [p]
 [drawcg id=0 pos="right"]
-#部下
+#Subordinate
 [voice ref="020031"]
-ウェッジ！　ウェッジ！！[p]
+Wedge! Wedge! [p]
 [voice ref="020032"]
-…………マルゲル様、もう。[p]
-#マルゲル
+Lord Marugeru, it's over.[p]
+#Marugeru
 [voice ref="020033"]
-そうか……、分かった。[n]
-……ウェッジ、すまない。行こう、マルコ。[p]
+I see...I understand.[n]
+...Wedge, I'm sorry. Let's go Marco.[p]
 [scale id=0 sx=-1 time=400]
-#部下
+#Subordinate
 [voice ref="020034"]
-……はい。[p]
+...Yes[p]
 [move id=0 x=10 time=500]
 [cn]
-二人は雪に沈んだかつての仲間の亡骸を背に歩き出した。[p]
-#部下
+The two of them, with the snow-buried corpses of their former comrades on their backs, began to walk. [p]
+#Subordinate
 [voice ref="020035"]
 ……？[n]
-マルゲル様、何か音が！[p]
+Lord Marugeru, do you hear something?[p]
 [cn]
-吹雪の中、風を切る音に交じり、低く、何かが唸るような音が聞こえた。[p]
+Amid the blizzard, they could hear a low, growling sound mixed with the sound of the wind. [p]
 [scale id=0 sx=-1 time=400]
 [wait time=300]
 [scale id=0 sx=-1 time=400]
 [wait time=300]
 [scale id=0 sx=-1 time=400]
-#マルゲル
+#Marugeru
 [voice ref="020036"]
-私にも聞こえた。[n]
- ……凶暴なモンスターかもしれない、気を付けろ。[p]
+I hear it too. [n]
+...It could be a violent monster, be careful. [p]
 [cn]
-身構えた二人は、その音が次第にモンスターのものではないことに気が付き始めた。[p]
-#部下
+As the two men prepared themselves, they gradually realized that the sound was not coming from a monster. [p]
+#Subordinate
 [voice ref="020037"]
-マルゲル様……。 これはもしや。[p]
+Lord Marugeru...Is it possible that...[p]
 [cn]
 [stopbgm]
-気づいた時には遅かった。[p]
-ひときわ大きな音がしたかと思うと、[n]
-巨大な雪の波が彼らの上方から襲い掛かってきた。[p]
+By the time they realized, it was too late.[p]
+The loud noise they heard assaulted them as a huge wave of snow from above.[p]
 [bgm ref="018_event3"]
-#部下
+#Subordinate
 [voice ref="020038"]
-マルゲル様！！[p]
+Lord Marugeru!![p]
 [scale id=0 sx=-1 time=100]
-#マルゲル
+#Marugeru
 [voice ref="020039"]
-岩の陰に隠れろ！！[n]
+Hide in the shadow of the rock![n]
 急げ！！[p]
 [move id=0 x=5 time=50]
 [filter name="color" color="FFFFFF" time=500]
 [cn]
-叫んだのもつかの間だった。[p]
-二人が三歩も歩かないうちに雪が彼らを覆いつくした[p]
-彼らの意識はそこで途切れた。[p]
+There wasn't enough time to react.[p]
+Before they could even take three steps,[p]
+the snow covered them and they lost consciousness.[p]
 
 ;クリア処理
 [stopbgm]
@@ -103,123 +102,117 @@
 [filter name="clear" time="500"]
 [move id=2 y=5 time=50]
 [move id=2 y=-5 time=50]
-#ヘレン
+#Helen
 [voice ref="020040"]
-それでね、ほんっと死ぬかと思ったんだから！！[p]
-#トリアイナ
+That's right, I really thought I was going to die!![p]
+#Torianna
 [voice ref="020041"]
-ふふ……。[p]
+Fufu...[p]
 [voice ref="020041a"]
-オリヴィアはわざとやったわけではないのよ、許してあげなさい。[p]
+Olivia didn't do it on purpose, forgive her.[p]
 [move id=2 y=-10 time=500]
-#ヘレン
+#Helen
 [voice ref="020042"]
-わかってるけどぉ……。[p]
-#オリヴィア
+I know...[p]
+#Olivia
 [voice ref="020043"]
-ご、ごめんねヘレン……。[p]
+I-I'm sorry, Helen...[p]
 [voice ref="020043a"]
-次はちゃんとおいしく作れるように頑張るから。[p]
+I'll do my best to make it delicious next time.[p]
 [move id=2 y=10 time=500]
 [scale id=2 sx=-1 time=100]
-#ヘレン
+#Helen
 [voice ref="020044"]
-頑張らなくていいの！[n]
-普通のを作ってくれればいいの！[p]
+I don't want you to try too hard![n]
+Just make something normal![p]
 [voice ref="020044a"]
-アナタ普通につくったら料理うまいんだから！[p]
+When you make something normal, it's delicious![p]
 [cn]
-森の魔女オリヴィア、氷の魔女トリアイナ。[p]
-二人はどちらも広大な土地を持つ領主だったが、お互い昔からの馴染みで仲が良かった。[p]
-オリヴィアとトリアイナ、それにトリアイナの部下のヘレンを加えた三人は、[p]
-よくこうして、湖の底に作られた氷の宮殿でお茶会を開いていた。[p]
-#トリアイナ
+The forest witch Olivia and the ice witch Triaina.[p]
+Both of them were rulers of vast lands, but they had been friends for a long time.[p]
+Olivia, Triaina, and Triaina's subordinate Helen often held tea parties in the ice palace at the bottom of the lake. [p]
+#Torianna
 [voice ref="020045"]
-オリヴィア、あなたそろそろ領主の仕事には慣れた？[p]
-#オリヴィア
+Olivia, have you gotten used to being a ruler now?[p]
+#Olivia
 [voice ref="020046"]
-うん。[n]
-カートンたちがよくやってくれてるし、大丈夫だよ。[p]
-#トリアイナ
+Yeah.[n]
+Carton and the others help me a lot, so I'm okay.[p]
+#Torianna
 [voice ref="020047"]
-そういえば、最近新しく直近の部下を増やしたそうじゃない。[p]
-#オリヴィア
+By the way, I heard you recently added a new subordinate.[p]
+#Olivia
 [voice ref="020048"]
-ドードのこと？[p]
+You mean Dood?[p]
 [voice ref="020048a"]
-えっと、あの人は街の人たちにすすめられてね。[n]
-とっても頭がいいのよ！ 礼儀正しいし[p]
+Um, he was recommended by the people in the town.He's really smart! And polite.[p]
 [voice ref="020049"]
-ちょっとよくわからないことをいうときもあるけど、[n]
-根はいい人だと思うわ。[p]
-#トリアイナ
+Sometimes he says things I don't quite understand, but I think he's a good person at heart.[p]
+#Torianna
 [voice ref="020050"]
-あら、よかったじゃない。[n]
-あなたのところはいいわね、優秀な部下がいて。[p]
+Oh, that's great.[n]
+You have such good subordinates, Olivia.[p]
 [scale id=2 sx=-1 time=100]
-#ヘレン
+#Helen
 [voice ref="020051"]
-あっ、ちょっとトリアイナ！[n]
-それ私への当てつけじゃないでしょうね！[p]
-#トリアイナ
+Wait a minute, Triaina![n]
+You're not implying I'm not, are you?![p]
+#Torianna
 [voice ref="020052"]
-ふふ……、分かっているなら、遊んでばかりいないで
-たまには私の仕事を手伝って頂戴。[p]
+Fufu..., if you understood that, maybe you should take a break from just playing around and help me with my work sometimes.[p]
 [move id=2 x=5 time=50]
 [cn]
-ゆったりとした時間が過ぎていた。[p]
-お茶もお菓子もすっかりなくなり、[n]
-一通り話しつくしたところで、トリアイナが切り出した。[p]
+The time passed comfortably.[p]
+The tea and sweets were all gone and after they had talked about everything, Triaina brought up something new.[p]
 [move id=2 x=-10 time=400]
-#トリアイナ
+#Torianna
 [voice ref="020053"]
-さあ、そろそろおしまいにしましょう。[p]
+Well then, It's about time to call it a day.[p]
 [voice ref="020053a"]
-日が暮れる前に帰らないと、 最近物騒だもの。[p]
+You have to go home before it gets dark, it's been dangerous lately.[p]
 [voice ref="020054"]
-ヘレン、オリヴィアをお願いね。[p]
+Helen, please take care of Olivia.[p]
 [changecg id=2 state=0]
-#ヘレン
+#Helen
 [voice ref="020055"]
-らじゃっ！[p]
-#オリヴィア
+Roger![p]
+#Olivia
 [voice ref="020056"]
-トリアイナ、またね！[p]
-#トリアイナ
+See you later Triaina![p]
+#Torianna
 [voice ref="020057"]
-ええ。[p]
+Yep.[p]
 [scale id=2 sx=-1 time=300]
 [move id=2 x=10 time=200]
 [move id=2 y=2 time=20]
 [move id=2 y=-2 time=20]
 [changecg id=2 state=1]
 [cn]
-三人が席を立ち、オリヴィアたちが宮殿を後にしようとした時だった。[p]
-#ヘレン
+The three of them stood up and were about to leave the palace, when...[p]
+#Helen
 [voice ref="020058"]
-ねえ、あれ……だれか倒れてるわ！[p]
+Hey, look...someone's collapsed![p]
 [scale id=3 sx=-1 time=200]
 [move id=1 x=30 time=700]
 [cn]
-宮殿の入り口に、ずぶ濡れの男が一人、倒れていた。[p]
-#オリヴィア
+At the palace entrance, a man, drenched in water, was lying on the ground. [p]
+#Olivia
 [voice ref="020059"]
-お、泳いできたのかな……。[p]
-#ヘレン
+M-Maybe he swam here...[p]
+#Helen
 [voice ref="020060"]
-バカね！ おぼれて沈んできたに決まってるじゃない！[n]
-ちょっとアンタ！　大丈夫！？[p]
+Are you kidding me! He must have drowned! You stay with us! Are you okay?![p]
 #？？？
 [voice ref="020061"]
-う……ん。[p]
+Urrgh.[p]
 [move id=1 x=20 time=300]
 [move id=1 y=-10 time=400]
 [wait time=500]
-#トリアイナ
+#Torianna
 [voice ref="020062"]
-息があるわね。[n]
+He's still breathing.[n]
 [scale id=1 sx=-1 time=200]
-医務室に運ぶわよ。[p]
+Let's take him to the infirmary.[p]
 
 ;画面遷移
 [cn]
@@ -233,57 +226,56 @@
 [drawcg id=0 pos=4 dir="left"]
 #？？？
 [voice ref="020063"]
-う……、ここは……？[p]
+Ugh...Where am I...?[p]
 [drawcg id=2 pos=2 layer="front" dir="right" state=0]
-#ヘレン
+#Helen
 [voice ref="020064"]
-あっ！　目が覚めたのね！[p]
+Oh! You woke up![p]
 #？？？
 [voice ref="020065"]
-あなたは……。[p]
-#ヘレン
+Who are you...?[p]
+#Helen
 [voice ref="020066"]
-私はヘレン。[n]
-ここは氷の魔女トリアイナ自慢の、氷の宮殿よ。[p]
+I'm Helen.[n]
+This is the Ice Palace, the pride of the Ice Witch Triaina.[p]
 #？？？
 [voice ref="020067"]
-魔女、トリアイナ……。[n]
-氷の宮殿……。[p]
+Ice witch, Triaina...[n]
+Ice Palace...[p]
 [drawcg id=3 pos=1 dir="right"]
-#オリヴィア
+#Olivia
 [voice ref="020068"]
-ヘレン、お薬と凍傷に効く赤カラシもってきたよ。[p]
+Helen, I brought medicine and something to treat frostbite.[p]
 [voice ref="020069"]
-あっ、あと、おなか空いてたらいけないと思って氷豆のスープ作っておいたから。[p]
+Oh, and I thought he might be hungry so I made some ice bean soup.[p]
 #？？？
 [voice ref="020070"]
-そちらは……？[p]
+And you are...?[p]
 [move id=3 y=5 time=50]
 [move id=3 y=-5 time=50]
-#オリヴィア
+#Olivia
 [voice ref="020071"]
-へっ！？ あっ、き、きがついたんですか……。[n]
-あの、大丈夫ですか……？[p]
+Oh! Ah, you woke up...?[n]
+Uh, are you okay...?[p]
 #？？？
 [voice ref="020072"]
-ええ……、ありがとうございます。[n]
-介抱していただいたようで。[p]
+Yes...thank you very much.[n]
+It seems you saved me.[p]
 [scale id=2 sx=-1 time=300]
-#ヘレン
+#Helen
 [voice ref="020073"]
-この子はオリヴィアよ。[n]
+This girl is Olivia.[n]
 [scale id=2 sx=-1 time=300]
-ねえあなた、名前はなんていうの？[p]
-#マルゲル
+Hey, what's your name?[p]
+#Marugeru
 [voice ref="020074"]
-マルゲル……と、申します。[p]
+My name is Marugeru...[p]
 [voice ref="020075"]
- ……旅の、吟遊詩人とでも申しましょうか。[n]
-各地の伝承を伝え歩いております。[p]
-#ヘレン
+...and I suppose you can call me a wandering bard. I travel around and tell stories and legends of different places.[p]
+#Helen
 [voice ref="020076"]
-へえ……、今時吟遊詩人なんているのねえ……。[n]
-ちょっと一曲歌ってみてよ。 ほら、アンタの楽器。[p]
+Wow... there are still wandering bards nowadays...
+Come on, play us a song. Here, take your instrument.[p]
 
 ;ヘレンの移動アニメーション
 [move id=2 x=30 time=200]
@@ -298,20 +290,20 @@
 [scale id=2 sx=-1 time=0]
 
 [cn]
-ヘレンはマルゲルにリュートを渡した。[p]
-#マルゲル
+Helen handed a lute to Marugeru.[p]
+#Marugeru
 [voice ref="020077"]
-はあ……わかりました。[p]
-#オリヴィア
+Alright... I understand.[p]
+#Olivia
 [voice ref="020078"]
-ちょ、ちょっとヘレン。[n]
-まだ病み上がりなんだからやめてあげてよ。[p]
-#ヘレン
+H-Hey, Helen.[n]
+He's still recovering, so let's not push him.[p]
+#Helen
 [voice ref="020079"]
-あら、それもそうよね。[p]
-#マルゲル
+Oh, that's right.[p]
+#Marugeru
 [voice ref="020080"]
-あっ……。[p]
+Ah...[p]
 
 ;ヘレンの移動アニメーション
 [move id=2 x=30 time=200]
@@ -326,41 +318,40 @@
 [scale id=2 sx=-1 time=0]
 
 [cn]
-オリヴィアに言われたヘレンは、[n]
-さっさとマルゲルから楽器を奪ってしまった。[p]
-#ヘレン
+Helen quickly took the instrument from Marugeru at Olivia's urging.[p]
+#Helen
 [voice ref="020081"]
-ほらほら！　詳しいことは後で根掘り葉掘り[n]
-きーっちりきいてあげるから、今はしっかり休んでなさい！[p]
-#マルゲル
+You just relax! We'll talk about all the details later, but for now, just rest well!
+[p]
+#Marugeru
 [voice ref="020082"]
-いや、しかし……。[p]
-#ヘレン
+But, but...[p]
+#Helen
 [voice ref="020083"]
-しかしじゃないの！[n]
-ほら、オリヴィア、スリープの魔法！[p]
-#オリヴィア
+No buts![n]
+Come on, Olivia, cast a sleep spell![p]
+#Olivia
 [voice ref="020084"]
-えっ、うん……。[n]
-スリープ！[p]
+Oh, okay...[n]
+Sleep![p]
 [se ref="164"]
 [filter name="flush" time=500 color="ffffff"]
-#マルゲル
+#Marugeru
 [voice ref="020085"]
-一つ聞きたいことが……、ぐう。[p]
+I have one question I want to ask...~groan~[p]
 [move id=0 x=10 y=-30 time=500]
 [clearcg id=0 mode="fadeout"]
 [scale id=2 sx=-1 time=300]
-#ヘレン
+#Helen
 [voice ref="020086"]
-さっ、その赤カラシさっさと塗り付けて、家に帰るわよ。[p]
+Come on, hurry up and put on that red ointment and head home.[p]
 [voice ref="020086a"]
-もうそろそろ本当に日が暮れちゃうんだから。[p]
-#オリヴィア
+It's getting dark already.[p]
+#Olivia
 [voice ref="020087"]
-うん……。[p]
+Okay...[p]
 [cn]
-ヘレンに見送られ、オリヴィアは氷の宮殿を後にした[p]
+Receiving her final farewells from Helen, Olivia left the palace of ice behind.[p]
 
 [hide_message]
 [filter name="fade" time="500"]

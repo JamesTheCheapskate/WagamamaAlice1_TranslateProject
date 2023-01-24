@@ -14,9 +14,9 @@
 
 [show_message]
 [cn]
-ウラール山脈。[p]
-かつて北の大地で起きた大戦争で地面が隆起し、できたこの山脈は、[p]
-現在は年中吹雪の吹き荒れる険しい土地となっておりこの世界を南北で完全に分断していた。[p]
+Ulal Mountains. [p]
+A mountain range formed by the great war that occurred in the northern lands.[p]
+Today, it is an impassible barrier that divides the world into north and south due to being a rugged land with blizzards all year long.[p]
 
 [drawcg id=0 posx=-70 dir="right"]
 [move id=0 x=10 time=300]
@@ -31,26 +31,25 @@
 [scale id=0 sx=-1 time=100]
 #？？？
 [voice ref="020000"]
-急げ！　今日中にこの峠を越えるのだ！[n]
-体を動かせ、凍り付いて動けなくなるぞ！ [p]
+Hurry! We must cross this pass today! [n]
+Move your body or you'll be frozen solid![p]
 [cn]
-数名の男たちが、ウラール山脈の中腹を進んでいた。 [p]
+Several men were making their way through the Ulal Mountains. [p]
 [scale id=0 sx=-1 time=100]
 #？？？
 [voice ref="020001"]
-急ぎ、あれを手に入れなければ……。[p]
-#部下
+We must hurry, we must get... [p]
+#Subordinate
 [voice ref="020002"]
-マルゲル様！　ウェッジの姿が見えません！[n]
-はぐれてしまいました！[p]
+Lord Marugeru! We can't find Wedge! He's missing! [p]
 [scale id=0 sx=-1 time=100]
-#マルゲル
+#Margeru
 [voice ref="020003"]
-なに！　仕方ない、戻るぞ。 [n]
-凍り付いて動けなくなっているのかもしれん。[p]
-#部下
+What! We've no choice but to go back. He may be unable to move and freezing to death. 
+[p]
+#Subordinate
 [voice ref="020003a"]
-はっ！[p]
+Aye-Aye![p]
 [move id=0 x=-10 time=300]
 [wait time=200]
 [move id=0 x=-10 time=300]
@@ -60,10 +59,8 @@
 [move id=0 x=-10 time=300]
 [filter name="color" color="FFFFFF" time="500"]
 [cn]
-どこを見ても真っ白な世界の中で、[p]
-魔法コンパスの指針を頼りに、[n]
-マルゲルたちは部下を探しにもと来た道を戻っていった。[p]
-
+In a world that was completely white in all directions, [p]
+Marugeru and his men could only rely on their magic compass to guide them as they returned along the path to search for their missing subordinate.
 [hide_message]
 [clearcg id=0]
 [clearbg]
@@ -83,150 +80,145 @@
 
 [show_message]
 [drawcg id=1 pos="right" dir="right"]
-#オリヴィア
+#Olivia
 [voice ref="020004"]
-ふんふんふーん♪ そろそろ焼きあがるわね、[n]
-おいしくできたかなぁ。[p]
+Fufufuu♪ It should be done soon, I wonder if it turned out tasty.[p] 
+[p]
 [voice ref="020005"]
-後でヘレンに味見してもらおっと！[p]
+I'll have Helen taste it later![p]
 
 [se ref="166"]
 [drawcg id=2 pos="left" dir="right" mode="slidein" state=4]
-#ヘレン
+#Helen
 [voice ref="020006"]
-オリヴィア、いるー？[p]
+Olivia, are you here? [p]
 [scale id=1 sx=-1 time=300]
-#オリヴィア
+#Olivia
 [voice ref="020007"]
-あっ、ヘレン！ ちょうどよかったわ。[p]
+Oh, Helen! You came just in time.[p]
 [voice ref="020007a"]
-今ちょうどパイが焼きあがったのよ。[n]
-味見していかない？[p]
+My pie just finished baking. Want to try some? 
+[p]
 [move id=2 y=5 time=50]
 [move id=2 y=-5 time=50]
-#ヘレン
+#Helen
 [voice ref="020008"]
-えっ！　するする！！ なになに、何のパイ？[p]
+What! A pie? A pie?! Of course! What kind of pie is it? [p]
 [move id=2 x=10 time=400]
-#オリヴィア
+#Olivia
 [voice ref="020009"]
-ふふっ！　今日はね、じゃーん！！[n]
-ヘレンの好きな、水ブドウでパイを作ったのだー！[p]
+Fufu! Today's masterpiece is....ta-da!![n]
+I made a pie with sea grapes which I'm sure you'll love![p]
 [changecg id=2 state=5]
 [move id=2 x=-5 time=50]
-#ヘレン
+#Helen
 [voice ref="020010"]
-えっ……、それ海藻じゃない。おいしいの？[p]
-#オリヴィア
+Eh...not that seaweed stuff. Is it tasty in a pie?[p]
+#Olivia
 [voice ref="020011"]
-ヘレン魚でしょ？　[n]
-水ブドウ好きかなーと思ったんだけど。[p]
+Helen, you're like a fish, right? 
+I thought for sure that you'd like sea grapes, but now I'm not sure.[p]
 [move id=2 y=5 time=50]
 [move id=2 y=-5 time=50]
-#ヘレン
+#Helen
 [voice ref="020012"]
-だれが魚よ！ 私は人魚！　半分人間よ！！[n]
-ってか、味覚は完全に人間よ！！[p]
+Who said I'm a fish! I'm a mermaid! Half-human! And my taste buds are completely human![p]
 [voice ref="020013"]
-……まあおなかすいたときに水ブドウ食べるけど[n]
-別に好きじゃないわよ！！[p]
+...Well, I'll eat sea grapes when I'm hungry, But I don't particularly like them! [p]
 [move id=1 y=5 time=50]
 [move id=1 y=-5 time=50]
-#オリヴィア
+#Olivia
 [voice ref="020014"]
-ええっ！　そ、そうなの？[p]
+What! Is that so?[p]
 [voice ref="020015"]
 [move id=1 y=-5 time=300]
-……ごめんなさい、私ヘレンが喜ぶと思って……。[p]
+...I'm sorry, I thought you'd be happy...[p]
 [move id=2 x=-5 time=50]
-#ヘレン
+#Helen
 [voice ref="020016"]
-うっ……、そんな顔しないでよもう。[p]
+Ugh... don't make that face.[p]
 [move id=2 x=20 time=600]
 [voice ref="020017"]
-わ、わかったわよ、食べればいいんでしょ、[n]
-ほら、よこしなさいよ。[p]
+I...fine, I'll eat it, Here goes nothing.[p]
 [move id=1 y=10 time=100]
 [move id=1 y=-5 time=50]
-#オリヴィア
+#Olivia
 [voice ref="020018"]
-ヘレン！ うん！　じゃあハイ！！[n]
-たっぷり大盛だよ！[p]
+Helen! Yeah! Bon Apetite![n]
+It's chocked full of great stuff![p]
 [move id=2 y=-2 time=20]
 [move id=2 y=2 time=20]
-#ヘレン
+#Helen
 [voice ref="020019"]
-味見なのよね！？ ……まあいいわ、いただきます。[p]
+Is this a blind taste test?! ...Oh well, down the hatch.[p]
 [scale id=2 sx=-1 time=100]
 [move id=2 y=-10 time=200]
 [voice ref="020020"]
-……………ブッ！ オエエェーーー！！！！[p]
-#オリヴィア
+~chomp~  ...Eeeeewwwwww!!![p]
+#Olivia
 [voice ref="020021"]
-へっ、ヘレン！？ ちょっと、はかないでよ！！[n]
-そんなにまずかった！？[p]
+H-Helen?!  What's wrong? Don't make a face like that!
+Didn't you like it?[p]
 [move id=2 y=2 time=20]
 [move id=2 y=-2 time=20]
 [wait time=300]
 [move id=2 y=2 time=20]
 [move id=2 y=-2 time=20]
-#ヘレン
+#Helen
 [voice ref="020022"]
-まずいとかじゃないわよ！ 何よこれ！[p]
+Well, it's not the most disgusting thing I've ever eaten. What exactly is in this?![p]
 [voice ref="020023"]
-殺しに来てるわ！ 水ブドウの味じゃない……[n]
-いったい何を入れたのよ！[p]
-#オリヴィア
+You're killing me here...literally!  It doesn't taste like sea grapes...No really, what DID you put in this?![p]
+#Olivia
 [voice ref="020024"]
-えっと……隠し味にニシンのたまごを……少々。[p]
+Well... I added a raw egg as a secret ingredient...just a little one.[p]
 [changecg id=2 state=5]
 [move id=2 y=10 time=600]
 [scale id=2 sx=-1 time=100]
 [move id=1 x=5 time=50]
-#ヘレン
+#Helen
 [voice ref="020025"]
-隠せてないよ！！ 生ぐっさ！　これ生ぐっさ！！[p]
+That's not a secret ingredient! Raw?!  It's Raw?![p]
 [move id=1 x=5 time=50]
 [move id=2 x=5 time=50]
 [voice ref="020025a"]
-なんで入れようと思った！？[n]
+What made you think to put that in?[n]
 [move id=1 x=5 time=50]
 [move id=2 x=5 time=50]
-なんで入れようと思った！！？[p]
-#オリヴィア
+Why would you do that?![p]
+#Olivia
 [voice ref="020026"]
-いや、見た目にてるし……いけそうかなって。[p]
+Well, it looked good...so I thought it would taste good too.[p]
 [move id=2 y=5 time=50]
 [move id=2 y=-5 time=50]
-#ヘレン
+#Helen
 [voice ref="020027"]
-いけるどころか完全に勢い殺したよ！？[n]
+It doesn't taste good at all![n]
 [move id=2 y=5 time=50]
 [move id=2 y=-5 time=50]
-水ブドウのよさ全部消えたよ！！[p]
+It completely ruins the tast of the sea grapes![p]
 [voice ref="020028"]
-完全に卵が勝っちゃってるよ！！！[n]
+The raw egg flavor completely overpowers everything else![n]
 [scale id=2 sx=-1 time=100]
 [move id=2 y=-2 time=20]
 [move id=2 y=2 time=20]
-ゲホッ、
+~gag~, 
 [move id=2 y=-2 time=20]
 [move id=2 y=2 time=20]
-ゲホッ！！[p]
+~gag~[p]
 [move id=1 x=-5 time=200]
-#オリヴィア
+#Olivia
 [voice ref="020029"]
-だっ、大丈夫！？[p]
+A-Are you alright?![p]
 [scale id=2 sx=-1 time=100]
 [move id=1 x=5 time=50]
-#ヘレン
+#Helen
 [voice ref="020030"]
-誰のせいよーーーー！！！[p]
+This is all your fault![p]
 [cn]
-オリヴィア領は緑の豊かな土地だった。[p]
-年中温暖な気候で、 [n]
-領内は花や果物、動物たちであふれていた。[p]
-そんな土地でのオリヴィアの平穏な暮らしに、 影が差そうとしていた。[p]
+Olivia's territory is a lush green land.[p]
+With a warm climate all year round, it's filled with flowers, fruits and animals.[p]
+Olivia is completely unaware of the shadow looming over her peaceful life.[p]
 
 [hide_message]
 [filter name="fade" time="500"]

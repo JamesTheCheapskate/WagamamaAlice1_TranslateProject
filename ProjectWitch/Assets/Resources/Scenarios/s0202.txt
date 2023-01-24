@@ -21,135 +21,129 @@
 ;場面開始
 [show_message]
 [cn]
-魔女オリヴィアの家。[p]
+The house of the witch Olivia.[p]
 [drawcg id=1 pos=4]
-#カートン
+#Carton
 [voice ref="020088"]
 ;カートンです、入ってもよろしいですか
-……！　……、……。[p]
-#オリヴィア
+It'sC arton,m ayIc omei n?[p]
+#Olivia
 [voice ref="020089"]
-カートン？ いいわよ、入ってきて。[p]
+Carton? Sure, come in.[p]
 [se ref="166"]
 [drawcg id=0 pos=1 dir="right" mode="slidein"]
-#カートン
+#Carton
 [voice ref="020098"]
 ……。[p]
 [move id=1 x=-10 time=300]
-#オリヴィア
+#Olivia
 [voice ref="020099"]
-どうしたの？[n]
-あっ、クッキー焼いたんだけど、食べる？[p]
-#カートン
+What's up?[n]
+Oh, I baked some cookies, do you want some?[p]
+#Carton
 [voice ref="020100"]
 [move id=0 y=10 time=200]
 [move id=0 y=-10 time=200]
 [move id=0 y=10 time=200]
 [move id=0 y=-10 time=200]
 ;おおこれはかたじけない。いただきます。
-……♪[n]
-……。[p]
+Ic ouldn'tp asst hisu p.I 'llt akes ome♪[p] 
 [move id=1 x=10 time=400]
-#オリヴィア
+#Olivia
 [voice ref="020101"]
-相変わらず、あなたの話していることはさっぱりわからないわ。[p]
-#カートン
+As always, I can't understand a word you're saying.[p]
+#Carton
 [voice ref="020102"]
-;申し訳ありません……。
-……。[p]
+Ia pologize...[p]
 [move id=1 y=-2 time=20]
 [move id=1 y=2 time=20]
-#オリヴィア
+#Olivia
 [voice ref="020103"]
-あっ、大丈夫だよ！[n]
-なんとなくわかるときもあるし……。[p]
+It's alright![n]
+Sometimes I can kind of understand...[p]
 [voice ref="020104"]
-それより、何の用だったの？[p]
-#カートン
+Anyway, what as it you wanted?[p]
+#Carton
 [voice ref="020105"]
-;ええ、それが、西に不審な動きありと……。
-…………、……、……！[p]
+YesIc amet or eports uspiciousm ovementt ot hew est...[p]
 [move id=1 y=-5 time=500]
-#オリヴィア
+#Olivia
 [voice ref="020106"]
-……ご、ごめんなさい。[n]
-今のは完全にわからなかったわ。[p]
+S-sorry.[n]
+I didn't understand at all what you were saying.[p]
 [move id=1 y=5 time=200]
 [voice ref="020107"]
-そうだ！　筆談にしましょう。[p]
+Oh, I know! Let's use written words.[p]
 [voice ref="020108"]
-そうよ、なんでもっと早く思いつかなかったのかしら[n]
+Why didn't I think of that sooner?[n]
 [move id=1 x=-10 time=300]
-はい！　紙とペンよ。[p]
-#カートン
+Here, pen and paper.[p]
+#Carton
 [voice ref="020109"]
-;おお……、それは良いアイディアですな。では早速
 [move id=0 y=10 time=200]
 [move id=0 y=-10 time=200]
 [move id=0 y=10 time=200]
 [move id=0 y=-10 time=200]
-……、……！　……。[p]
-#オリヴィア
+Oh...t hat'sag oodi dea.S ot hen,q uickly...[p]
+#Olivia
 [voice ref="020110"]
-……カートン、字へたねえ。[p]
+...Carton, your handwriting is terrible.[p]
 [voice ref="020111"]
-「西に不穏な動きあり」[n]
-……山の魔女が攻めてきたの？[p]
-#カートン
+"Suspicious movements to the west"[n]
+...Are the mountain witches attacking?[p]
+#Carton
 [voice ref="020112"]
-……。[p]
-#オリヴィア
+...[p]
+#Olivia
 [voice ref="020112a"]
-「山がさわがしい」[n]
-……って、いつものことじゃない。 心配しすぎよ。[p]
-#カートン
+"The mountains are restless"
+...aren't they always that way? Don't worry so much.[p]
+#Carton
 [voice ref="020113"]
-;そうだといいのですが
-……。[p]
-#ヘレン
+Ih opey ourr ight.[p]
+#Helen
 [voice ref="020114"]
-オリヴィアー？[p]
-#オリヴィア
+Olivia?[p]
+#Olivia
 [voice ref="020115"]
-ヘレン？[p]
+Helen? [p]
 [se ref="166"]
 [drawcg id=2 dir="right" pos=1 layer="front" state=4 mode="slidein"]
-#ヘレン
+#Helen
 [voice ref="020116"]
-あっ、カートンさん。[n]
-こんにちはー。[p]
-#カートン
+Oh, Hello Mr. Carton.[p]
+#Carton
 [voice ref="020117"]
 ;やあ、ヘレン殿。こんにちは
-……！[p]
-#ヘレン
+Welli fiti sn'tL adyH elen.G ooda fternoon.[p]
+#Helen
 [voice ref="020118"]
-それでね、オリヴィア。[p]
+So, Olivia.[p]
 [voice ref="020118a"]
-トリアイナからオリヴィアを呼んでくるように言われてて。[p]
-#オリヴィア
+I was told to come and fetch you by Triaina.[p]
+#Olivia
 [voice ref="020120"]
-え？[n]
-ええ……すぐ行くわ。[p]
-#カートン
+Eh?[n]
+Oh, okay... I'll go right away.[p]
+#Carton
 [voice ref="020121"]
 ;オリヴィア様！
-……！[p]
-#オリヴィア
+L adyO livia![p]
+#Olivia
 [voice ref="020122"]
-カートン。[n]
-お留守番お願いしてもいい？[p]
-#カートン
+Carton.[n]
+Can I leave you to watch the house?[p]
+#Carton
 [voice ref="020122a"]
 ;え、ええ……。
-…………。[p]
+Yah es[p]
 
 [scale id=2 sx=-1 time=300]
 [move id=2 x=-50 time=250]
 [move id=1 x=-100 time=500]
 [scale id=0 sx=-1 time=200]
 [cn]
-カートンを一人残して、オリヴィアたちはトリアイナ領へ向かった。[p]
+Leaving Cartron behind, Olivia and Helen headed towards Trianna's territory.[p]
 
 [hide_message]
 [filter name="fade" time="500"]
@@ -181,28 +175,27 @@
 [drawcg id=3 pos=5]
 [show_message]
 [cn]
-ベスビオ山山頂神殿。[p]
-中央の台座に、山の魔女ベガが鎮座していた。[p]
+At the summit temple of Vesuvius mountain,[p]
+the mountain witch Vega was seated on a central podium.[p]
 [drawcg id=4 pos=2 dir="right" mode="slidein"]
-#ベガ
+#Vega
 [voice ref="020123"]
-メッサーシュミット。[n]
-奴の様子は。[p]
-#メッサーシュミット
+Messerschmitt, what's the situation?[p]
+#Messerschmitt
 [voice ref="020123a"]
-はい！[p]
+Yes![p]
 [voice ref="020124"]
-どうやら東側の攻略を開始したようです。[p]
+It seems Alice's forces have started to attack Olivia's territory from the east.[p]
 [voice ref="020125"]
-西側は現在手薄。[n]
-攻め込むなら今です！[p]
-#ベガ
+Olivia's westerns defenses are currently weak.[n]
+If we're going to attack, now is the time![p]
+#Vega
 [voice ref="020125a"]
-ご苦労。[n]
-では、後の手はずは任せるぞ。[p]
-#メッサーシュミット
+Thank you for your hard work.[n]
+Well then, I'll leave the next move up to you.[p]
+#Messerschmitt
 [voice ref="020126"]
-はい、お任せください！[p]
+Yes, please leave it to me![p]
 [cn]
 
 [scale id=4 sx=-1 time=200]
@@ -211,13 +204,10 @@
 [wait time=200]
 [move id=3 x=-40 time=500]
 [scale id=3 sx=-1 time=0]
-メッサーシュミットが出ていくと、[n]
-ベガはすっくと立ちあがり、[n]
-東の空を見渡した。[p]
-#ベガ
+After Messerschmitt left, Vega quickly stood up and surveyed the eastern sky.[p]
+#Vega
 [voice ref="020127"]
-父上……ドラゴン族の長年の悲願。[n]
-私が、必ず。[p]
+Father above... the long-cherished desire of the dragon clan. I will definitely fulfill it.[p]
 [cn]
 
 ;場面転換
@@ -245,105 +235,99 @@
 
 [show_message]
 [cn]
-魔女の湖。[n]
-氷の宮殿内。[p]
+At the lake of the witches.[n]
+Inside the palace of ice.[p]
 [drawcg id=5 pos=5]
-#トリアイナ
+#Torianna
 [voice ref="020128"]
-本当に行くのですか？[p]
+Are you really going?[p]
 [drawcg id=6 pos=3 dir="right"]
-#マルゲル
+#Marugeru
 [voice ref="020129"]
-ええ、仲間とはぐれてしまいました。[n]
-探しに行かねば。[p]
-#トリアイナ
+Yes, I've been separated from my comrades. 
+I must go look for them.[p]
+#Torianna
 [voice ref="020130"]
-まだ体力も戻っていないのよ、[n]
-もう少しゆっくりしていきなさい。[p]
-#マルゲル
+You still haven't recovered your strength yet, you should take it easy for a bit longer.[p]
+#Marugeru
 [voice ref="020131"]
-……お気遣いありがとうございます。[n]
-失礼します。[p]
+...Thank you for your concern. I apologize for my abrupt departure.[p]
 [move id=6 y=-2 time=20]
 [move id=6 y=2 time=20]
-#ヘレン
+#Helen
 [voice ref="020132"]
-あっ、ちょっとマルゲルさん、どこ行くのよ。[p]
+Hey, Mr. Marugeru, where are you going? [p]
 
 [scale id=6 sx=-1 time=300]
 [move id=6 x=20 time=400]
 [drawcg id=2 mode="slidein" layer="front" dir="right" pos=2 state=1]
 [drawcg id=1 mode="slidein" layer="front" dir="right" pos=1]
 
-#トリアイナ
+#Torianna
 [voice ref="020133"]
-ヘレン、それにオリヴィア。[p]
-#オリヴィア
+It's Helen, and Olivia too.[p]
+#Olivia
 [voice ref="020134"]
-あっ、その、[n]
-お庭でとれたポテトをおすそ分けに来たんだけど……[p]
-#マルゲル
+Oh, right, I came to share some potatoes I picked from the garden...[p]
+#Marugeru
 [voice ref="020135"]
-……オリヴィア殿。[p]
+...Lady Olivia[p]
 [move id=1 y=-2 time=20]
 [move id=1 y=2 time=20]
-#オリヴィア
+#Olivia
 [voice ref="020136"]
-へっ！？[n]
-あっ、ハイ！[p]
+Eh!? Oh, hi![p]
 [move id=1 y=-5 time=50]
 [move id=1 y=5 time=50]
 
-#マルゲル
+#Marugeru
 [voice ref="020137"]
-氷豆のスープ、おいしかったです。[n]
-……それでは。[p]
+The soup with ice beans was delicious...Then, I will be going.[p]
 
 [move id=6 x=-50 time=1000]
 
-#オリヴィア
+#Olivia
 [voice ref="020138"]
-……マルゲルさん。[p]
+...Mr. Marugeru.[p]
 [scale id=2 sx=-1 time=200]
-#ヘレン
+#Helen
 [voice ref="020139"]
-ね、ねえ待ちなよ！[n]
-アンタ、まだつらそうじゃない！[p]
-#マルゲル
+H-Hey, wait![n]
+You still look like you're in pain![p]
+#Marugeru
 [voice ref="020140"]
-……。[p]
+...[p]
 
 [move id=6 x=-40 time=500]
 [move id=2 x=-5 time=100]
 [scale id=1 sx=-1 time=200]
 
-#ヘレン
+#Helen
 [voice ref="020141"]
-ちょ、ちょっと！！[p]
+Hey, wait a minute!![p]
 [cn]
-ヘレンの制止も聞かず、マルゲルは宮殿から出て行ってしまった。[p]
-#ヘレン
+Despite Helen's efforts to stop him, Marugeru left the palace.[p]
+#Helen
 [voice ref="020142"]
-何なのよ、あいつ。[p]
+What's with him?[p]
 [scale id=2 sx=-1 time=300]
 
-#トリアイナ
+#Torianna
 [voice ref="020143"]
-はぐれた仲間を探しに行くそうよ。[p]
+He's going to look for a lost companion.[p]
 [voice ref="020144"]
-ごめんなさい、オリヴィア。[n]
+I'm sorry, Olivia.[n]
 [move id=5 x=-10 time=300]
-ポテト、ありがたくもらうわね。[p]
+Thank you for the potatoes.[p]
 [scale id=1 sx=-1 time=300]
-#オリヴィア
+#Olivia
 [voice ref="020145"]
-あっ、えっ……うん。[p]
+Oh, uh... yeah.[p]
 [move id=1 x=40 time=700]
 [filter name="fade" time=500]
 [cn]
-謎の吟遊詩人マルゲル。[p]
-どこからともなく表れ、立ち去った彼に、[n]
-オリヴィアが再び会うことはないのだった。[p]
+The mysterious minstrel Marugeru.[p]
+He appeared out of nowhere and left, and Olivia would never see him again.[p]
 
 ;場面転換
 [hide_message]
@@ -370,69 +354,68 @@
 
 [show_message]
 [cn]
-コンペイ砦。[n]
-オリヴィア領とベガ領の国境。[p]
-オリヴィア領の兵力の8割はこの国境に集中していた[p]
-いつドラゴンたちが攻めてきてもおかしくない。[p]
-この場所は常にそんな緊張感に包まれていた。[p]
+Conpei Fortress[n]
+On the border between the Olivia and Vega's territory.[p]
+80% of Olivia's forces were concentrated on this border.[p]
+It was not unlikely that the dragons would attack at any time.[p]
+This place was always surrounded by such tension.[p]
 [drawcg id=0 posx=50]
-#カートン
+#Carton
 [voice ref="020146"]
 ;ぬ、ドード殿ではないか。
 ;このようなとこまで珍しい。[p]
-……、……。…………。[p]
+Oh,i t'sL ordD odd.[p]
+It'su nusualt ose ehi minap lacel iket his.[p]
 [drawcg id=7 pos=2 dir="right" mode="slidein"]
-#ドード
+#Dood
 [voice ref="020147"]
-イヒヒッ！　お勤めご苦労さんです。[p]
+Haha! Thank you for your hard work.[p]
 [voice ref="020148"]
-しかし、あなたも大変ですな。[p]
+But you're also in a difficult situation, aren't you?[p]
 [voice ref="020148a"]
-こんな偏狭で、年がら年中ドラゴンを相手してんですから。[p]
+Being stuck in such a narrow place and always having to deal with dragons.[p]
 [voice ref="020149"]
-あっしだったら、気がめいっちまいます。[p]
-#カートン
+If I were you, I would be losing my mind.[p]
+#Carton
 [voice ref="020150"]
 ;オリヴィア様のために私ができることなどこれくらいのもの。
-…………、…………！[p]
-#ドード
+Ic ano nlyd ow hatIc anf orL adyO livia.[p]
+#Dood
 [voice ref="020151"]
-へえ、オリヴィア様のためですか。[n]
+Oh, for Lady Olivia?[n]
 それはそれは、アンタ本当に素晴らしい部下だ。[p]
-#カートン
+#Carton
 [voice ref="020152"]
 ;しかし、ドード殿はわしの話すことが理解できるのだな
-……………？[p]
-#ドード
+B utL ordD odd,c any ouu nderstandw hatI 'ms aying?[p]
+#Dood
 [voice ref="020153"]
-アンタの話がなんで理解できるんだって？[n]
-まあ、一種の読心術のようなものでさあ。[p]
-#カートン
+Why wouldn't I be able to understand what you're saying?[n]
+Well, I suppose it's more like a mind reading ability than hearing what you're saying.[p]
+#Carton
 [voice ref="020154"]
 ;それは素晴らしい！　ぜひオリヴィア様にその極意を教えてほしいものだ。
-…………！[n]
-………、……。[p]
-#ドード
+T hat'sg reat!Ih opeL adyO liviaw illt eachm et hats killt oo. [p]
+#Dood
 [voice ref="020155"]
-へへ、これにはちょいと特殊な能力が必要でして、[n]
-あいにく魔女様には使えねえんです。[p]
-#カートン
+Hehe, this requires a special ability, and unfortunately, it's not something that witches can use.[p]
+#Carton
 [voice ref="020156"]
 ;そうか……。
-……。[p]
-#ドード
+Is ee...[p]
+#Dood
 [voice ref="020157"]
-まあまあ、そう気を落としなさんな。[n]
-魔女様に会うときにはあっしが通訳しまさあ。[p]
-#カートン
+Oh, don't be too down about it.[n]
+When you meet with her, I'll act as your translator.[p]
+#Carton
 [voice ref="020158"]
 ;すまない。今度からぜひ頼む。
-……。…………。[p]
-#ドード
+I 'ms orry.I 'lld efinitelyr elyo nyo un extt ime.[p]
+#Dood
 [voice ref="020159"]
-へいへい、もちろんでさあ。[n]
-あっしら部下同士、仲良くやりましょうぜ。[n]
-イッヒッヒッヒッヒ……。[p]
+Hey hey, of course. [n]
+Let's get along well as subordinates.[n]
+Haha...[p]
 
 [hide_message]
 [filter name="fade" time="500"]

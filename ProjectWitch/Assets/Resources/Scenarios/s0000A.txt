@@ -7,54 +7,55 @@
 [loadcg id=2 ref="meisie"]
 [loadcg id=3 ref="kuro"]
 
-#チシャ
+#Cheshire
 [voice ref="000000"]
-……リ……ま、……リスさ……！[p]
+...lis...Alice...[p]
 [voice ref="000001"]
-アリス様！[p]
+Queen Alice![p]
 ;明転
 ;BGM再生
 ;イベントＣＧ 001 寝起きのアリス
 [drawbg ref="Event/700"]
 [bgm ref="003_alice2"]
-#アリス
+#Alice
 [voice ref="000002"]
-うーん……。[p]
-#チシャ
+Umm...[p]
+#Cheshire
 [voice ref="000003"]
-アリス様！　朝ですよ！[n]
-早く起きてください！[p]
-#アリス
+Queen Alice!  It's morning![n]
+Please wake up already![p]
+#Alice
 [voice ref="000005"]
-うーん……[n]
-起きた起きた。 はいはい……おはよー。[p]
-#チシャ
+Umm...[n]
+Wait, what?  Right... morning.[p]
+#Cheshire
 [voice ref="000006"]
-アリス様、入りますよー！[p]
-#アリス
+Queen Alice, I'm coming in.[p]
+#Alice
 [voice ref="000007"]
-入ったらぶっ殺すぞ！！[p]
-#チシャ
+Come in and you're dead meat!![p]
+#Cheshire
 [voice ref="000008"]
-わっ！　な、何でですかぁ！[p]
-#アリス
+Waaa! Y...you wouldnt really do that to me, would you?[p]
+#Alice
 [voice ref="000009"]
-うるせえ！　とにかく外で待ってろ！！[p]
+Jeez!  Just wait outside![p]
 [cn]
-寝起きとは思えない大声でチシャをしかりつけ、[n]
-アリスはもそもそとベッドからはい出した。[p]
-#アリス
+Having been confusedly awoken by [n]
+Cheshire's shouting, Alice squirmed [n]
+out of bed.[p]
+#Alice
 [voice ref="000010"]
-うー……ん！！[p]
+Haaaaaah![p]
 [cn]
-大きく伸びをするとぽいぽいとパジャマを放り、[n]
-タンスから着慣れたドレスを取り出した。[p]
-#アリス
+After stretching and taking off her pajamas,[n]
+she took out her favorite dress from the wardrobe.[p]
+#Alice
 [voice ref="000011"]
-よしっ……と。[p]
+Alrighty then.[p]
 [cn]
-最後に帽子をかぶるとアリスは鏡の前でにやりと笑い、[n]
-鼻歌交じりに部屋を出ていった。[p]
+Lastly, Alice put on her hat, smiled in the mirror pleased 
+with her outfit before leaving the room humming happily.[p]
 [filter name="fade" time="500"]
 [clearcg id=6]
 [drawbg ref="1002m"]
@@ -64,121 +65,129 @@
 [drawcg id=1 pos="left" dir="right"]
 [drawcg id=0 pos="5"]
 
-#チシャ
+#Cheshire
 [voice ref="000012"]
-えっと、本日の業務ですが、[n]
-午前中に町の方と今後の政策についての会議。[p]
+Well, today there will be a[n]
+town meeting about future policy.[p]
 [voice ref="000013"]
-正午に街で昼食をとりそのあと館に戻って、[n]
-本年度の予算会議となっております。[p]
-#アリス
+After a lunch break, we'll return[n]
+to discuss this year's budget.[p]
+#Alice
 [voice ref="000014"]
-おう、じゃあ全部キャンセルで。[p]
-#チシャ
+OK, then cancel everything.[p]
+#Cheshire
 [voice ref="000015"]
-またですかぁ！？[n]
-いい加減にして下さいよ。[p]
+Again?![n]
+Please have a good reason this time...[p]
 [voice ref="000016"]
-領主になってからというものやる仕事といえば会食、
-それももてなされる方で酒が出るという条件付きのものばかり。[p]
-#アリス
+Since becoming the ruler, the only 'work'[n]
+you do is attending banquets organized by[n]
+others and only if alcohol is being served.[p]
+#Alice
 [voice ref="000017"]
-いや、酒はうまいから行ってもいいけど会議とかすっげー眠いじゃん。[n]
-楽しくない仕事なんてやってられねえっての。[p]
-#チシャ
+Look, I just can't do work that's so[n]
+mind-numbingly boring, even if the[n]
+alcohol is delicious. [p]
+#Cheshire
 [voice ref="000018"]
-そんなわがまま言ってないで下さいよ、断るの大変なんですから……。[p]
+Please don't say such selfish things. It makes[n]
+things very difficult for me when you refuse[n]
+because of...[p]
 
 [moveto id=1 x=50 y=50 time=100]
 [se ref="046_door"]
 [drawcg id=2 pos="left" mode="slidein" dir="right"]
-#メイジー
+#Maisie
 [voice ref="000019"]
-姉さん！！　ちょっとこれどういうこと！！[p]
-#アリス
+Elder sister!! Hold on a moment![n]
+I want to know what's going on here!! [p]
+#Alice
 [voice ref="000020"]
-メイジーか、何の用だ。[p]
+Maisie? Why are you here?[p]
 [cn]
-メイジー。[p]
-アリスとは姉弟弟子の関係で、今は内政全般を担当している。[p]
-#メイジー
+Maisie: Joined as a disciple with Alice and currently is in charge of domestic affairs.[p]
+#Maisie
 [voice ref="000021"]
-とぼけないでよ！　なによこの予算草案！！[n]
-今日の会議で言おうと思ってたけどもう我慢ならないわ！！[p]
+Don't act so suprised! What's going on with 
+this draft budget?! I was going to bring it up 
+at today's meeting, but I can't wait that long!![p]
 [voice ref="000022"]
-なんで「その他」が六割もあるのよ！！[n]
-その他って何よ！ 内容書いてよ！！[p]
-#アリス
+Why is 60% of the budget under "other"?![n]
+What the heck is "other"? You need to be more specific![p]
+#Alice
 [voice ref="000023"]
-お菓子とか酒とか、あとヘンな薬かったり……、[n]
-ああそうそう、お前に仕掛けるトラップ道具買ったりとかだな。[p]
+It's things like sweets, alcohol, some sort of weird medicine, and...[n]
+Oh yeah, also various traps that I want to set up for you to fall into. [p]
 [voice ref="000024"]
-クフフフフ！[n]
-そういうの「私費」とか書いたらお前怒るじゃん？[p]
-#メイジー
+Hahaha! If I had listed things like that as [n]
+"personal expenses", you'd just get mad wouldn't you?[p]
+#Maisie
 [move id=2 x=0 y=5 time=50]
 [move id=2 x=0 y=-5 time=50]
 
 [voice ref="000025"]
-「私費」だろうと「その他」だろうと六割も占めてたら誰だって怒るわよ！！！[p]
+I mean, whether these are listed as "personal 
+expenses" or "other", when they make up 60% of 
+the budget, anyone would get mad!!! [p]
 [voice ref="000026"]
-ていうか、どんだけいたずらにお金使うのよ！[n]
-姉さんのバカ！　バカーーーー！！[p]
-#アリス
+Just how much money are you planning to use for mischief? [n]
+You Idiot! IDIOT!! [p]
+#Alice
 [voice ref="000027"]
-なっ！　誰が馬鹿だこの野郎！！[n]
-勉強も魔法も運動も私よりずーーーっと、ずーーーーっとできないくせに！！[p]
-#メイジー
+Hey! Who are you calling an idiot, you jerk![n]
+Whether it's academics, magic, or athletics, I'm way better than you!![p]
+#Maisie
 [voice ref="000028"]
-ちょこーーーーっと姉さんより控えめなだけです！！[p]
-#アリス
+Our only difference is that I'm just [n]
+a teensy-weensy bit more modest than you!![p]
+#Alice
 [move id=0 x=-5 y=0 time=100]
 [voice ref="000029"]
-なんだとーーーー！！！[p]
-#メイジー
+WHAT did you say to ME?![p]
+#Maisie
 [move id=2 x=5 y=0 time=100]
 [voice ref="000030"]
-なによーーーーー！！！[p]
-#チシャ
+Whaaaaaat?![p]
+#Cheshire
 [voice ref="000031"]
-お、お二人ともおさえて、おさえて……。[p]
-#アリス・メイジー
+B-Both of you calm down, just calm down...[p]
+#Alice・Maisie
 [voice ref="000032"]
-チシャはだまってろ（なさい）！！！[p]
-#チシャ
+Cheshire, be quiet (please)!!![p]
+#Cheshire
 [move id=1 x=0 y=5 time=100]
 [move id=1 x=0 y=-5 time=100]
 [voice ref="000033"]
-す、すいません……。[p]
-#メイジー
+E-Excuse me.[p]
+#Maisie
 [voice ref="000034"]
-もう知らないわ！[n]
-……姉さん、あなたやっぱり領主向いてないわよ。[p]
-#アリス
+I just don't know anymore! [n]
+...you really aren't suited to be a ruler after all. [p]
+#Alice
 [voice ref="000035"]
-あっ、待て！　逃げるのかよ！！[p]
+Ah, wait! Are you running away?![p]
 [move id=2 x=-100 y=0 time=400]
 [clearcg id=2]
 
-[cn]メイジーは吐き捨てると、アリスの制止も聞かず、執務室を出て行ってしまった。[p]
-#アリス
+[cn]Maisie spit on the floor before leaving the office, completely ignoring Alice's words.[p]
+#Alice
 [voice ref="000036"]
-ちっ……あの野郎、好き放題いいがって。[p]
+Tch...That jerk. She just does as she pleases without considering anyone else.[p]
 [moveto id=1 x=33 y=50 time=200]
 
-#チシャ
+#Cheshire
 [voice ref="000037"]
-アリス様も悪いんですから、ほら、たまには仕事しましょう？[p]
-#アリス
+Queen Alice, you're no better. Come on, let's get some work done.[p]
+#Alice
 [voice ref="000038"]
-ちっ……今日は特別だからな。[n]
-町に行くんだったか？[p]
+Darn it... today is special, after all. [n]
+You said we need to be going to town now, right? [p]
 [voice ref="000039"]
-ほら、さっさと行くぞ。[n]
-クロにも来るように言っておけ。[p]
-#チシャ
+Come on, let's go quickly. [n]
+Tell Kuro to come too. [p]
+#Cheshire
 [voice ref="000040"]
-はい！[p]
+Yes![p]
 [move id=0 x=70 y=0 time=500]
 [clearcg id=0]
 [move id=1 x=90 y=0 time=600]
@@ -192,50 +201,53 @@
 [drawbg ref="1002m"]
 [filter name="clear" time="500"]
 
-#クロ
+#Kuro
 [voice ref="000184"]
-アリス様。つい先ほど、メイジー様が軍を率いてアッサム砦を制圧した模様。[p]
-#アリス
+Queen Alice, just a little while ago Minister Maisie 
+apparently led an army and captured Assam Fortress.[p]
+#Alice
 [voice ref="000185"]
-制圧？　馬鹿言うな、あそこは私の領土だぞ。[p]
-#チシャ
+Captured? Don't be ridiculous, that's MY territory.[p]
+#Cheshire
 [voice ref="000186"]
-……メイジー様からこんな書置きが。[p]
-#アリス
+...There's a note for you from Minister Maisie.[p]
+#Alice
 [voice ref="000187"]
-読め。[p]
-#チシャ
+Read it.[p]
+#Cheshire
 [move id=3 x=0 y=5 time=50]
 [move id=3 x=0 y=-5 time=50]
 [voice ref="000188"]
-はっ、ハイ。[p]
+Y-Yes.[p]
 [voice ref="000189"]
-「姉さんは何を考えているの？[p]
+"What were you thinking, elder sister?[p]
 [voice ref="000189a"]
-領主の仕事はしない、予算を私費で圧迫する、町の会議では寝る、[n]
-おまけに会議の途中でいなくなるなんて、[n]
-もう我慢できないわ。[p]
+You don't do the work of a lord, inflate the 
+budget with private expenses, sleep at town meetings, 
+and you even disappeared in the middle of a meeting...[p]
+I can't put up with it anymore.[p]
 [voice ref="000190"]
-姉さんに代わって、お師匠様の土地は私が治めます！」[p]
+I will manage our honorable teacher's lands.[n]
+I'll take care of them since you will not!"[p]
 [voice ref="000191"]
-……だそうです。[p]
-#アリス
+...that's what it says.[p]
+#Alice
 [voice ref="000192"]
-あんの野郎ーーー！！！！ 私の苦労も知らないで！[n]
-クロ！　残った兵をかき集めろ！！[p]
+That Jeeerk!!!! She doesn't even know what I've been through![n]
+Kuro! Gather the remaining troops!![p]
 [voice ref="000193"]
-今からメイジーに寝返るやつは容赦なくぶち殺せ！！[p]
+From now on, mercilessly kill those to defect to Maisie![p]
 [voice ref="000194"]
-全軍で裏切者メイジーをたたきのめしてやるぞ！！[p]
-#クロ
+I'll use my entire army to beat that traitor to a pulp!![p]
+#Kuro
 [voice ref="000195"]
-はっ、かしこまりました。[p]
+Yes, your majesty. Understood.[p]
 [move id=3 x=-50 y=0 time=200]
 
-#アリス
+#Alice
 [voice ref="000196"]
-メイジーめ、[n]
-クフフフフッ、格の違いというものを思い知らせてやる！！！！[p]
+Stupid Maisie,[n]
+Mwahahahaha, I'll remind you of your place!!!![p]
 ;オープニング
 
 [hide_message]

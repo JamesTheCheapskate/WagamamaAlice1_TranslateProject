@@ -207,7 +207,7 @@ Tch...That jerk. She just does as she pleases without considering anyone else.[p
 
 #Cheshire
 [voice ref="000037"]
-Alice, you're no better. Come on, let's get some work done.[p]
+Queen Alice, you're no better. Come on, let's get some work done.[p]
 #Alice
 [voice ref="000038"]
 Darn it... today is special, after all. [n]
