@@ -21,35 +21,34 @@
 [drawcg id=1 pos=4]
 [drawcg id=0 pos=1 dir="right" mode="slidein"]
 [show_message]
-#メッサーシュミット
+#Messerschmitt
 [voice ref="020323"]
-ベガ様！　大変だよーー！！[p]
-#ベガ
+Queen Vega!! It's an emergency, dude!![p]
+#Vega
 [voice ref="020324"]
-落ち着け、メッサーシュミット。[n]
-言葉遣いはどうした。[p]
-#メッサーシュミット
+Calm down Messerschmitt[n]
+Is that really how you should address me?[p]
+#Messerschmitt
 [voice ref="020325"]
-も、申し訳ありません！[n]
-そ、それどころじゃないんです！[p]
+M-My sincerest apologies![n]
+T-there's something more important right now though[p]
 [voice ref="020326"]
-トリアイナ様が！　氷の魔女トリアイナ様が、[n]
-ベガ様に会いたいと！[p]
+Queen Torianna！　The ice witch queen Torianna wants to see your highness![p]
 [move id=2 y=-2 time=20]
 [move id=2 y=2 time=20]
-#ベガ
+#Vega
 [voice ref="020327"]
-訪ねてきたというのか！[p]
-#メッサーシュミット
+She came to visit?![p]
+#Messerschmitt
 [voice ref="020328"]
-そうです！[p]
-#ベガ
+That's right![p]
+#Vega
 [voice ref="020329"]
-これはいかん。すぐ通せ。[n]
-丁重にお迎えしろ、失礼のないようにな。[p]
-#メッサーシュミット
+This is bad. Send her in immediately. 
+Receive her politely and make sure she's not offended.[p]
+#Messerschmitt
 [voice ref="020330"]
-はっ、はい！！[p]
+Y-yes!![p]
 [cn]
 
 [filter name="fade" time=500]
@@ -60,118 +59,110 @@
 
 [drawcg id=1 pos=5]
 [drawcg id=2 pos=2 dir="right"]
-#ベガ
+#Vega
 [voice ref="020331"]
-トリアイナ殿、初めまして。[n]
-私は山の魔女、ベガと申します。[p]
-#トリアイナ
+Queen Torianna, nice to meet you.[n]
+I am the mountain witch, Vega.[p]
+#Torianna
 [voice ref="020332"]
-氷の魔女、トリアイナです。[p]
-#ベガ
+I am the ice witch, Torianna.[p]
+#Vega
 [voice ref="020333"]
-よくおいでくださった。[n]
-おい、酒を持ってこい！！[p]
+Welcome.[n]
+Hey, bring us some wine!![p]
 [scale id=1 sx=-1 time=100]
 [cn]
-ベガの指示で、トリアイナのぶんの盃と、[n]
-大きなワイン樽が運ばれてきた。[p]
+As per Vega's instructions, a cup for Torianna and big wine barrel were brought in.[p]
 [scale id=1 sx=-1 time=300]
-#ベガ
+#Vega
 [voice ref="020334"]
-さあさあ、飲んでくれ。[n]
-山のワインはうまいぞ。[p]
-#トリアイナ
+Come on, have a drink.[n]
+The mountain wine is delicious.[p]
+#Torianna
 [voice ref="020335"]
-いえ……私お酒はあまり。[p]
-#ベガ
+No...I don't really drink alcohol.[p]
+#Vega
 [voice ref="020336"]
-そうか、それは残念。[n]
-おい、ブドウジュースをお持ちしろ。[p]
-#トリアイナ
+I see, that's too bad.[n]
+Hey, bring us some grape juice.[p]
+#Torianna
 [voice ref="020337"]
-山の魔女ベガ。[n]
-私はあなたと飲みに来たのではありません。[p]
-#ベガ
+Mountain witch Vega.[n]
+I didn't come here to drink with you.[p]
+#Vega
 [voice ref="020338"]
-……わかっている。[p]
+...I know.[p]
 [voice ref="020339"]
-あなたは森の魔女と仲が良かったそうだから[p]
+Since you were close with the forest witch,[p]
 [voice ref="020339a"]
-さしずめ、あの人間のように、[n]
-かたきを取りに来たのだろう？[p]
-#トリアイナ
+I assume you came here, like that human, to take your revenge?[p]
+#Torianna
 [voice ref="020340"]
-あの人間のようにとは……？[p]
-#ベガ
+Like that human...?[p]
+#Vega
 [voice ref="020341"]
-昨日野営中に一人の曲者が襲ってきたのだ。[p]
+Yesterday, a rogue attacked us while we were camping.[p]
 [voice ref="020341a"]
-策もなしに相打ち覚悟で。[p]
-#トリアイナ
+She fought without any strategy.[p]
+#Torianna
 [voice ref="020342"]
-ヘレン……。[p]
-#ベガ
+Helen...[p]
+#Vega
 [voice ref="020342a"]
-やはり知り合いか。[p]
+So you do know her. [p]
 [voice ref="020342b"]
-彼女は私のほうで保護している。[n]
-知り合いならば、引き取っていただけると嬉しいが。[p]
-#トリアイナ
+I am currently taking care of her. 
+If you are her acquaintance, I would be happy to release her to you. [p]
+#Torianna
 [voice ref="020343"]
-よいのですか？　彼女は私の手先かもしれませんよ。[p]
-#ベガ
+Is that okay?　You don't know whether she attacked you under my orders.[p]
+#Vega
 [voice ref="020344"]
-構わぬ。[p]
+It doesn't matter.[p]
 [voice ref="020344a"]
-我らドラゴンは人質などと卑怯なことはせぬ。[n]
-戦うならば、正面から堂々と受けて立とう。[p]
-#トリアイナ
+We dragons do not stoop to such dishonorable things as taking hostages. 
+If we are to fight, let us do it honorably and face each other head on.[p]
+#Torianna
 [voice ref="020345"]
 ……………。[p]
 [voice ref="020345a"]
-そうですか。[p]
+I see.[p]
 [voice ref="020346"]
-山の魔女ベガ。[n]
-実は私は、同盟の依頼に来たのです。[p]
-#ベガ
+Mountain witch Vega.[n]
+Actually, I came to request an alliance.[p]
+#Vega
 [voice ref="020347"]
-…………ほう？[p]
-#トリアイナ
+...Oh?[p]
+#Torianna
 [voice ref="020348"]
-あなたの目的はわかりません。[p]
+I do not know your objective.[p]
 [voice ref="020348a"]
-しかし、今は目の前の敵、[n]
-華の魔女アリスを打倒するのが最優先。[p]
+But, right now, our top priority is to defeat our common enemy, the flower witch Alice.[p]
 [voice ref="020349"]
-そのために、お互いに協力し合うというのは、[n]
-悪い話ではないはず。[p]
-#ベガ
+Therefore, cooperating with each other is in both of our best interests.[p]
+#Vega
 [voice ref="020350"]
-……確かに、それならば華の魔女を[n]
-完全に包囲することができる。[p]
+...Indeed, if we formed an alliance, we could completely surround the flower witch.[p]
 [voice ref="020351"]
-しかしあなたは、[n]
-今まで通り傍観していることもできるはず。[p]
-#トリアイナ
+However, you could also choose to continue watching from the sidelines.[p]
+#Torianna
 [voice ref="020352"]
-あなた方に責められては、[n]
-私たちはひとたまりもありませんから。[p]
-#ベガ
+You've already put us in a position where we have no choice but to act.[p]
+#Vega
 [voice ref="020353"]
 ;苦笑しながら
-なるほど……、合点がいった。[n]
+I see...I understand where you're coming from.[n]
 [move id=1 x=-30 time=500]
-その話、お受けしよう。[p]
+I accept your proposal.[p]
 [voice ref="020354"]
-これよりわれらは、ベガ・トリアイナ連合軍だ。[n]
-これでよろしいか。[p]
-#トリアイナ
+From now on, we shall be the Vega-Torianna allied force.[n]
+Is that okay with you?[p]
+#Torianna
 [voice ref="020355"]
-ええ……もちろん。[p]
+Yes... of course.[p]
 [cn]
-この時より、トリアイナとベガが結託し、[n]
-アリス軍と敵対することになった。[p]
-これにより、アリス包囲網が完成し、戦いはさらに激しさを増すことが予想された。[p]
+From that moment on, Torianna and Vega formed an alliance, and became hostile towards Alice's army.[p]
+With this, the encirclement of Alice was complete and the battle was expected to become even more intense.[p]
 
 ;終了処理
 [hide_message]

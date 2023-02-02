@@ -18,94 +18,88 @@
 
 [drawcg id=0 pos="right"]
 [drawcg id=1 pos="left" dir="right" state=2]
-#トリアイナ
+#Torianna
 [voice ref="020274"]
-ヘレン……、オリヴィアは。[p]
-#ヘレン
+Helen...about Olivia...[p]
+#Helen
 [voice ref="020275"]
-あの子の好きだった、リンゴの木の下に埋葬したわ。[p]
-#トリアイナ
+I buried her under the apple tree she loved.[p]
+#Torianna
 [voice ref="020276"]
-そう……。[p]
-#ヘレン
+I see...[p]
+#Helen
 [voice ref="020277"]
-トリアイナ、オリヴィアの敵を討ちましょう！[n]
-山の魔女を倒すのよ！[p]
-#トリアイナ
+Let's avenge Olivia, Triaina! Let's defeat the mountain witch![p]
+#Torianna
 [voice ref="020278"]
-まってヘレン。[n]
-それはダメよ。[p]
+Wait, Helen.[n]
+That's no good.[p]
 [changecg id=1 state=3]
 [move id=1 x=5 time=50]
-#ヘレン
+#Helen
 [voice ref="020279"]
-なんでよ！！[p]
+Why not?![p]
 [voice ref="020280"]
-オリヴィア殺されたのよ！？[p]
+Olivia was killed![p]
 [voice ref="020280a"]
-奴らに……あんなひどいことされて。[n]
-許さないわ……山の魔女！[p]
-#トリアイナ
+They...did something so terrible to her.[n]
+The mountain witch...I'll never forgive her![p]
+#Torianna
 [voice ref="020281"]
-ヘレン！[p]
+Helen![p]
 [voice ref="020282"]
-私たち小勢力が立ち上がったところで、[n]
-ドラゴンたちには敵わないわ。[p]
+We're such a small force, no matter how hard we try, we're no match for the dragons.[p]
 [voice ref="020282a"]
-無駄死にするのは明白よ。[p]
-#ヘレン
+It's pointless to die in vain.[p]
+#Helen
 [voice ref="020283"]
-……なんでそんなに冷静なのよ。[n]
+...Why are you so calm?[n]
 [move id=1 x=5 time=50]
-オリヴィアが死んだんだよ！？[p]
+Olivia died, you know!?[p]
 [move id=1 y=-5 time=300]
 [voice ref="020284"]
-もう私……、どうしたらいいかわかんないよ。[p]
-#トリアイナ
+I just...don't know what to do anymore.[p]
+#Torianna
 [voice ref="020285"]
-だからって、冷静さを欠いては、[n]
-私たちまでオリヴィアの二の舞よ。[p]
-#ヘレン
+That's why it's important to not lose our composure, or we'll end up just like Olivia.[p]
+#Helen
 [voice ref="020286"]
-そんな、オリヴィアが馬鹿だって言っているようなものじゃない。[p]
+That's not fair, you're making it sound like Olivia was foolish.[p]
 [move id=1 y=-5 time=500]
-#トリアイナ
+#Torianna
 [voice ref="020287"]
-ええ、馬鹿ね。[p]
+Yes, she was foolish.[p]
 [voice ref="020287a"]
-部下に裏切られ、[n]
-むざむざと山の魔女の侵入を許して。[p]
+She carelessly invited the mountain witch to invade by not managing her subordinates' loyalties.[p]
 [move id=1 x=5 time=50]
-#ヘレン
+#Helen
 [voice ref="020288"]
-トリアイナ！！[n]
-そんな言いかたないでしょう！！[p]
+Torianna!![n]
+You shouldn't talk like that!![p]
 [voice ref="020289"]
-オリヴィアが死んでも、[n]
-アナタはどうだっていいっていうの！？[p]
-#トリアイナ
+Olivia is dead, and you don't care?![p]
+#Torianna
 [voice ref="020290"]
-そんなわけないでしょう……！[p]
+That's ridiculous![p]
 [voice ref="020291"]
-ただ、私は領主なのよ。[n]
-……オリヴィアの友人である前にね。[p]
-#ヘレン
+It's just, I have to be a leader...before being Olivia's friend.[p]
+#Helen
 [voice ref="020292"]
-ほんとうに冷たい人……！[p]
+You're so cold...[p]
 [scale id=1 sx=-1 time=200]
 [voice ref="020293"]
-もう勝手にすればいいわ。[n]
-私、一人でも行くから！[p]
+You can do whatever you want.[n]
+I'll go by myself![p]
 [move id=1 x=-50 time=300]
 [move id=0 x=-10 time=200]
-#トリアイナ
+#Torianna
 [voice ref="020294"]
-ヘレン……！[n]
-待ちなさい！！[p]
+Helen![n]
+Wait!![p]
 [voice ref="020295"]
 …………。[p]
 [voice ref="020295a"]
-……ヘレン。[p]
+...Helen.[p]
 
 ;場面クリア
 [hide_message]
@@ -132,149 +126,137 @@
 
 [show_message]
 [cn]
-マルフィの街。[p]
-現在ベガの本陣がおかれている町。[p]
-住民たちはドラゴンたちにおびえ、[n]
-家の中に閉じこもったきり出てこようとしない。[p]
-通りは閑散としており、警備のドラゴンたちが行きかうのみであった。[p]
+The town of Marf.[p]
+Currently where Vega's base is located.[p]
+The residents are afraid of the dragons, They don't come out of their homes anymore.[p]
+The streets are deserted and the only ones seen are the dragons on patrol.[p]
 [move id=1 y=-20 time=0]
 [drawcg id=1 mode="slidein" pos=1 state=3 dir="right"]
-#ヘレン
+#Helen
 [voice ref="020296"]
-……いた。[p]
+...This is the place.[p]
 [cn]
-ヘレンは街の水路から、敵の様子をうかがっていた。[p]
-街の広場の真ん中で、ドラゴンたちが宴会を開いていた。[p]
-その輪の中心で、ドラゴンたちの主ベガが、[n]
-大きな樽にどっかりと腰を下ろしていた。[p]
-#ヘレン
+Helen was watching the enemy's situation from the town's waterway. [p]
+In the middle of the town square, the dragons were holding a party.[p]
+At the center of that circle, the leader of the dragons, Vega, was sitting comfortably on a large barrel.[p]
+#Helen
 [voice ref="020297"]
-山の魔女……許さない。[p]
+...I won't forgive the mountain witch[p]
 [move id=1 x=10 y=20 time=200]
 [filter name="color" color="FFFFFF" trans=100 time=100]
 [changecg id=1 state=7]
 [filter name="clear" time=100]
 [cn]
-ヘレンは水路から飛び出した。[p]
-人魚のヘレンは陸上では人間の姿になる。[p]
-濡れた足で地面をけった。[p]
+Helen jumped out of the waterway.[p]
+The mermaid Helen assumes a human form on land.[p]
+She landed on the ground with wet feet.[p]
 [move id=1 x=60 time=300]
 [scale id=1 sx=-1 time=0]
 [drawcg id=3 pos=2 dir="right"]
 [drawcg id=4 dir="right" pos=1 layer="front"]
-暗がりに紛れて、ヘレンはドラゴンたちの輪の中心に飛び込んだ。[p]
-懐から大ぶりのダガーを抜き、[n]
-ベガに切りかかった。[p]
-#ヘレン
+Helen infiltrated the heart of the dragons' circle, unnoticed in the shadows.[p]
+She pulled out a large dagger from her waist and attacked Vega.[p]
+#Helen
 [voice ref="020297a"]
-山の魔女ッ……覚悟！！！！[p]
-#ベガ
+Mountain witch...Prepare yourself! ! ! ![p]
+#Vega
 [voice ref="020299"]
-何者ッ！！[p]
+Who the heck are you?![p]
 [move id=1 x=-40 time=100]
 [se ref="156"]
 [filter name="flush" color="FFFFFF" time=200]
 [cn]
-ヘレンのダガーが、[n]
-とっさに出したベガの左手に受け止められた。[p]
-ベガの左手は硬いうろこに覆われていた。[p]
-ダガーの刃は、そのうろこに阻まれ、[n]
-ベガに傷をつけることはかなわなかった。[p]
-ヘレンはベガと刺し違える覚悟だった。[p]
-しかし、初手を受け止められ、[n]
-あっという間に押さえつけられてしまった。[p]
+Helen's dagger was caught by Vega's suddenly raised left hand.[p]
+Vega's left hand was covered in hard scales.[p]
+The dagger bounced off of the scales, leaving Vega unscathed.[p]
+Despite her failure to draw blood, Helen was undeterred.[p]
+However, after her first strike was thwarted, she was unfortunately overpowered in an instant.[p]
 [move id=1 x=10 time=100]
 [wait time=500]
 [move id=1 x=10 time=100]
-#ヘレン
+#Helen
 [voice ref="020300"]
-離せッ！！　山の魔女……[n]
-殺すッ！！！[p]
-#部下
+Let go! Mountain witch...I'll kill you! [p]
+#Subordinate
 [voice ref="020301"]
-こいつッ！[p]
+How impudent![p]
 [se ref="151"]
 [filter name="flush" color="FF0000" time=200]
 [move id=1 y=-10 time=200]
 [cn]
-ドスッ！！[p]
-ベガの部下によって、[n]
-ヘレンの腹に鋭いこぶしが叩き込まれた。[p]
-#ヘレン
+Thwack![p]
+Vega's subordinate delivered a sharp blow into Helen's stomach.[p]
+#Helen
 [voice ref="020302"]
-ゴホッ……！！[n]
-ぐ……ぅ！[p]
-#ベガ
+Guh![p]
+#Vega
 [voice ref="020303"]
-おい、やめてやれ。[n]
-そいつ人間だろう、死んでしまうぞ。[p]
+Hey, stop it.[n]
+That person is human, they'll die.[p]
 [move id=1 x=10 time=100]
 [wait time=500]
 [move id=1 x=10 time=100]
-#ヘレン
+#Helen
 [voice ref="020304"]
-殺せ……殺せっ！！[p]
+Kill... Kill me!![p]
 [voice ref="020304a"]
-お前たちに手籠めにされるくらいなら、[n]
-ここで死んだほうがましだ！！[p]
-#ベガ
+If I'm going to be captured by you, It's better to die here![p]
+#Vega
 [voice ref="020305"]
-落ち着け、私たちは誇り高いドラゴンだ。[n]
-そのようなことはしない。[p]
-#ヘレン
+Calm down, we're proud dragons.[n]
+We don't do that kind of thing.[p]
+#Helen
 [voice ref="020306"]
-どの口が……！！[n]
-オリヴィアにあんなことしたくせに！！！[p]
-#ベガ
+You don't get to say that...[n]
+after what you did that to Olivia![p]
+#Vega
 [voice ref="020307"]
-オリヴィア……？[n]
-君は何か誤解をしている。[p]
+Olivia...?[n]
+You're misunderstanding something.[p]
 [voice ref="020308"]
-私たちは森の魔女を見つけられていない。[n]
-捜索中なんだ。[p]
-#ヘレン
+We haven't found the forest witch yet.[n]
+We're still searching.[p]
+#Helen
 [voice ref="020309"]
-しらばっくれるな！！[n]
-オリヴィアを殺したのはお前の部下だろう！！[p]
-#ベガ
+Don't lie to me![n]
+Your subordinates killed Olivia, didn't they![p]
+#Vega
 [voice ref="020310"]
-なに……殺した？[n]
-おい、メッサーシュミット。 どうなっている。[p]
+What... killed?[n]
+Hey, Messerschmitt, what's going on?[p]
 [scale id=3 sx=-1 time=300]
-#メッサーシュミット
+#Messerschmitt
 [voice ref="020311"]
-いえ……、その、僕にもよくわからなくて。[p]
-#ベガ
+No...that, I don't really understand either.[p]
+#Vega
 [voice ref="020312"]
-森の魔女はとらえろと命令したはずだ。[p]
-#メッサーシュミット
+We should have captured the forest witch.[p]
+#Messerschmitt
 [voice ref="020313"]
-スパイは放ちました。[p]
+I sent the spy.[p]
 [voice ref="020314"]
-……おそらく、捕らえようとしたはずみで[n]
-殺してしまったんじゃないかと。[p]
-#ヘレン
+...Probably, while trying to catch her, he accidently ended up killing her.[p]
+#Helen
 [voice ref="020315"]
-はずみ……？[n]
+Accidentally...?[n]
 [move id=1 x=-5 y=5 time=50]
 [move id=1 x=5 y=-5 time=50]
-はずみなわけあるか！！[p]
+Can you really call it an accident!?![p]
 [move id=1 x=-5 y=5 time=50]
 [move id=1 x=5 y=-5 time=50]
 [voice ref="020316"]
-お前たちははずみで……、[n]
-はずみで女を犯すのか！！！[p]
+You guys commit such a heinous act on a woman...accidentally?!?![p]
 [scale id=3 sx=-1 time=300]
-#ベガ
+#Vega
 [voice ref="020317"]
-……おい、彼女に温かい食事を。[n]
-それと、自殺しないように見張っておけ。[p]
+...Hey, give her a warm meal.[n]
+And make sure she doesn't try to kill herself.[p]
 [scale id=3 sx=-1 time=300]
 [voice ref="020317a"]
-メッサーシュミット、後で話がある。[p]
-#メッサーシュミット
+Messerschmitt, we'll talk later.[p]
+#Messerschmitt
 [voice ref="020318"]
-……はい。[p]
+...Yes.[p]
 
 ;場面クリア
 [hide_message]
@@ -298,25 +280,24 @@
 
 ;場面転換
 [show_message]
-魔女の湖、氷の宮殿。[p]
+The witch's lake, the palace of ice.[p]
 [drawcg id=0 pos=4]
-#トリアイナ
+#Torianna
 [voice ref="020319"]
-オリヴィア……ごめんなさい。[n]
-何もできない私を許してちょうだい。[p]
+Olivia...I'm sorry.[n]
+Please forgive me for being unable to do anything.[p]
 [cn]
-宮殿で、一人トリアイナは物思いにふけっていた。[p]
-#トリアイナ
+In the palace, Triaina was lost in her thoughts.[p]
+#Torianna
 [voice ref="020320"]
-華の魔女アリス。山の魔女ベガ……。[p]
+The flower witch Alice. The mountain witch Vega...[p]
 [voice ref="020320a"]
-領地のことを考えるなら[n]
-山の魔女ベガについたほうがいい。[p]
+If I think about the territory difference, it's better to side with the mountain witch Vega.[p]
 [voice ref="020321"]
-オリヴィアの敵を討つなら華の魔女アリスについたほうがいいわ。[p]
+If I want to take revenge for Olivia, it's better to side with the flower witch Alice.[p]
 …………。[p]
 [voice ref="020322"]
-オリヴィア、あなたはどっちがいい……？[p]
+Olivia, which one do you prefer...?[p]
 
 
 ;終了処理

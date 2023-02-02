@@ -21,92 +21,84 @@
 ;場面開始
 [show_message]
 [drawcg id=1 pos=5]
-#ドード
+#Dood
 [voice ref="020160"]
-魔女様、失礼いたしやすぜ。[p]
-#オリヴィア
+I apologize for the intrusion, my lady.[p]
+#Olivia
 [voice ref="020161"]
-はーい、どうぞ。[n]
-入ってー！[p]
-#ドード
+Oh, it's fine.[n]
+Please come in.[p]
+#Dood
 [voice ref="020162"]
-へいへい。[p]
-#カートン
+Alright.[p]
+#Carton
 [voice ref="020163"]
 ……！[p]
 [se ref="166"]
 [drawcg id=0 pos=2 mode="slidein" dir="right"]
 [drawcg id=2 pos=1 mode="slidein" dir="right"]
-#オリヴィア
+#Olivia
 [voice ref="020164"]
-あら、カートンにドード。[n]
-お疲れさま。 何か用かしら。[p]
-#ドード
+Oh, Carton and Dodd.[n]
+Welcome back. Are you here for something?[p]
+#Dood
 [voice ref="020165"]
-華の魔女のことは知っておりやすね。[p]
-#オリヴィア
+I assume you are familiar with the flower witch?[p]
+#Olivia
 [voice ref="020166"]
-うん、それはもちろん……。[n]
-隣の領主だもの。[p]
-#カートン
+Yes, of course... she's the neighboring lord, after all.[p]
+#Carton
 [voice ref="020167"]
 ……！　……。[p]
-#ドード
+#Dood
 [voice ref="020168"]
-カートンさんの部下からの情報なんですがね、[n]
-華の魔女が動き出したそうでさあ。[p]
+I received information from one of Carton's subordinates that the flower witch has begun to move.[p]
 [move id=1 y=5 time=50]
 [move id=1 y=-5 time=50]
 [move id=1 y=5 time=50]
 [move id=1 y=-5 time=50]
-#オリヴィア
+#Olivia
 [voice ref="020169"]
-それは、こっちに攻めてくるってこと！？[p]
-#ドード
+Does that mean she's going to attack us?![p]
+#Dood
 [voice ref="020170"]
-いや、どうやら東側の攻略を開始したようで、[n]
-こちらに攻めてくるつもりはないようでさあ。[p]
-#オリヴィア
+No, it seems she has started attacking the east and does not seem to have any plans to attack us.[p]
+#Olivia
 [voice ref="020171"]
-ああよかった……。[n]
-ならひとまず安心ね。[p]
-#ドード
+Oh, that's a relief...[n]
+Well, for now, we can relax then.[p]
+#Dood
 [voice ref="020172"]
-しかし、もし東側の攻略が終わったら[n]
-こちらに攻め込んできますぜ。[p]
+However, if the eastern attack ends, she may attack here.[p]
 [voice ref="020173"]
-念のため、兵を割いて、[n]
-東側の守りを固めたほうがよろしいのでは。[p]
-#オリヴィア
+As a precaution, it would be best to divide some of our soldiers and strengthen our defense on the eastern side.[p]
+#Olivia
 [voice ref="020174"]
-そ、そうね。確かに……。[p]
+Y-Yes, that makes sense...[p]
 [voice ref="020175"]
-カートン、[n]
-あなたのところから少し兵をもらえないかしら。[p]
-#カートン
+Carton, can you spare some soldiers from your side?[p]
+#Carton
 [voice ref="020176"]
 ;ええ……、少しならば問題ありませんが。
-……、…………。[p]
-#ドード
+Y es... Ic ans pareaf ews oldiers,b ut...[p]
+#Dood
 [voice ref="020177"]
-大丈夫だそうっすよ。[n]
-では、東側の警備はあっしが務めますんで。[p]
-#オリヴィア
+It'll be fine, I'll take care of the eastern defense.[p]
+#Olivia
 [voice ref="020178"]
-わかったわ。お願いね。[n]
-二人とも気を付けて……。[p]
-#ドード
+Alright, thank you.[n]
+Please be careful, both of you.[p]
+#Dood
 [voice ref="020179"]
-へい、おまかせくだせえ。[p]
-#カートン
+Got it, leave it to me.[p]
+#Carton
 [voice ref="020180"]
 …………！[p]
 [cn]
 
 [filter name="fade" time=500]
-こうして、カートンの守るコンペイ砦から、[n]
-兵の3割が西側へ移された。[p]
-同時刻、山が動き出す……。[p]
+Thus, a third of the soldiers were moved from Carton's defended Conpei fortress to the east.[p]
+At the same time, the mountain began to move...[p]
 
 ;場面クリア
 [hide_message]
@@ -132,26 +124,26 @@
 [filter name="clear" time="500"]
 
 [show_message]
-コンペイ砦前、ベガ側。[p]
+In front of Conpei fortress, on the mountain witch Vega's side.[p]
 [drawcg id=3 pos=3]
-#ベガ
+#Vega
 [voice ref="020181"]
-全員続け！！[n]
-今こそ、我らの手で、ドラゴンの栄光を取り戻すのだ！！[p]
+Everyone, onwards! Now is the time to take back the glory of dragons with our own hands! 
+[p]
 [drawcg id=4 pos=1 dir="right"]
-#メッサーシュミット
+#Messerschmitt
 [voice ref="020182"]
-ベガ様！　信号弾準備できました！[p]
-#ベガ
+Queen Vega, the signal flares are ready! [p]
+#Vega
 [voice ref="020183"]
-よし、放て！[p]
-#メッサーシュミット
+Good, release them![p]
+#Messerschmitt
 [voice ref="020184"]
-信号弾放てーー！！[p]
+Release the flares!![p]
 [cn]
-ベガの指示で、黄色の煙が空高く立ち上った。[p]
-それを遠くから見ていた男がいた。[p]
-男はそれを確認すると、にたりと笑って動き出した。[p]
+nder Vega's command, yellow smoke rose high into the sky.[p]
+A man watched from afar.[p]
+Upon seeing the signal, the man let out a chuckle and began to move.[p]
 
 [hide_message]
 [filter name="fade" time="500"]
@@ -165,194 +157,173 @@
 
 [bgm ref="018_event3"]
 
-コンペイ砦、オリヴィア側。[p]
-#部下
+Conpei fortress, Olivia's side.[p]
+#Subordinate
 [voice ref="020185"]
-カートン様！[n]
-敵軍勢、空と陸から一斉に攻めてまいります。[p]
+Lord Carton![n]
+The enemy is attacking from the air and land simultaneously.[p]
 [drawcg id=2 pos="right"]
-#カートン
+#Carton
 [voice ref="020186"]
 …………。[p]
 [cn]
-ぶん、と、カートンが軍配をふるった。[p]
-すると一斉に兵が動き出し、[n]
-たちまち陣形を整えてしまった。[p]
-#カートン
+With a loud shout, Carton gave out his orders.[p]
+The soldiers moved in unison, quickly forming their formation.[p]
+#Carton
 [voice ref="020187"]
 ……。[p]
 [cn]
-再びカートンが軍配を掲げ、振り下ろした。[p]
-それを合図にドラゴンたちへ無数の矢が[n]
-雨のように降りそそいだ。[p]
-ドラゴンたちの硬いうろこでも貫通できるように作られた特別製の矢のおかげで、[p]
-ドラゴンたちは目の前の弓隊に[n]
-なすすべもなく倒れていった。[p]
+Carton raised his military banner and lowered it.[p]
+With that signal, countless arrows rained down on the dragons like a storm.[p]
+Thanks to the specially made arrows that can penetrate even the dragons' hard scales,[p]
+The dragons fell helplessly in front of Carton's archery squad.[p]
 [drawcg id=0 pos=1 mode="slidein" dir="right"]
-#ドード
+#Dood
 [voice ref="020188"]
-いやあお見事。[n]
-さすがの采配ですぜ。[p]
-#カートン
+Wow, great job. As expected from your strategy.[p]
+#Carton
 [voice ref="020189"]
 ;ぬ、ドード殿、
 ;おぬし西側の警備についていたのでは。
-……。……、……。[p]
-#ドード
+Uh,S irD ood,W eren'ty ous upposedt ob ei nc hargeo ft hee asternd efense?[p]
+#Dood
 [voice ref="020198"]
-まあまあ、急用ができて、[n]
-西側の警備は部下に任してきたんでさあ。[p]
+Oh well, I had some urgent matters to attend to and left the western defense to my subordinates.[p]
 [voice ref="020199"]
-それより、この前の話の続きをしましょうや。[p]
-#カートン
+Let's continue the conversation we had earlier.[p]
+#Carton
 [voice ref="020200"]
 ;つづきとは……？
-…………？[p]
-#ドード
+C ontinue...?[p]
+#Dood
 [voice ref="020200a"]
-あっしの読心術の話でさあ。[p]
+You know, about my ability to read minds.[p]
 [voice ref="020201"]
-実はあれウソでしてね。[n]
-びっくりしたでしょう。[p]
+Actually, that was a lie. You muste be surprised, right?[p]
 [voice ref="020202"]
-あっしはね、言葉を聞かなくても、[n]
-相手が話そうと口に出したことを読み取ることができるんでさあ。[p]
+The truth is, I can understand what others say without hearing the words, by reading their movements and expressions.[p]
 [voice ref="020203"]
-これはドラゴンたちの会話方法でね。[n]
-魔女様には使えないってのはそういうことでさあ。[p]
-#カートン
+This is the way dragons communicate. It's not a skill witches can use.[p]
+#Carton
 [voice ref="020204"]
 ;それはいったい……。
-…………。[p]
-#ドード
+W hati nt hew orld?[p]
+#Dood
 [voice ref="020205"]
-おや、まだ気づかないんで……。[n]
-イッヒッヒッヒ……。[p]
+Oh well, you haven't figured it out yet... Haha...[p]
 [move id=2 x=30 time=700]
 [cn]
-ドードが、カートンから離れ、手をすっと上げた。[p]
-すると、周りにいた部下たちが、[n]
-一斉にカートンのほうへ向いて弓を引いた。[p]
+Dood stepped away from Carton, and raised his hand.[n]
+Suddenly, all of the soldiers around them turned and aimed their bows at Carton.[p]
 [se ref="150"]
 [se ref="150"]
 [se ref="150"]
-#カートン
+#Carton
 [voice ref="020206"]
 ……………！[p]
-#ドード
+#Dood
 [voice ref="020207"]
-まあ、そういうことでさあ。[n]
-わるいね、これも任務なんで。[p]
-#カートン
+Well, that's the situation. Sorry, it's just part of my mission.[p]
+#Carton
 [voice ref="020208"]
 ;お前……山の魔女の。
-…………。[p]
-#ドード
+Y ou're...witht hew itcho ft hem ountains.[p]
+#Dood
 [voice ref="020209"]
-察しのとおりでさあ。[p]
+It's as you suspected.[p]
 [voice ref="020209a"]
-あっしはドラゴンと人間のハーフ。[n]
-山の魔女の部下なんでさあ。[p]
+I'm half dragon and half human. I'm a subordinate of the mountain witch.[p]
 [voice ref="020209b"]
-本当のドードは、今頃街の井戸の底ってな。[p]
+The real Dood is at the bottom of a well in the city by now.[p]
 [voice ref="020210"]
-まあそういうことなんで、[n]
-申し訳ないが死んでもらいますぜ。[p]
+Well, that's how it is. Sorry, but now's the part where you die.[p]
 [cn]
-一斉に矢が放たれた。[p]
-逃げ場のないカートンに矢が降り注ぎ、[n]
-全身に無数の矢が突き刺さった。[p]
-#カートン
+All at once, countless arrows were fired.[p]
+The arrows poured down on the helpless Carton and stabbed him all over his body.[p]
+#Carton
 [voice ref="020211"]
 …………！！[p]
 [cn]
 [move id=2 y=-10 x=10 time=300]
-カートンの巨体がよろめき、膝をつく。[p]
-#カートン
+Carton's giant body swayed and he knelt down.[p]
+#Carton
 [voice ref="020212"]
-……ギ、……アァアアア！！！！！[p]
+...Gi...AAAA!!![p]
 [cn]
-カートンの咆哮が響き渡った。[p]
-思わず彼に弓を引いた部下たちは一歩退いた。[p]
-#ドード
+Carton's roar echoed.[p]
+His subordinates, who had involuntarily pulled their bows on him, stepped back.[p]
+#Dood
 [voice ref="020213"]
-何をしている！　次を打ち込め！！[p]
+What are you doing! Shoot again!![p]
 [cn]
-ドードの叱咤で我に返った部下たちは急いで次の矢を構えた。[p]
-しかし、それより一瞬早く、[n]
-カートンが自慢の戦斧をふるった。[p]
-そのひと振りは、目の前の部下の胴体を両断し、[n]
-その隣の部下の首をはねた。[p]
-#ドード
+At Dood's command, his soldiers prepared to fire more arrows.[p]
+However, before they could let an arrow fly, Carton swung his prized battle axe.[p]
+One of Dood's subordinates was cut in half, and the next was decapitated.[p]
+#Dood
 [voice ref="020214"]
-ちっ！　さすがにしぶとい。[p]
+Damn it! He's tougher than I thought.[p]
 [se ref="150"]
 [cn]
-二本目の矢が撃ち込まれ、カートンの体に突き刺さった。[p]
+Another volley of arrows was fired, piercing Carton's body yet again.[p]
 [move id=2 y=-10 time=100]
 [move id=2 x=10 time=100]
 [move id=2 x=-10 time=100]
 [move id=2 x=10 time=100]
 [move id=2 x=-10 time=100]
-#カートン
+#Carton
 [voice ref="020215"]
-ウォオオオォォォォオン……！！！！[p]
+Uwooooooon.......!!! [p]
 [cn]
-カートンの咆哮に大気がびりびりと震えた。[p]
-再びカートンが戦斧をふるうと、[n]
-三人の部下の体がバラバラになった。[p]
-その鬼のような立ち姿に、[n]
-残った部下たちはすっかり腰が引けてしまった。[p]
-カートンはその一瞬のすきを逃さなかった。[p]
-あっという間に、[n]
-ドードの部下全員を倒してしまったのだ。[p]
+Carton's roar shook the air.[p]
+Again, as Carton swung his battle axe, the bodies of three subordinates were torn apart.[p]
+In the face of this demonic stance, the remaining subordinates completely lost their will to fight.[p]
+Carton did not miss this momentary gap.[p]
+In an instant, he defeated all of Dood's subordinates.[p]
 [move id=0 x=-5 time=100]
-#ドード
+#Dood
 [voice ref="020215a"]
-ぐ、くそ……。[p]
-#カートン
+S-Shit...[p]
+#Carton
 [voice ref="020216"]
 ………………。[p]
 [move id=0 x=-5 time=600]
-#ドード
+#Dood
 [voice ref="020217"]
-ま、まあ、話し合いましょうや……へへ。[p]
+W-Well, let's talk ... hehe.[p]
 [cn]
-ドードの方を、カートンはまっすぐ見つめていた。[p]
-あまりの迫力にドードはすっかり子犬のように縮こまってしまっていた。[p]
-#ドード
+Dood looked straight at Cartoon.[p]
+Dood was like a puppy with his tail between his legs because of the pressure.[p]
+#Dood
 [voice ref="020218"]
-アハハハ……まあ、ここは穏便に穏便に……。[n]
+Ahahahaha...well, let's talk calmly...[n]
 …………。[p]
 [voice ref="020219"]
-…………あの、カートンさん？[p]
+...Hey, Carton?[p]
 [cn]
-ドードは先ほどからピクリとも動かないカートンに違和感を覚えた。[p]
-#ドード
+Dood felt uneasy about Carton, who hadn't moved at all since looking at him.[p]
+#Dood
 [voice ref="020220"]
-…………まさか。[p]
+...Could it be?[p]
 [move id=0 x=50 time=500]
 [cn]
-恐る恐る近づいて、確かめる。[p]
-カートンはすでに死んでいた。[p]
+Dood approached cautiously and confirmed his suspicions.[p]
+Carton was already dead.[p]
 [move id=0 x=-10 time=200]
 [wait time=300]
 [move id=0 x=-10 time=200]
-#ドード
+#Dood
 [voice ref="020221"]
-……あはははは。[n]
-はあ、ビビらせやがって……。[p]
+...ahaha haha. Yeah, you had me worried...[p]
 [voice ref="020221a"]
 …………。[p]
 [voice ref="020222"]
-さてと、あともう一仕事っと。[p]
+Well then, one more job left.[p]
 [scale id=0 sx=-1 time=300]
 [move id=0 x=-50 time=500]
 [cn]
 
 [filter name="fade" time=500]
-ドードが立ち去ってから数時間と立たず、[n]
-コンペイ砦は陥落した。[p]
+Several hours after Dood left, Conpei Fort fell.[p]
 
 ;場面クリア
 [hide_message]
@@ -374,135 +345,124 @@
 [filter name="clear" time="500"]
 
 [show_message]
-魔女オリヴィアの家。[p]
-#部下
+At the house of the witch Olivia. [p]
+#Subordinate
 [voice ref="020223"]
-失礼します！[p]
+I apologize for the interruption![p]
 [drawcg id=1 pos=4]
-#オリヴィア
+#Olivia
 [voice ref="020224"]
-どうぞ、入って。[p]
-#部下
+Please come in.[p]
+#Subordinate
 [voice ref="020225"]
-申し上げます！　コンペイ砦陥落！！[n]
-カートン大将討死！！[p]
+I have news to report! The Compie fort has fallen! General Carton has been killed![p]
 [changecg id=1 state=1]
-#オリヴィア
+#Olivia
 [voice ref="020226"]
-えっ！？[p]
+What!?[p]
 [voice ref="020226a"]
-そ、そんなはずないわ！！[n]
-カートンが死んだですって！？[p]
-#部下
+T-That can't be! Carton has died?[p]
+#Subordinate
 [voice ref="020227"]
-詳細は不明！[p]
+The details aren't clear![p]
 [voice ref="020227a"]
-しかし、山の魔女の軍勢は確かにこちらへ向かっております。[p]
-#オリヴィア
+but the army of the mountain witch is definitely headed this way.[p]
+#Olivia
 [voice ref="020228"]
-そんな……、ああ、どうすれば……。[p]
+Oh no...what should I do...[p]
 [voice ref="020229"]
-と、とりあえず、ドードのところにも伝えて！[p]
-#部下
+A-Alright, first of all, tell Dood too![p]
+#Subordinate
 [voice ref="020230"]
-はっ！　失礼します。[p]
-#オリヴィア
+Yes! Excuse me.[p]
+#Olivia
 [voice ref="020231"]
-なんでいきなり……。[p]
+Why all of a sudden...[p]
 [voice ref="020232"]
-もう！　なんでこうなるのよ……。[n]
-ああ…………！[p]
-#部下
+Ugh! Why is this happening...Argh![p]
+#Subordinate
 [voice ref="020233"]
-あっ、ドード様！　お疲れ様です！[n]
-……今丁度、えっ、あのなにを……！！[p]
+Oh, Lord Dood! You've worked hard!...Just now, what, huh...[p]
 [voice ref="020233a"]
-うっ！！[p]
-#オリヴィア
+Uwaah!![p]
+#Olivia
 [voice ref="020234"]
 ……？[n]
-ちょっと、どうかして……ドード？[p]
+What...? Wait a minute, what's going on...Dood?[p]
 [drawcg id=0 pos=1 mode="slidein" state=1 dir="right"]
-#ドード
+#Dood
 [voice ref="020235"]
-ああ、これはこれは魔女様。[n]
-イヒヒヒヒッ！！[p]
-#オリヴィア
+Ah, what do we have here...if it isn't the witch queen.[n]
+Hihihihi![p]
+#Olivia
 [voice ref="020236"]
-あなた、なんでここにいるのよ……。[p]
+What are you doing here...[p]
 [voice ref="020237"]
-いえ、それよりあなた、[n]
-それ……何。[p]
+No, more importantly, what is that...?[p]
 [cn]
-ドードは、赤く丸いものを手からぶら下げていた。[p]
-#ドード
+Dood was holding something red and round in his hand.[p]
+#Dood
 [voice ref="020238"]
-イヒヒヒヒッ！！[n]
-もうすぐあなたもこうなるんでさあ。 ほらっ！[p]
+ehehehehee!![n]
+You'll be just like this soon. Look![p]
 [cn]
-ひょいとドードがオリヴィアに向かって投げたそれは、先ほどの部下の首だった。[p]
+In a sudden move, Dood throws something at Olivia, which turns out to be the head of the subordinate from earlier.[p]
 [move id=1 x=10 time=100]
-#オリヴィア
+#Olivia
 [voice ref="020239"]
-……ヒッ！！[n]
-いやあああああああーーー！！！[p]
+...Yikes! No, no, no, no, no!!! [p]
 [move id=0 x=30 time=500]
-#ドード
+#Dood
 [voice ref="020240"]
-おっと、あまり叫ばないで下さいよ。[n]
-こっちもさっさとことをすましたいんでね。[p]
+Oh, don't shout so much. I too want to finish this quickly.[p]
 [move id=1 x=5 time=200]
-#オリヴィア
+#Olivia
 [voice ref="020241"]
-やっ、いやっ！！[n]
-や……めて。[p]
+Stop, no! Stop it![p]
 [voice ref="020242"]
-やめてっ！！　いやあっ！[n]
-殺さないでぇっ！！[p]
-#ドード
+No! Don't kill me![p]
+#Dood
 [voice ref="020243"]
-騒がないでって言ったでしょう？[p]
+I told you to be quiet, didn't I? [p]
 [move id=0 x=20 time=100]
 [cn]
 [se ref="150"]
 [filter name="flush" color="FF0000" time=300]
-ザクッ！！！！[p]
-#オリヴィア
+~Slicing sound~[p]
+#Olivia
 [voice ref="020244"]
-ああああぁーーー！！！！[p]
-#ドード
+Aaaahhh!!![p]
+#Dood
 [voice ref="020245"]
-そんなに叫ぶことないでしょう？[n]
-ただのかすり傷じゃないですか。[p]
+Why yell like that?[n]
+It's just a minor injury, isn't it?[p]
 [voice ref="020246"]
-……そういや、魔女ってのは処女じゃないと[n]
-魔法が使えないんだっけな。[p]
+...By the way, isn't it that witches can't use magic unless they're virgins?[p]
 [voice ref="020246a"]
-イヒヒヒヒッ！！[p]
+Ehehehehee![p]
 [voice ref="020247"]
-ありがてえ……こんな機会もう一生ないぜ。[n]
-さあ魔女様、あっしと楽しみましょうぜ……。[p]
-#オリヴィア
+Thanks... I'll never have an opportunity like this again. Come on, witch, let's have some fun together...[p]
+#Olivia
 [voice ref="020248"]
-いっ、いやっ……何をするの！？いやあっ！！[p]
+No, don't... What are you doing? No![p]
 
 ;ここから過激なので没
-;#ドード
+;#Dood
 ;[voice ref="020249"]
 ;イヒヒヒッ！！[n]
 ;なかなかかわいい反応するじゃねえか……。[p]
 ;[se ref="152"]
 ;[cn]
 ;ドードはオリヴィアに近づくと、彼女の服をナイフでびりびりと引き裂いていった。[p]
-;#オリヴィア
+;#Olivia
 ;[voice ref="020250"]
 ;いやっ！　助けてっ……！[n]
 ;ヘレン！　トリアイナ！！[p]
-;#ドード
+;#Dood
 ;[voice ref="020251"]
 ;知ってますぜ。アンタ、回復魔法が得意なんだってな[n]
 ;……いいゲームを思いついたぜェ。[p]
-;#オリヴィア
+;#Olivia
 ;[voice ref="020252"]
 ;えっ……ぐほっ！？[p]
 ;[move id=0 x=10 time=50]
@@ -524,11 +484,11 @@
 ;[filter name="flush" color="FF0000" time=300]
 ;二度、三度、立て続けに、言葉を発する暇もなく、[n]
 ;ドードは思いっきり、オリヴィアの腹を踏みつける。[p]
-;#ドード
+;#Dood
 ;[voice ref="020253"]
 ;おらおらどうした！？[n]
 ;得意の回復魔法で回復しねえのか？[p]
-;#オリヴィア
+;#Olivia
 ;[voice ref="020254"]
 ;ぐっ……ヒー……ル。[p]
 ;[se ref="153"]
@@ -538,7 +498,7 @@
 ;何度も強く踏みつけられ、青く変色した腹部が、[n]
 ;徐々に生気を取り戻す。[p]
 ;しかし、治りきる前に、ドーが再び同じ場所を踏みつける。[p]
-;#オリヴィア
+;#Olivia
 ;[voice ref="020255"]
 ;げほっ……ヒ……ール。[p]
 ;[se ref="153"]
@@ -550,23 +510,23 @@
 ;[cn]
 ;回復魔法では傷は治せても体力は回復しない。[p]
 ;次第にオリヴィアの目はうつろになり、ついには気を失ってしまった。[p]
-;#ドード
+;#Dood
 ;[voice ref="020256"]
 ;ねてんじゃねえよ……。[p]
 ;[move id=0 x=10 time=50]
 ;[se ref="150"]
 ;[filter name="flush" color="FF0000" time=300]
 ;[move id=0 x=-10 time=50]
-;#オリヴィア
+;#Olivia
 ;[voice ref="020257"]
 ;ぎゃああっ！！ [p]
 ;[cn]
 ;ドードが、オリヴィアの腹にナイフを突き立てた。[p]
-;#ドード
+;#Dood
 ;[voice ref="020258"]
 ;へっへっへっ……[n]
 ;そろそろメインディッシュと行きましょうや。[p]
-;#オリヴィア
+;#Olivia
 ;[voice ref="020259"]
 ;いたいよ……やめてよぉ……。[p]
 ;[se ref="154"]
@@ -575,19 +535,19 @@
 ;[cn]
 ;泣き叫ぶオリヴィアを見てドードは満足そうに笑い、[n]
 ;ズボンのベルトを緩め始めた。[p]
-;#オリヴィア
+;#Olivia
 ;[voice ref="020260"]
 ;何を……するの。[n]
 ;やめて……やめてっ！！！！[p]
 
 ;切り替え処理
 [filter name="fade" time=500]
-#ドード
+#Dood
 [voice ref="020261"]
-イヒヒヒヒヒッ……！！[p]
+Ehehehehehee...!![p]
 [cn]
-ドードの笑い声が響く。[p]
-ドラゴンたちの軍勢が、すぐそこまで迫っていた。[p]
+Dood's laughter echoed.[p]
+The dragon's army will arrive soon.[p]
 
 
 ……………。[p]
@@ -600,22 +560,22 @@
 
 [se ref="166"]
 [drawcg id=5 mode="slidein" dir="right" state=5 pos=1]
-#ヘレン
+#Helen
 [voice ref="020262"]
-オリヴィア！　無事！？[n]
+Olivia! Are you safe!?[n]
 ……。[p]
 [move id=5 x=10 time=500]
 [voice ref="020263"]
-オリヴィア……？[p]
+Olivia...?[p]
 [cn]
-ヘレンがオリヴィアの家を訪れたのは、それから数時間ののちだった。[p]
-オリヴィアの家の扉は空いており、家の中は大変な荒れようだった。[p]
-床に大きな血だまりがあり、血痕は奥まで続いていた[p]
+Helen visited Olivia's house a few hours later.[p]
+The door of Olivia's house was open, and the inside of the house was in a terrible state.[p]
+There was a large pool of blood on the floor and blood stains extended deep into the house.[p]
 [bgm ref="019_event4"]
 [move id=5 x=40 time=400]
-#ヘレン
+#Helen
 [voice ref="020264"]
-オリヴィア……！[p]
+Olivia...! [p]
 [scale id=5 sx=-1 time=100]
 [wait time=200]
 [scale id=5 sx=-1 time=100]
@@ -626,54 +586,50 @@
 [move id=5 y=-2 time=20]
 [move id=5 y=2 time=20]
 [cn]
-オリヴィアは家の浴槽の中に、[n]
-半裸の状態で丸まっていた。[p]
+Olivia was curled up in the bathtub, half-naked.[p]
 [move id=5 x=5 time=100]
-#ヘレン
+#Helen
 [voice ref="020265"]
-オリヴィア！[n]
-ねえ、大丈夫！？[n]
+Olivia![n]
+Hey, are you okay!?[n]
 [changecg id=5 state=6]
 [move id=5 x=-10 time=300]
 [wait time=500]
 [move id=5 x=-10 time=300]
-オリ……ヴィア……？[p]
+Hey...Olivia...!?[p]
 [cn]
-オリヴィアの口元から、一筋の血が垂れていた。[p]
-オリヴィアは、舌をかみ切って死んでいた。[p]
+Blood was flowing from Olivia's mouth.[p]
+Olivia had bitten her tongue and died.[p]
 
 ;ヤバイ一文につき　没
 ;彼女の股の間には、男の達した証がべったりと付着していた。[p]
 
 [move id=5 y=-10 time=400]
-#ヘレン
+#Helen
 [voice ref="020266"]
 …………。[p]
 [cn]
-ヘレンはふと、脱衣所のわきに目をやった。[p]
-一人の男が、恍惚とした表情を浮かべたまま、[n]
-心臓にナイフを突き立てられて死んでいた。[p]
-#ヘレン
+Helen suddenly looked at the corner of the changing room.[p]
+A man was dead, with a knife plunged into his heart and a dazed expression on his face.[p]
+#Helen
 [voice ref="020267"]
-オリヴィア……ごめん、ごめんね……。[p]
+Olivia...I'm sorry, I'm sorry...[p]
 [cn]
-ヘレンはオリヴィアの無残な亡骸を抱きしめた。[p]
+Helen hugged the mutilated corpse of Olivia.[p]
 [changecg id=5 state=7]
-#ヘレン
+#Helen
 [voice ref="020268"]
-ごめんね……怖かったよね……ごめんね。[p]
+I'm sorry...I know you were scared...I'm sorry.[p]
 [cn]
-物言わぬオリヴィアに、ヘレンはいつまでも謝り続けていた。[p]
+Helen kept apologizing to the unresponsive Olivia.[p]
 
 [filter name="fade" time=500]
 ……………。[p]
 
-オリヴィア領は一夜のうちにドラゴンたちに占領された。[p]
-その日のうちにベガがオリヴィアの家を訪れた。[p]
-しかし、オリヴィアの家で彼女が見たものは、[n]
-血まみれの惨状と、ドードの死体だけだった。[p]
-オリヴィアがどこへ行ったのか。[n]
-ベガたちが彼女を見つけることはついにできなかった[p]
+Olivia's territory was occupied by the dragons in one night.[p]
+Vega came to Olivia's house that day.[p]
+However, the only things she found in Olivia's house were a blood-soaked scene and the dead body of Dood.[p]
+No one knew where Olivia went. Vega's forces never found her.[p]
 [hide_message]
 [clearbg]
 [clearcg id=5]

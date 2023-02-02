@@ -19,17 +19,17 @@
 [drawcg id=1 pos=2 state=5 dir="right"]
 [drawcg id=0 pos=3 dir="right"]
 [show_message]
-#トリアイナ
+#Torianna
 [voice ref="020356"]
-来たわね、華の魔女アリス。[n]
-……ヘレン、落ち着いた？[p]
-#ヘレン
+Here she comes, the flower witch Alice.[n]
+...Helen, have you calmed down?[p]
+#Helen
 [voice ref="020357"]
-私はまだ許してないわよ……。[n]
-オリヴィアのかたきに味方するなんて。[p]
-#トリアイナ
+I haven't forgiven you yet... [n]
+for siding with Olivia's enemy.[p]
+#Torianna
 [voice ref="020358"]
-……来るわよ。[p]
+...Let's go.[p]
 
 [hide_message]
 [filter name="fade" time=500]

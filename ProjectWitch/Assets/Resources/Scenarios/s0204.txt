@@ -22,28 +22,28 @@
 [show_message]
 [move id=0 y=5 time=50]
 [move id=0 y=-5 time=50]
-#アリス
+#Alice
 [voice ref="020269"]
-なにっ！！[n]
-森の魔女がやられた！？[p]
+What![n]
+The forest witch was defeated!?[p]
 [drawcg id=1 pos=1 dir="right"]
-#クロ
+#Kuro
 [voice ref="020270"]
-国境まで山の魔女の軍勢が迫ってきております。[p]
+The mountain witch's army is approaching the border.[p]
 [voice ref="020270a"]
-まさか一晩で領地を占領するとは。[n]
-いったいどんな手を使ったのか……。[p]
-#アリス
+I can't believe they conquered the territory in one night.
+I wonder what kind of methods they used...[p]
+#Alice
 [voice ref="020271"]
-りょ、両サイドから挟み撃ちじゃねえか……。[p]
+W-we're caught in a pincer attack.[p]
 [voice ref="020271a"]
-森の魔女は腰抜けだっていうから攻めてこないと思ったのに。[p]
+I thought we were safe from the west because the forest witch was so weak she wouldn't attack.[p]
 [voice ref="020272"]
-あー、畜生！！[n]
-クロ、向こう側の砦を固めろ！[p]
+Ugh, beasts![n]
+Kuro, fortify the fortress in the west![p]
 [voice ref="020273"]
-守備をガッチガチにしろ！[n]
-しょうがない、同時攻略だ！！[p]
+Tighten up the defense![n]
+We have no choice but to fight on two fronts![p]
 
 ;終了処理
 [hide_message]
