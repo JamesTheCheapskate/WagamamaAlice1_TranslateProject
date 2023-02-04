@@ -2689,7 +2689,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u4FB5\u653B\u3092\u4E2D\u6B62\u3059\u308B\u3068\u3001\u6642\u9593\u304C\u7D4C\u904E\u3057\u307E\u3059\u3002\n\u672C\u5F53\u306B\u9032\u884C\u3092\u4E2D\u6B62\u3057\u3066\u3082\u3088\u308D\u3057\u3044\u3067\u3059\u304B\uFF1F"
+  m_Text: Time will still pass. Are you sure you want to cancel the attack?
 --- !u!222 &695311899
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2875,6 +2875,36 @@ Prefab:
         type: 2}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ChangeSortType
+      objectReference: {fileID: 0}
+    - target: {fileID: 114825477389271660, guid: fa16a51d4205f4f40b8af113f9081fb8,
+        type: 2}
+      propertyPath: m_Options.m_Options.Array.data[0].m_Text
+      value: ID
+      objectReference: {fileID: 0}
+    - target: {fileID: 114825477389271660, guid: fa16a51d4205f4f40b8af113f9081fb8,
+        type: 2}
+      propertyPath: m_Options.m_Options.Array.data[1].m_Text
+      value: "Level \u2191"
+      objectReference: {fileID: 0}
+    - target: {fileID: 114825477389271660, guid: fa16a51d4205f4f40b8af113f9081fb8,
+        type: 2}
+      propertyPath: m_Options.m_Options.Array.data[3].m_Text
+      value: Unit Type
+      objectReference: {fileID: 0}
+    - target: {fileID: 114825477389271660, guid: fa16a51d4205f4f40b8af113f9081fb8,
+        type: 2}
+      propertyPath: m_Options.m_Options.Array.data[4].m_Text
+      value: "Count \u2191"
+      objectReference: {fileID: 0}
+    - target: {fileID: 114825477389271660, guid: fa16a51d4205f4f40b8af113f9081fb8,
+        type: 2}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: "Level \u2193"
+      objectReference: {fileID: 0}
+    - target: {fileID: 114825477389271660, guid: fa16a51d4205f4f40b8af113f9081fb8,
+        type: 2}
+      propertyPath: m_Options.m_Options.Array.data[5].m_Text
+      value: "Count \u2193"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fa16a51d4205f4f40b8af113f9081fb8, type: 2}

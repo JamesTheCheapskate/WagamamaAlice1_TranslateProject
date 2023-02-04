@@ -4971,7 +4971,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u88C5\u5099"
+  m_Text: Equipment
 --- !u!222 &170833367
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13639,6 +13639,36 @@ Prefab:
       propertyPath: m_Text
       value: Lvl
       objectReference: {fileID: 0}
+    - target: {fileID: 114825477389271660, guid: fa16a51d4205f4f40b8af113f9081fb8,
+        type: 2}
+      propertyPath: m_Options.m_Options.Array.data[0].m_Text
+      value: ID
+      objectReference: {fileID: 0}
+    - target: {fileID: 114825477389271660, guid: fa16a51d4205f4f40b8af113f9081fb8,
+        type: 2}
+      propertyPath: m_Options.m_Options.Array.data[3].m_Text
+      value: Unit Type
+      objectReference: {fileID: 0}
+    - target: {fileID: 114825477389271660, guid: fa16a51d4205f4f40b8af113f9081fb8,
+        type: 2}
+      propertyPath: m_Options.m_Options.Array.data[1].m_Text
+      value: "Level \u2191"
+      objectReference: {fileID: 0}
+    - target: {fileID: 114825477389271660, guid: fa16a51d4205f4f40b8af113f9081fb8,
+        type: 2}
+      propertyPath: m_Options.m_Options.Array.data[4].m_Text
+      value: "Count \u2191"
+      objectReference: {fileID: 0}
+    - target: {fileID: 114825477389271660, guid: fa16a51d4205f4f40b8af113f9081fb8,
+        type: 2}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: "Level \u2193"
+      objectReference: {fileID: 0}
+    - target: {fileID: 114825477389271660, guid: fa16a51d4205f4f40b8af113f9081fb8,
+        type: 2}
+      propertyPath: m_Options.m_Options.Array.data[5].m_Text
+      value: "Count \u2193"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fa16a51d4205f4f40b8af113f9081fb8, type: 2}
   m_IsPrefabParent: 0
@@ -16761,7 +16791,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u5175\u54E1\u88DC\u5145/\u5897\u5F37"
+  m_Text: Recruit
 --- !u!222 &655357077
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -45098,7 +45128,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u30EC\u30D9\u30EB\u30A2\u30C3\u30D7"
+  m_Text: Level Up
 --- !u!222 &1973820236
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -45678,7 +45708,7 @@ Prefab:
     - target: {fileID: 224000010861065720, guid: de59de45c0ea2334f8d6cee417a81d6d,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -23.5
       objectReference: {fileID: 0}
     - target: {fileID: 224000010861065720, guid: de59de45c0ea2334f8d6cee417a81d6d,
         type: 2}
@@ -45688,7 +45718,7 @@ Prefab:
     - target: {fileID: 224000010861065720, guid: de59de45c0ea2334f8d6cee417a81d6d,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 47
       objectReference: {fileID: 0}
     - target: {fileID: 224000010861065720, guid: de59de45c0ea2334f8d6cee417a81d6d,
         type: 2}
@@ -46685,7 +46715,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u89E3\u96C7\u3059\u308B"
+  m_Text: Dismiss
 --- !u!222 &2038217265
 CanvasRenderer:
   m_ObjectHideFlags: 0
