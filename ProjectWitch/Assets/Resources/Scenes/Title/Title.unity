@@ -525,7 +525,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u30B7\u30CD\u30DE\u30C6\u30A3\u30C3\u30AF\uFF08\u6700\u9AD8\u54C1\u8CEA\uFF09"
+  m_Text: Cinematic (Highest Quality)
 --- !u!222 &93515283
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1238,7 +1238,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u6226\u95D8\u901F\u5EA6"
+  m_Text: Battle
 --- !u!222 &271657491
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2988,7 +2988,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u753B\u8CEA"
+  m_Text: Quality
 --- !u!222 &513839708
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3553,7 +3553,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "SE\u97F3\u91CF"
+  m_Text: SE
 --- !u!222 &629294446
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3837,7 +3837,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u30C6\u30AD\u30B9\u30C8\u9001\u308A\u901F\u5EA6"
+  m_Text: 'Speed:      Text'
 --- !u!222 &667535178
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3900,7 +3900,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u30BB\u30FC\u30D6\u30D5\u30A1\u30A4\u30EB\u3092\u9078\u629E\u3057\u3066\u304F\u3060\u3055\u3044"
+  m_Text: Choose a save file
 --- !u!222 &693207158
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4993,7 +4993,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u30D5\u30EB\u30B9\u30AF\u30EA\u30FC\u30F3"
+  m_Text: Full Screen
 --- !u!222 &842163543
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6695,6 +6695,31 @@ Prefab:
       propertyPath: m_RootOrder
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 114008877686255302, guid: faf8facd8e6695640af571b008a1ee2f,
+        type: 2}
+      propertyPath: m_Text
+      value: Return to Title?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114377824054935348, guid: faf8facd8e6695640af571b008a1ee2f,
+        type: 2}
+      propertyPath: m_Text
+      value: "\u203BUnsaved progress will be lost."
+      objectReference: {fileID: 0}
+    - target: {fileID: 114517404954821714, guid: faf8facd8e6695640af571b008a1ee2f,
+        type: 2}
+      propertyPath: m_Text
+      value: Are you sure you want to quit?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114230998748915128, guid: faf8facd8e6695640af571b008a1ee2f,
+        type: 2}
+      propertyPath: m_Text
+      value: "\u203BUnsaved progress will be lost"
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013391301300, guid: faf8facd8e6695640af571b008a1ee2f,
+        type: 2}
+      propertyPath: m_Text
+      value: Now Loading...
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: faf8facd8e6695640af571b008a1ee2f, type: 2}
   m_IsPrefabParent: 0
@@ -7048,7 +7073,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u30DE\u30B9\u30BF\u30FC\u97F3\u91CF"
+  m_Text: Volume
 --- !u!222 &1134111548
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9236,11 +9261,11 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: "\u30B7\u30CD\u30DE\u30C6\u30A3\u30C3\u30AF\uFF08\u6700\u9AD8\u54C1\u8CEA\uFF09"
+    - m_Text: Cinematic (Highest Quality)
       m_Image: {fileID: 0}
-    - m_Text: "\u30CF\u30A4\u30AF\u30AA\u30EA\u30C6\u30A3\uFF08\u9AD8\u54C1\u8CEA\uFF09"
+    - m_Text: High Quality
       m_Image: {fileID: 0}
-    - m_Text: "\u30D1\u30D5\u30A9\u30FC\u30DE\u30F3\u30B9\uFF08\u4F4E\u54C1\u8CEA\uFF09"
+    - m_Text: Low Quality (Best Performance)
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
@@ -9378,7 +9403,7 @@ MonoBehaviour:
       m_Image: {fileID: 0}
     - m_Text: 960 x 540
       m_Image: {fileID: 0}
-    - m_Text: "1280 x 720 (\u63A8\u5968)"
+    - m_Text: 1280 x 720 (recommended)
       m_Image: {fileID: 0}
     - m_Text: 1920 x 1080
       m_Image: {fileID: 0}
@@ -10110,6 +10135,11 @@ Prefab:
       propertyPath: mReciever
       value: 
       objectReference: {fileID: 277357203}
+    - target: {fileID: 114003825834551902, guid: 37811a263da552943af757101e82350a,
+        type: 2}
+      propertyPath: m_Text
+      value: 'Level: '
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 37811a263da552943af757101e82350a, type: 2}
   m_IsPrefabParent: 0
@@ -10536,7 +10566,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u9AD8\u901F"
+  m_Text: Fast
 --- !u!222 &1649117478
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12154,7 +12184,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u30DC\u30A4\u30B9\u97F3\u91CF"
+  m_Text: Voice
 --- !u!222 &1923405234
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12978,7 +13008,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "BGM\u97F3\u91CF"
+  m_Text: BGM
 --- !u!222 &2048119968
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13092,7 +13122,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u89E3\u50CF\u5EA6"
+  m_Text: Resolution
 --- !u!222 &2062748207
 CanvasRenderer:
   m_ObjectHideFlags: 0

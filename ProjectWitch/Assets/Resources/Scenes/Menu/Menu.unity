@@ -2925,7 +2925,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 0.58
-  m_Text: "\u30BF\u30A4\u30C8\u30EB"
+  m_Text: Title
 --- !u!222 &85916552
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5059,7 +5059,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u30B9\u30AD\u30EB\u540D"
+  m_Text: Skill
 --- !u!222 &181312225
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5289,7 +5289,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 0.58
-  m_Text: "\u30AB\u30FC\u30C9\u3092\u8CFC\u5165\u3067\u304D\u308B\u5E97\u3067\u3059\n\u30AB\u30FC\u30C9\u306F\u6226\u95D8\u4E2D\u306B\u767A\u52D5\u3057\n\u52B9\u679C\u3092\u767A\u63EE\u3057\u307E\u3059"
+  m_Text: "A store where you can buy cards\rto activate effects during battle\r"
 --- !u!222 &197566236
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5750,7 +5750,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Con
+  m_Text: Res
 --- !u!222 &210160939
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7244,7 +7244,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 0.58
-  m_Text: "\u5831\u916C"
+  m_Text: Reward
 --- !u!222 &270600020
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8962,7 +8962,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "BGM\u97F3\u91CF"
+  m_Text: BGM
 --- !u!222 &321869258
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9020,7 +9020,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u30BB\u30FC\u30D6\u30D5\u30A1\u30A4\u30EB\u3092\u9078\u629E\u3057\u3066\u304F\u3060\u3055\u3044"
+  m_Text: Choose a save file
 --- !u!222 &322342632
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10437,7 +10437,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u30DC\u30A4\u30B9\u97F3\u91CF"
+  m_Text: Voice
 --- !u!222 &385575170
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10585,7 +10585,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 0.58
-  m_Text: "\u30B7\u30E7\u30C3\u30D7"
+  m_Text: Shop
 --- !u!222 &393921356
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10659,7 +10659,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u30A2\u30A4\u30C6\u30E0\u540D"
+  m_Text: Name
 --- !u!222 &394035536
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10715,7 +10715,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u30B7\u30CD\u30DE\u30C6\u30A3\u30C3\u30AF\uFF08\u6700\u9AD8\u54C1\u8CEA\uFF09"
+  m_Text: Cinematic (Best Quality)
 --- !u!222 &400074704
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12350,7 +12350,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u6240\u6301\u30DE\u30CA"
+  m_Text: Mana
 --- !u!222 &435024575
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15777,7 +15777,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u6226\u95D8\u901F\u5EA6"
+  m_Text: Battle
 --- !u!222 &608550048
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19095,7 +19095,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 0.58
-  m_Text: "\u30A2\u30A4\u30C6\u30E0\u540D"
+  m_Text: Item
 --- !u!222 &719573620
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -22742,7 +22742,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u30DE\u30B9\u30BF\u30FC\u97F3\u91CF"
+  m_Text: Volume
 --- !u!222 &845622932
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -23284,7 +23284,7 @@ MonoBehaviour:
       m_Image: {fileID: 0}
     - m_Text: 960 x 540
       m_Image: {fileID: 0}
-    - m_Text: "1280 x 720 (\u63A8\u5968)"
+    - m_Text: 1280 x 720 (recommended)
       m_Image: {fileID: 0}
     - m_Text: 1920 x 1080
       m_Image: {fileID: 0}
@@ -23717,7 +23717,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Cha
+  m_Text: Leadership
 --- !u!222 &899202422
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -24538,7 +24538,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "SE\u97F3\u91CF"
+  m_Text: SE
 --- !u!222 &916816732
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -24686,7 +24686,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 0.58
-  m_Text: "\u30A2\u30A4\u30C6\u30E0\u540D"
+  m_Text: Item
 --- !u!222 &917774137
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -27440,7 +27440,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 0.58
-  m_Text: "\u30BF\u30A4\u30C8\u30EB"
+  m_Text: Title
 --- !u!222 &1060940196
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -29761,7 +29761,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Con
+  m_Text: Res
 --- !u!222 &1157807456
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -30406,7 +30406,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u30C6\u30AD\u30B9\u30C8\u9001\u308A\u901F\u5EA6"
+  m_Text: 'Speed:       Text'
 --- !u!222 &1181144440
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -31555,7 +31555,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Cha
+  m_Text: Leadership
 --- !u!222 &1240655161
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -32026,7 +32026,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 0.58
-  m_Text: "\u30D9\u30AC\u3068\u30E1\u30C3\u30B5\u30FC\u30B7\u30E5\u30DF\u30C3\u30C8\u306E\u3042\u3064\u3042\u3064\u30AB\u30EC\u30FC\u5BFE\u6C7A\r\n"
+  m_Text: "Vega and Messerschmitt face off against each other\r\n"
 --- !u!222 &1250612568
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -34225,7 +34225,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u767A\u52D5\u30BF\u30A4\u30DF\u30F3\u30B0"
+  m_Text: Conditions
 --- !u!222 &1379569568
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -34450,7 +34450,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u30D5\u30EB\u30B9\u30AF\u30EA\u30FC\u30F3"
+  m_Text: Full Screen
 --- !u!222 &1392415863
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -35316,11 +35316,11 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: "\u30B7\u30CD\u30DE\u30C6\u30A3\u30C3\u30AF\uFF08\u6700\u9AD8\u54C1\u8CEA\uFF09"
+    - m_Text: Cinematic (Highest Quality)
       m_Image: {fileID: 0}
-    - m_Text: "\u30CF\u30A4\u30AF\u30AA\u30EA\u30C6\u30A3\uFF08\u9AD8\u54C1\u8CEA\uFF09"
+    - m_Text: High Quality
       m_Image: {fileID: 0}
-    - m_Text: "\u30D1\u30D5\u30A9\u30FC\u30DE\u30F3\u30B9\uFF08\u4F4E\u54C1\u8CEA\uFF09"
+    - m_Text: Low Quality (Best Performance)
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
@@ -36618,7 +36618,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u30AB\u30FC\u30C9"
+  m_Text: Card
 --- !u!222 &1541729603
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -36693,7 +36693,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u89E3\u50CF\u5EA6"
+  m_Text: Resolution
 --- !u!222 &1542635655
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -37195,7 +37195,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u9AD8\u901F"
+  m_Text: Fast
 --- !u!222 &1558906283
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -37827,7 +37827,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u753B\u8CEA"
+  m_Text: Quality
 --- !u!222 &1574833327
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -37969,7 +37969,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 0.58
-  m_Text: "\u88C5\u5099\u54C1\u3092\u8CB7\u3046\u3053\u3068\u306E\u3067\u304D\u308B\u5E97\u3067\u3059\n\u88C5\u5099\u54C1\u306F\u3001\u30E6\u30CB\u30C3\u30C8\u306E\u30B9\u30C6\u30FC\u30BF\u30B9\u3092\u5F37\u5316\u3059\u308B\u3053\u3068\u304C\u3067\u304D\u307E\u3059"
+  m_Text: "A store where you can buy equipment\r\nto enhance the unit capabilities"
 --- !u!222 &1585030410
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -39007,7 +39007,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0.85
-  m_Text: "\u6B74\u53F2\u3042\u308B\u9B54\u5973\u306E\u6D41\u6D3E\u3001\u30ED\u30EC\u30FC\u30CC\u6D3E\u306E\u9577\u304C\u8EAB\u306B\u3064\u3051\u308B\u8863\u3002\u9B54\u738B\u306E\u30DA\u30C3\u30C8\u306E\u8718\u86DB\u304C\u306F\u3044\u305F\u7CF8\u3092\u3001\u9AD8\u6FC3\u5EA6\u30DE\u30CA\u6C34\u3092\u4F7F\u3063\u3066\u7D21\u3044\u3060\u3082\u306E\u3092\u4F7F\u3063\u3066\u4F5C\u3089\u308C\u308B\r"
+  m_Text: A robe worn by the head of the Lorraine school, a school of witches with
+    a long history. Made using the spider-bearing thread of the Demon King's pet spun
+    using high-concentration mana water.
 --- !u!222 &1630711289
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -39081,7 +39083,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u203B\u30EC\u30D9\u30EB\u30A2\u30C3\u30D7\u3057\u305F\u30E6\u30CB\u30C3\u30C8\u306FHP\u304C\u5168\u56DE\u5FA9\u3057\u307E\u3059"
+  m_Text: "\u203B* Units that level up will fully recover their HP"
 --- !u!222 &1633124285
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -39155,7 +39157,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 0.58
-  m_Text: "\u30B7\u30E7\u30C3\u30D7"
+  m_Text: Shop
 --- !u!222 &1635309449
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -39303,7 +39305,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 0.58
-  m_Text: "\u5831\u916C"
+  m_Text: Reward
 --- !u!222 &1642824546
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -41605,7 +41607,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u767A\u52D5\u56DE\u6570"
+  m_Text: Uses
 --- !u!222 &1771761357
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -41842,7 +41844,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u307E\u3068\u3081\u3066\u30EC\u30D9\u30EB\u30A2\u30C3\u30D7"
+  m_Text: Multiple Level Up
 --- !u!222 &1790310876
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -42242,6 +42244,11 @@ Prefab:
       propertyPath: mReciever
       value: 
       objectReference: {fileID: 1140967528}
+    - target: {fileID: 114296654192287162, guid: 06082257f8a0ad4438ed5452edd1784e,
+        type: 2}
+      propertyPath: m_Text
+      value: 'Level: '
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 06082257f8a0ad4438ed5452edd1784e, type: 2}
   m_IsPrefabParent: 0
@@ -42409,7 +42416,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u73FE\u5728\u30EC\u30D9\u30EB\u30A2\u30C3\u30D7\u3067\u304D\u308B\u30E6\u30CB\u30C3\u30C8\u3092\n\u3059\u3079\u3066\u30EC\u30D9\u30EB\u30A2\u30C3\u30D7\u3055\u305B\u307E\u3059\u304B\uFF1F"
+  m_Text: Do you want to level up all eligible units?
 --- !u!222 &1823826459
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -42851,7 +42858,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u88C5\u5099"
+  m_Text: Equipment
 --- !u!222 &1855084781
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -45708,7 +45715,7 @@ Prefab:
     - target: {fileID: 224000010861065720, guid: de59de45c0ea2334f8d6cee417a81d6d,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -23.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000010861065720, guid: de59de45c0ea2334f8d6cee417a81d6d,
         type: 2}
@@ -45718,7 +45725,7 @@ Prefab:
     - target: {fileID: 224000010861065720, guid: de59de45c0ea2334f8d6cee417a81d6d,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 47
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000010861065720, guid: de59de45c0ea2334f8d6cee417a81d6d,
         type: 2}
@@ -46626,7 +46633,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u30BB\u30FC\u30D6\u30D5\u30A1\u30A4\u30EB\u3092\u9078\u629E\u3057\u3066\u304F\u3060\u3055\u3044"
+  m_Text: Choose a save file
 --- !u!222 &2027579472
 CanvasRenderer:
   m_ObjectHideFlags: 0

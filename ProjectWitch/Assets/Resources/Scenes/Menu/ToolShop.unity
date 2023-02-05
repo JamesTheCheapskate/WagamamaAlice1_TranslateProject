@@ -533,7 +533,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u90E8\u4E0B\u7269\u7406\u653B\u6483"
+  m_Text: Sub P. Atk
 --- !u!222 &101632973
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -681,7 +681,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u56DE\u5FA9\u529B"
+  m_Text: Res
 --- !u!222 &120966879
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -755,7 +755,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u305D\u308C\u3067\u3082\u58F2\u308B"
+  m_Text: Sell
 --- !u!222 &135291485
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -908,7 +908,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u30EA\u30FC\u30C0\u30FC\u30B7\u30C3\u30D7"
+  m_Text: Leadership
 --- !u!222 &197673880
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -982,7 +982,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u90E8\u4E0B\u9B54\u6CD5\u653B\u6483"
+  m_Text: Sub M. Atk
 --- !u!222 &242321465
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1343,7 +1343,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u5546\u54C1\u540D"
+  m_Text: Name
 --- !u!222 &280098186
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1417,7 +1417,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u90E8\u4E0B\u7269\u7406\u9632\u5FA1"
+  m_Text: Sub P. Def
 --- !u!222 &310107628
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1786,7 +1786,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u5546\u54C1\u540D"
+  m_Text: Name
 --- !u!222 &522821610
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1943,7 +1943,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 2134419760}
   m_Direction: 2
   m_Value: 1
-  m_Size: 1
+  m_Size: 0.9999999
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2189,7 +2189,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u6240\u6301\u30DE\u30CA"
+  m_Text: Mana
 --- !u!222 &591444262
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2611,7 +2611,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u9B54\u6CD5\u9632\u5FA1"
+  m_Text: M. Def
 --- !u!222 &675453865
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2914,7 +2914,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u7269\u7406\u9632\u5FA1"
+  m_Text: P. Def
 --- !u!222 &735985175
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3293,7 +3293,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u6A5F\u52D5\u529B"
+  m_Text: Mobility
 --- !u!222 &794530119
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3367,7 +3367,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u3084\u3081\u308B"
+  m_Text: Refuse
 --- !u!222 &833820984
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3589,7 +3589,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u9B54\u6CD5\u653B\u6483"
+  m_Text: M. Atk
 --- !u!222 &877667772
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5666,7 +5666,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u6A5F\u52D5\u529B"
+  m_Text: Mobility
 --- !u!222 &1192253966
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5961,7 +5961,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u90E8\u4E0B\u7269\u7406\u653B\u6483"
+  m_Text: Sub P. Atk
 --- !u!222 &1262637472
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6156,7 +6156,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u58F2\u5374\u3059\u308B"
+  m_Text: Sell
 --- !u!222 &1340043393
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6230,7 +6230,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u90E8\u4E0B\u7269\u7406\u9632\u5FA1"
+  m_Text: Sub P. Def
 --- !u!222 &1352980669
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7243,7 +7243,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u9B54\u6CD5\u653B\u6483"
+  m_Text: M. Atk
 --- !u!222 &1484544925
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7391,7 +7391,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u30EA\u30FC\u30C0\u30FC\u30B7\u30C3\u30D7"
+  m_Text: Leadership
 --- !u!222 &1498213664
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7613,7 +7613,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u8CFC\u5165\u3059\u308B"
+  m_Text: Buy
 --- !u!222 &1530537967
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7687,7 +7687,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u9B54\u6CD5\u9632\u5FA1"
+  m_Text: M. Def
 --- !u!222 &1543437885
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8555,7 +8555,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u90E8\u4E0B\u9B54\u6CD5\u653B\u6483"
+  m_Text: Sub M. Atk
 --- !u!222 &1646800941
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8803,7 +8803,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u3084\u3081\u308B"
+  m_Text: Refuse
 --- !u!222 &1674545043
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9240,7 +9240,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u7269\u7406\u653B\u6483"
+  m_Text: P. Atk
 --- !u!222 &1726378384
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9467,7 +9467,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u56DE\u5FA9\u529B"
+  m_Text: Res
 --- !u!222 &1881083146
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9761,7 +9761,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u7269\u7406\u9632\u5FA1"
+  m_Text: P. Def
 --- !u!222 &1909848461
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9835,7 +9835,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u90E8\u4E0B\u9B54\u6CD5\u9632\u5FA1"
+  m_Text: Sub M. Def
 --- !u!222 &1925172261
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10051,7 +10051,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u304B\u3046"
+  m_Text: Buy
 --- !u!222 &1945779855
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10273,7 +10273,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u90E8\u4E0B\u9B54\u6CD5\u9632\u5FA1"
+  m_Text: Sub M. Def
 --- !u!222 &1988882156
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11006,7 +11006,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u7269\u7406\u653B\u6483"
+  m_Text: P. Atk
 --- !u!222 &2102201424
 CanvasRenderer:
   m_ObjectHideFlags: 0

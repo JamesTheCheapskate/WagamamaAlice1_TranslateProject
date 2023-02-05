@@ -840,7 +840,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Buy
+  m_Text: Sell
 --- !u!222 &333960657
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1543,7 +1543,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u6240\u6301\u30DE\u30CA"
+  m_Text: Mana
 --- !u!222 &591444262
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2386,7 +2386,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Cancel
+  m_Text: Refuse
 --- !u!222 &833820984
 CanvasRenderer:
   m_ObjectHideFlags: 0
