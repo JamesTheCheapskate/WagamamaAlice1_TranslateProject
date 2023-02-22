@@ -14,31 +14,31 @@
 [if opr="eqr" index0=0 value1=1]
 
 [drawfg id=2]
-#チシャ
-アリス様。[n]
-マナの結晶に混ざってこんなものが……。[p]
+#Cheshire
+Queen Alice...[n]
+What is this doing mixed in with the mana crystals...?[p]
 [drawfg id=0]
-#アリス
-……ああ。[n]
-軍の備品に加えておけ。[p]
+#Alice
+...Ah.[n]
+Add it to our military stockpile.[p]
 [drawfg id=2]
-#チシャ
-は、はい……。[p]
+#Cheshire
+Y-Yes...[p]
 
 [else]
 
 [drawfg id=1]
-#クロ
-アリス様。[n]
-マナの結晶に混ざってこんなものが……。[p]
+#Kuro
+Queen Alice...[n]
+What is this doing mixed in with the mana crystals...?[p]
 [drawfg id=0]
-#アリス
-あん？[n]
-まあ使えそうだし、とっておけ。[p]
+#Alice
+Hmmm?[n]
+Well, it seems useful, so let's keep it.[p]
 [drawfg id=1]
-#クロ
-はっ。[n]
-では、軍の備品に加えておきます。[p]
+#Kuro
+Yes.[n]
+Then I will add it to our military stockpile.[p]
 
 [endif]
 

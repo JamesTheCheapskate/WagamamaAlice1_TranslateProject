@@ -127,7 +127,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u30B2\u30FC\u30E0\u306E\u6D41\u308C"
+  m_Text: Game Flow
 --- !u!114 &114150556008437424
 MonoBehaviour:
   m_ObjectHideFlags: 1

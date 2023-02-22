@@ -124,7 +124,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "**\u30DE\u30CA\u3000\u624B\u306B\u5165\u308C\u305F\uFF01"
+  m_Text: Got ** mana!
 --- !u!114 &114729661539578072
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -1,4 +1,7 @@
-﻿using UnityEngine;
+﻿//REVISION HISTORY:
+//  *JRP 2/19/23 - Translated strings to English
+
+using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections;
 using ProjectWitch.Extention;
@@ -151,13 +154,13 @@ namespace ProjectWitch.Town
                 {
                     var item = game.GameData.Equipment[e.ItemID];
                     game.GameData.Territory[0].EquipmentList[e.ItemID].Add(-1);
-                    yield return StartCoroutine(ShowMessage(item.Name + "を手に入れた！"));
+                    yield return StartCoroutine(ShowMessage("Got " + item.Name));  //*JRP 2/19/23 To English
                 }
                 else
                 {
                     var item = game.GameData.Card[e.ItemID];
                     game.GameData.Group[game.GameData.Territory[0].GroupList[0]].CardList.Add(e.ItemID);
-                    yield return StartCoroutine(ShowMessage(item.Name + "を手に入れた！"));
+                    yield return StartCoroutine(ShowMessage("Got " + item.Name));  //*JRP 2/19/23 To English
                 }
             }
 
@@ -367,7 +370,7 @@ namespace ProjectWitch.Town
             inst.transform.SetParent(this.transform, false);
             inst.transform.position += new Vector3(0.0f, -100.0f, 0.0f);
             comp = inst.GetComponent<Field.Mana.Message>();
-            comp.Text = "経験値を手に入れた！";
+            comp.Text = "Gained Experience！";  //*JRP 2/19/23 - To English
 
             yield return new WaitForSeconds(comp.LifeTime);
         }

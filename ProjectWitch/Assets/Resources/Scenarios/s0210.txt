@@ -25,113 +25,110 @@
 [filter name="clear" time=500]
 
 [show_message]
-アリスの館。[p]
-#ベガ
+Alice's mansion[p]
+#Vega
 [voice ref="020400"]
-ここに血判を押すのだな。[p]
-#アリス
+Let's make it a blood pact.[p]
+#Alice
 [voice ref="020401"]
-おう。間違えるなよ？[p]
-#トリアイナ
+Alright. Don't screw up.[p]
+#Torianna
 [voice ref="020402"]
-…………。[p]
-#ベガ
+...[p]
+#Vega
 [voice ref="020403"]
-トリアイナ殿、やはりそちらについたか。[p]
-#トリアイナ
+Lady Torianna, you ended up joining Alice's forces after all.[p]
+#Torianna
 [voice ref="020404"]
-…………。[p]
-#ヘレン
+...[p]
+#Helen
 [voice ref="020405"]
-……オリヴィアにあなたたちがしたことを、[n]
-私たちもしたまでよ。[p]
-#ベガ
+...What all of you did to Olivia,[n]
+we'll do the same to you.[p]
+#Vega
 [voice ref="020406"]
-ああ……そうだな。[p]
+Ah...I see.[p]
 [voice ref="020407"]
-……。[p]
+...[p]
 [scale id=0 sx=-1 time=300]
 [voice ref="020407a"]
-トリアイナ殿、すまなかった。[p]
+Lady Torianna, I'm sorry.[p]
 [rotate id=0 angle=10 time=300]
 [cn]
-ベガはトリアイナに向かって深々と頭を下げた。[p]
-#トリアイナ
+Vega bows deeply to Torianna.[p]
+#Torianna
 [voice ref="020408"]
-……何のつもり。[p]
-#ベガ
+...What are you up to?[p]
+#Vega
 [voice ref="020409"]
-森の魔女を殺めるつもりはなかった。[n]
-だが、私の部下に失態があった。[p]
+I didn't intend to kill the forest witch. 
+But, this mishap was at the hands of one of my subordinates.[p]
 [voice ref="020410"]
-すべては私の責任だ。[n]
-……謝って許されることではない。[p]
+I take full responsibility.[n]
+...An apology isn't enough to earn forgiveness.[p]
 [voice ref="020411"]
-あなたの気さえすむのなら、[n]
-この場で私を切り捨ててほしい。[p]
+If it will make you feel any better, 
+I want you to kill me here.[p]
 [changecg id=1 state=6]
-#アリス
+#Alice
 [voice ref="020412"]
-あっ、馬鹿野郎！[n]
-勝手に死ぬなんて許さんぞ！！[p]
+Oh, you fool![n]
+I won't allow you to die on your own terms!![p]
 [voice ref="020413"]
-お前は今、私の部下になったんだからな！！[p]
-#ベガ
+You're my subordinate now!![p]
+#Vega
 [voice ref="020414"]
-華の魔女よ、どうかこれだけは……。[n]
-私の領主としての最後の仕事なのだ。[p]
-#アリス
+Please flower witch, at least let me...
+this is my last duty as a lord.[p]
+#Alice
 [voice ref="020415"]
-なんだと……！[p]
+What are you talking about![p]
 [scale id=2 sx=-1 time=300]
-#ヘレン
+#Helen
 [voice ref="020416"]
-……ばっかじゃないの。[p]
+...It's not so simple.[p]
 [scale id=3 sx=-1 time=300]
-#トリアイナ
+#Torianna
 [voice ref="020417"]
-ヘレン……？[p]
-#ヘレン
+Helen...[p]
+#Helen
 [voice ref="020417a"]
-アンタが死んだって何にもならないじゃない。[p]
+Your death wouldn't accomplish anything.[p]
 [voice ref="020417b"]
-……簡単に殺せとか言わないでよ。[p]
-#ベガ
+...Don't say things like "Just kill me" so easily.[p]
+#Vega
 [voice ref="020418"]
-……すまなかった。[n]
-しかし、私はどう償えばいいのか。[p]
+...I'm sorry.[n]
+But, what can I do to make amends?[p]
 [scale id=2 sx=-1 time=300]
-#ヘレン
+#Helen
 [voice ref="020419"]
-オリヴィアみたいな思いをする子がいなくなるように[n]
-早く世界を統一するのよ。[p]
+So that no one else has to experience the same pain as Olivia, let's strive to unite the world as soon as possible.[p]
 [voice ref="020420"]
-アリスさんなら、それができるのよね。[p]
+I know you can do it Alice.[p]
 [scale id=3 sx=-1 time=300]
 [changecg id=1 state=0]
 [move id=1 y=2 time=20]
 [move id=1 y=-2 time=20]
-#アリス
+#Alice
 [voice ref="020421"]
-お、おう……もちろんだ。[p]
+Y-yeah...of course I can.[p]
 [rotate id=0 angle=-10 time=300]
-#ベガ
+#Vega
 [voice ref="020422"]
-ヘレン……殿。[p]
-#ヘレン
+Lady...Helen.[p]
+#Helen
 [voice ref="020423"]
-言っておくけど、アンタのこと許したわけじゃないから。[n]
-だから死ぬなんて許さない。[p]
+Just so you know, I haven't forgiven you. So don't even think about dying.[p]
 [voice ref="020424"]
-生きて私たちと一緒に平和な世界を作るのよ。[p]
-#ベガ
+Live and work with us to create a peaceful world.[p]
+#Vega
 [voice ref="020424a"]
-……承知した。[p]
+...understood.[p]
 [changecg id=1 state=2]
 [cn]
-三人は固く握手を交わし、ひとまずの和解となったようだった。[p]
-アリス一人が、置いてけぼりにされたのが不満だったのか、[n]
-ぶすっとした表情で、ほおづえをついていた。[p]
+The three of them exchanged a firm handshake, and it seemed like they had reached a temporary truce.[p]
+Alice, who seemed to be dissatisfied with being left out, had a sullen expression on her face.[p]
 
 ;クリア処理
 [hide_message]
@@ -152,56 +149,52 @@
 
 [show_message]
 [cn]
-どんよりと薄暗い戦場に、火山灰の混じった黒い雨が降り注いでいた。[p]
-泥にまみれた、山の魔女の遺体が転がっている。[p]
+In the dim and gloomy battlefield, a black rain mixed with volcanic ash was pouring down.[p]
+The body of the mountain witch, covered in mud, was lying there.[p]
 [drawcg id=2 dir="right" pos=2 state=6]
 [drawcg id=3 dir="right" pos=3]
-#ヘレン
+#Helen
 [voice ref="020392"]
-オリヴィア……かたき、討ったよ……。[p]
-#トリアイナ
+Olivia... We avenged you...[p]
+#Torianna
 [voice ref="020393"]
-……山の魔女。[n]
-悪い魔女ではなかったわ。[p]
-#ヘレン
+...Mountain witch.[n]
+She wasn't a bad witch.[p]
+#Helen
 [voice ref="020394"]
-何を言ってるのよトリアイナ。[p]
+What are you talking about Torianna?[p]
 [voice ref="020395"]
-こいつはオリヴィアのかたきなのよ。[n]
-それ以上でも、それ以下でもないわ。[p]
-#トリアイナ
+This is what she gets for what she did to Olivia.[n]
+Nothing more, nothing less.[p]
+#Torianna
 [voice ref="020396"]
-ええ……[n]
+Yes...[n]
 [scale id=3 sx=-1 time=300]
-でも、本当にこれでよかったのかしら。[p]
+But is this really the right thing?[p]
 [changecg id=2 state=7]
 [move id=2 y=5 time=50]
 [move id=2 y=-5 time=50]
-#ヘレン
+#Helen
 [voice ref="020397"]
-よかったに決まってるじゃない！？[p]
+Isn't it obvious that this is what's best?![p]
 [voice ref="020398"]
-オリヴィアもきっと、喜んでいるわよ！[n]
-そうよ、ねえオリヴィアそうでしょう！？[p]
+Olivia would be happy too, I'm sure![n]
+Right, wouldn't you agree, Olivia?[p]
 [voice ref="020398a"]
-ねえ……オリヴィア、ねえ……。[n]
-答えて……オリヴィア。[p]
+Hey...Olivia, hey...answer me...Olivia.[p]
 [voice ref="020398b"]
-私たち、正しいことを、したのよね……？[p]
-#トリアイナ
+We did the right thing, didn't we?[p]
+#Torianna
 [voice ref="020399"]
-そうね……ヘレン。[n]
-これで、よかったのよね……。[p]
+Helen...I think you're right. This must be for the best.[p]
 [move id=2 y=-10 time=200]
-#ヘレン
+#Helen
 [voice ref="020399a"]
-トリアイナぁ……うぅ。[n]
-うあああぁ……！[p]
+Torianna...wa[n]
+Waaaaaaa![p]
 [cn]
-その場に崩れ落ちたヘレンを、[n]
-トリアイナが後ろからそっと支える。[p]
-戦場の黒い雨は、彼女たちの涙のように、[n]
-いつまでも降り続いていた。[p]
+Triaina supported Helen from behind gently when she collapsed on the spot.[p]
+The black rain on the battlefield, like their tears, continued to fall endlessly.[p]
 
 ;クリア処理
 [hide_message]

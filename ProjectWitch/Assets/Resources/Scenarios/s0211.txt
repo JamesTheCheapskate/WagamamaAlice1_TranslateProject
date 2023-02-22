@@ -24,108 +24,102 @@
 [drawcg id=1 pos=3]
 [drawcg id=2 pos=1 dir="right" mode="slidein"]
 [filter name="clear" time=500]
-#チュイリッシュ
+#Churlish
 [voice ref="020426"]
-アリスサマ、ソクタツカキトメデース！[p]
-#クロ
+QUEEN ALICE, IT'S EXPRESS REGISTERED MAIL![p]
+#Kuro
 [voice ref="020427"]
-アリス様。氷の魔女様から魔法文書が。[p]
-#アリス
+Queen Alice. It's a magic document from the ice witch.[p]
+#Alice
 [voice ref="020428"]
-氷の魔女から？[n]
-読み上げろ。[p]
-#チュイリッシュ
+From the ice witch?[n]
+Read it out loud.[p]
+#Churlish
 [voice ref="020429"]
-サインオネガイシマース。[p]
+PLEASE SIGN.[p]
 [scale id=1 sx=-1 time=300]
-#クロ
+#Kuro
 [voice ref="020430"]
-はっ。[n]
-えー……。[p]
-#チュイリッシュ
+Yes.[n]
+Err...[p]
+#Churlish
 [voice ref="020431"]
-サインオネガイシマース。[p]
-#アリス
+PLEASE SIGN.[p]
+#Alice
 [voice ref="020432"]
-忘れてた。[n]
-ファイアーボールっと。[p]
+I fogot about that part.[n]
+Fireball![p]
 [filter name="color" color="FFFFFF" time=150]
 [changecg id=2 state=1]
 [filter name="clear" time=150]
-#チュイリッシュ
+#Churlish
 [voice ref="020433"]
-ぐえええーーーーー！！！？[p]
+GUEEEEOOOOOOOOH!!!?[p]
 [move id=2 y=-110 time=300]
-#クロ
+#Kuro
 [voice ref="020434"]
-アリス様。いい加減やめませんと、[n]
-郵便局から苦情が来ますぞ？[p]
-#アリス
+Queen Alice. If you keep doing this sort of thing, we'll get complaints from the post office.[p]
+#Alice
 [voice ref="020435"]
-サインサインってうるさいのが悪いんだって。[n]
-ほら、続きを読めよ。[p]
-#クロ
+It's not my fault that signing is so noisy. Come on, read the rest. [p]
+#Kuro
 [voice ref="020436"]
-ええ、では……。[p]
+Yes, well...[p]
 [voice ref="020436a"]
-「華の魔女アリス殿。[p]
+"To the flower witch Queen Alice"[p]
 [voice ref="020436b"]
-「貴公に置かれましては、日頃の戦功華々しく、敵ながら我ら一同ほれぼれとした戦いぶりと……。[p]
+"Regarding your highness, your distinguished miliary achievements have been outstanding, and although you are the enemy, we have all been impressed by your fighting spirit...[p]
 [changecg id=0 state=2]
-#アリス
+#Alice
 [voice ref="020437"]
-あー、待て待て。[p]
-そういうのいいから、かいつまんで。[p]
-#クロ
+Ugh...Wait, wait.[p]
+Enough of that. Give me the short version.[p]
+#Kuro
 [voice ref="020438"]
-はあ……では改めて。[p]
+Okay...Let me start over then.[p]
 [voice ref="020438a"]
-「私とお友達になりませんか？」[p]
+"Would you like to be friends with me?"[p]
 [voice ref="020438b"]
-以上でございます。[p]
+That's basically what it says.[p]
 [move id=0 y=5 time=50]
 [move id=0 y=-5 time=50]
-#アリス
+#Alice
 [voice ref="020439"]
-端折りすぎだ！[n]
+That was too short![n]
 [changecg id=0 state=0]
-……まあつまり、同盟の誘いってわけだな？[p]
-#クロ
+...In other words, they want to form an alliance.[p]
+#Kuro
 [voice ref="020440"]
-左様です。[p]
-#アリス
+That's correct.[p]
+#Alice
 [voice ref="020441"]
-断る。[p]
-#クロ
+I decline.[p]
+#Kuro
 [voice ref="020442"]
-アリス様、よくお考えになられたほうが。[p]
+Queen Alice, it would be best to think it over carefully.[p]
 [changecg id=0 state=2]
-#アリス
+#Alice
 [voice ref="020443"]
-こっちは向こうを占領するつもりで[n]
-攻め込んでるんだぞ？[p]
+We're trying to invade them, why would we want to make an alliance with them?[p]
 [voice ref="020444"]
-降伏ならともかく同盟というのは[n]
-虫が良すぎるだろう。[p]
-#クロ
+If they surrender, that's one thing, but an alliance is too generous of terms.[p]
+#Kuro
 [voice ref="020445"]
-では条件を付けるというのはいかがでしょう。[p]
-#アリス
+Perhaps setting the conditions would be a good idea then?[p]
+#Alice
 [voice ref="020446"]
-条件？[p]
-#クロ
+Conditions?[p]
+#Kuro
 [voice ref="020447"]
-兵の指揮権はすべて我らに委ねること。[n]
-その代わり、氷の魔女殿の所領は安堵すること。[p]
+They will entrust the full command of their troops to us. In exchange, the territory of the Ice Witch will be safe.[p]
 [voice ref="020448"]
-このように申せば、形式上は同盟ですが、実質占領とかわりません。[n]
-軍隊の指揮権を握っている限り、向こうはこちらのことに一切口を出せませんので。[p]
+If stated this way, it is formally an alliance, but in reality is nothing but an occupation. As long as we hold military control, they cannot say anything about our actions.[p]
 [changecg id=0 state=1]
-#アリス
+#Alice
 [voice ref="020449"]
-なるほどな……、よし、それで書状を書いて送り付けろ。[p]
-#クロ
-はっ……。[p]
+I see...alright, write a letter and send it.[p]
+#Kuro
+Yes...[p]
 [cn]
 
 [filter name="fade" time=200]
@@ -133,34 +127,30 @@
 [clearcg id=1]
 [clearcg id=2]
 ……………。[p]
-アリスの出した条件は、[n]
-意外にもすんなりと受け入れられ、[n]
-トリアイナ領は、実質アリス領の支配下となった。[p]
-同盟の締結が決まり、トリアイナがアリスの館を訪れた。[p]
+The conditions proposed by Alice were surprisingly accepted and the territory of Torianna was effectively under the control of Alice.[p]
+The alliance was established and Torianna visited Alice's castle.[p]
 
 [drawcg id=0 pos=5]
 [drawcg id=1 pos=4]
 [drawcg id=3 pos=2 dir="right"]
 [filter name="clear" time=500]
 
-#アリス
+#Alice
 [voice ref="020452"]
-ふん、お前が氷の魔女トリアイナか。[p]
+Hmph, so you're the Ice Witch Triaina.[p]
 [voice ref="020453"]
-それで、本当にこの条件でいいんだな？[p]
-#トリアイナ
+And you're really okay with these conditions?[p]
+#Torianna
 [voice ref="020355"]
-ええ、もちろん。
+Yes, of course.
 [changecg id=0 state=1]
-#アリス
+#Alice
 [voice ref="020455"]
-ふん、何があったか知らんが、[n]
-私にとっては都合がいいからな。[p]
+Hmph, I don't know why this happened, but it's convenient for me.[p]
 [voice ref="020456"]
-せいぜいがんばれよ、[n]
-たっぷりと前線で戦ってもらうからな。[p]
+Do your best, because I'm going to have you fight plenty on the front lines.[p]
 [voice ref="020456a"]
-クフフフフフ……。[p]
+Kufufufufufu...[p]
 
 ;アリス領領地
 [change_area_owner area=11 owner=0]

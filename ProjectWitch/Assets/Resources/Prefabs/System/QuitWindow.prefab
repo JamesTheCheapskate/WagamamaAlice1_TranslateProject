@@ -257,7 +257,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u203B\u30BB\u30FC\u30D6\u3057\u3066\u3044\u306A\u3044\u5185\u5BB9\u306F\u5931\u308F\u308C\u307E\u3059"
+  m_Text: "\u203BUnsaved progress will be lost"
 --- !u!114 &114391231687399454
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -371,7 +371,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u7D42\u4E86\u3057\u307E\u3059\u304B\uFF1F"
+  m_Text: Would you like to quit?
 --- !u!114 &114879022865415868
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -499,7 +499,7 @@ Canvas:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1975587258863912}
   m_Enabled: 0
-  serializedVersion: 2
+  serializedVersion: 3
   m_RenderMode: 0
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
@@ -508,6 +508,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 1000
   m_TargetDisplay: 0

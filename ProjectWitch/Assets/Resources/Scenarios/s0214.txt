@@ -18,35 +18,31 @@
 
 [show_message]
 [drawcg id=0 pos=4]
-#トリアイナ
+#Torianna
 [voice ref="020504"]
-全軍撤退！！[n]
-けが人をできるだけ担ぎなさい！！[p]
+All troops withdraw![n]
+Carry as many wounded as you can![p]
 [voice ref="020504a"]
-アイスの町へ退却しますよ！！[p]
+We're retreating to the town of Ice![p]
 [clearcg id=0]
 [drawcg id=1 pos=2 dir="right"]
 [drawcg id=2 pos=1 dir="right"]
-#アリス
+#Alice
 [voice ref="020505"]
-ちっ、腰抜けが。[n]
-二、三度切り結んだだけで逃げ出しやがった。[p]
-#クロ
+Tch, they're such yellow bellied chickens. They turned tail and ran after only a few skirmishes.[p]
+#Kuro
 [voice ref="020506"]
-いえ、氷の魔女殿はおそらく見切りが早いのでしょう[n]
-兵を温存したのです。[p]
+No, the ice witch likely has sound judgment, and it's probably thanks to her quick grasp of the situation that she was able to save the lives of her troops.[p]
 [voice ref="020507"]
-ここでの主要な目的はおそらく、[n]
-砦の残党の救出だったのでしょう。[p]
-#アリス
+Her main objective was probably to rescue the remaining troops at the fortress.[p]
+#Alice
 [voice ref="020508"]
-決戦をするには早すぎるってことか。[n]
+So it seems it's too early for a decisive battle.[n]
 [changecg id=1 state=1]
-いいだろう。[p]
+That's fine.[p]
 [voice ref="020508a"]
-お望み通り進軍してやるよ。[n]
-お前のいるところまでな。[n]
-クフフフフフ！！[p]
+I'll play your game and chase you...all the way to your doorstep.[n]
+Kufufufufufu![p]
 
 [hide_message]
 

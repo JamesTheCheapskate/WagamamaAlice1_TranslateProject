@@ -808,7 +808,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 0.58
-  m_Text: "\u30AB\u30FC\u30C9\u3092\u8CFC\u5165\u3067\u304D\u308B\u5E97\u3067\u3059\n\u30AB\u30FC\u30C9\u306F\u6226\u95D8\u4E2D\u306B\u767A\u52D5\u3057\n\u52B9\u679C\u3092\u767A\u63EE\u3057\u307E\u3059"
+  m_Text: Store where you can buy cards to use in battle.
 --- !u!222 &280967682
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1086,7 +1086,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 0.58
-  m_Text: "\u30D9\u30AC\u3068\u30E1\u30C3\u30B5\u30FC\u30B7\u30E5\u30DF\u30C3\u30C8\u306E\u3042\u3064\u3042\u3064\u30AB\u30EC\u30FC\u5BFE\u6C7A\r\n"
+  m_Text: 'Vega and Messerschmitt face off against each other
+
+'
 --- !u!222 &420826866
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1142,7 +1144,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 0.58
-  m_Text: "\u30A2\u30A4\u30C6\u30E0\u540D"
+  m_Text: Item name
 --- !u!222 &454782743
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1234,7 +1236,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 0.58
-  m_Text: "\u30B7\u30E7\u30C3\u30D7"
+  m_Text: Shop
 --- !u!222 &484602141
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1308,7 +1310,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 0.58
-  m_Text: "\u30BF\u30A4\u30C8\u30EB"
+  m_Text: Title
 --- !u!222 &534231066
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1592,7 +1594,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 0.58
-  m_Text: "\u30B7\u30E7\u30C3\u30D7"
+  m_Text: Shop
 --- !u!222 &655418728
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2087,7 +2089,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 0.58
-  m_Text: "\u88C5\u5099\u54C1\u3092\u8CB7\u3046\u3053\u3068\u306E\u3067\u304D\u308B\u5E97\u3067\u3059\n\u88C5\u5099\u54C1\u306F\u3001\u30E6\u30CB\u30C3\u30C8\u306E\u30B9\u30C6\u30FC\u30BF\u30B9\u3092\u5F37\u5316\u3059\u308B\u3053\u3068\u304C\u3067\u304D\u307E\u3059"
+  m_Text: Store where you can buy equipment to enhance unit abilities.
 --- !u!222 &779185617
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2161,7 +2163,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 0.58
-  m_Text: "\u30A2\u30A4\u30C6\u30E0\u540D"
+  m_Text: Item Name
 --- !u!222 &801506816
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2435,7 +2437,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 0.58
-  m_Text: "\u30BF\u30A4\u30C8\u30EB"
+  m_Text: Title
 --- !u!222 &847917172
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2577,7 +2579,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 0.58
-  m_Text: "\u30BF\u30A4\u30C8\u30EB"
+  m_Text: Title
 --- !u!222 &876487570
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3305,7 +3307,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 0.58
-  m_Text: "\u5831\u916C"
+  m_Text: Salary
 --- !u!222 &1056186197
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3527,7 +3529,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 0.58
-  m_Text: "\u30D9\u30AC\u3068\u30E1\u30C3\u30B5\u30FC\u30B7\u30E5\u30DF\u30C3\u30C8\u306E\u3042\u3064\u3042\u3064\u30AB\u30EC\u30FC\u5BFE\u6C7A\r\n"
+  m_Text: 'Vega and Messerschmitt face off against each other
+
+'
 --- !u!222 &1114106433
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3669,7 +3673,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 0.58
-  m_Text: "\u30BF\u30A4\u30C8\u30EB"
+  m_Text: Title
 --- !u!222 &1140987662
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3782,7 +3786,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 0.58
-  m_Text: "\u5831\u916C"
+  m_Text: Salary
 --- !u!222 &1205690734
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4061,7 +4065,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 0.58
-  m_Text: "\u30A2\u30A4\u30C6\u30E0\u540D"
+  m_Text: Item name
 --- !u!222 &1314312917
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4440,7 +4444,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 0.58
-  m_Text: "\u30A2\u30A4\u30C6\u30E0\u540D"
+  m_Text: Item name
 --- !u!222 &1544971390
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4955,7 +4959,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 0.58
-  m_Text: "\u5831\u916C"
+  m_Text: Salary
 --- !u!222 &1745904262
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5285,7 +5289,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 0.58
-  m_Text: "\u5831\u916C"
+  m_Text: Salary
 --- !u!222 &1993962219
 CanvasRenderer:
   m_ObjectHideFlags: 0

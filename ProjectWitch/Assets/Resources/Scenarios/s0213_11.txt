@@ -23,79 +23,75 @@
 
 [show_message]
 [cn]
-魔女の湖。[n]
-氷の宮殿内。[p]
+Witch Lake[n]
+Inside the Ice Palace[p]
 [drawcg id=0 pos=5]
 [drawcg id=1 pos=4]
 [drawcg id=2 pos=3]
-#部下
+#Subordinate
 [voice ref="020484"]
-申し上げます！！[p]
-#トリアイナ
+I've got something important to report!![p]
+#Torianna
 [voice ref="020485"]
-なんですか、騒々しい。[p]
+What's going on? What's with all the yelling?[p]
 [cn]
-トリアイナたちは、[n]
-いつものように三人でお茶会をしていた。[p]
-そこへ、水を差すように部下があわただしく入ってきたのだ。[p]
-#部下
+Toriana and her friends were having a tea party like the three of them always did.[p]
+Without warning, a subordinate abruptly rushed in disturbing their gathering like a storm cloud.[p]
+#Subordinate
 [voice ref="020486"]
-華の魔女アリス、国境付近に現れ、[n]
-こちらに向かって攻撃を仕掛けた模様！[p]
+The flower witch Alice has appeared near the border and has apparently launched an attack against us![p]
 [move id=0 y=-2 time=50]
 [move id=0 y=2 time=50]
 [move id=1 y=5 time=50]
 [move id=2 y=5 time=50]
 [move id=1 y=-5 time=50]
 [move id=2 y=-5 time=50]
-#トリアイナ
+#Torianna
 [voice ref="020487"]
-なんですって！[p]
-#部下
+What is the world![p]
+#Subordinate
 [voice ref="020488"]
-いかがいたしますか。[p]
-#トリアイナ
+What are your orders?[p]
+#Torianna
 [voice ref="020489"]
-……ピノの町、アイスの町に徴兵をかけてちょうだい[p]
+...I want you to conscript soldiers from the towns of Pinot and Ice.[p]
 [voice ref="020489a"]
-各砦の将は最低限の兵力を残して、[n]
-すべてをシャーベット砦に集結させるように。[p]
-#部下
+Each fortress's commander should leave behind a minimal force and gather everyone at the Sherbet Fortress.[p]
+#Subordinate
 [voice ref="020490"]
-はっ、承知しました。[n]
-失礼します！[p]
+Ah, understood.[n]
+Please excuse me![p]
 ;部下退出
 [scale id=2 sx=-1 time=200]
 [scale id=1 sx=-1 time=200]
-#トリアイナ
+#Torianna
 [voice ref="020491"]
-してやられたわ……。[n]
-まさか突然攻めてくるなんて。[p]
+We've been caught off guard...[n]
+I didn't expect them to suddenly attack us.[p]
 [voice ref="020492"]
-オリヴィアも自分の領地に戻って軍備を整えなさい。[n]
-いつそっちに敵が行くかわからないわよ。[p]
-#オリヴィア
+Olivia, go back to your territory and prepare your army.
+You never know when the enemy might move in your direction.[p]
+#Olivia
 [voice ref="020493"]
-う、うん……わかった。[p]
-#トリアイナ
+Y-yeah...Got it.[p]
+#Torianna
 [voice ref="020494"]
-ヘレン。[n]
-オリヴィアを送り届けたらすぐに戻ってきてちょうだい。[p]
+Helen.[n]
+I want you to come back as soon as you've escorted Olivia home.[p]
 [voice ref="020494a"]
-忙しくなるわよ。[p]
-#ヘレン
+We're going to be busy.[p]
+#Helen
 [voice ref="020495"]
-ええ、わかったわ！[p]
+Yep, Okay![p]
 [cn]
 
 [filter name="fade" time=500]
 ;暗転
-こうなったときのトリアイナの判断は早かった。[p]
-素早い采配であっという間に兵をかき集めた。[p]
-トリアイナの軍勢は決して訓練度が高いわけではなかった。[p]
-正規兵はわずかで、[n]
-そのほとんどは徴兵された町民たちだった。[p]
-しかし、彼女の軍の強さは、彼女の指揮力にこそあった。[p]
+When the situation arose, Torianna immediately sprung into action.[p]
+With her quick judgement, she swiftly rallied her troops.[p]
+Torianna's army as by no means highly trained.[p]
+There were only a few professional soldiers while the majority were conscripted townspeople.[p]
+However, the strength of her army lay in her command.[p]
 ;明転
 [hide_message]
 [clearbg]
@@ -117,30 +113,28 @@
 [show_message]
 [drawcg id=3 pos=2 dir="right" state=1]
 [drawcg id=4 pos=1 dir="right"]
-#アリス
+#Alice
 [voice ref="020496"]
-おせっ！　おしだせーーーー！！！[n]
-アッハッハッハッハーーー！！[p]
+Push! Push them back![n]
+Ah-ha-ha-ha-ha![p]
 [voice ref="020497"]
-いいぞいいぞ！！[n]
-奇襲は大成功だな、クロ！[p]
-#クロ
+Good, good![n]
+Our surprise attack was a huge success, Kuro![p]
+#Kuro
 [voice ref="020498"]
-はっ！　[n]
-このまま一気に攻め落としてごらんに入れましょう。[p]
+Yes![n]
+Let's show them what we're capable of by keeping this momentum and conquering their territory in a single battle.[p]
 [cn]
 
 [clearcg id=3 mode="fadeout"]
 [clearcg id=4 mode="fadeout"]
 
-アリス軍はシャーベット砦の門前に迫っていた。[p]
-すでに味方は砦の壁をよじ登り、[n]
-内部を蹂躙し始めている。[p]
-砦が陥落するのも時間の問題かに見えた。[p]
-事実、この時点でトリアイナ軍はわずか500程度しかおらず、[n]
-対するアリス軍は控えも合わせて5000にも上る大軍勢だった。[p]
-砦は今にも陥落するかに見えた。[p]
-しかし、そこへ信じられない速さで兵をかき集めたトリアイナが到着したのだった。[p]
+Alice's army approached the gates of Sherbert Fortress.[p]
+Already, Alice's forces had climbed over the walls of the fortress and began trampling through the interior.[p]
+It seemed only a matter of time before the fortress would fall.[p]
+In fact, at this point, the Torianna's army had only about 500 soldiers, while the Alice's army, including their reserves, had a massive force of over 5,000 soldiers.[p]
+The fortress appeared to be on the brink of collapse.[p]
+However, at that moment, Torianna, who had gathered soldiers at an unbelievable speed, arrived.[p]
 
 ;背景切り替え
 [hide_message]
@@ -151,12 +145,12 @@
 [show_message]
 
 [drawcg id=0 pos=4]
-#トリアイナ
+#Torianna
 [voice ref="020499"]
-みな、よく耐えてくれました！[n]
-さあ、ここから反撃ですよ！！[p]
+You have all endured so well! 
+Now, let's fight back from here![p]
 [cn]
-トリアイナの到着で、砦の兵の指揮は一気に高まった[p]
+With the arrival of Torianna's forces, the morale of the fortress soldiers was increased dramatically.[p]
 
 ;背景切り替え
 [hide_message]
@@ -169,23 +163,23 @@
 
 [drawcg id=3 pos=2 dir="right"]
 [drawcg id=4 pos=1 dir="right"]
-#アリス
+#Alice
 [voice ref="020500"]
-……向こうで歓声が上がってるな。[n]
-ひょっとして援軍でも来たか？[p]
-#クロ
+...There's cheering over there.[n]
+Could it be that reinforcements have arrived?[p]
+#Kuro
 [voice ref="020501"]
-探ってまいりますか？[p]
+Do you want me to look into it?[p]
 [changecg id=3 state=1]
-#アリス
+#Alice
 [voice ref="020502"]
-いや、構わん。 いくら援軍が来ようともう遅い。[n]
-さあ、門が開くぞ！！[p]
+Nah,  it doesn't matter. No matter how many reinforcements come, it's already too late. 
+Look, the gates are opening![p]
 [voice ref="020503"]
-全軍突撃！！[n]
-敵兵をぶち殺せ！！！[p]
+All troops, charge! 
+Slaughter the enemy soldiers![p]
 [cn]
-両軍の本格的なぶつかり合いが始まった。[p]
+A full-scale clash between the two armies has begun.[p]
 
 [hide_message]
 [filter name="fade" time=500]

@@ -149,7 +149,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "0\u30BF\u30FC\u30F3\u76EE"
+  m_Text: 0 Turns
 --- !u!114 &114128075896731654
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -418,7 +418,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u5360\u9818\u6E08\u307F\u9818\u5730\uFF1A"
+  m_Text: 'Territories:'
 --- !u!222 &222445292323210230
 CanvasRenderer:
   m_ObjectHideFlags: 1

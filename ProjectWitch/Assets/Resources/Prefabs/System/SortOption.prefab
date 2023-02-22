@@ -541,7 +541,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u306A\u3089\u3073\u304B\u3048"
+  m_Text: Sort
 --- !u!114 &114982839963065812
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -72,7 +72,7 @@ namespace ProjectWitch.Field.Mana
             if (!Input.GetButtonDown("TalkSkip")) yield return new WaitForSeconds(2.0f);
 
             mSpawnerB.SpawnStart();
-            ShowResultMessage(Mana.ToString() + "マナを手に入れた！");
+            ShowResultMessage("Got " + Mana.ToString() + " mana！");  //*JRP 2/19/23 To English
             game.SoundManager.Play("114_fx_akariA", SoundType.SE);
             yield return new WaitForSeconds(2.5f);
 
@@ -103,8 +103,17 @@ namespace ProjectWitch.Field.Mana
 
                 game.CallScript(e);
                 while (game.IsTalk) yield return null;
-
-                ShowResultMessage(itemName + "を　手に入れた！");
+                string article = "a";
+                string typeOfThing = "";
+                if ("aeiouAEIOU".Contains(itemName[0]+""))  //*JRP+i+i+1 2/19/23 To English. Attempt to guess at correct article and making obtaining card not sound weird.
+                {
+                    article = "an";
+                }
+                if (!IsEquipment)
+                {
+                    typeOfThing = " card";
+                }
+                ShowResultMessage("I got " + article + " " + itemName + typeOfThing+"!");
 
                 //手に入れたアイテムを領地データに追加
                 if (IsEquipment)
