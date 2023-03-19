@@ -2,8 +2,8 @@
 ;アリスＢＡＤ
 
 
-#チシャ
-あっ、アリス様が死ぬなんて……。[n]
-そんな……ぐす。[p]
-アリス様、安らかに眠ってくださいね。[n]
-なむなむ……。[p]
+#Cheshire
+Oh, I can't believe Queen Alice died...[n]
+For such a thing to...~sob~[p]
+Queen Alice, please rest in peace.[n]
+~prays~[p]

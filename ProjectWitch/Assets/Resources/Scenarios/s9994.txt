@@ -7,10 +7,10 @@
 [filter name="clear" time=500][voice ref="090000"]
 
 [show_message]
-#チシャ
-あっ、アリス様が死ぬなんて……。[n]
-そんな……ぐす。[p]
+#Cheshire
+Oh, I can't believe Queen Alice died...[n]
+For such a thing to...~sob~[p]
 [voice ref="090001"]
-アリス様、安らかに眠ってくださいね。[n]
-なむなむ……。[p]
+Queen Alice, please rest in peace.[n]
+~prays~[p]
 [hide_message]

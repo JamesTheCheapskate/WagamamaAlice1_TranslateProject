@@ -8,7 +8,6 @@
 
 [show_message]
 [cn]
-アリスの館は敵の手に落ち、ここにアリス領は滅亡した。[p]
-アリスはその後、[n]
-戦争を起こした悪者として、後世まで語り継がれたのであった……。[p]
+Alice's mansion fell into the hands of the enemy, and with that she lost control of her territory.[p]
+Alice was thereafter remembered for generations to come as a villain who started a war...[p]
 [hide_message]

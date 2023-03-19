@@ -12988,7 +12988,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u5F37\u5236\u64A4\u9000"
+  m_Text: Forced withdrawal
 --- !u!222 &357215978
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -47546,7 +47546,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u5730\u70B9\u540D"
+  m_Text: Location
 --- !u!222 &1484755713
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -64957,7 +64957,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u623B\u308B"
+  m_Text: Return
 --- !u!222 &2002819397
 CanvasRenderer:
   m_ObjectHideFlags: 0

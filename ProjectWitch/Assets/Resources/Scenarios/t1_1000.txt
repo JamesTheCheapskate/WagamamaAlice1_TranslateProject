@@ -18,94 +18,93 @@
 
 [se ref="166"]
 [show_message]
-#マスター
-いらっしゃい。[p]
+#Owner
+Welcome.[p]
 [drawcg id=0 pos=2 dir="right" mode="slidein"]
 [drawcg id=1 pos=1 dir="right" mode="slidein" layer="front"]
-#アリス
-おう。[p]
+#Alice
+Oh.[p]
 [cn]
-町一番の酒場。「BAR TOLEBOW」[p]
-酒の種類はそこそこ。飯がうまくて、値段も安い。[n]
-庶民の憩いの場である。[p]
-#アリス
-欠点といえば、店主が死んだ魚の目アンド胸毛で、妙に中途半端なキャラってところくらいか。[p]
-#マスター
-きこえてるんだが？[p]
-#アリス
-そうそう。この店の飯はたいていうまいが、[n]
-カツサラダうどんだけは凄まじくまずい。[p]
-絶対に頼まないことだ。[p]
-#マスター
-だから聞こえてるんだっての！！[p]
+The best bar in town. "BAR TOLEBOW."[p]
+Good variety of drinks. Good food and cheap prices. 
+It is a place for common people to relax.[p]
+#Alice
+The only drawback is that the owner has dead fish eyes and chest hair, and is a strangely half-baked character.[p]
+#Owner
+You know I can hear you, right?[p]
+#Alice
+Oh yeah. Most of the food at this restaurant is good. 
+Except the pork cutlet salad udon is very bad.[p]
+Never order it.[p]
+#Owner
+I told you, I can hear you![p]
 [changecg id=0 state=1]
-#アリス
-ふん。チシャにこの店の説明をしてやってんだよ。[p]
-嘘ついたら意味ねえだろ。[p]
+#Alice
+Hmm. I'm trying to explain this place to Cheshire.[p]
+He needs the unfiltered truth for that.[p]
 [move id=1 y=5 time=50]
 [move id=1 y=-5 time=50]
-#チシャ
-すっ、すいません、マスター。[p]
-アリス様がいつもいつも…。[p]
-#マスター
-まったくだ。[n]
-しょっちゅうきて安酒ばっかり頼んで、[n]
-悪態ついて一日中粘られちゃあたまらないっての。[p]
+#Cheshire
+S-Sorry Barkeep.[p]
+Queen Alice is always...[p]
+#Owner
+I swear.[n]
+She comes here all the time only to order cheap drinks, 
+and swear at me all day long.[p]
 [changecg id=0 state=2]
-#アリス
-なんだと！！[n]
-こっちは客だぞ！[p]
-#マスター
-お客様は神様だってか！？[p]
-お前に限っちゃ、[n]
-神は神でも疫病神だよバカヤロー！[p]
+#Alice
+What's that![n]
+I'm a customer![p]
+#Owner
+You think the customer is God?[p]
+If you're a god, it's only one of pestilence, you idiot![p]
 [move id=0 x=5 time=50]
-#アリス
-なんだとー！[n]
-魔女を舐めてると痛い目見るぞ！[p]
-#マスター
-へっ、やってみやがれ！[p]
-#アリス
-いったなー！[n]
-破壊……！！[p]
+#Alice
+What the hell?[n]
+Insult a witch and you'll get burned![p]
+#Owner
+Heh, go ahead and try![p]
+#Alice
+You asked for it![n]
+Destruction...![p]
 [move id=1 x=30 time=100]
 [scale id=1 sx=-1 time=100]
 [move id=1 y=5 time=50]
 [move id=1 y=-5 time=50]
 [move id=1 y=5 time=50]
 [move id=1 y=-5 time=50]
-#チシャ
-わーーー！！！[n]
-アリス様、そのへんで抑えて抑えて！！[p]
+#Cheshire
+Waaah![n]
+Queen Alice, stop right there! Stop I say![p]
 [scale id=1 sx=-1 time=300]
-マスターさんも、アリス様は庶民舌で酒癖悪いから、[n]
-わざと安酒で粘っているわけじゃないと思うので、許してあげてください……。[p]
-#アリス
-チシャ、お前はどっちの味方なんだ？[p]
-#マスター
-まあ、アンタがいると、アンタ目当ての客も来るからな。[p]
-一概に悪いことばっかじゃないんだが……。[p]
+Barkeep, you know that Queen Alice has a commoner's tongue and a bad drinking habit. 
+I don't think she's intentionally sticking with cheap drinks, so please forgive her...[p]
+#Alice
+Cheshire, whose side are you on?[p]
+#Owner
+Well, when you're here, it does draw in some customers.[p]
+So, it's not all bad overall...[p]
 [changecg id=0 state=1]
-#アリス
-ほら！　聞いたかチシャ！[n]
-私悪くないだろ！[p]
-#マスター
-イラッ！！[p]
-人がせっかく引いてやろうと……！[p]
+#Alice
+See!　You hear that, Cheshire![n]
+I'm not so bad![p]
+#Owner
+Argh![p]
+I think I may have been too nice here.[p]
 [move id=1 x=5 time=50]
 [move id=1 y=5 time=50]
 [move id=1 y=-5 time=50]
-#チシャ
-まっ、まあまあ！[p]
+#Cheshire
+W-Well, well![p]
 [scale id=1 sx=-1 time=300]
-なにか食べませんか？[n]
-アリス様、ほら、おすすめの料理とか教えてくださいよ。[p]
+Would you like to eat something?[n]
+Queen Alice, come on, tell me if there's anything you recommend.[p]
 [changecg id=0 state=0]
-#アリス
-ん？　おお。[p]
-そうだな、まずは酢漬けのもつと……。[p]
-#マスター
-（はあ……。こいつが来ると胃が痛い……。）[p]
+#Alice
+Hmm?　Oh.[p]
+Let's see. First of all, let's start with pickled tripe...[p]
+#Owner
+(Haa...My stomach hurts when this woman comes in...)[p]
 
 [hide_message]
 [filter name="fade" time=500]

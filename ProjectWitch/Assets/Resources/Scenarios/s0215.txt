@@ -19,77 +19,77 @@
 
 [show_message]
 [cn]
-魔女の湖、氷の宮殿。[p]
+Witch  Lake, Ice Palace[p]
 [drawcg id=0 pos=5]
 [drawcg id=1 pos=2 dir="right" mode="slidein" state=1]
-#オリヴィア
+#Olivia
 [voice ref="020509"]
-トリアイナ！！　大丈夫！？[p]
-#トリアイナ
+Torianna! Are you okay![p]
+#Torianna
 [voice ref="020510"]
-ええ、問題ないわ。[n]
-それよりも、あなたは自分の心配をしなさい。[p]
-#オリヴィア
+Yeah, there's no problem.[n]
+Instead, you should worry about yourself.[p]
+#Olivia
 [voice ref="020511"]
-それは……。[p]
+It's...[p]
 [drawcg id=2 pos=1 dir="right" mode="slidein"]
-#マルゲル
+#Marugeru
 [voice ref="020512"]
-失礼、オリヴィア殿。[p]
+Excuse me, Lady Olivia.[p]
 [changecg id=1 state=0]
 [move id=1 y=-2 time=20]
 [move id=1 y=2 time=20]
 [scale id=1 sx=-1 time=200]
-#オリヴィア
+#Olivia
 [voice ref="020513"]
-あっ！　……この前の。[n]
-名前……覚えてたんですね。[p]
-#マルゲル
+Ah! ...We met before.[n]
+So, you remembered...my name?[p]
+#Marugeru
 [voice ref="020514"]
-ええ、命の恩人ですから。[p]
-#トリアイナ
+Yes, because you saved my life.[p]
+#Torianna
 [voice ref="020515"]
-マルゲルさん。[n]
-今は少し外してもらえないかしら。[p]
-#マルゲル
+Mr. Marugeru.[n]
+Could you give us a moment?[p]
+#Marugeru
 [voice ref="020516"]
-おっと、これは失礼。[n]
-オリヴィア殿、また後で。[p]
-#オリヴィア
+Oops, it was rude of me to just barge in.[n]
+I'll see you later, Lady Olivia.[p]
+#Olivia
 [voice ref="020517"]
-えっ、はい……。[p]
+Really, um okay...[p]
 [move id=2 x=100 time=500]
 [clearcg id=2]
 [cn]
-オリヴィアがあっけにとられている間に、[n]
-マルゲルは奥の部屋へと消えた。[p]
-#トリアイナ
+While Olivia was taken aback,[n]
+Marugeru disappeared into a back room.[p]
+#Torianna
 [voice ref="020518"]
-彼、あれからだいぶ良くなって、[n]
-そろそろここを立つそうよ。[p]
+He's gotten much better[n]
+and it seems like he'll be leaving soon.[p]
 [scale id=1 sx=-1 time=100]
-#オリヴィア
+#Olivia
 [voice ref="020519"]
-で、でも！　外は戦争で危険なんじゃ……。[p]
-#トリアイナ
+B-But！　Don't you think it's too dangerous with the war going on?[p]
+#Torianna
 [voice ref="020520"]
-ええ、だから戦争が終わるまではここでゆっくりしていきなさいと言っておいたわ。[p]
-#オリヴィア
+Yeah, that's why I told him to not rush out and instead wait out the war here.[p]
+#Olivia
 [voice ref="020521"]
-そ、そっか……。[p]
-#トリアイナ
+I...I see...[p]
+#Torianna
 [voice ref="020522"]
 ……？[n]
 [move id=0 x=-20 time=1000]
-あなた、何だか顔が赤いわよ？[p]
+Your face looks red for some reason, doesn't it?[p]
 [move id=1 y=5 time=50]
 [move id=1 y=-5 time=50]
-#オリヴィア
+#Olivia
 [voice ref="020523"]
-そっ、そんなことないよッ！！[p]
-#トリアイナ
+N-No, it's not like that at all![p]
+#Torianna
 [voice ref="020524"]
-そう……？[p]
+Is that so...?[p]
 
 [hide_message]
 [filter name="fade" time=500]

@@ -14,9 +14,9 @@
 [sys_memget index=4014 local=0]
 
 [show_message]
-#アリス
-よーし！　あらかたとり尽したな。[n]
-撤収だーーーーー！！！[p]
+#Alice
+Alright! We've taken all we can.[n]
+Let's move out![p]
 [se ref="117_fx_velonicaB"]
 [filter name="color" color="ffffff" time=1000]
 [drawcg id=1 pos=4]
@@ -25,24 +25,24 @@
 [changecg id=0 state=6]
 [move id=0 y=10 x=-5 time=100]
 [move id=0 y=-10 x=-5 time=100]
-#アリス
-わっ！！[p]
+#Alice
+Whoa![p]
 
 ;初回
 [if opr="eqr" index0=0 value1=0]
 
-なんだ、敵か！！[p]
+What the? It's an enemy![p]
 #？？？
-ん？　あれ、ここは……。[p]
+Hmmm?　Wha...this is...[p]
 [changecg id=0 state=2]
-#アリス
-……お、オイ。[n]
-お前誰だよ。[p]
-……ってか人間か？[n]
-そのみょうちくりんな格好はなんだよ。[p]
+#Alice
+...Oh, hey.[n]
+Who are you?[p]
+...You are human, right?[n]
+What's with that ridiculous outfit?[p]
 #？？？
-んー、ねむい。[n]
-ふわーあ……。[p]
+Hmmm, I'm sleepy.[n]
+Yawn...[p]
 
 [hide_message]
 [se ref="117_fx_velonicaB"]
@@ -50,36 +50,36 @@
 [clearcg id=1]
 [filter name="clear" time=500]
 [show_message]
-#アリス
-ん……、な、なんだ。[p]
-き、きえた……。[p]
+#Alice
+W...Where'd she go?[p]
+S-she disappeared.[p]
 ……………。[p]
-ん？　なんだこれ。[p]
+Hmm? What is this?[p]
 [move id=0 x=20 time=800]
 [cn]
-アリスは、足元に落ちていた何かを拾い上げた。[p]
-#アリス
-ビー玉？[n]
-あいつのものか？[p]
-……しかし、妙なやつだったな。[p]
+Alice picked up something that had fallen at her feet.[p]
+#Alice
+A marble?[n]
+Did it belong to her?[p]
+...But she sure was a strange one.[p]
 
 [endif]
 
 ;二回目
 [if opr="eqr" index0=0 value1=1]
 
-お……お前この前の。[p]
+Y-You... You're the one from the other day.[p]
 #？？？
-ん？　あ！　こんにちはー……。[p]
-あれ、クロは？[p]
+Hmm? Ah! Hello.[p]
+Hey, where's Kuro?[p]
 [scale id=1 sx=-1 time=300]
 [wait time=500]
 [scale id=1 sx=-1 time=300]
-ねえ、クローーー？[p]
-んー、私やることがあったような……。[p]
-まあいっかぁ……。[p]
-んー、ねむいなあ……。[n]
-ふわーあ。[p]
+Hey, Kuro?[p]
+Hmm, I feel like I had something to do...[p]
+Oh well...[p]
+Hmm, I'm so sleepy...[n]
+Yawn[p]
 
 [hide_message]
 [se ref="117_fx_velonicaB"]
@@ -88,78 +88,75 @@
 [filter name="clear" time=500]
 [show_message]
 
-#アリス
-き、きえた……。[p]
-なんだってんだ……一体。[p]
+#Alice
+S-she disappeared.[p]
+What is the world...is going on?[p]
 [changecg id=0 state=0]
-ん？　なんだこれ。[p]
+Hmm? What's this?[p]
 [move id=0 x=20 time=800]
 [cn]
-アリスは、足元に落ちていた何かを拾い上げた。[p]
-#アリス
-またビー玉だ……。[p]
+Alice picks up something that had fallen at her feet.[p]
+#Alice
+It's another marble...[p]
 [changecg id=0 state=6]
-お、お化け、亡霊とか、[n]
-そんなんじゃないだろうな。[p]
+Surely she's not a g-ghost, or spector, or anything like that...right?[p]
 
 [endif]
 
 ;三回目
 [if opr="eqr" index0=0 value1=2]
 
-ま、またか……。[p]
+A-Again?...[p]
 #？？？
-あっ！　さっきの子！[p]
-ねえ、ちょっと聞きたいんだけど、[n]
-バルバロッサ山ってどっちの方向かな？[p]
-#アリス
-ば、バルバロッサ山ぁ？[n]
-知るかよ、そんな山。[p]
+Ah! The girl from earlier![p]
+Hey, sorry to bother you, but could you tell me which way Mount Barbarossa is?[p]
+#Alice
+Mo-Mount Barbarossa? How should I know about some mountain like that.[p]
 #？？？
-うぅ……そっか。[p]
-参ったなぁ、日が暮れるまでに行かなきゃいけないのに。[p]
+Ugh...I see.[p]
+Oh no, I have to go before the day ends.[p]
 [changecg id=0 state=2]
-#アリス
-ちょ、ちょっと待て、前から思ってたが、[n]
-お前一体何もんだ？[p]
-突然現れるし、不気味でしょうがないぞ。[p]
+#Alice
+W-Wait a minute. I've been thinking.[n]
+Who the hell are you?[p]
+You suddenly appear out of nowhere, and you're creepy as hell.[p]
 #？？？
-突然……？　ああ！[n]
-そっか……じゃあこれはそういう。[p]
-#アリス
-オイ、一人でぶつぶつ言っててもわかんねえよ……。[p]
+Suddenly...?　Oh![n]
+I see...so that's how other people see it.[p]
+#Alice
+Hey, I don't know what you're mumbling all by yourself...[p]
 #？？？
-ええっと、詳しくは言えないから……。[n]
-とりあえず私の名前は「リン」でいいわ！[p]
-#アリス
-でいいわってオイ……。[p]
-#リン
-あなたの名前は？[p]
+Umm, I can't give you too many details...[n]
+But let's just say my name is "Rin"![p]
+#Alice
+Sure, whatever I guess...[p]
+#Rin
+What's your name?[p]
 [changecg id=0 state=0]
-#アリス
-私はアリスだ。華の魔女アリス。[p]
+#Alice
+I'm Alice. Alice the Flower Witch.[p]
 [move id=1 y=5 time=50]
 [move id=1 y=-5 time=50]
 [move id=1 y=5 time=50]
 [move id=1 y=-5 time=50]
-#リン
-魔女！　あなた、魔女なのね！[p]
+#Rin
+You're...really a witch?![p]
 [changecg id=0 state=1]
-#アリス
-クフフッ！　そうだ、驚いたか！[p]
-#リン
-私もなの！[p]
+#Alice
+Kufufuu! That's right, surprised![p]
+#Rin
+Me too! Me too![p]
 [changecg id=0 state=6]
 [move id=0 y=5 time=50]
 [move id=0 y=-5 time=50]
-#アリス
-んなっ！？　ま、マジか……。[p]
-いや、そうか、突然現れるのも魔法だったわけだな。[p]
-#リン
-そうなの！　詳しくは話せないけど魔法なの！[p]
-ん……そろそろ時間みたい。[p]
-アリスちゃん……また、会いましょう……。[p]
-ふあーあ。[p]
+#Alice
+What?　A-Are you serious?[p]
+No, I see, so it was magic for you to suddenly appear.[p]
+#Rin
+Yes, it was! I can't tell you the details, but it's magic![p]
+Hmm...I guess it's time to go.[p]
+Alice...see you again...[p]
+Ya~awn.[p]
 
 [hide_message]
 [se ref="117_fx_velonicaB"]
@@ -169,59 +166,57 @@
 [show_message]
 
 [changecg id=0 state=0]
-#アリス
-消えた……。[p]
-一体何の魔法なんだ、[n]
-「眠気」がトリガーみたいだけど……。[p]
+#Alice
+She's gone...[p]
+What kind of magic was that?[n]
+It seems to be triggered by "sleepiness", but...[p]
 [move id=0 x=20 time=500]
-このビー玉にも、何か意味があるのか……？[p]
+There's this marble as well, does it mean anything?[p]
 
 [endif]
 
 ;四回目
 [if opr="eqr" index0=0 value1=3]
 
-な、なんだ、リンか。[n]
-何回見ても驚いちまうぜ……クソ。[p]
+W-what, Rin!?[n]
+I don't think I'll ever get used to you appearing from thin air...dammit.[p]
 [move id=1 y=5 time=50]
 [move id=1 y=-5 time=50]
 [move id=1 y=5 time=50]
 [move id=1 y=-5 time=50]
-#リン
-あっ、アリスちゃん！！[n]
-また会えたね！[p]
+#Rin
+Oh, Alice![n]
+Nice to see you again![p]
 [changecg id=0 state=0]
-#アリス
-おう、しかし、その妙な魔法はなんなんだよ。[p]
-その口ぶりから、狙ったところに[n]
-移動するようなワープ呪文でもないんだろ？[p]
-#リン
-うんと……、魔女協会の規定で、[n]
-うっかり口を滑らせると大目玉なんだけど……。[p]
-うん、このくらいならいってもいいかな。[p]
+#Alice
+Oh, but seriously, what's that strange magic you're using?[p]
+From the way you were talking, it doesn't sound like a warp spell where you can move to a chosen location.[p]
+#Rin
+ell...according to the rules of the Witches Association, I could get into big trouble for accidentally revealing too much, but...[p]
+yeah, if I don't say too much, it should be fine, right?[p]
 [changecg id=0 state=2]
-#アリス
-なんだよ、もったいぶらずに言えよ。[p]
-#リン
-この呪文は世界に一つだけの呪文。[p]
-ほとんどの魔女が知らない……、[n]
-時を操る呪文……。[p]
+#Alice
+What the heck? Don't be so stingy and spill it already.[p]
+#Rin
+This spell is the only one of its kind in the world.[p]
+Most witches don't know it...[n]
+It's a spell that manipulates time...[p]
 [move id=1 y=5 time=50]
 [move id=1 y=-5 time=50]
 [move id=1 y=5 time=50]
 [move id=1 y=-5 time=50]
-……なーんて、かっこいいでしょ！[p]
+...just kidding, but wouldn't that be cool?![p]
 [changecg id=0 state=6]
 [move id=0 y=5 time=50]
 [move id=0 y=-5 time=50]
-#アリス
-は、はあ！？[p]
-おまえ、ふざけてんじゃ……！[p]
-#リン
-あっ、そろそろ時間だ。[p]
-ふあーあ……、じゃあね、アリスちゃん。[p]
-#アリス
-お、オイ！！[p]
+#Alice
+H-Huh?![p]
+You're jerking me around...[p]
+#Rin
+Ah, it's about time.[p]
+Ya~awn...see you later, Alice.[p]
+#Alice
+H-hey![p]
 [hide_message]
 
 [se ref="117_fx_velonicaB"]
@@ -235,48 +230,48 @@
 [wait time=800]
 [show_message]
 
-#アリス
-く、クソ……。[n]
-なんだってんだ……。[p]
-時を操る呪文だって！？[p]
-冗談なのか本気なのか……。[p]
-……またビー玉落ちてるし。[n]
-くそう、もう一回出てこねえかなぁ。[p]
+#Alice
+Sh-Shit...[n]
+what's going on...[p]
+a spell that controls time!?[p]
+Was that really a joke, or was it actually the truth...[p]
+...and yet another marble has fallen...[n]
+Damn it, I hope she'll appear again. [p]
 
 [endif]
 
 ;五回目
 [if opr="eqr" index0=0 value1=4]
-
-で、出たな！　リン！！[p]
+#Alice
+T-There she is! Rin!![p]
 [move id=1 y=5 time=200]
 [move id=1 y=-5 time=200]
-#リン
-え、な、なになに？[n]
-殺気立っちゃって。[p]
-#アリス
-うるさい、観念しろーーー！[p]
+#Rin
+Huh, w-what's up?[n]
+You're giving off a murderous vibe.[p]
+#Alice
+Shut up and give up already![p]
 [hide_message]
 [move id=0 x=70 time=400]
 [filter name="flush" color="ffffff" time=300]
 [scale id=1 sx=-1 time=300]
 [show_message]
-#アリス
-んなっ！！！　すりぬけた……？[p]
+#Alice
+Wha-!!! She passed right through...?[p]
 [scale id=0 sx=-1 time=300]
-ど、どうなってんだ……。[p]
+W-What's going on...?[p]
 [move id=1 x=-20 time=300]
-#リン
-あー……。その。[p]
+#Rin
+Uh...That.[p]
 [move id=0 x=-20 time=300]
-#アリス
-オイ！　その魔法は一体何なんだ！[n]
-そんなびっくり呪文を使う魔女が無名だなんて。[p]
-それに、時を操るってのはなんなんだ！[p]
+#Alice
+Hey! What the heck was that magic!?[n]
+A witch who uses such a surprising spell is unknown?[p]
+Besides, what did you mean about manipulating time!?[p]
 [move id=1 x=-10 time=300]
-#リン
-い、いや、だからそれは言っちゃいけなくて……。[p]
-さ、さよなら～……。[p]
+#Rin
+N-No, well, I wasn't supposed to say that...[p]
+G-Goodbye...[p]
 [scale id=1 sx=-1 time=200]
 [move id=1 x=-100 time=500]
 [hide_message]
@@ -286,10 +281,10 @@
 [filter name="clear" time=500]
 [show_message]
 
-#アリス
-あっ！　消えやがった！[n]
-クソ！　……自分から消えることもできるのか。[p]
-……ビー玉はちゃんと落としていくんだな。[p]
+#Alice
+Ah! She disappeared![n]
+Damn it! ...So she can even disappear at will.[p]
+...and she didn't drop a marble like she was supposed to...[p]
 
 [endif]
 
@@ -297,66 +292,58 @@
 [if opr="eqr" index0=0 value1=5]
 
 [changecg id=0 state=2]
-あっ、出たなリン！[p]
-#リン
-わっ！　あ、アリスちゃん……。[p]
-#アリス
-今日こそ、そのびっくり魔法の秘密を暴露してもらおうか！[p]
-#リン
-うぅ～……だから言っちゃダメなんだって。[p]
-#アリス
+#Alice
+Ah, Rin appeared again![p]
+#Rin
+Whoa!　Oh, Alice...[p]
+#Alice
+Today's the day we're going to have you reveal the secret of your amazing magic![p]
+#Rin
+Ugh...I already told you I'm not allowed to say.[p]
+#Alice
 ……………。[p]
-#リン
-うっ……わかったよぅ。[n]
-ちょっとだけだからね？[p]
+#Rin
+Ugh...fine, I understand.[n]
+I'll just tell you a little bit, okay?[p]
 [changecg id=0 state=1]
-#アリス
-やった！　クフフッ！　いってみるもんだなぁ。[p]
-#リン
-はぁ……これでまた階級降格だよう……。[p]
-あのね、この魔法は「タイムトリップ」。[p]
-つまり未来に行ったり、[n]
-過去に行ったりできる魔法なの。[p]
+#Alice
+Yes! Kufufu! I really want to see how this works.[p]
+#Rin
+Haah...for this, I'll be demoted...again...[p]
+Listen, this magic is called 'Time Trip.'[p]
+That means it's a magic that can take you to the future or the past.[p]
 [changecg id=0 state=2]
-#アリス
-あん？　漫画の世界じゃねえんだから、[n]
-そんなことできるかよ。[p]
+#Alice
+Huh? This is the real word, not a comic book, so how is that even possible?[p]
 [move id=1 y=5 time=50]
 [move id=1 y=-5 time=50]
 [move id=1 y=5 time=50]
 [move id=1 y=-5 time=50]
-#リン
-できるんだってば！[p]
-確かにかなり難しい大魔法だから、[n]
-発動するのは難しくて、[p]
-私みたいな未熟な魔女だと、[n]
-そんなに長くトリップしていられないの。[n]
-すぐ魔力不足で眠くなってきちゃうのよ。[p]
-しかもトリップ直後に記憶があいまいになったり、[n]
-狙った時代より少しずれちゃったりと、[n]
-とにかく繊細なのよ。[p]
-さらにその時代に干渉できちゃうから[n]
-制約もかなり多いの。[p]
-偽名を名乗らなくちゃいけなかったりね。[p]
+#Rin
+I'm telling you, it's possible![p]
+Indeed, it is a considerably complex high-level magic, so it is difficult to activate.[p]
+As an inexperienced witch, I can't stay on a trip that long. I become sleepy quickly due to the lack of magical power.[p]
+Moreover, after the trip, my memory becomes hazy and sometimes I end up a bit off from the intended time period. It's a delicate process, you see.[p]
+Furthermore, because I can interfere with that era, there are a lot of restrictions.[p]
+You have to use a false name, for example.[p]
 [changecg id=0 state=0]
-#アリス
-じゃあ体をすり抜けるってのは、[n]
-どういうことだよ。[p]
-#リン
-マナの濃度が足りないと実体化すらできないの。[p]
-前に出会った場所はマナの濃度が足りなかったのよ。[p]
-#アリス
-ふうん？[p]
-で、そんな難しい魔法を使って、何しようってんだよ。[p]
-遊びでってのじゃなさそうだけど。[p]
-#リン
-あ……そろそろ限界かも。[p]
+#Alice
+But, then how were you able to walk through solid objects using that?[p]
+#Rin
+Well, in order to materialize, I need a certain concentration of mana.[p]
+The place where we first met didn't have enough mana, so I couldn't materialize there.[p]
+#Alice
+Really?[p]
+So, what are you going to do with such difficult magic?[p]
+It doesn't seem like you're just using it for fun.[p]
+#Rin
+Oh... I might be hitting my limit soon.[p]
 [changecg id=0 state=2]
-#アリス
-お、オイ！[p]
-#リン
-ごめんねアリスちゃん……[n]
-また会えたら話すから……。[p]
+#Alice
+H-Hey![p]
+#Rin
+Sorry Alice...[n]
+When we meet again, let's talk about...[p]
 
 [hide_message]
 [se ref="117_fx_velonicaB"]
@@ -365,12 +352,12 @@
 [filter name="clear" time=500]
 [show_message]
 
-#アリス
+#Alice
 ……………。[p]
 [move id=0 x=20 time=800]
-リン………。[p]
+Rin...[p]
 [cn]
-アリスは、地面に落ちたビー玉を拾い上げた。[p]
+Alice picked up a marble that fell to the ground.[p]
 
 [endif]
 
@@ -378,70 +365,70 @@
 [if opr="eqr" index0=0 value1=6]
 
 [changecg id=0 state=2]
-リン！！[p]
-#リン
-アリス……ちゃん。[p]
+#Alice
+Rin![p]
+#Rin
+Alice...[p]
 [move id=1 y=-10 time=300]
 [cn]
-リンは現れるなり、地面に突っ伏した。[p]
+Rin plopped down on the ground as soon as she appeared.[p]
 [move id=0 x=30 time=300]
-#アリス
-リン！！　どうしたんだ。[p]
-#リン
-だ、大丈夫……魔力を使いすぎちゃって。[p]
+#Alice
+Rin! What's wrong?[p]
+#Rin
+I-I'm fine...I'm afraid I've just expended too much magical energy.[p]
 [move id=1 y=10 time=500]
 [move id=0 x=-10 time=500]
-#アリス
-リン……。[p]
-#リン
-賢者の石さえあれば……。[p]
-#アリス
-賢者の石だって……？[p]
-#リン
-アリスちゃん、知ってるの……？[p]
-#アリス
-ああ、何度か見かけた。[n]
-多分、館の方にも毒の魔女のところから回収したやつがあると思うけど……。[p]
-#リン
-本当！？[p]
-それ、一つ分けてもらえることはできる？[p]
+#Alice
+Rin...[p]
+#Rin
+If only I had a Philosopher's Stone...[p]
+#Alice
+Even you want a philosopher's stone...?[p]
+#Rin
+Alice, do you know about it...?[p]
+#Alice
+Yeah, I've seen it a few times.[n]
+I think there's probably some that were recovered from the Poison Witch's mansion.[p]
+#Rin
+Really?![p]
+Could you possibly share one of those with me?[p]
 [changecg id=0 state=6]
-#アリス
-ま、まてまて！[n]
-あんな危ないものをやすやすと譲るわけには……。[p]
-大体何に使うんだよ、あれを……。[p]
+#Alice
+W-Wait, wait![n]
+I can't just give away such a dangerous thing so easily...[p]
+What are you going to use it for, anyway?[p]
 [bgm ref="023_event8"]
-#リン
-……戦争を終わらせるの。[p]
+#Rin
+...to end the war.[p]
 [changecg id=0 state=2]
-#アリス
-あん……？[p]
-#リン
-たくさんの人が死んだの。[p]
-私の仲間も、私の弟子も、その家族も、[n]
-たくさん死んだの……。[p]
-もう、手段を選んでいる暇はないの。[p]
-賢者の石があれば、戦争に勝つことができる。[p]
-そのために石を使うの。[p]
-#アリス
-（そうか、こいつはここより未来か、[n]
-過去の世界から来たんだったな……。）[p]
+#Alice
+Huh...?[p]
+#Rin
+So many people died.[p]
+My people, my students, their families,[n]
+So many have died...[p]
+At this point, we're left with no other choice.[p]
+With the Philosopher's Stone, we can win the war.[p]
+That's why I need to use the stone.[p]
+#Alice
+（Oh, so she's from the future,[n]
+...or maybe from the past?）[p]
 ……………。[p]
-お前の世界がどういう状況で、[n]
-何の戦争が起きているのかは知らないけど、[n]
-こんなものに頼っても、ろくなことにならないと思うぞ。[p]
-#リン
-……そうかもしれない。[n]
-でも、私はやらないといけないの。[p]
-死んでいったみんなのために……。[p]
-#アリス
-リン……。[p]
-#リン
-アリス……、賢者の石をもってバルバロッサ山へ来て……。[p]
-あそこならマナがたくさんある。[p]
-きっと、実体化ができるから、[n]
-賢者の石を手渡しで受け取れるわ。[p]
-まってるわよ……。[p]
+I don't know what the situation is in your world, 
+or what kind of wars are happening, 
+ut I don't think relying on something like this will lead to anything good.[p]
+#Rin
+...You may be right.[n]
+But I have to.[p]
+For everyone who has died...[p]
+#Alice
+Rin...[p]
+#Rin
+Alice...come to Mount Barbarossa with the Philosopher's Stone...[p]
+There is a lot of mana there.[p]
+I'm sure I can materialize and receive the Philosopher's stone from you.[p]
+I'll be waiting...[p]
 
 [hide_message]
 [se ref="117_fx_velonicaB"]
@@ -451,15 +438,14 @@
 [show_message]
 
 [move id=0 x=10 time=300]
-#アリス
-リン！！[p]
+#Alice
+Rin!![p]
 ……………。[p]
 [scale id=0 sx=-1 time=300]
-バルバロッサ山か……。[p]
+So, to Mount Barbarossa then...? [p]
 [cn]
-アリスは足元に落ちているビー玉を拾い上げ、[n]
-バルバロッサ山の位置する、[n]
-北の空を見上げるのだった。[p]
+Alice picks up the marble that had fallen at her feet.[n]
+She gazed up at the northern sky where Barbarossa Mountain was located.[p]
 [stopbgm]
 
 [endif]
