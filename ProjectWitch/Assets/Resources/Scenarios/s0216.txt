@@ -19,92 +19,91 @@
 
 [show_message]
 [drawcg id=0 pos=4]
-#部下
+#Subordinate
 [voice ref="020525"]
-申し上げます！[n]
-バニラ砦陥落！！[p]
-#トリアイナ
+I have new to report![n]
+Fort Vanilla has fallen!!![p]
+#Torianna
 [voice ref="020526"]
-……そう。 ごくろうさま。[n]
-下がっていいわよ。[p]
-#部下
+...I see. Thank you for your hard work.[n]
+You may step back now.[p]
+#Subordinate
 [voice ref="020526a"]
-はっ！！[p]
-#トリアイナ
+Yes![p]
+#Torianna
 [voice ref="020527"]
-華の魔女アリス……。[p]
+Alice, the flower witch...[p]
 [voice ref="020528"]
-力押しだけの単細胞と思っていたけど、[n]
-なかなかうまく兵を操るわ……。[p]
+I thought she was just a brute relying solely on her strength,
+but she's quite skilled at commanding her troops...[p]
 [voice ref="020529"]
-数で不利なこちらの戦況は変わらない……か。[p]
+Given our current disadvantage in troop strength, I don't see how the war situation could improve...hmm[p]
 [voice ref="020530"]
-ヘレン！　ヘレンはいる！？[p]
+Helen! Are you here?![p]
 [drawcg id=1 pos=2 mode="slidein" dir="right"]
-#ヘレン
+#Helen
 [voice ref="020531"]
-はいはーい！[n]
-何か用？　トリアイナ。[p]
-#トリアイナ
+Yes, yes![n]
+What can I do for you, Torianna?[p]
+#Torianna
 [voice ref="020532"]
-ここは捨てるわ。[p]
+We're abandoning this place.[p]
 [voice ref="020533"]
-私たちはオリヴィア領へ亡命します。[n]
-支度をしなさい。[p]
+We'll flee and seek asylum in Olivia's country.[n]
+Make the necessary preparations.[p]
 [changecg id=1 state=1]
-#ヘレン
+#Helen
 [voice ref="020534"]
-そんな！　まだ戦えるわよ！！[p]
-#トリアイナ
+No way! We can still fight![p]
+#Torianna
 [voice ref="020535"]
-いいえ、ここでは逃げ道がないわ。[n]
-私たちだけの兵数も残り少ない。[p]
+No, we should escape while we still can.[n]
+We only have a limited number of troops remaining at this point.[p]
 [voice ref="020536"]
-だとすれば、オリヴィアとともに[n]
-再起を図るのが確実だわ。[p]
-#ヘレン
+Given that, our only choice is to join together with Olivia if we want to turn the tide of this war.[p]
+#Helen
 [voice ref="020537"]
-それは……。[p]
+That's...[p]
 [voice ref="020538"]
-でも、捨てるったって、[n]
-華の魔女の軍勢がすぐそこまで来ているのよ。[p]
+but, if we leave this place...[n]
+the Flower Witch's army is nearly on top of us.[p]
 [voice ref="020539"]
-そうやすやすと逃がしてくれないわ。[p]
+They won't let us escape so easily.[p]
 [drawcg id=2 pos=1 mode="slidein" dir="right"]
-#マルゲル
+#Marugeru
 [voice ref="020540"]
-話はお聞きしました。[p]
+I heard the whole story.[p]
 [scale id=1 sx=-1 time=100]
-#ヘレン
+#Helen
 [voice ref="020541"]
-マルゲルさん！[p]
-#トリアイナ
+Mr. Marugeru![p]
+#Torianna
 [voice ref="020543"]
-あなた……。[p]
-#マルゲル
+You...[p]
+#Marugeru
 [voice ref="020543"]
-お世話になったお礼です。[n]
-私がしんがりを務めましょう。[p]
+Thank you for everything you've done for me.[n]
+Let me take care of the rear guard.[p]
 [move id=1 y=5 time=50]
 [move id=1 y=-5 time=50]
-#ヘレン
+#Helen
 [voice ref="020543a"]
-でっ、でも！[n]
-あなたただの吟遊詩人でしょう？[p]
-#マルゲル
+B-But![n]
+Aren't you just a wandering bard? [p]
+#Marugeru
 [voice ref="020544"]
-ただの吟遊詩人ですが、あなた方が逃げる時間を稼ぐくらいならできますよ。[n]
-兵を500程、お貸しいただけますか？[p]
-#トリアイナ
+I may just be a mere bard, but I can at least buy you time to escape.[n]
+Could you lend me 500 soldiers?[p]
+#Torianna
 [voice ref="020545"]
-……ええ、わかったわ。[n]
-囲まれる前にあなたも逃げるのよ？[p]
-#マルゲル
+...Yes, all right.[n]
+You should also escape before they surround you though, okay?[p]
+#Marugeru
 [voice ref="020546"]
-ええ、もちろん。[p]
-#ヘレン
+Yes, of course.[p]
+#Helen
 [voice ref="020547"]
-気を付けてね、マルゲルさん。[p]
+Be careful, Mr. Marugeru.[p]
 [scale id=2 sx=-1 time=200]
 [move id=2 x=-50 time=500]
 
@@ -114,20 +113,16 @@
 [clearcg id=1]
 [clearcg id=2]
 [cn]
-こうして、トリアイナとヘレンは湖を脱出し、[n]
-オリヴィアの家へと逃げた。[p]
-マルゲルは500の兵を率い、[n]
-アリス軍と対峙することになった。[p]
+Thus, Torianna and Helen escaped from the lake and fled to Olivia's house.[p]
+Marugeru led 500 soldiers and confronted Alice's Army.[p]
 [filter name="clear" time=500]
 
 [drawcg id=2 pos=2 dir="right"]
-#マルゲル
+#Marugeru
 [voice ref="020548"]
-……ただの恩義でこんなことになってしまうとは、[n]
-自分のことながら無茶をする。[p]
+I can't believe I put myself into this situation out of gratitude...this is reckless even by my standards.[p]
 [voice ref="020549"]
-さて、華の魔女アリス。[n]
-どのような魔女か楽しみだな……。[p]
+Well then, Flower Witch Alice, I'm looking forward to seeing what sort of witch you are...[p]
 
 [hide_message]
 [filter name="fade" time=500]
