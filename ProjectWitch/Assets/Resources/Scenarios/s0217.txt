@@ -18,22 +18,20 @@
 
 [show_message]
 [drawcg id=0 pos=4 state=2]
-#アリス
+#Alice
 [voice ref="020550"]
-逃がすな！　追えーーー！！！！[p]
+Don't let anyone escape! Hunt them down!!![p]
 [cn]
-マルゲルの逃げ足は実に早かった。[p]
-巧みに馬を操り、[n]
-あっという間にアリス軍から２キロは離れた位置まで逃げていた。[p]
-#アリス
+Margeru's escape was swift indeed.[p]
+Skillfully maneuvering his horse, he put a distance of two kilometers between himself and Alice's army in no time.[p]
+#Alice
 [voice ref="020551"]
-ちっ！　逃がしたか……。[p]
+Tch! So you let some escape...?[p]
 [voice ref="020552"]
-オイ、深入りはするな！！[n]
-いったん引くぞ！[p]
+Hey, we've pursued them too far already![n]
+Let's withdraw for now![p]
 [cn]
-ともかく、トリアイナ領を占領したアリスは、
-次にオリヴィア領への進行を開始したのだった。[p]
+Nevertheless, having occupied Torianna's territory, Alice began advancing upon Olivia's territory.[p]
 
 [hide_message]
 [filter name="fade" time=500]
