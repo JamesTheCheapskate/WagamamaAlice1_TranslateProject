@@ -20,124 +20,121 @@
 
 
 [show_message]
-オリヴィアの家。[p]
-トリアイナたちに続き、追っ手を逃れたマルゲルが、オリヴィアの家にたどり着いた。[p]
+Olivia's house.[p]
+Having eluded those pursuing Torianna's forces, Marugeru arrived at Olivia's house.[p]
 [drawcg id=3 pos=3 state=1]
-#オリヴィア
+#Olivia
 [voice ref="020553"]
-マルゲルさん！！[p]
+Mr. Marugeru!![p]
 [drawcg id=2 pos=2 dir="right"]
-#マルゲル
+#Marugeru
 [voice ref="020554"]
-すみません……少し、敵の矢を受けてしまって……。[p]
-#オリヴィア
+Please excuse me...I'm a little...I was hit by an enemy arrow, and...[p]
+#Olivia
 [voice ref="020555"]
-ひどい出血……！！[n]
-今魔法でふさぎますからね！[p]
+You're bleeding horribly...![n]
+I'll take care of it and close your wound with magic right away![p]
 [se ref="153"]
 [filter name="flush" color="FFFFFF" time=300]
 [cn]
-オリヴィアの治癒魔法が、マルゲルの傷をみるみるとふさいでいった。[p]
-#マルゲル
+Olivia's healing magic quickly closed up Marugeru's wound.[p]
+#Marugeru
 [voice ref="020556"]
-あなたに助けられるのは二度目ですね。[n]
-かたじけない。[p]
-#オリヴィア
+You've saved me yet again, haven't you?[n]
+I'm forever in your debt.[p]
+#Olivia
 [voice ref="020557"]
-動かないでください！[n]
-まだ傷がふさがったばかりです。[p]
+Please don't move![n]
+The wound was just closed.[p]
 [voice ref="020558"]
-それに、回復魔法は傷をふさぐだけで、[n]
-体力までは回復できませんから。[p]
+Also, recovery magic can only mend wounds,
+it doesn't restore stamina.[p]
 [voice ref="020559"]
-ひとまず休まないと……。[p]
+You should rest for a while...[p]
 [voice ref="020560"]
-おかゆか何か作っておきますから、[n]
-起きたら食べてください……。[p]
+I'll make some rice porridge or something, so please eat it when you wake up.[p]
 [voice ref="020561"]
-それから……。[p]
-#マルゲル
+After that...[p]
+#Marugeru
 [voice ref="020562"]
-……ふふ。[p]
+...heheh[p]
 [changecg id=3 state=0]
-#オリヴィア
+#Olivia
 [voice ref="020563"]
-あっ……その。えっ……？[p]
-#マルゲル
+Oh...that. What...?[p]
+#Marugeru
 [voice ref="020564"]
-いえ、すいません……。[p]
+No, please excuse me...[p]
 [voice ref="020564a"]
-オリヴィア殿、[n]
-もっとおとなしい方だと思っていましたので。[p]
+Lady Olivia,[n]
+I had thought of you as a very shy person.[p]
 [voice ref="020564b"]
-饒舌に話されるのが少し意外で……。[p]
+It's a bit surprising to hear you say so much.[p]
 [move id=3 x=10 time=100]
-#オリヴィア
+#Olivia
 [voice ref="020565"]
-あっ……す、すいません。つい……。[p]
-#マルゲル
+Oh...I-I'm sorry. I...[p]
+#Marugeru
 [voice ref="020566"]
-私のことを心配して下さったのでしょう？[n]
-それに、そちらの方が私もやりやすい。[p]
-#オリヴィア
+I suppose it's because you were worried about me?[n]
+Well, in any case, it's easier for me to talk with you when you speak more.[p]
+#Olivia
 [voice ref="020567"]
-そっ、そうですか……。[p]
+O-Oh, is that so...?[p]
 [drawcg id=1 posx=25 layer="front" state=4 mode="slidein"]
-#ヘレン
+#Helen
 [voice ref="020568"]
-あらー、オリヴィアったら顔赤くしちゃって、[n]
-なにかあったのかなぁー？[p]
+Oh, Olivia, you're blushing.[n]
+Is something wrong?[p]
 [scale id=3 sx=-1 time=100]
-#オリヴィア
+#Olivia
 [voice ref="020569"]
-へ、ヘレン！[p]
-#ヘレン
+H-Helen![p]
+#Helen
 [voice ref="020570"]
-ま、ま、続けて続けて。[p]
+W-Well, D-don't let me interrupt anything.[p]
 [move id=3 y=5 time=50]
 [move id=3 y=-5 time=50]
-#オリヴィア
+#Olivia
 [voice ref="020571"]
-もう！　からかわないでよ！[p]
+For crying out loud! Stop teasing me like that![p]
 [drawcg id=0 posx=40 layer="front" mode="slidein"]
 [scale id=1 sx=-1 time=100]
-#トリアイナ
+#Torianna
 [voice ref="020572"]
-そうよヘレン。[n]
-今はのんきに冗談を飛ばしている暇はないのですから[p]
-#マルゲル
+That's right, Helen.[n]
+We don't have time to be making carefree jokes right now.[p]
+#Marugeru
 [voice ref="020573"]
-トリアイナ殿。[n]
-戦況はどのように。[p]
-#トリアイナ
+Queen Torianna.[n]
+How is the war going?[p]
+#Torianna
 [voice ref="020574"]
-早めに撤退したのが幸いしたわ。[p]
+It's fortunate that we retreated when we did.[p]
 [voice ref="020575"]
-向こうはまだ、湖の周辺の掃討作戦に追われているでしょうね。[p]
+They're probably still busy securing the area around the lake.[p]
 [voice ref="020575a"]
-こちらの軍を整える時間は十分にあるわ。[p]
-#マルゲル
+We have plenty of time to get our forces in order.[p]
+#Marugeru
 [voice ref="020576"]
-そうですか。[n]
-オリヴィア殿の軍備はいかに。[p]
-#トリアイナ
+Is that so?[n]
+How are Lady Olivia's military preparations going?[p]
+#Torianna
 [voice ref="020577"]
-今ここを守っているのは、[n]
-オリヴィア直近の3000の兵よ。[p]
+Right now, this place is defended by Olivia's last 3,000 soldiers.[p]
 [voice ref="020577a"]
-私のと合わせて4500ね。[p]
-#マルゲル
+Together with mine, we have 4,500 soldiers.[p]
+#Marugeru
 [voice ref="020578"]
-戦力には申し分ありませんが、[n]
-何しろここは守りにくい森の中です。[p]
+There's nothing wrong with our military strength, but this forest is difficult to defend.[p]
 [voice ref="020579"]
-砦がない今、少しこちらの方が、分が悪いですね。[p]
-#トリアイナ
+Without a fort anymore, things are looking not so great, huh?[p]
+#Torianna
 [voice ref="020579a"]
-何か策でもあるのかしら。[p]
-#マルゲル
+I wonder if there's a strategy we should employ. [p]
+#Marugeru
 [voice ref="020579b"]
-……ええ、一つ。[p]
+...Yes, there is one. [p]
 
 ;クリア処理
 [hide_message]
