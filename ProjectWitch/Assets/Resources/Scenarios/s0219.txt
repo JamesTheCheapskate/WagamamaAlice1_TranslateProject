@@ -22,47 +22,47 @@
 [show_message]
 [drawcg id=0 posx=10 dir="right" state=1]
 [drawcg id=1 posx=-10 dir="right"]
-#アリス
+#Alice
 [voice ref="020580"]
-よし、いよいよ森の魔女だな……。[n]
-クフフフッ！　腕がなるぜ。[p]
-#クロ
+Alright, it's about time for the Forest Witch...[n]
+Kufufufu! I'm itching for a fight.[p]
+#Kuro
 [voice ref="020581"]
-アリス様！　あれを！[p]
+Queen Alice! Over there![p]
 [cn]
-目の前に、[n]
-陣を横に広げたトリアイナが待ち構えていた。[p]
+Right before their eyes,[n]
+waiting for them was Torianna with her forces arrayed around her.[p]
 [drawcg id=2 posx=40 mode="slidein"]
-#トリアイナ
+#Torianna
 [voice ref="020582"]
-待っていたわ、華の魔女アリス。[n]
-さあ、おとなしくわが兵の餌食となりなさい！[p]
-#アリス
+I've been waiting for you Flower Witch Alice.[n]
+Now, if you'd kindly accept your fate and fall prey to my soldiers![p]
+#Alice
 [voice ref="020583"]
-ふん！　誰がてめえなんぞに負けるかよ！！[p]
+Hmph! Who the heck would lose to scum like you?!![p]
 [drawcg id=3 posx=-30 mode="slidein" dir="right"]
 [drawcg id=4 posx=-40 layer="front" mode="slidein" dir="right"]
 [scale id=1 sx=-1 time=0]
 [move id=1 x=10 time=300]
-#マルゲル
+#Marugeru
 [voice ref="020584"]
-そうだな、一人ならば負けるやもしれん。[p]
-#オリヴィア
+Certainly, she might lose...if she were alone.[p]
+#Olivia
 [voice ref="020585"]
-み、みんなでやれば強い！　……から。[p]
-#クロ
+W-we're stronger when we work together!  ...That's why.[p]
+#Kuro
 [voice ref="020586"]
-三方から囲まれた！？[n]
-しまった、伏兵か。[p]
+We're surrounded on three sides?![n]
+Oh no, so it was an ambush?[p]
 [cn]
-トリアイナはおとりだった。[p]
-トリアイナがアリスの主力部隊を前進させ、[n]
-その背後からオリヴィアとマルゲルの部隊が襲い掛かる形となったのだった。[p]
+Torianna had acted as bait.[p]
+She lured Alice's main force forward,[n]
+so that Olivia and Marugeru's troops could attack from behind.[p]
 [changecg id=0 state=2]
-#アリス
+#Alice
 [voice ref="020587"]
-ふん！　小細工を弄したところで雑魚は雑魚だ！[n]
-おとなしく死ね！！！！[p]
+Hmph! Even though you may have manipulated me a bit with your clever tricks, weaklings are still weaklings![n]
+Just die quietly!!!![p]
 
 ;ユニットセット
 [battle_unit_in e0=288 e1=286 e2=287]
