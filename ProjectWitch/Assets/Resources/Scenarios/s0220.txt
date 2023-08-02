@@ -25,71 +25,71 @@
 [drawcg id=1 pos=1 dir="right"]
 [drawcg id=2 pos=5]
 
-#アリス
+#Alice
 [voice ref="020588"]
-ぜえ、ぜえ……。さすがに三人相手はきついな……。[p]
-#トリアイナ
+Huff...puff...As you'd expect, dealing with three at one time is tough, huh...[p]
+#Torianna
 [voice ref="020589"]
-引けっ、引けー！！[p]
+Retreat, Retreaaat!![p]
 [scale id=2 sx=-1 time=100]
 [move id=2 x=100 time=300]
-#アリス
+#Alice
 [voice ref="020590"]
-あっ！　待てこら！！[p]
+Huh?! Stop right there!![p]
 [move id=0 x=30 time=300]
 [move id=1 x=30 time=300]
 [cn]
-中央のトリアイナが引くと、それに遅れて左翼と右翼のオリヴィアとマルゲル軍が撤退を始める。[p]
-アリス軍は当然それを追いかけた。[p]
-#トリアイナ
+As Torianna's forces pulled back, Olivia and Marugeru's forces flanking Alice also began to retreat in the same direction.[p]
+Naturally, Alice's army began a pursuit. [p]
+#Torianna
 [voice ref="020591"]
-……かかったわね！[p]
-#オリヴィア
+...You fell for our trap, didn't you?! [p]
+#Olivia
 [voice ref="020592"]
-カートン、お願い！！[p]
+Carton, if you'd please!!![p]
 [drawcg id=5 posx=-70 dir="right" mode="slidein"]
-#カートン
+#Carton
 [voice ref="020592a"]
-ウオオオォォン！！[p]
+Ooooooh!!![p]
 [scale id=1 sx=-1 time=100]
 [scale id=0 sx=-1 time=0]
 [move id=0 x=5 y=5 time=50]
 [move id=0 y=-5 time=50]
-#アリス
+#Alice
 [voice ref="020592b"]
-何ッ！？[n]
-後ろか！！[p]
+Whaaat?![n]
+From behind us?!![p]
 [cn]
-マルゲルの計略だった。[p]
-アリス軍はあっという間に四方を囲まれてしまった。[p]
-これでは体制を立て直すことはおろか、[n]
-撤退することすらできない。[p]
-#アリス
+This was Marugeru's scheme.[p]
+Alice's forces were quickly surrounded on all sides.[p]
+With this, they couldn't reorganize their[n]
+formation, let alone retreat.[p]
+#Alice
 [voice ref="020593"]
-くっ、くそおおおーーーー！！！[p]
-#クロ
+Sh-shiiit!!![p]
+#Kuro
 [voice ref="020594"]
-向こうには大した軍略家がいるようですな。[p]
-#アリス
+It seems that there are some great military strategists over there.[p]
+#Alice
 [voice ref="020595"]
-なに余裕ぶっこいてんだ！[n]
-撤退するぞ！[p]
-#クロ
+Why are you acting so relaxed![n]
+We're retreating! [p]
+#Kuro
 [voice ref="020596"]
-四方を囲まれております。[n]
-撤退するならばどこかを突破しませんと。[p]
+We're surrounded on all sides[n]
+If we're going to retreat, we have to break through somewhere.[p]
 [scale id=0 sx=-1 time=300]
-#アリス
+#Alice
 [voice ref="020597"]
-んー、じゃああっちだ！[n]
-なんか弱そうだからな。[p]
+Hmm, that way then![n]
+Since they look kind of weak.[p]
 [cn]
-アリスが指さしたのはオリヴィア軍の方だった。[p]
+Alice had pointed towards Olivia's army.[p]
 [scale id=1 sx=-1 time=100]
-#クロ
+#Kuro
 [voice ref="020598"]
-承知！　では私が先頭で切り込みますので、[n]
-ついてきてください。[p]
+Understood! I'll lead the charge,[n]
+so please follow me.[p]
 [hide_message]
 [move id=1 x=100 time=300]
 [move id=0 x=100 time=300]
@@ -100,39 +100,39 @@
 [clearcg id=2]
 
 [show_message]
-#トリアイナ
+#Torianna
 [voice ref="020599"]
-軍が向きを変えた……右っ！？[n]
-オリヴィア！！[p]
+Their army has turned...to the right?![n]
+Olivia![p]
 [drawcg id=4 pos=5 state=1]
-#オリヴィア
+#Olivia
 [voice ref="020600"]
-こっちにきた……どっ、どうしよう。[p]
+They're coming this way... W-what should we do?[p]
 [drawcg id=1 posx=-100 dir="right"]
 [move id=1 x=80 time=400]
-#クロ
+#Kuro
 [voice ref="020601"]
-どけ、どけえい！！[p]
+Move, get out of the way!![p]
 [voice ref="020601a"]
-死ぬ覚悟のあるもののみかかってこられよ！！[p]
+Only those prepared to die should face us!![p]
 [move id=4 x=10 time=200]
-#オリヴィア
+#Olivia
 [voice ref="020602"]
-きゃっ！！[p]
-#クロ
+Aaah![p]
+#Kuro
 [voice ref="020603"]
-ぬ……あれは森の魔女殿。[n]
-ついでに首をあげておくか。[p]
-#オリヴィア
+Oh...That lady is the Forest Witch.[n]
+Should I take her head while I have the chance? [p]
+#Olivia
 [voice ref="020604"]
-こっ、こっち来た！！[n]
-ま、守りを固めて！！[p]
+Th-they're coming this way!![n]
+L-let's fortify our defenses!![p]
 [voice ref="020604a"]
-それから、えっとえっと！[p]
-#クロ
+And then, um, um![p]
+#Kuro
 [voice ref="020605"]
-森の魔女殿！[n]
-覚悟ッ！！[p]
+Forest Witch![n]
+Prepare yourself!![p]
 
 [hide_message]
 [se ref="158"]
@@ -145,66 +145,67 @@
 [drawcg id=3 posx=20 mode="slidein"]
 [move id=1 x=-5 time=50]
 [cn]
-クロが放った弾丸はオリヴィアに到達する前に、[n]
-その間に割り込んだものにはじかれた。[p]
-#クロ
+Kuro fired bullets towards Olivia,[n]
+but they were deflected before they could reach her.[p]
+#Kuro
 [voice ref="020606"]
-何者ッ！[p]
-#マルゲル
+Who are you![p]
+#Marugeru
 [voice ref="020607"]
-私はマルゲル！[n]
-オリヴィア殿には指一本触れさせぬ！[p]
+I am Marugeru![n]
+I won't let you lay a finger on Lady Olivia![p]
 [changecg id=4 state=0]
-#オリヴィア
+#Olivia
 [voice ref="020608"]
-マルゲルさん！[n]
-あの、持ち場は大丈夫なんですか？[p]
-#マルゲル
+Mr. Marugeru![n]
+Um, is your plan still OK?[p]
+#Marugeru
 [voice ref="020609"]
-ええ、問題ありません。[p]
+Yes, there's no problem.[p]
 [voice ref="020609a"]
-オリヴィア殿下がって。[n]
-ここは私が。[p]
-#クロ
+Please step back, Lady Olivia.[n]
+I will handle things here.[p]
+#Kuro
 [voice ref="020610"]
-ふむ、なかなかやりおるわい……。[p]
+Hmm, that was quite the feat...[p]
 [voice ref="020610a"]
-いいだろう、華の魔女アリスの部下、[n]
-クロがお相手いたす。[p]
+Very well, as a retainer of Flower Witch Alice,、[n]
+I, Kuro, shall be your opponent.[p]
 [drawcg id=0 pos=1 layer="front" dir="right" mode="slidein"]
-#アリス
+#Alice
 [voice ref="020611"]
-クロ、先にいってるぞー！[p]
+Kuro, we're getting outta here![p]
 
 [scale id=0 sx=-1 time=100]
 [move id=0 x=-100 time=400]
 [scale id=1 sx=-1 time=100]
 
-#クロ
+#Kuro
 [voice ref="020612"]
-アリス様！[p]
+Queen Alice![p]
 [voice ref="020612a"]
-……。[p]
+...[p]
 [scale id=1 sx=-1 time=300]
 [voice ref="020612b"]
-……命拾いしましたな。[p]
+...it seems you get to keep your life today.[p]
 
 [scale id=1 sx=-1 time=100]
 [move id=1 x=-100 time=400]
 
 [cn]
-クロはそういうと、くるりと向きを変え、[n]
-アリスを追いかけていってしまった。[p]
-#マルゲル
+Upon saying that, Kuro swiftly changed[n]
+direction and began to chase after Alice.[p]
+#Marugeru
 [voice ref="020613"]
-……私たちも下がりましょうか、オリヴィア殿。[p]
-#オリヴィア
+...Shall we also withdraw, Lady Olivia?[p]
+#Olivia
 [voice ref="020614"]
-はっ、はひ……。[p]
+[cn]
+Olivia gasped for breath, her chest heaving as she tried to regain her composure after the harrowing encounter. 
 [scale id=3 sx=-1 time=300]
-#マルゲル
+#Marugeru
 [voice ref="020615"]
-オリヴィア殿？[p]
+Lady Olivia?[p]
 
 
 ;クリア処理

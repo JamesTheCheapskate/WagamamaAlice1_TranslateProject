@@ -39,7 +39,7 @@ I've been waiting for you Flower Witch Alice.[n]
 Now, if you'd kindly accept your fate and fall prey to my soldiers![p]
 #Alice
 [voice ref="020583"]
-Hmph! Who the heck would lose to scum like you?!![p]
+Hmph! Who the heck would lose to trash like you?!![p]
 [drawcg id=3 posx=-30 mode="slidein" dir="right"]
 [drawcg id=4 posx=-40 layer="front" mode="slidein" dir="right"]
 [scale id=1 sx=-1 time=0]
