@@ -22,18 +22,18 @@
 [drawcg id=0 pos=4 state=2]
 [drawcg id=1 pos=2 dir="right"]
 
-#アリス
+#Alice
 [voice ref="020616"]
-くそ……、あの氷女め、意外とやりやがる。[p]
-#クロ
+Shit...that blasted ice woman. How dare she pull off something so tricky.[p]
+#Kuro
 [voice ref="020617"]
-こちらも力押しではなく、[n]
-何か策を用意するのがよろしいのでは？[p]
-#アリス
+We shouldn't rely solely on brute force either.[n]
+Wouldn't it be better to prepare some kind of strategy?[p]
+#Alice
 [voice ref="020618"]
-……そうだな。[p]
+...I guess so.[p]
 [cn]
-そのあと、アリス軍はこっそりと移動を開始した。[p]
+After that, Alice's army began to move secretly.[p]
 
 ;場面クリア
 [hide_message]
@@ -55,171 +55,166 @@
 [bgm ref="008_orivia"]
 
 [show_message]
-魔女の家。[p]
-トリアイナ、ヘレンほかオリヴィアの部下たちは偵察に出ており、[n]
-家にはオリヴィアとマルゲルの二人だけだった。[p]
+Witch's house[p]
+Torianna, Helen, and Olivia's other subordinates were out scouting, leaving only Olivia and Marugeru at her house.[p]
 [drawcg id=3 pos=4]
 [drawcg id=2 pos=2 dir="right"]
-#オリヴィア
+#Olivia
 [voice ref="020619"]
-……あの。[p]
-#マルゲル
+...um[p]
+#Marugeru
 [voice ref="020620"]
-はい。[p]
-#オリヴィア
+Yes?[p]
+#Olivia
 [voice ref="020621"]
-助けてくれて……ありがとうございました。[p]
-#マルゲル
+Thank you...for helping me.[p]
+#Marugeru
 [voice ref="020622"]
-いえ、私はき……、男として当然のことをしたまで。[n]
-オリヴィア殿が無事でよかった。[p]
-#オリヴィア
+No, I was just...doing what any man naturally would.[n]
+I'm glad you're okay Lady Olivia.[p]
+#Olivia
 [voice ref="020623"]
-………………。[p]
-#マルゲル
+...[p]
+#Marugeru
 [voice ref="020624"]
-どうかしましたか？[n]
-ぼうっとして……。[p]
+Is something the matter?[n]
+You seem absent-minded...[p]
 [move id=3 y=5 time=50]
 [move id=3 y=-5 time=50]
-#オリヴィア
+#Olivia
 [voice ref="020625"]
-ひゃいっ！[p]
+Eek![p]
 [voice ref="020625a"]
-あっ、あわわ……。[n]
-あの、な、なんでもないです……。[p]
-#マルゲル
+Oh, umm...[n]
+It...it's nothing...[p]
+#Marugeru
 [voice ref="020626"]
-そうですか……。[p]
+I see...[p]
 [cn]
-沈黙が訪れた。[p]
-コチコチいう柱時計の音が、妙にうるさく聞こえた。[p]
-#オリヴィア
+Silence fell.[p]
+The sound of the creaking grandfather clock seemed strangely loud.[p]
+#Olivia
 [voice ref="020627"]
-あっ、あの……。[p]
+Oh, um...[p]
 [cn]
-先に沈黙を破ったのはオリヴィアだった。[p]
-#オリヴィア
+Olivia was the first to break the silence.[p]
+#Olivia
 [voice ref="020628"]
-あの、マルゲルさんは、アップルパイ……[n]
-好きですか？[p]
-#マルゲル
+Um, Mr. Margeru, do you like...[n]
+apple pie?[p]
+#Marugeru
 [voice ref="020629"]
-アップルパイ……？[p]
-#オリヴィア
+Apple pie...?[p]
+#Olivia
 [voice ref="020630"]
-あっ、いえ……すいません、ヘンな質問して。[p]
-#マルゲル
+Oh, no...sorry, weird question[p]
+#Marugeru
 [voice ref="020631"]
-ああ、そういうことではありません。[n]
-アップルパイというものを知らなかったもので。[p]
-#オリヴィア
+Ah, it's not that it's a weird question.[n]
+I'm just not familiar with apple pie.[p]
+#Olivia
 [voice ref="020632"]
-アップルパイ、食べたことないんですか？[p]
-#マルゲル
+You've never had apple pie?[p]
+#Marugeru
 [voice ref="020633"]
-ええ……アップルというのは、[n]
-確か赤い果実のことでしたか。[p]
+Yes...Apple, as I recall, is a red fruit.[p]
 [voice ref="020634"]
-私の出身の北の大地で、アップルは取れません。[p]
-#オリヴィア
+In the Northern Lands where I come from, apples do not grow.[p]
+#Olivia
 [voice ref="020635"]
-北の大地？[n]
-って……どこですか？[p]
-#マルゲル
+The Northern Lands?[n]
+Uh... where is that?[p]
+#Marugeru
 [voice ref="020636"]
-ここより北、ウラール山脈を、[n]
-さらに越えたところに広がる大地です。[p]
+North of here, beyond the Uraal mountains, lies the great expanse of the Northern Lands.[p]
 [voice ref="020637"]
-ひたすらに色のない景色が広がる、寂しい土地です。[p]
-#オリヴィア
+It is a desolate place with vast colorless landscapes that stretch endlessly. [p]
+#Olivia
 [voice ref="020638"]
-そんなところがあるなんて……知らなかった。[n]
-マルゲルさんは、あの山を越えてきたんですか？[p]
-#マルゲル
+There are lands north of the Ural Mountains?...I never knew that.[n]
+Mr. Marugeru, did you come here by crossing those mountains?[p]
+#Marugeru
 [voice ref="020639"]
-ええ、そこで雪崩に合い、仲間とはぐれ、[n]
-私はあなた方に助けられました。[p]
+Yes, that's where I got caught in an avalanche and was separated from my companions,[n]
+but I was able to be saved thanks to you.[p]
 [changecg id=3 state=1]
-#オリヴィア
+#Olivia
 [voice ref="020640"]
-仲間の方は……。[p]
-#マルゲル
+And your companions?[p]
+#Marugeru
 [voice ref="020641"]
-わかりません。[p]
+I don't know.[p]
 [voice ref="020641a"]
-ただ、あの雪崩にのまれたのですから、[n]
-おそらく死にました。[p]
-#オリヴィア
+However, having been swept away by an avalanche,[n]
+they almost certainly died.[p]
+#Olivia
 [voice ref="020642"]
-……ごめんなさい。[p]
-#マルゲル
+...I'm sorry.[p]
+#Marugeru
 [voice ref="020643"]
-なぜあなたが謝るのですか。[p]
+Why are you apologizing?[p]
 [voice ref="020643a"]
-覚悟して挑んだのです、だれが死んでもおかしくはなかった。[n]
-むろんこの私も。[p]
-#オリヴィア
+They confronted the challenge having prepared themselves with the knowledge that anyone could die.[n]
+And me too, of course.[p]
+#Olivia
 [voice ref="020644"]
-そこまでして……伝えなきゃいけないことがあるんですか？[p]
+Why would you go to such lengths...what could possibly be worth your life?[p]
 [voice ref="020645"]
-だめですよ……そんな危ないことしちゃ。[p]
-#マルゲル
+You can't....do such a dangerous thing.[p]
+#Marugeru
 [voice ref="020646"]
-……ふふ。 あなたは本当に変わった人だ。[n]
-なんで、泣いているのですか？[p]
+...Heh. You really are an odd one.[n]
+Why are you crying?[p]
 [move id=3 y=-2 time=20]
 [move id=3 y=2 time=20]
-#オリヴィア
+#Olivia
 [voice ref="020647"]
-えっ……私。[p]
+Eh...I.[p]
 [cn]
-オリヴィアのほほを、涙が伝った。[p]
+Tears ran down Olivia's cheeks.[p]
 [changecg id=3 state=0]
-#オリヴィア
+#Olivia
 [voice ref="020648"]
-ごっ、ごめんなさい！[n]
-……私、領主なのに何にもできなくて。[p]
+S-Sorry![n]
+...I...even though I'm a ruler, I can't do anything.[p]
 [voice ref="020649"]
-トリアイナや、[n]
-ヘレンやカートンに助けられてばっかりで……。[p]
+I've always been saved by Torianna, Helen, and Carton...[p]
 [move id=3 y=-5 time=300]
 [voice ref="020649a"]
-ほんとダメで……。[p]
+I'm truly useless...[p]
 [voice ref="020650"]
-私も、マルゲルさんみたいに強かったらいいのに……[p]
-#マルゲル
+I wish I too could be strong like you...[p]
+#Marugeru
 [voice ref="020651"]
-腕っぷしで強い者など、真に強き者とは言えません[p]
+A person cannot be truly strong only through brute force.[p]
 [voice ref="020651a"]
-真に強き者は、真に優しきものでもあるのですよ。[p]
+A truly strong individual is also genuinely kind.[p]
 [voice ref="020652"]
-……と、私が知る限り、[n]
-もっとも「強い方」がいっていましたよ。[p]
+...And, that's all I can remember...[n]
+the 'strongest' person I've encountered said something like that.[p]
 [move id=3 y=5 time=300]
-#オリヴィア
+#Olivia
 [voice ref="020653"]
-もっとも「強い方」……？[p]
-#マルゲル
+The 'Strongest'...?[p]
+#Marugeru
 [voice ref="020654"]
-元主君です。今はわけあって、敵同士ですが。[p]
-#オリヴィア
+My former lord. Currently, due to certain circumstances, we are enemies.[p]
+#Olivia
 [voice ref="020655"]
-……その方と、またいつか手を取り合えるといいですね。[p]
-#マルゲル
+...I hope you can reconcile with that person again someday.[p]
+#Marugeru
 [voice ref="020656"]
-……あなたの笑顔は、とても安心します。[p]
+...Your smile is so reassuring.[p]
 [move id=3 y=2 time=20]
 [move id=3 y=-2 time=20]
 [move id=3 x=5 time=50]
 [scale id=3 sx=-1 time=100]
-#オリヴィア
+#Olivia
 [voice ref="020657"]
-へっ！？　わっ、やだ……私。[p]
-#マルゲル
+Teehee!　Wow, oh no...I...[p]
+#Marugeru
 [voice ref="020658"]
-ふふ……私より、あなたの方がよっぽどお強い方ですよ[n]
-オリヴィア殿……。[p]
+Hehe... You're much stronger than me, Lady Olivia...[p]
 
 ;クリア処理
 [hide_message]
