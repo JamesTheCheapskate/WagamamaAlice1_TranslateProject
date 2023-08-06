@@ -63,7 +63,7 @@ The old hag left behind some troublesome things.
 Even if we tried to make our own, it's not something that can be made in a reasonable amount of time...[p]
 #Cheshire
 [voice ref="010037"]
-If only there were some way.around the problem...
+If only there were some way around the problem...
 ah, no, if there were, then the fort would have been pointless to begin with.[p]
 #Alice
 [changecg id=0 state=1]

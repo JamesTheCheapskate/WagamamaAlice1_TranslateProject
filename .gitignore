@@ -17,7 +17,9 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-
+#Other files to ignore
+*.suo
+*.ide-shm
 
 # =========================
 # Operating System Files
