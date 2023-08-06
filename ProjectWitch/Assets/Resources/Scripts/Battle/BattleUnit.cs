@@ -471,50 +471,45 @@ namespace ProjectWitch.Battle
 		// 表示する兵士数を増減する
 		public void SetDisplaySoldier()
 		{
-			int nextDisplayNum = 0;
-			if (UnitData.MaxSoldierNum != 0)
-				nextDisplayNum = (int)System.Math.Ceiling((float)(mSoldierObj.Count) * DisplaySoldierNum / UnitData.MaxSoldierNum);
+            int nextDisplayNum = 0;
+            if (UnitData.MaxSoldierNum != 0)
+                nextDisplayNum = (int)System.Math.Ceiling((float)(mSoldierObj.Count) * DisplaySoldierNum / UnitData.MaxSoldierNum);
 
 			int preDisplayNum = 0;
-			foreach (var soldier in mSoldierObj)
+            foreach (var soldier in mSoldierObj)
 			{
 				if (soldier.activeSelf)
 					++preDisplayNum;
 			}
-			if (nextDisplayNum < preDisplayNum)
+
+            if (nextDisplayNum == preDisplayNum) return;  //We have the right number already, save the allocation time
+
+            bool desiredActivationState = false;  //Assume removing // 増やす
+            int direction = -1;  //Assume removing // 増やす
+            List<GameObject> candidatePool = new List<GameObject>(mSoldierObj.Count);
+
+            //Do we need to add soldiers instead?  // 減らす 
+            if (nextDisplayNum < preDisplayNum)
+            {  
+                desiredActivationState = true;
+                direction = 1;  
+            }
+            
+            //Initialize the candidate list
+            foreach (var soldier in mSoldierObj)
+            {
+                if (soldier.activeSelf != desiredActivationState)
+                    candidatePool.Add(soldier);
+            }
+
+            while ((nextDisplayNum != preDisplayNum) && (candidatePool.Count > 0))
 			{
-				// 減らす
-				for (; nextDisplayNum != preDisplayNum; --preDisplayNum)
-				{
-					int rand = Random.Range(0, preDisplayNum);
-					int id = 0;
-					for (int count = 0; count < rand; ++id)
-					{
-						if (mSoldierObj[id].activeSelf)
-							++count;
-					}
-					while (!mSoldierObj[id].activeSelf)
-						++id;
-					mSoldierObj[id].SetActive(false);
-				}
-			}
-			else
-			{
-				// 増やす
-				for (; nextDisplayNum != preDisplayNum; ++preDisplayNum)
-				{
-					int rand = Random.Range(0, mSoldierObj.Count - preDisplayNum);
-					int id = 0;
-					for (int count = 0; count < rand; ++id)
-					{
-						if (!mSoldierObj[id].activeSelf)
-							++count;
-					}
-					while (mSoldierObj[id].activeSelf)
-						++id;
-					mSoldierObj[id].SetActive(true);
-				}
-			}
+				int rand = Random.Range(0, candidatePool.Count);
+				candidatePool[rand].SetActive(desiredActivationState);
+                candidatePool[rand] = candidatePool[candidatePool.Count - 1];
+                candidatePool.RemoveAt(candidatePool.Count - 1);
+                preDisplayNum += direction;
+            }
 		}
 
 		// 描画位置にスライドさせるコルーチン
