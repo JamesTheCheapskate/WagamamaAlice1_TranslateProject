@@ -17,18 +17,22 @@
 [show_message]
 #Kuro
 [voice ref="010000"]
-Queen Alice, the enemy is lined up in a crane's wings formation. They are waiting for us. [p]
+Queen Alice, the enemy is lined up in a[n]
+crane's wings formation. They are waiting for[n]
+us. [p]
 #Alice
 [voice ref="010001"]
 What is their military strength?[p]
 #Kuro
 [voice ref="010002"]
 800 magical soldiers, 500 conscripts.[n]
-In addition, Minister Meijii is personally leading 1000 enhanced magical soldiers.[p]
+In addition, Minister Maisie is personally[n]
+leading 1000 enhanced magical soldiers.[p]
 #Alice
 [voice ref="010003"]
-Issue these orders. First, break through the right wing. 
-Give the ones who capture Meijii any reward they desire. [p]
+Issue these orders. First, break through the[n]
+right wing. Give the ones who capture Maisie[n]
+any reward they desire. [p]
 [voice ref="010003a"]
 Absolutely do not kill her, capture her alive. [p]
 #Kuro
@@ -36,8 +40,8 @@ Absolutely do not kill her, capture her alive. [p]
 Yes, understood. [p]
 #Alice
 [voice ref="010005"]
-Hmph! Those fools who've joined Meijii. 
-I will make them regret ever turning against me.[p]
+Hmph! Those fools who've joined Maisie. I will[n]
+ make them regret ever turning against me.[p]
 [voice ref="010005a"]
 Kufufufufu... Ahhahhahha!![p]
 

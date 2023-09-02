@@ -25,12 +25,13 @@
 Hmph! What a mess.[p]
 #Kuro
 [voice ref="010007"]
-It appears that Minister Meijii's forces have retreated. 
-For now, we have won, your majesty.[p]
+It appears that Minister Maisie's forces have[n]
+retreated. For now, we have won, your[n]
+majesty.[p]
 #Alice
 [voice ref="010008"]
-Even though we couldn't capture Meijii, it's fine. [n]
-We'll capture her soon, hehehehehe...[p]
+Even though we couldn't capture Maisie, it's[n]
+fine. We'll capture her soon, hehehehehe...[p]
 ;アリス領　アッサム砦
 
 [filter name="fade" time=500]
@@ -51,14 +52,14 @@ Werewolf...[n]
 Yes, somehow.[p]
 #Werewolf
 [voice ref="010011"]
-Our troop strengths were evenly matched
-...but why did it turn out this way...[p]
+Our troop strengths were evenly[n]
+matched...but why did it turn out this way...[p]
 #Maisie
 [voice ref="010012"]
 Elder sister is good at stuff like this.[p]
 [voice ref="010012a"]
-I was actually expecting to have a larger force than her, 
-but I was too optimistic.[p]
+I was actually expecting to have a larger[n]
+force than her, but I was too optimistic.[p]
 #Werewolf
 [voice ref="010013"]
 Minister Maisie, you should retreat for now.[p]
@@ -70,8 +71,9 @@ I'll leave this to you, werewolf.[p]
 [voice ref="010015"]
 Yes, please leave it to me.[p]
 [voice ref="010015a"]
-This fortress was built by our parents to prevent the advance of the witches of Lorelei. 
-We won't let it fall easily.[p]
+This fortress was built by our parents[n]
+to prevent the advance of the witches of[n]
+Lorelei. We won't let it fall easily.[p]
 [scale id=2 sx=-1 time=300]
 [move id=2 x=60 time=500]
 

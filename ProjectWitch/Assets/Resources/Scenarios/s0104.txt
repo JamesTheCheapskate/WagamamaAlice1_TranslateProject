@@ -20,7 +20,8 @@
 #Werewolf
 [voice ref="010017"]
 So they've come.[n]
-Minister Maisie, please lend me your strength...[p]
+Minister Maisie, please lend me your[n]
+strength...[p]
 
 [cn]
 [filter name="fade" time=500]
@@ -35,7 +36,8 @@ Hey, who's that standing over there?[p]
 #Kuro
 [voice ref="010019"]
 That is...[n]
-Minister Maisie's subordinate, I think their name is Werewolf.[p]
+Minister Maisie's subordinate, I think their[n]
+name is Werewolf.[p]
 #Alice
 [voice ref="010020"]
 Hmph, a wolf man?[n]
@@ -45,8 +47,9 @@ That Maisie is keeping some strange pets.[p]
 What shall we do?[p]
 #Alice
 [voice ref="010022"]
-Obviously, advance all of our troops and crush them...
-No, wait. It looks like they've coming over to say something.[p]
+Obviously, advance all of our troops and[n]
+crush them...No, wait. It looks like they're[n]
+coming over to say something.[p]
 
 [filter name="fade" time=500]
 [drawbg ref="1048m"]
@@ -55,11 +58,14 @@ No, wait. It looks like they've coming over to say something.[p]
 [drawcg id=2 pos="center"]
 #Werewolf
 [voice ref="010023"]
-I bring a message to you who are a hostile army. 
-We have gathered as comrades to defeat you!![p]
+I bring a message to you who are a hostile[n]
+army. We have gathered as comrades to[n]
+defeat you!![p]
 [voice ref="010024"]
-We do not recognize a brute who is supposed to lead, but uninterested
-in the affairs of state, instead plays around leading the people to ruin.[p]
+We do not recognize a brute who is[n]
+supposed to lead, but uninterested in the[n]
+affairs of state, instead plays around leading[n]
+the people to ruin.[p]
 [voice ref="010025"]
 Minister Maisie is the only one fit to lead us![p]
 
@@ -70,14 +76,16 @@ Minister Maisie is the only one fit to lead us![p]
 
 #Alice
 [voice ref="010026"]
-Tch, these kind of people are the most troublesome...[n]
+Tch, these kind of people are the most[n]
+troublesome...[n]
 Kuro, advance all of the troops.[p]
 #Kuro
 [voice ref="010027"]
 Yes.[p]
 #Alice
 [voice ref="010028"]
-I'll teach you firsthand just how worthless your revolution is.[n]
+I'll teach you firsthand just how worthless[n]
+your revolution is.[n]
 Kufufufufufu...[p]
 [hide_message]
 

@@ -23,18 +23,18 @@
 [drawcg id=3 pos=3]
 [drawcg id=0 pos=1 dir="right" state=2]
 [filter name="clear" time=500]
-#トリアイナ
+#Torianna
 [voice ref="020659"]
-右翼展開急いで！[n]
-左翼、そのまま前進！！[p]
+Right flank, deploy right away![n]
+Left flank, keep moving forward!![p]
 [voice ref="020659a"]
-今度みたいに抜かせないわよ！！[p]
- [cn]
-トリアイナの作戦は、前回と同じように見えた。[p]
-アリス軍の三方を固めており、後は前回のようにカートンが後ろから襲い掛かればよかった。[p]
-しかし、今度はそうはならなかった。[p]
-トリアイナは、「あえて」アリス軍の後ろをがら空きにしたのだ。[p]
-#トリアイナ部下
+You won't be able to break through our lines like last time!![p]
+[cn]
+Torianna's strategy seemed the same as last time. [p]
+She flanked Alice's army on three sides, and all that was left was for Carton to attack from behind as before.[p]
+But that did not happen this time.[p]
+Torianna intentionally left an opening at the rear of Alice's army.[p]
+#Torianna's subordinate
 [voice ref="020660"]
 魔法隊放てーーー！！！[p]
 
@@ -45,7 +45,7 @@
 トリアイナの軍から無数の火球が降り注ぐ。[p]
 その火球に混乱したアリス軍の兵士たちは、[n]
 たまらず空いている後方へ逃げ出す。[p]
-#アリス
+#Alice
 [voice ref="020661"]
 あっ！　こら！！　後ろに逃げるな！！　罠だっ！！[n]
 ワーナーだーッ！！！[p]
@@ -57,7 +57,7 @@
 トリアイナ軍は抜けなかった。[p]
 この日のアリス軍は、数が少なかったのだ。[p]
 ……アリスはこうなることを読んでいたからだった。[p]
-#アリス
+#Alice
 [voice ref="020662"]
 ちっ、そろそろ出さないとやばいか。[n]
 もうちょこっと粘ってからやろうと思ったが……。[p]
@@ -71,19 +71,19 @@
 ;アリスにやり
 [changecg id=0 state=1]
 
-#オリヴィア部下
+#Olivia部下
 [voice ref="020664"]
 てっ、敵襲ーーーー！！　後ろから敵襲ーーー！！！[p]
 [scale id=1 sx=-1 time=0]
 [scale id=2 sx=-1 time=0]
 [scale id=3 sx=-1 time=0]
-#オリヴィア
+#Olivia
 [voice ref="020665"]
 なっ、なんですって！[p]
-#トリアイナ
+#Torianna
 [voice ref="020666"]
 後ろッ！！[p]
-#マルゲル
+#Marugeru
 [voice ref="020666a"]
 囲まれたかっ！！[p]
 [cn]
@@ -91,13 +91,13 @@
 窪地を囲うような形で、[n]
 アリス軍の伏兵が突如現れたのだ。[p]
 [scale id=1 sx=-1 time=0]
-#トリアイナ
+#Torianna
 [voice ref="020667"]
 そんな馬鹿な！！[p]
 [voice ref="020667a"]
 ここに来るまでに兵を分断した様子はなかった。[n]
 なのになぜ……！[p]
-#アリス
+#Alice
 [voice ref="020668"]
 クフフフッ！！[n]
 分裂したんじゃねえよ……[p]
@@ -107,7 +107,7 @@
 アリスは兵を前日のうちに伏せておいた。[p]
 戦場になるであろう場所が容易に特定できたため、[n]
 できた戦法だった。[p]
-#アリス
+#Alice
 [voice ref="020669"]
 クフフフフッ！[n]
 さあ行くぞ野郎ども、反撃の時間だッッ！！[p]
