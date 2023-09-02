@@ -1,0 +1,5 @@
+Invalid file paired to C:\Users\James Phillips\Desktop\Games\WargameAliceGit\MinimizedScenarios\min_s0223.txt
+Invalid file paired to C:\Users\James Phillips\Desktop\Games\WargameAliceGit\MinimizedScenarios\min_s0405.txt
+Invalid file paired to C:\Users\James Phillips\Desktop\Games\WargameAliceGit\MinimizedScenarios\min_s0508.txt
+Invalid file paired to C:\Users\James Phillips\Desktop\Games\WargameAliceGit\MinimizedScenarios\min_s0510.txt
+Invalid file paired to C:\Users\James Phillips\Desktop\Games\WargameAliceGit\MinimizedScenarios\min_t1_1023.txt
