@@ -27,114 +27,117 @@
 [show_message]
 
 ;両方生存
-決着は着いた。[p]
-アリス軍の圧倒的勝利となった。[p]
-氷の魔女トリアイナ、森の魔女オリヴィアはとらえられ、
-アリスの前へ引き出された。[p]
+The conflict was over.[p]
+Alice's forces secured an overwhelming victory.[p]
+The Ice Witch Torianna and Forest Witch Olivia[p]
+were captured and brought before Alice.[p]
 [drawcg id=0 dir="right" pos=2 mode="slidein" state=1]
-#アリス
+#Alice
 [voice ref="020743"]
-クフフフフッ！！[n]
-しょーり！！[p]
+Kufufufufuu!![n]
+Vic...Tor...Eee!![p]
 [voice ref="020744"]
-アッハッハッハッハ！[p]
+Aahahahaha![p]
 [voice ref="020745"]
-どうだ、私が本気を出せばこんなもんだ！[p]
+How about that? This is what happens when I get serious![p]
 [drawcg id=2 pos=5]
 [drawcg id=3 pos=4 state=1]
-#トリアイナ
+#Torianna
 [voice ref="020746"]
-華の魔女……。[p]
-#オリヴィア
+Flower Witch...[p]
+#Olivia
 [voice ref="020747"]
-うっ……うう……。[p]
-#アリス
+uh...ugh...[p]
+#Alice
 [voice ref="020748"]
-クフフフフッ！[n]
-さて、どうやって調理しようかなぁ。[p]
+Kufufufufuu![n]
+Now, what to do with you? [p]
 [voice ref="020749"]
-私を苦戦させたからなあ。[n]
-ちょっぴりきつーいお仕置きしちゃおっかなぁー！[p]
+You gave me quite the challenge.[n]
+Maybe I'll give you a nice little punishment![p]
 [move id=3 y=10 time=100]
 [move id=3 y=-10 time=100]
-#オリヴィア
+#Olivia
 [voice ref="020750"]
-ひっ……！[p]
-#トリアイナ
+*gasp*[p]
+#Torianna
 [voice ref="020751"]
-茶番はよして。[n]
-さっさと殺しなさい。[p]
+Enough with the theatrics.[n]
+Just go ahead and kill us already.[p]
 [changecg id=0 state=0]
-#アリス
+#Alice
 [voice ref="020752"]
-なんだ、死にたいのか？[p]
-#オリヴィア
+What, you want to die?[p]
+#Olivia
 [voice ref="020753"]
-いっ、いやぁっ！[p]
-#アリス
+No, Nooo! [p]
+#Alice
 [voice ref="020754"]
-ほら、そっちのやつはいやって言ってるぞ。[p]
-#トリアイナ
+Look, your friend over there doesn't agree.[p]
+#Torianna
 [voice ref="020755"]
-オリヴィアは見逃して。[n]
-今回の指揮はほとんど私がとっていたようなものよ。[p]
+Let Olivia go.[n]
+I've been in command and the de facto[n]
+mastermind for most of this conflict.[p]
 [voice ref="020756"]
-大将だけ処刑すればそれでいいでしょう。[p]
-#アリス
+Executing just the general should suffice.[p]
+#Alice
 [voice ref="020757"]
-ふん！　馬鹿なこと言うな。[n]
-どっちも殺す気などないわ。[p]
-#トリアイナ
+Hmph! Don't say stupid things.[n]
+I have no intention of killing either of you.[p]
+#Torianna
 [voice ref="020758"]
-恥辱を受けるくらいならここで舌をかみ切ってやるわ！[p]
+I'd rather bite out my tongue here than be humiliated![p]
 [changecg id=0 state=6]
-#アリス
+#Alice
 [voice ref="020759"]
-ああもうわかったっての！[n]
-めんどくせえ奴だなぁ……。[p]
+Alright, I get it already![n]
+You're such a pain in the ass...[p]
 [voice ref="020760"]
-お仕置きもなしでいいっての。[n]
+You'll be fine without any punishment[n]
 [changecg id=0 state=1]
-その代わり、お前たち、私の部下になれ。[p]
-#トリアイナ
+Instead of that, you two will become my[n]
+subordinates.[p]
+#Torianna
 [voice ref="020761"]
-なんですって！[p]
-#アリス
+What?![p]
+#Alice
 [voice ref="020762"]
-おっと、もともと拒否権なんてないんだぜ？[p]
+But wait...do you actually have a choice to begin with?[p]
 [voice ref="020763"]
-さっき珍しい人魚をひろってな？[n]
-うちで保護してるんだ。[p]
-#オリヴィア
+Didn't you hear about the rare mermaid I found a little while ago?[n]
+I'm keeping her safe at my place.[p]
+#Olivia
 [voice ref="020764"]
-ヘレン……。[p]
-#アリス
+Helen...[p]
+#Alice
 [voice ref="020765"]
-やっぱ知り合いだったか。[p]
+So I was right, she is your friend.[p]
 [voice ref="020766"]
-あいつがどんなはずかしーい目にあってもいいなら、どうぞ断ればいいさ。[p]
-#トリアイナ
+If you don't mind her getting into all sorts of embarrassing[n]
+situations, go ahead and say no.[p]
+#Torianna
 [voice ref="020767"]
-くっ……外道め！[p]
-#アリス
+Gah...you villain![p]
+#Alice
 [voice ref="020768"]
-何が外道だ。[n]
-殺されないだけありがたく思え。[p]
+What do you mean by villainous?[n]
+Just be thankful you're not being killed.[p]
 [voice ref="020769"]
-よし、話は決まったな。[n]
-オイ、この二人を開放してやれ。[p]
-#オリヴィア
+Alright, that settles that, right?[n]
+Hey, untie those two.[p]
+#Olivia
 [voice ref="020770"]
-あっ、あの……。[n]
-吟遊詩人風の男の人は捕まっていませんか？[p]
+Oh, um...[n]
+You didn't capture a man resembling a bard, did you?[p]
 [changecg id=0 state=0]
-#アリス
+#Alice
 [voice ref="020771"]
-あん？　吟遊詩人……？[n]
-いや、見てないが。[p]
-#オリヴィア
+Huh? A bard...?[n]
+No, I haven't seen one.[p]
+#Olivia
 [voice ref="020772"]
-そうですか……。[p]
+I see...[p]
 [cn]
 
 [hide_message]
@@ -146,16 +149,15 @@
 [filter name="clear" time=0]
 [show_message]
 
-マルゲルの行方は、[n]
-そのあとも結局わからないままだった。[p]
-こうして、オリヴィアとトリアイナ、[n]
-それにヘレンがアリスの部下に加わったのだった。[p]
-…………。[p]
-そうそう、カートンも。[p]
+That's how Olivia, Torianna, and Helen[n]
+became Alice's subordinates.[p]
+As for Marugeru, his whereabouts remained a mystery.[p]
+...[p]
+Oh yeah, Karton joined as well.[p]
 [drawcg id=6 mode="slidein" pos=2 dir="right"]
-#カートン
+#Karton
 [voice ref="020773"]
-ウオオオォォン（忘れてませんでしたか！？）……！[p]
+Wooooough (You forgot about me, didn't you?!)[p]
 
 ;クリア処理
 [hide_message]
@@ -177,23 +179,23 @@
 
 [show_message]
 [cn]
-深夜。[p]
-ピノの町、とある少女の家。[p]
-#少女
+Midnight.[p]
+A young woman's house in the town of Pinot.[p]
+#Young Woman
 [voice ref="020774"]
-ふわあ……、うーん！　そろそろねようかなぁ……。[p]
+Ah, (yawn)... Hmm! I wonder if it's about time to go to bed...[p]
 [cn]
-その少女は、孤児だった。[p]
-今は町のパン屋で働き、何とか生活していた。[p]
-彼女はいつか商人になって、[n]
-その稼ぎで自分のような身寄りのない子供たちを支える施設を経営するのが夢だった。[p]
-そのため、今日も夜遅くまで商売の勉強をしていたのだ。[p]
+She was an orphan.[p]
+Now, she worked in the town bakery, eking out a living.[p]
+Her dream as to become a merchant in order to fund[n]
+and operate an orphanage.[p]
+That's why she was again studying business late into the night.[p]
 [se ref="160"]
-コンコン……。[p]
-#少女
+Knock, knock...[p]
+#Young Woman
 [voice ref="020775"]
-あっ、はーい……。[n]
-誰だろう……こんな夜遅くに。[p]
+Huh? I'll be right there![n]
+Who could it be...this late at night?[p]
 [hide_message]
 
 [se ref="155"]
@@ -205,74 +207,76 @@
 
 [show_message]
 [cn]
-それは一瞬の出来事だった。[p]
-わずかに開けられた扉は、その男によって一気に開かれ、[p]
-そのまま飛び込んできた男に、少女は取り押さえられた。[p]
-#少女
+It happened in an instant.[p]
+When the young woman tried to open the door slightly,[n]
+a man flung it open, leapt in, and immediately seized her.[p]
+#Young Woman
 [voice ref="020776"]
-ムグッ……ンー！！　ンーーーー！！[p]
-#マルゲル
+Mmmph...Ugh!　Nnnnn!![p]
+#Marugeru
 [voice ref="020777"]
-…………。[p]
+...[p]
 [move id=5 y=-10 time=300]
 [cn]
-マルゲルは少女を組み伏せ、[n]
-なおもきつく口を押さえつけた。[p]
-#少女
+Marugeru pinned the young woman down and[n]
+unyieldingly held her mouth closed. [p]
+#Young Woman
 [voice ref="020778"]
-ンッ、ンッ……ンンーーーー！！[p]
+Nngh, nngh...Nnnngh!![p]
 [voice ref="020779"]
-ン…………。[p]
+Ngh...[p]
 [voice ref="020780"]
-………………。[p]
+...[p]
 [cn]
-少女はじたばたともがいていたが、[n]
-しばらくたつと動かなくなってしまった。[p]
-#マルゲル
+The young woman struggled and flailed about for some time[n]
+before she ultimately stopped moving altogether.[p]
+#Marugeru
 [voice ref="020781"]
-…………。[p]
+...[p]
 [move id=5 y=10 time=500]
 [cn]
-マルゲルは抑えていた手をどけ、立ち上がり、[n]
-少女を見下ろした。[p]
-その時だった。[p]
-#少女
+Marugeru released his grip, stood up, and[n]
+looked down upon the young woman.[p]
+But there was more yet to come.[p]
+#Young Woman
 [voice ref="020781a"]
-ッ……！！[p]
+Gasp![p]
 [move id=5 x=-30 time=300]
 [cn]
-少女が突然跳ね起き、[n]
-マルゲルに向かって手を突き出した。[p]
-手の先端から火球が飛び出し、マルゲルを襲う。[p]
+The young woman suddenly leapt up and thrust[n]
+her hand toward Marugeru.[p]
+A fireball eminated from her fingertips towards Marugeru.[p]
 [filter name="flush" time=300 color="FF1111"]
-#マルゲル
+#Marugeru
 [voice ref="020782"]
-っ……。[p]
+Tch...[p]
 [cn]
-すんでのところで、マルゲルはそれをかわした。[p]
-#マルゲル
+Margel dodged it just in time.[p]
+#Marugeru
 [voice ref="020783"]
-やはり魔女か……。[p]
-#少女
+I knew you were a witch...[p]
+#Young Woman
 [voice ref="020784"]
-魔女……？[p]
+A witch?...[p]
 [cn]
-町の人間たちには、[n]
-魔女という存在を知らないものも多い。[p]
-そのため、町の中には名もなき魔女が埋もれていることがあるのだった。[p]
-多くのものは、魔法を使えることを隠して生活していた。[p]
-この少女も、その一人だったのだ。[p]
-#少女
+Many townspeople were unaware[n]
+of the existence of witches.[p]
+Consequently, there were unnamed witches[n]
+hidden within the town.[p]
+Many of them lived their lives concealing[n]
+their ability to use magic.[p]
+This young woman was one of them.[p]
+#Young Woman
 [voice ref="020785"]
-はあ……はあ。[p]
+Haah... haah.[p]
 [voice ref="020786"]
-こ、今度は外さないわよ……。[p]
-#マルゲル
+Th- this time, I won't miss...[p]
+#Marugeru
 [voice ref="020787"]
-そうか……、では、今度は外さぬことだな。[p]
-#少女
+I see...Well make sure you don't miss[p]
+#Young Woman
 [voice ref="020788"]
-言われなくてもッ！！[p]
+I don't need you to tell me that![p]
 
 [move id=5 x=50 time=400]
 [wait time=200]
@@ -285,8 +289,8 @@
 [filter name="clear" time=500]
 
 [cn]
-火球がマルゲルにぶつかるのと、[n]
-マルゲルが少女の心臓を剣で貫いたのは同時だった。[p]
+The young woman struck Marugeru with a fireball,[n]
+but at the same time, he pierced her heart with his sword.[p]
 
 [filter name="fade" time=500]
 [clearbg]
@@ -305,93 +309,92 @@
 [show_message]
 
 [cn]
-決着は着いた。[p]
-アリス軍の圧倒的勝利となった。[p]
-氷の魔女トリアイナはとらえられ、[n]
-オリヴィアとマルゲルはどこを探しても見つからなかった。[p]
+The conflict was over.[p]
+Alice's forces secured an overwhelming victory.[p]
+The Ice Witch Torianna was captured, but despite an extensive search, Olivia and Marugeru were nowhere to be found.[p]
 [drawcg id=0 pos=2 dir="right"]
 [drawcg id=1 pos=1 dir="right"]
 [drawcg id=2 pos=5]
-#アリス
+#Alice
 [voice ref="020670"]
-ふう、てこずらせやがって……。[p]
-#トリアイナ
+Phew, aren't you the troublemaker...[p]
+#Torianna
 [voice ref="020671"]
-敵の領地であんな大規模の伏兵だなんて、[n]
-聞いたことがないわ……。[p]
-#アリス
+I've never heard of such a massive ambush in enemy territory before...[p]
+#Alice
 [voice ref="020672"]
-確認しなかったお前が悪い。[n]
-まあ、見張りは全員クロが殺したのだがな。[p]
-#クロ
+You didn't check for one. That's your bad.[n]
+Well, I guess Kuro did kill all of your sentries though.[p]
+#Kuro
 [voice ref="020673"]
-…………。[p]
-#トリアイナ
+...[p]
+#Torianna
 [voice ref="020674"]
-オリヴィアはどこ……。[p]
-#アリス
+Where's Olivia...?[p]
+#Alice
 [voice ref="020675"]
-さあな。今探してる。[p]
+Dunno.  We're looking for her now.[p]
 [voice ref="020675a"]
-もしかしたら、この混戦で死体がぐちゃぐちゃになっちまったのかもな。[p]
-#トリアイナ
+She might unfortunately be a mangled[n]
+corpse after this chaotic battle.[p]
+#Torianna
 [voice ref="020676"]
-……オリヴィア。[p]
+...Olivia.[p]
 [drawcg id=4 posx=-1 dir="right" mode="slidein" state=5]
-#ヘレン
+#Helen
 [voice ref="020677"]
-ちょっと！　離しなさいよッ！！[p]
-#トリアイナ
+Hey!　Let go of me![p]
+#Torianna
 [voice ref="020678"]
-ヘレン！！[p]
-#アリスの部下
+Helen!![p]
+#Alice's subordinate
 [voice ref="020679"]
-アリス様！　残党処理の最中に、[n]
-本陣に近づく怪しげな者を見つけたので、とらえました。[p]
-#アリス
+Queen Alice! While we were securing enemy combatants,[n]
+a suspicious individual approached the main camp, so we captured them.[p]
+#Alice
 [voice ref="020680"]
-そうか、ごくろう。[n]
-おいていけ。[p]
-#アリスの部下
+I see, good work.[n]
+Leave her with me.[p]
+#Alice's subordinate
 [voice ref="020681"]
-はっ！！[p]
+Yes, ma'am!![p]
 [scale id=4 sx=-1 time=0]
 [wait time=200]
 [move id=4 x=20 time=200]
-#ヘレン
+#Helen
 [voice ref="020682"]
-いてっ！　ちょっと、もうちょっと優しくしてよ！！[p]
-#アリス
+Ouch!  Hey, be a little nicer to me![p]
+#Alice
 [voice ref="020683"]
-ほう……お前人魚か。珍しいな。[p]
-#トリアイナ
+Oh...so you're a mermaid? Ain't that unusual.[p]
+#Torianna
 [voice ref="020684"]
-あなた、人魚と人間の見分けがつくのね。[p]
+You...I'm surprised you can distinguish[n]
+between a mermaid and a human.[p]
 [cn]
-地上にいる人魚の下半身は、[n]
-人間と同じように二本の足になっている。[p]
-そのため、人間と人魚の区別をつけるのは[n]
-難しいとされていた。[p]
-#アリス
+When on land, mermaids have legs just like humans.[p]
+Therefore, distinguishing between humans[n]
+and mermaids was considered difficult.[p]
+#Alice
 [voice ref="020685"]
-ババアに教わったんだ。別に大したことじゃない。[p]
-#ヘレン
+I learned it from an old hag. It's not a big deal, really.[p]
+#Helen
 [voice ref="020686"]
-ねえオリヴィアは？[n]
-トリアイナがいるなら無事なんでしょ？[p]
-#トリアイナ
+Hey, where's Olivia?[n]
+Since you're here Torianna, she must be safe, right?[p]
+#Torianna
 [voice ref="020687"]
-……わからないわ。[p]
-#ヘレン
+...I don't know.[p]
+#Helen
 [voice ref="020688"]
-わ、わからないってなによ！[p]
-#アリス
+W-what do you mean you don't know?![p]
+#Alice
 [voice ref="020689"]
-行方不明なんだ。[n]
-おとなしく、私の兵が見つけるまで待ってるんだな。[p]
-#ヘレン
+She's missing.[n]
+You just sit tight and wait for my soldiers to find her.[p]
+#Helen
 [voice ref="020690"]
-そんな……。[p]
+That's...[p]
 [cn]
 
 [stopbgm]
@@ -406,34 +409,34 @@
 [bgm ref="008_orivia"]
 
 [show_message]
-オリヴィアの家付近、森の中。[p]
-薄暗い洞窟の中に、オリヴィアとマルゲルが隠れていた。[p]
+In the woods, near Olivia's house.[p]
+In a dimly lit cave, Olivia and Margel are hiding.[p]
 [drawcg id=5 pos=2 dir="right"]
-#マルゲル
+#Marugeru
 [voice ref="020691"]
-ひとまず、ここまで来れば敵は追ってこないでしょう。[p]
+For the time being, the enemy is unlikely to pursue us this far.。[p]
 [drawcg id=3 pos=3]
-#オリヴィア
+#Olivia
 [voice ref="020692"]
-マルゲルさん……ありがとう。[n]
-また、助けてもらって。[p]
-#マルゲル
+Mr. Marugeru...Thank you.[n]
+You've saved me once again.[p]
+#Marugeru
 [voice ref="020693"]
-戦場でここまで危なかったのは久しぶりでした。[n]
-……無事でよかった。[p]
-#オリヴィア
+It's been a while since I've been this close to danger on the battlefield.[n]
+...I'm glad you're safe.[p]
+#Olivia
 [voice ref="020694"]
-マルゲルさん、戦場慣れているんですか？[p]
+Mr. Marugeru, are you used to battle?[p]
 [voice ref="020695"]
-個人戦ならともかく、[n]
-軍団の指揮までできるなんて……。[p]
-#マルゲル
+I'm in awe that you're not only capable of defending[n]
+yourself, but you can even command an army...[p]
+#Marugeru
 [voice ref="020696"]
-……そうですね。 わかりました。[n]
-オリヴィア殿にはすべてお話ししましょう。[p]
+...that's true, I suppose.  I know what you're getting at.[n]
+I'll tell you about everything.[p]
 [cn]
-そういって、マルゲルは一呼吸置いた。[p]
-マルゲルはオリヴィアに、自らの素性を語り始めた。[p]
+Having said that, Marugeru took a breath.[p]
+Marugeru began to tell Olivia about his own background.[p]
 
 [stopbgm]
 [hide_message]
@@ -448,50 +451,49 @@
 [drawcg id=1 pos=1 dir="right"]
 [drawcg id=2 pos=5]
 [drawcg id=4 pos=4 state=5]
-#アリスの部下
+#Alice's subordinate
 [voice ref="020697"]
-申し上げます！[p]
-#アリス
+I have something to report![p]
+#Alice
 [voice ref="020698"]
-なんだ。[p]
-#アリスの部下
+What is it?[p]
+#Alice's subordinate
 [voice ref="020699"]
-たった今、行方の分からなかった森の魔女が発見されたとのこと。[p]
+It was just reported that the whereabouts of the Forest Witch were discovered.[p]
 [changecg id=0 state=2]
-#アリス
+#Alice
 [voice ref="020699a"]
-なにっ！！　とらえたか！[p]
-#アリスの部下
+What! You caught her?![p]
+#Alice's subordinate
 [voice ref="020699b"]
-いえ……それが。[p]
+No...about that.[p]
 [cn]
-アリスのもとへ持ってこられたのは、[n]
-眠るように横たわる、オリヴィアの遺体だった。[p]
+Olivia's body, lying as if asleep, was brought before Alice.[p]
 
 [bgm ref="019_event4"]
 
-#アリスの部下
+#Alice's subordinate
 [voice ref="020699c"]
-心臓をえぐり取られています。[n]
-誰が一体こんなことを……。[p]
+Her heart has been gouged out.[n]
+Who in the world would do such a thing...[p]
 [changecg id=4 state=7]
-#ヘレン
+#Helen
 [voice ref="020699d"]
-オリヴィア！！[n]
-……オリ、ヴィア……？[p]
+Olivia![n]
+...Oli...via?[p]
 [voice ref="020699e"]
-いや、そんな！　いやあぁっ！！[p]
-#アリス
+No, it can't be! Noooo![p]
+#Alice
 [voice ref="020699f"]
-どこで見つけた。[p]
-#アリスの部下
+Where did you find her?[p]
+#Alice's subordinate
 [voice ref="020699g"]
-ここから５キロ離れた、山間の洞窟とのこと。[p]
-#アリス
+They said it was a cave in the mountains about 5 kilometers from here.[p]
+#Alice
 [voice ref="020699h"]
-そんな遠くで……。[p]
+That far away...[p]
 [cn]
-結局犯人はわからずじまいだった。[p]
+In the end, the culprit remained unknown.[p]
 
 [hide_message]
 [filter name="fade" time=500]
@@ -514,56 +516,57 @@
 [show_message]
 [drawcg id=0 pos=5 state=1]
 [drawcg id=2 pos=2 dir="right"]
-#アリス
+#Alice
 [voice ref="020699i"]
-と、いうわけで、今日からお前たちは
-私の部下になるわけだが、何か言うことはあるか。[p]
-#トリアイナ
+So, given what's happened, what would you two[n]
+say to becoming my subordinates as of today?[p]
+#Torianna
 [voice ref="020699j"]
-……いいえ、ないわ。[p]
+...No, thank you.[p]
 [drawcg id=4 pos=1 layer="front" dir="right" state=7]
-#ヘレン
+#Helen
 [voice ref="020699k"]
-あるに決まってんでしょう！？[n]
-ちょっとトリアイナ！　[p]
+Obviously not, right?![n]
+Hey Torianna![p]
 [voice ref="020699l"]
-こいつらオリヴィア殺したんだよ！？[n]
-許せるわけないじゃん！！[p]
+You know these guys killed Olivia.[n]
+There's no way we can forgive them![p]
 [changecg id=0 state=2]
-#アリス
+#Alice
 [voice ref="020699m"]
-ちょっと待て！！[n]
-私たちは森の魔女を殺してねえぞ！[p]
+Wait a minute![n]
+We didn't kill the Witch of the Wood![p]
 [voice ref="020699n"]
-見つけたときにはもう死んでたんだ！[p]
-#ヘレン
+She was already dead when we found her![p]
+#Helen
 [voice ref="020699o"]
-そんなの嘘に決まってるわ！[n]
-最初から殺すつもりだったのよ！[p]
-#トリアイナ
+I know you're lying![n]
+You were going to kill her no matter what![p]
+#Torianna
 [voice ref="020699p"]
-ヘレン、落ち着きなさい。[n]
-それなら、私たちもとっくに殺されているわ。[p]
+Helen, calm down.[n]
+If that were true, they would have killed us already.[p]
 [changecg id=4 state=5]
-#ヘレン
+#Helen
 [voice ref="020699q"]
-それは……。[p]
-#トリアイナ
+That...[p]
+#Torianna
 [voice ref="020699r"]
-私たちにできることは、[n]
-オリヴィアを殺した真犯人を見つけて殺すことよ。[p]
+The only thing we can do is find Olivia's[n]
+true murderer and kill them.[p]
 [voice ref="020699s"]
-そうでしょう？[p]
-#ヘレン
+Don't you agree?[p]
+#Helen
 [voice ref="020699t"]
-…………。[p]
-#トリアイナ
+...[p]
+#Torianna
 [voice ref="020699u"]
-ここにいれば、いずれその者に出会う気がするの。[n]
-今は我慢して、ヘレン。[p]
-#ヘレン
+I have a feeling that if we join Alice, we'll[n]
+eventually encounter that person.[n]
+Be patient for now, Helen.[p]
+#Helen
 [voice ref="020699v"]
-……わかったわよ。[p]
+...Okay, I get it.[p]
 [cn]
 
 [hide_message]
@@ -575,13 +578,13 @@
 [filter name="clear" time=0]
 [show_message]
 
-こうして、トリアイナとヘレンが仲間に加わった。[p]
-…………。[p]
-ついでに、とらえられていたカートンも説得に応じ、仲間になった。[p]
+Thus, Torianna and Helen joined the group.[p]
+...[p]
+In addition, Carton, who had been captured, was persuaded to join.[p]
 [drawcg id=6 pos=2 mode="slidein" dir="right"]
-#カートン
+#Karton
 [voice ref="020699w"]
-ウオオオォォォン！（忘れてたのではあるまいな！）[p]
+Woooooo! (I hope you didn't forget about me!)[p]
 
 ;クリア処理
 [hide_message]
@@ -602,28 +605,29 @@
 
 [show_message]
 [cn]
-決着は着いた。[p]
-アリス軍の圧倒的勝利となった。[p]
-氷の魔女トリアイナの遺体はその部下ヘレンの遺体と重なり合うようにして見つかった。[p]
-オリヴィアとマルゲルはどこを探しても見つからなかった。[p]
+The conflict was over.[p]
+Alice's forces secured an overwhelming victory.[p]
+The corpses of the Ice Witch Torianna and her subordinate[n]
+Helen were found on top of each other.[p]
+Olivia and Marugeru were nowhere to be found.[p]
 [drawcg id=0 pos=2 dir="right" state=1]
 [drawcg id=1 pos=1 dir="right"]
-#アリス
+#Alice
 [voice ref="020722"]
-クフフフフッ！！[n]
-しょーり！！[p]
+Kufufufufuu!![n]
+Vic...Tor...Eee!![p]
 [voice ref="020723"]
-アッハッハッハッハ！[n]
-どうだ、私が本気を出せばこんなもんだ！[p]
-#クロ
+Aahahahaha![n]
+How about that? This is what happens when I get serious![p]
+#Kuro
 [voice ref="020724"]
-お見事でございますアリス様。[n]
-敵は壊滅。[p]
+Well done, Queen Alice.[n]
+The enemy has been annihilated.[p]
 [voice ref="020725"]
-主だった将はすべて打ち取りましたぞ。[p]
-#アリス
+All the major generals have been vanquished.[p]
+#Alice
 [voice ref="020726"]
-よっし、この調子で、ほかの領地もガンガン占領するぞー！！[p]
+Alright! At this rate, we'll occupy the other territories in no time![p]
 [cn]
 
 [stopbgm]
@@ -638,35 +642,35 @@
 [bgm ref="008_orivia"]
 
 [show_message]
-オリヴィアの家付近、森の中。[p]
-薄暗い洞窟の中に、オリヴィアとマルゲルが隠れていた。[p]
+In the woods, near Olivia's house.[p]
+In a dimly lit cave, Olivia and Margel were hiding.[p]
 [drawcg id=5 pos=2 dir="right"]
-#マルゲル
+#Marugeru
 [voice ref="020727"]
-ひとまず、ここまで来れば敵は追ってこないでしょう。[p]
+For the time being, the enemy is unlikely to pursue us this far.[p]
 [drawcg id=3 pos=3]
-#オリヴィア
+#Olivia
 [voice ref="020728"]
-マルゲルさん……ありがとう。[n]
-また、助けてもらって。[p]
-#マルゲル
+Mr. Marugeru...Thank you.[n]
+You've saved me once again.[p]
+#Marugeru
 [voice ref="020729"]
-戦場でここまで危なかったのは久しぶりでした。[p]
+It's been a while since I've been this close to danger on the battlefield.[p]
 [voice ref="020730"]
-……無事でよかった。[p]
-#オリヴィア
+...I'm glad you're safe.[p]
+#Olivia
 [voice ref="020731"]
-マルゲルさん、戦場慣れているんですか？[p]
+Mr. Marugeru, are you used to battle?[p]
 [voice ref="020732"]
-個人戦ならともかく、[n]
-軍団の指揮までできるなんて……。[p]
-#マルゲル
+I'm in awe that you're not only capable of defending[n]
+yourself, but you can even command an army...[p]
+#Marugeru
 [voice ref="020733"]
-……そうですね。 [n]
-オリヴィア殿には話しておいても、良いかもしれません。[p]
+...That's true, I suppose.[n]
+It might be best to clear the air and tell you about myself.[p]
 [cn]
-そういって、マルゲルは一呼吸置いた。[p]
-マルゲルはオリヴィアに、自らの素性を語り始めた。[p]
+Having said that, Marugeru took a breath.[p]
+Margel began to tell Olivia about his background.[p]
 
 [hide_message]
 [filter name="fade" time=500]
@@ -678,42 +682,40 @@
 [show_message]
 [drawcg id=0 pos=2 dir="right"]
 [drawcg id=1 pos=1 dir="right"]
-#アリスの部下
+#Alice's subordinate
 [voice ref="020734"]
-申し上げます！[p]
-#アリス
+I have something to report![p]
+#Alice
 [voice ref="020735"]
-なんだ。[p]
-#アリスの部下
+What is it?[p]
+#Alice's subordinate
 [voice ref="020736"]
-たった今、[n]
-行方の分からなかった森の魔女が発見されたとのこと。[p]
+It was just reported that the whereabouts of the Forest Witch were discovered.[p]
 [changecg id=0 state=2]
-#アリス
+#Alice
 [voice ref="020737"]
-なにっ！！　とらえたか！[p]
-#アリスの部下
+What! You caught her?![p]
+#Alice's subordinate
 [voice ref="020738"]
-いえ……それが。[p]
+No...about that.[p]
 [cn]
-アリスのもとへ持ってこられたのは、[n]
-眠るように横たわる、オリヴィアの遺体だった。[p]
-#アリスの部下
+Olivia's body, lying as if asleep, was brought before Alice.[p]
+#Alice's subordinate
 [voice ref="020739"]
-心臓をえぐり取られています。[n]
-誰が一体こんなことを……。[p]
-#アリス
+Her heart has been gouged out.[n]
+Who in the world would do such a thing...[p]
+#Alice
 [voice ref="020740"]
-どこで見つけた。[p]
-#アリスの部下
+Where did you find her?[p]
+#Alice's subordinate
 [voice ref="020741"]
-ここから５キロ離れた、山間の洞窟とのこと。[p]
-#アリス
+They said it was a cave in the mountains about 5 kilometers from here.[p]
+#Alice
 [voice ref="020742"]
-そんな遠くで……。[p]
+That far away...[p]
 
 [cn]
-結局犯人はわからずじまいだった。[p]
+In the end, the culprit remained unknown.[p]
 
 [hide_message]
 [filter name="fade" time=500]
@@ -732,28 +734,29 @@
 
 [show_message]
 [cn]
-決着は着いた。[p]
-アリス軍の圧倒的勝利となった。[p]
-氷の魔女トリアイナの遺体はその部下ヘレンの遺体と重なり合うようにして見つかった。[p]
-オリヴィアとマルゲルはどこを探しても見つからなかった。[p]
+The conflict was over.[p]
+Alice's forces secured an overwhelming victory.[p]
+The corpses of the Ice Witch Torianna and her subordinate[n]
+Helen were found on top of each other.[p]
+Olivia and Marugeru were nowhere to be found.[p]
 [drawcg id=0 pos=2 dir="right" state=1]
 [drawcg id=1 pos=1 dir="right"]
-#アリス
+#Alice
 [voice ref="020715"]
-クフフフフッ！！[n]
-しょーり！！[p]
+Kufufufufuu!![n]
+Vic...Tor...Eee!![p]
 [voice ref="020716"]
-アッハッハッハッハ！[n]
-どうだ、私が本気を出せばこんなもんだ！[p]
-#クロ
+Aahahahaha![n]
+How about that? This is what happens when I get serious![p]
+#Kuro
 [voice ref="020717"]
-お見事でございますアリス様。[n]
-敵は壊滅。[p]
+Well done, Queen Alice.[n]
+The enemy has been annihilated.[p]
 [voice ref="020718"]
-主だった将はすべて打ち取りましたぞ。[p]
-#アリス
+All the major generals have been [p]
+#Alice
 [voice ref="020719"]
-よっし、この調子で、ほかの領地もガンガン占領するぞー！！[p]
+Alright! At this rate, we'll occupy the other territories in no time![p]
 [cn]
 
 [hide_message]
@@ -766,18 +769,19 @@
 [show_message]
 
 [drawcg id=5 pos=2 dir="right" mode="slidein"]
-アリス軍の勝鬨に乗じて、[n]
-戦場を離脱したものがいた。[n]
-マルゲルだ。[p]
-彼はオリヴィアの亡骸から心臓を取り出し、北の大地に向かって走っていた。[p]
-#マルゲル
+Taking advantage of the victory celebrations,[n]
+someone crept away from Alice's army on the battlefield.[n]
+It was Marugeru.[p]
+He had extracted the heart from Olivia's corpse and[n]
+was running toward the northern lands. [p]
+#Marugeru
 [voice ref="020720"]
-……オリヴィア殿。[p]
+...Lady Olivia[p]
 [voice ref="020721"]
-やはりあなたの方が、私なんかよりよっぽど強い人だ。[p]
+As I thought, the path you took shows you're[n]
+a much stronger person than someone like me.[p]
 [cn]
-懐のつつみに話しかけるようにして、[n]
-マルゲルはつぶやいた。[p]
+Marugeru mumbled quietly to himself as he made his way.[p]
 
 [hide_message]
 [filter name="fade" time=500]
