@@ -18,25 +18,25 @@
 [bgm ref="009_triaina"]
 
 [show_message]
-魔女の湖。[n]
-氷の宮殿内。[p]
+Witch Lake[n]
+Inside the Ice Palace[p]
 [drawcg id=0 pos=5]
 [drawcg id=1 pos=4]
 [drawcg id=2 pos=3]
-#部下
+#Subordinate
 [voice ref="020789"]
-申し上げます！！[p]
-#トリアイナ
+Might I have your attention!![p]
+#Torianna
 [voice ref="020790"]
-なんですか、騒々しい。[p]
+What is it that you have to be so loud?[p]
 [cn]
-トリアイナたちは、[n]
-いつものように三人でお茶会をしていた。[p]
-そこへ、水を差すように部下があわただしく入ってきたのだ。[p]
-#部下
+Torianna and her friends,[n]
+the three of them were having a tea party as usual,[p]
+until a subordinate hectically barged in to rain on their parade.[p]
+#Subordinate
 [voice ref="020791"]
-華の魔女アリス、カプリ砦付近に現れ、[n]
-こちらに向かって攻撃を仕掛けた模様！[p]
+Alice the Flower Witch appeared near Capri Fortress[n]
+and is headed this way presumably to attack us![p]
 [move id=0 y=5 time=50]
 [move id=0 y=-5 time=50]
 [changecg id=1 state=1]
@@ -45,46 +45,46 @@
 [move id=2 y=2 time=20]
 [move id=1 y=-2 time=20]
 [move id=2 y=-2 time=20]
-#トリアイナ
+#Torianna
 [voice ref="020792"]
-なんですって！[p]
-#オリヴィア
+What did you say?![p]
+#Olivia
 [voice ref="020793"]
-わっ、私の領地に！？[p]
-#部下
+Into m...my territory?!"[p]
+#Subordinate
 [voice ref="020794"]
-いかがいたしますか。[p]
-#トリアイナ
+What are your orders?[p]
+#Torianna
 [voice ref="020795"]
-……ピノの町、アイスの町に徴兵をかけてちょうだい[n]
-オリヴィア軍に援軍を向かわせるわ。[p]
+...Kindly call for recruits from both Pino [n]
+and Ice Town and we'll reinforce Olivia's army.[p]
 [voice ref="020796"]
-それと、シャーベット砦の守りを強化するように。[p]
-#部下
+And also, please strengthen the defense of Sherbert Fortress.[p]
+#Subordinate
 [voice ref="020797"]
-はっ、承知しました。[n]
-失礼します！[p]
+Yes, understood.[n]
+Please excuse me![p]
 ;部下退出
 [scale id=1 sx=-1 time=100]
 [scale id=2 sx=-1 time=100]
-#トリアイナ
+#Torianna
 [voice ref="020798"]
-してやられたわ……。[n]
-まさか突然攻めてくるなんて。[p]
+We've been caught off guard...[n]
+It's unbelievable that they'd suddenly attack.[p]
 [voice ref="020799"]
-オリヴィア、自分の領地に戻って軍備を整えなさい。[n]
-私も後で向かってあげるわ。[p]
-#オリヴィア
+Olivia, return home and prepare your forces.[n]
+I'll be there to help you shortly.[p]
+#Olivia
 [voice ref="020800"]
-う、うん……わかった。[p]
-#トリアイナ
+y...yeah....I understand.[p]
+#Torianna
 [voice ref="020801"]
-ヘレン。オリヴィアを送り届けたらすぐに戻ってきてちょうだい。[p]
+Helen. Please return immediately after you escort Olivia home.[p]
 [voice ref="020802"]
-忙しくなるわよ。[p]
-#ヘレン
+It's going to be a hectic time.[p]
+#Helen
 [voice ref="020803"]
-ええ、わかったわ！[p]
+OK, got it![p]
 
 ;クリア処理
 [hide_message]
